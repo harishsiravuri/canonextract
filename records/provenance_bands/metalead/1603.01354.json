@@ -1,0 +1,42 @@
+{
+  "paper_id": "1603.01354",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "BLSTM-CNNs-CRF",
+      "task": "part of speech pos tagging",
+      "dataset": "Penn Treebank WSJ",
+      "metric": "accuracy",
+      "value": 97.55
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "BLSTM-CNNs-CRF",
+      "task": "named entity recognition ner",
+      "dataset": "CoNLL 2003",
+      "metric": "f1",
+      "value": 91.21
+    }
+  ]
+}

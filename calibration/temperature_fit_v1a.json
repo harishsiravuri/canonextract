@@ -1,0 +1,8 @@
+{
+  "A": 0.274682754792259,
+  "B": -1.4897064585214284,
+  "kind": "platt_on_fixkg",
+  "fit_target": "triple_correct",
+  "n_train": 765,
+  "seed": 42
+}

@@ -1,0 +1,366 @@
+{
+  "paper_id": "23d2d3a6ffebfecaa8930307fdcf451c147757c8",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose_claimed_table": 1,
+    "total": 7,
+    "strict_table_valid": 1,
+    "partial_table_valid": 4,
+    "missing": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": "seqgan"
+      },
+      "task": {
+        "name": "sequence generation performance comparison",
+        "canonical_id": "sequence generation performance comparison"
+      },
+      "datasets": [
+        {
+          "name": "synthetic data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "NLL",
+          "value": 8.736,
+          "unit": null,
+          "canonical_id": "nll"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Random",
+        "MLE",
+        "SS",
+        "PG-BLEU"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "NLL",
+        "header_path": "SeqGAN",
+        "cell": "8.736",
+        "_content_hash": "f0fcd3601376",
+        "_paper_hash": "0b529ff74ab4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "NLL",
+          "column_header": "MLE",
+          "cell": "9.038",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": "seqgan"
+      },
+      "task": {
+        "name": "chinese poem generation performance comparison",
+        "canonical_id": "chinese poem generation performance comparison"
+      },
+      "datasets": [
+        {
+          "name": "chinese poems",
+          "canonical_id": "chinese poems"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Human score",
+          "value": 0.5356,
+          "unit": null,
+          "canonical_id": "human score"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLE"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "SeqGAN",
+        "header_path": "Human score",
+        "cell": "0.5356",
+        "_content_hash": "643388822308",
+        "_paper_hash": "0b529ff74ab4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "SeqGAN",
+          "column_header": "Human score",
+          "cell": "0.5356",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"SeqGAN\" directly matches the tuple's Method, the header path \"Human score\" matches the tuple's Metric, and the cell content \"0.5356\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": "seqgan"
+      },
+      "task": {
+        "name": "chinese poem generation performance comparison",
+        "canonical_id": "chinese poem generation performance comparison"
+      },
+      "datasets": [
+        {
+          "name": "chinese poems",
+          "canonical_id": "chinese poems"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-2",
+          "value": 0.667,
+          "unit": null,
+          "canonical_id": "bleu 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLE"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "SeqGAN",
+        "header_path": "Human score",
+        "cell": "0.5356",
+        "_content_hash": "643388822308",
+        "_paper_hash": "0b529ff74ab4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "MLE",
+          "column_header": "BLEU-2",
+          "cell": "0.6670",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": "seqgan"
+      },
+      "task": {
+        "name": "chinese poem generation performance comparison",
+        "canonical_id": "chinese poem generation performance comparison"
+      },
+      "datasets": [
+        {
+          "name": "chinese poems",
+          "canonical_id": "chinese poems"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-3",
+          "value": 0.556,
+          "unit": null,
+          "canonical_id": "bleu 3"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLE"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose_claimed_table",
+        "table_id": 5,
+        "row_label": "SeqGAN",
+        "header_path": "BLEU-3",
+        "cell": "0.556",
+        "_content_hash": "487fc9dcda47",
+        "_paper_hash": "0b529ff74ab4",
+        "_downgrade_reason": "none of (row_label=True, header_path=False, cell=False) resolved in the paper's parsed tables",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "MLE",
+          "column_header": "BLEU-2",
+          "cell": "0.6670",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": "seqgan"
+      },
+      "task": {
+        "name": "chinese poem generation performance comparison",
+        "canonical_id": "chinese poem generation performance comparison"
+      },
+      "datasets": [
+        {
+          "name": "chinese poems",
+          "canonical_id": "chinese poems"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 0.416,
+          "unit": null,
+          "canonical_id": "bleu 4"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLE"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose_claimed_table",
+        "table_id": 5,
+        "row_label": "SeqGAN",
+        "header_path": "BLEU-3",
+        "cell": "0.556",
+        "_content_hash": "487fc9dcda47",
+        "_paper_hash": "0b529ff74ab4",
+        "_downgrade_reason": "none of (row_label=True, header_path=False, cell=False) resolved in the paper's parsed tables",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "MLE",
+          "column_header": "BLEU-2",
+          "cell": "0.6670",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": "seqgan"
+      },
+      "task": {
+        "name": "music generation performance comparison",
+        "canonical_id": "music generation performance comparison"
+      },
+      "datasets": [
+        {
+          "name": "music data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 0.9406,
+          "unit": null,
+          "canonical_id": "bleu 4"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLE"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose_claimed_table",
+        "table_id": 6,
+        "row_label": "SeqGAN",
+        "header_path": "BLEU-4",
+        "cell": "0.9406",
+        "_content_hash": "cc62cc1c1503",
+        "_paper_hash": "0b529ff74ab4",
+        "_downgrade_reason": "none of (row_label=True, header_path=False, cell=False) resolved in the paper's parsed tables",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "MLE",
+          "column_header": "BLEU-2",
+          "cell": "0.6670",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "SeqGAN",
+        "canonical_id": "seqgan"
+      },
+      "task": {
+        "name": "music generation performance comparison",
+        "canonical_id": "music generation performance comparison"
+      },
+      "datasets": [
+        {
+          "name": "music data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MSE",
+          "value": 20.62,
+          "unit": null,
+          "canonical_id": "mse"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLE"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose_claimed_table",
+        "table_id": 6,
+        "row_label": "SeqGAN",
+        "header_path": "BLEU-4",
+        "cell": "0.9406",
+        "_content_hash": "cc62cc1c1503",
+        "_paper_hash": "0b529ff74ab4",
+        "_downgrade_reason": "none of (row_label=True, header_path=False, cell=False) resolved in the paper's parsed tables",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    }
+  ]
+}

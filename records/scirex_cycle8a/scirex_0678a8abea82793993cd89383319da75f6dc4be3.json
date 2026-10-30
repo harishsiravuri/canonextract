@@ -1,0 +1,116 @@
+{
+  "paper_id": "0678a8abea82793993cd89383319da75f6dc4be3",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 2,
+    "total": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "ProNet",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": "pascal voc 2012"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 89.0,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Oquab et al.",
+        "RCNN",
+        "Fast RCNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Second Cascade",
+        "header_path": "Classification",
+        "cell": "89.0",
+        "_content_hash": "7c8d83f0430b",
+        "_paper_hash": "c45aab6a8614",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "gray!30 Simonyan et al. Simonyan14c ^",
+          "column_header": "mAP",
+          "cell": "89.0",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "ProNet",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MS COCO",
+          "canonical_id": "ms coco"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 89.0,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Oquab et al.",
+        "RCNN",
+        "Fast RCNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Second Cascade",
+        "header_path": "Classification",
+        "cell": "89.0",
+        "_content_hash": "7c8d83f0430b",
+        "_paper_hash": "c45aab6a8614",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "gray!30 Simonyan et al. Simonyan14c ^",
+          "column_header": "mAP",
+          "cell": "89.0",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

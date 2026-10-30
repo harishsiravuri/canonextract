@@ -1,0 +1,334 @@
+{
+  "paper_id": "05d2700846c0323f79c1344aca5333994c7c03a5",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 6,
+    "total": 6
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "RNN maxout",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "swb 2000h",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "wer swb",
+          "value": 9.3,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RNN sigmoid (CE)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "RNN maxout (ST)",
+        "header_path": "WER SWB",
+        "cell": "9.3",
+        "_content_hash": "f6c3a4bf0f03",
+        "_paper_hash": "7f3f30c2cf14",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "RNN maxout (ST)",
+          "column_header": "WER SWB",
+          "cell": "9.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"RNN maxout (ST)\" describes the tuple's Method, the header path \"WER SWB\" describes the tuple's Metric and implies the Dataset, and the cell content \"9.3\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "RNN maxout",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "swb 2000h",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "wer ch",
+          "value": 15.4,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RNN sigmoid (CE)"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "RNN maxout (ST)",
+        "header_path": "WER CH",
+        "cell": "15.4",
+        "_content_hash": "3de8a0a2170f",
+        "_paper_hash": "7f3f30c2cf14",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "RNN maxout (ST)",
+          "column_header": "WER CH",
+          "cell": "15.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"RNN maxout (ST)\" describes the tuple's Method, the header path \"WER CH\" describes the tuple's Metric and implies the Dataset, and the cell content \"15.4\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "n-gram + model M + NNLM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "swb 2000h",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "wer swb",
+          "value": 6.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "30K vocab, 4M n-grams",
+        "85K vocab, 36M n-grams",
+        "n-gram + model M",
+        "n-gram + NNLM"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 5,
+        "row_label": "n-gram + model M + NNLM",
+        "header_path": "WER SWB",
+        "cell": "6.6",
+        "_content_hash": "d9e1e420f6eb",
+        "_paper_hash": "7f3f30c2cf14",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 5,
+          "row_label": "n-gram + model M",
+          "column_header": "WER SWB",
+          "cell": "7.0",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"n-gram + model M + NNLM\" describes the tuple's Method, the header path \"WER SWB\" describes the tuple's Dataset and Metric, and the cell content \"6.6\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "n-gram + model M + NNLM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "swb 2000h",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "wer ch",
+          "value": 12.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "30K vocab, 4M n-grams",
+        "85K vocab, 36M n-grams",
+        "n-gram + model M",
+        "n-gram + NNLM"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 5,
+        "row_label": "n-gram + model M + NNLM",
+        "header_path": "WER SWB",
+        "cell": "6.6",
+        "_content_hash": "d9e1e420f6eb",
+        "_paper_hash": "7f3f30c2cf14",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 5,
+          "row_label": "n-gram + model M",
+          "column_header": "WER CH",
+          "cell": "12.6",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"6.6\" does not match the tuple's Value \"12.2\", and the header path \"WER SWB\" describes the wrong metric for the tuple's Value, which corresponds to \"WER CH\"."
+      }
+    },
+    {
+      "method": {
+        "name": "RNN maxout",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "swb 300h",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "wer swb",
+          "value": 10.4,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RNN sigmoid (CE)"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "RNN maxout (CE)",
+        "header_path": "WER SWB",
+        "cell": "10.4",
+        "_content_hash": "1b690e7f2826",
+        "_paper_hash": "7f3f30c2cf14",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "RNN maxout (CE)",
+          "column_header": "WER SWB",
+          "cell": "10.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"RNN maxout (CE)\" describes the tuple's Method, the header path \"WER SWB\" describes the tuple's Metric and implies the Dataset, and the cell content \"10.4\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "RNN maxout",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "swb 300h",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "wer ch",
+          "value": 16.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RNN sigmoid (CE)"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "RNN maxout (CE)",
+        "header_path": "WER CH",
+        "cell": "16.2",
+        "_content_hash": "8159d964dbec",
+        "_paper_hash": "7f3f30c2cf14",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "RNN maxout (CE)",
+          "column_header": "WER CH",
+          "cell": "16.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"RNN maxout (CE)\" describes the tuple's Method, the header path \"WER CH\" describes the tuple's Metric, and the cell content \"16.2\" matches the tuple's Value, although the dataset in the table is referred to as \"CH\" which likely refers to a different subset of the data than \"swb 300h\" mentioned in the claim."
+      }
+    }
+  ]
+}

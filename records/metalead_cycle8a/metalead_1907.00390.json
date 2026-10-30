@@ -1,0 +1,337 @@
+{
+  "paper_id": "1907.00390",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 4,
+    "total": 6,
+    "partial_table_valid": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "SF-ID Network",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS Dataset",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Slot (F1)",
+          "value": 95.8,
+          "unit": null,
+          "canonical_id": "slot f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq hakkani2016multi",
+        "Atten.-Based liu2016attention",
+        "Sloted-Gated goo2018slot"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "SF-ID Network",
+        "header_path": "ATIS Dataset",
+        "cell": "95.80",
+        "_content_hash": "6cbfefff9b1d",
+        "_paper_hash": "b7b65af9f6ff",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "SF-ID (no interaction)",
+          "column_header": "Slot",
+          "cell": "95.75",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"95.80\" does not match the tuple's Value, and the actual cell content for the row label \"SF-ID\" under the \"Slot (F1)\" metric and \"ATIS Dataset\" is \"97.40\", not \"95.80\"."
+      }
+    },
+    {
+      "method": {
+        "name": "SF-ID Network",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS Dataset",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent (Acc)",
+          "value": 97.09,
+          "unit": null,
+          "canonical_id": "intent acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq hakkani2016multi",
+        "Atten.-Based liu2016attention",
+        "Sloted-Gated goo2018slot"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "SF-ID Network",
+        "header_path": "ATIS Dataset",
+        "cell": "95.80",
+        "_content_hash": "6cbfefff9b1d",
+        "_paper_hash": "b7b65af9f6ff",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "SF-ID",
+          "column_header": "Slot (F1)",
+          "cell": "97.40",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"95.80\" does not match the tuple's Value \"97.09\", and the row label \"SF-ID Network\" does not exactly match the claimed Method \"SF-ID Network\" as there is another row label \"SF-ID\" which might be related to the claimed method, but the value in the \"Intent (Acc)\" column for \"SF-ID Network\" is actually \"86.90\", not \"97.09\"."
+      }
+    },
+    {
+      "method": {
+        "name": "SF-ID Network",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS Dataset",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Sen. (Acc)",
+          "value": 86.9,
+          "unit": null,
+          "canonical_id": "sen acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq hakkani2016multi",
+        "Atten.-Based liu2016attention",
+        "Sloted-Gated goo2018slot"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "SF-ID Network",
+        "header_path": "ATIS Dataset",
+        "cell": "95.80",
+        "_content_hash": "6cbfefff9b1d",
+        "_paper_hash": "b7b65af9f6ff",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Joint Seq hakkani2016multi",
+          "column_header": "Sen. (Acc)",
+          "cell": "87.30",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "SF-ID Network",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "Snips Dataset",
+          "canonical_id": "snips"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Slot (F1)",
+          "value": 95.8,
+          "unit": null,
+          "canonical_id": "slot f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq hakkani2016multi",
+        "Atten.-Based liu2016attention",
+        "Sloted-Gated goo2018slot"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "SF-ID Network",
+        "header_path": "ATIS Dataset",
+        "cell": "95.80",
+        "_content_hash": "6cbfefff9b1d",
+        "_paper_hash": "b7b65af9f6ff",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "SF-ID (no interaction)",
+          "column_header": "Slot",
+          "cell": "95.75",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the header path \"ATIS Dataset\" does not match the tuple's Dataset \"Snips Dataset\", and the cell content \"97.40\" does not match the tuple's Value \"95.8\"."
+      }
+    },
+    {
+      "method": {
+        "name": "SF-ID Network",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "Snips Dataset",
+          "canonical_id": "snips"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent (Acc)",
+          "value": 97.09,
+          "unit": null,
+          "canonical_id": "intent acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq hakkani2016multi",
+        "Atten.-Based liu2016attention",
+        "Sloted-Gated goo2018slot"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "SF-ID Network",
+        "header_path": "ATIS Dataset",
+        "cell": "95.80",
+        "_content_hash": "6cbfefff9b1d",
+        "_paper_hash": "b7b65af9f6ff",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "SF-ID",
+          "column_header": "Slot (F1)",
+          "cell": "97.40",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "SF-ID Network",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "Snips Dataset",
+          "canonical_id": "snips"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Sen. (Acc)",
+          "value": 86.9,
+          "unit": null,
+          "canonical_id": "sen acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq hakkani2016multi",
+        "Atten.-Based liu2016attention",
+        "Sloted-Gated goo2018slot"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "SF-ID Network",
+        "header_path": "ATIS Dataset",
+        "cell": "95.80",
+        "_content_hash": "6cbfefff9b1d",
+        "_paper_hash": "b7b65af9f6ff",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Network",
+          "column_header": "Intent (Acc)",
+          "cell": "86.90",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell content \"95.80\" does not match the tuple's Value \"86.9\", and the header path \"ATIS Dataset\" does not describe the tuple's Dataset \"Snips Dataset\"."
+      }
+    }
+  ]
+}

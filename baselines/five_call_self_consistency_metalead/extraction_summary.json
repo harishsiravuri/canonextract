@@ -1,0 +1,94 @@
+{
+  "seed": 42,
+  "run": "metalead_cost_matched_sc",
+  "extractor_model": "deepseek/deepseek-chat",
+  "temperatures": [
+    0.0,
+    0.3,
+    0.5,
+    0.7,
+    0.7
+  ],
+  "papers_total": 7,
+  "n_ok": 7,
+  "n_err": 0,
+  "n_skipped": 0,
+  "cost_usd_total": 0.1883283,
+  "cost_cap": 0.75,
+  "cap_tripped": false,
+  "tokens_in": 452050,
+  "tokens_out": 49070,
+  "wall_seconds": 491.92784905433655,
+  "per_paper": [
+    {
+      "paper_id": "1911.09483",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.024275689999999996,
+      "tokens_in": 64845,
+      "tokens_out": 3961,
+      "wall_seconds": 109.23901295661926,
+      "error": null
+    },
+    {
+      "paper_id": "1911.10390",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.02374573,
+      "tokens_in": 62755,
+      "tokens_out": 4117,
+      "wall_seconds": 110.70226097106934,
+      "error": null
+    },
+    {
+      "paper_id": "1912.08777",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.028582090000000004,
+      "tokens_in": 59835,
+      "tokens_out": 10601,
+      "wall_seconds": 265.2088589668274,
+      "error": null
+    },
+    {
+      "paper_id": "2001.04063",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.030209839999999998,
+      "tokens_in": 62210,
+      "tokens_out": 11576,
+      "wall_seconds": 290.30846786499023,
+      "error": null
+    },
+    {
+      "paper_id": "2002.03184",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.029809500000000003,
+      "tokens_in": 72045,
+      "tokens_out": 7590,
+      "wall_seconds": 187.1860089302063,
+      "error": null
+    },
+    {
+      "paper_id": "2008.07772",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.02783023,
+      "tokens_in": 65590,
+      "tokens_out": 7687,
+      "wall_seconds": 226.7119960784912,
+      "error": null
+    },
+    {
+      "paper_id": "2203.16804",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.023875220000000003,
+      "tokens_in": 64770,
+      "tokens_out": 3538,
+      "wall_seconds": 122.79414510726929,
+      "error": null
+    }
+  ]
+}

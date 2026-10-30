@@ -1,0 +1,916 @@
+{
+  "paper_id": "1909.02188",
+  "contributions": [
+    {
+      "method": {
+        "name": "Stack-Propagation framework with token-level intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "spoken language understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "SNIPS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "notes": "The paper proposes a novel framework for spoken language understanding that incorporates intent information to guide slot filling. The framework achieves state-of-the-art performance on both SNIPS and ATIS datasets.",
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Stack-Propagation framework with token-level intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "spoken language understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "SNIPS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 98.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "notes": "The paper proposes a novel framework for spoken language understanding that incorporates intent information to guide slot filling. The framework achieves state-of-the-art performance on both SNIPS and ATIS datasets.",
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Stack-Propagation framework with token-level intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "spoken language understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "notes": "The paper proposes a novel framework for spoken language understanding that incorporates intent information to guide slot filling. The framework achieves state-of-the-art performance on both SNIPS and ATIS datasets.",
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Stack-Propagation framework with token-level intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "spoken language understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 98.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "notes": "The paper proposes a novel framework for spoken language understanding that incorporates intent information to guide slot filling. The framework achieves state-of-the-art performance on both SNIPS and ATIS datasets.",
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 57390,
+    "tokens_out": 4112,
+    "cost_usd": 0.022024480000000003,
+    "wall_seconds": 143.251451253891,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Stack-Propagation framework with token-level intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 94.2,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 98.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Attention BiRNN",
+            "Slot-Gated Full Atten",
+            "Slot-Gated Intent Atten",
+            "Self-Attentive Model",
+            "Bi-Model",
+            "CAPSULE-NLU",
+            "SF-ID Network"
+          ],
+          "notes": "The paper proposes a novel framework for spoken language understanding that incorporates intent information to guide slot filling. The framework achieves state-of-the-art performance on both SNIPS and ATIS datasets."
+        },
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 97.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 99.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT SLU"
+          ],
+          "notes": "The paper explores the effect of incorporating BERT in SLU tasks, achieving a new state-of-the-art performance."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Stack-Propagation framework with token-level intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1074,
+              "end": 1173
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1074,
+              "end": 1103
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2531,
+                "end": 2536
+              }
+            },
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2537,
+                "end": 2541
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 94.2,
+              "unit": "%",
+              "evidence_span": {
+                "start": 3014,
+                "end": 3018
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 98.0,
+              "unit": "%",
+              "evidence_span": {
+                "start": 3026,
+                "end": 3030
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 86.9,
+              "unit": "%",
+              "evidence_span": {
+                "start": 3042,
+                "end": 3046
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Attention BiRNN",
+            "Slot-Gated Full Atten",
+            "Slot-Gated Intent Atten",
+            "Self-Attentive Model",
+            "Bi-Model",
+            "CAPSULE-NLU",
+            "SF-ID Network"
+          ],
+          "notes": "The model achieves state-of-the-art performance on both SNIPS and ATIS datasets."
+        },
+        {
+          "method": {
+            "name": "Stack-Propagation framework with token-level intent detection + BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1074,
+              "end": 1173
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1074,
+              "end": 1103
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2531,
+                "end": 2536
+              }
+            },
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2537,
+                "end": 2541
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 97.0,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10110,
+                "end": 10114
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 99.0,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10122,
+                "end": 10126
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 92.9,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10138,
+                "end": 10142
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT SLU"
+          ],
+          "notes": "The model with BERT achieves new state-of-the-art performance on both SNIPS and ATIS datasets."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Stack-Propagation framework with token-level intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 94.2,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 98.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Attention BiRNN",
+            "Slot-Gated Full Atten",
+            "Slot-Gated Intent Atten",
+            "Self-Attentive Model",
+            "Bi-Model",
+            "CAPSULE-NLU",
+            "SF-ID Network"
+          ],
+          "notes": "The paper reports improvements on both SNIPS and ATIS datasets for slot filling (F1) and intent detection (accuracy). The Stack-Propagation framework with token-level intent detection is compared against multiple baselines."
+        },
+        {
+          "method": {
+            "name": "Stack-Propagation framework with token-level intent detection + BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 97.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 99.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT SLU"
+          ],
+          "notes": "The paper reports further improvements when incorporating BERT into the Stack-Propagation framework, achieving new state-of-the-art performance on both SNIPS and ATIS datasets."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Stack-Propagation framework with token-level intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 355,
+              "end": 491
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 355,
+              "end": 491
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4417,
+                "end": 4422
+              }
+            },
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4424,
+                "end": 4428
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 94.2,
+              "unit": null,
+              "evidence_span": {
+                "start": 4446,
+                "end": 4450
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 98.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 4453,
+                "end": 4457
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Attention BiRNN",
+            "Slot-Gated Full Atten",
+            "Slot-Gated Intent Atten",
+            "Self-Attentive Model",
+            "Bi-Model",
+            "CAPSULE-NLU",
+            "SF-ID Network"
+          ],
+          "notes": "The paper claims that the proposed framework outperforms all baselines by a large margin and achieves state-of-the-art performance."
+        },
+        {
+          "method": {
+            "name": "Stack-Propagation framework with token-level intent detection + BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 12593,
+              "end": 12619
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 12593,
+              "end": 12619
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 12624,
+                "end": 12629
+              }
+            },
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 12631,
+                "end": 12635
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 97.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 12653,
+                "end": 12657
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 99.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 12660,
+                "end": 12664
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT SLU"
+          ],
+          "notes": "The paper claims that the proposed framework with BERT outperforms the BERT SLU model and achieves a new state-of-the-art performance."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Stack-Propagation framework with token-level intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1403,
+              "end": 1495
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1403,
+              "end": 1425
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2403,
+                "end": 2408
+              }
+            },
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2410,
+                "end": 2414
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 94.2,
+              "unit": null,
+              "evidence_span": {
+                "start": 4234,
+                "end": 4237
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 98.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 4248,
+                "end": 4252
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Attention BiRNN",
+            "Slot-Gated Full Atten",
+            "Slot-Gated Intent Atten",
+            "Self-Attentive Model",
+            "Bi-Model",
+            "CAPSULE-NLU",
+            "SF-ID Network"
+          ],
+          "notes": "The model achieves state-of-the-art performance on both SNIPS and ATIS datasets."
+        },
+        {
+          "method": {
+            "name": "Stack-Propagation framework with token-level intent detection + BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1403,
+              "end": 1495
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1403,
+              "end": 1425
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2403,
+                "end": 2408
+              }
+            },
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2410,
+                "end": 2414
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 97.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 10041,
+                "end": 10045
+              }
+            },
+            {
+              "name": "accuracy",
+              "value": 99.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 10056,
+                "end": 10060
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT SLU"
+          ],
+          "notes": "The model with BERT achieves new state-of-the-art performance on both SNIPS and ATIS datasets."
+        }
+      ]
+    }
+  ]
+}

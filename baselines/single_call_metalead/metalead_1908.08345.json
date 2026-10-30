@@ -1,0 +1,262 @@
+{
+  "paper_id": "1908.08345",
+  "contributions": [
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4355,
+          "end": 4363
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "extractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2811,
+          "end": 2830
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5095,
+            "end": 5109
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5215,
+            "end": 5217
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.25,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 6021,
+            "end": 6026
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-2",
+          "value": 20.24,
+          "unit": "F1",
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-L",
+          "value": 39.63,
+          "unit": "F1",
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SummaRuNNer",
+        "Refresh",
+        "Latent",
+        "NeuSum",
+        "Sumo",
+        "TransformerExt",
+        "Compress"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BertSumAbs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4467,
+          "end": 4475
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2944,
+          "end": 2964
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5095,
+            "end": 5109
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5215,
+            "end": 5217
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 41.72,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 6049,
+            "end": 6055
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-2",
+          "value": 19.39,
+          "unit": "F1",
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-L",
+          "value": 38.76,
+          "unit": "F1",
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "BottomUp",
+        "DCA",
+        "TransformerAbs"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BertSumExtAbs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 4551,
+          "end": 4562
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2944,
+          "end": 2964
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5095,
+            "end": 5109
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5215,
+            "end": 5217
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.13,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 6073,
+            "end": 6079
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-2",
+          "value": 19.6,
+          "unit": "F1",
+          "evidence_span": null,
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-L",
+          "value": 39.18,
+          "unit": "F1",
+          "evidence_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "BottomUp",
+        "DCA",
+        "TransformerAbs"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 60462,
+    "tokens_out": 10694,
+    "cost_usd": 0.035060970000000004,
+    "wall_time_seconds": 369.1926575000398,
+    "voting_samples": 3
+  }
+}

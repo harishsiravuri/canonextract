@@ -1,0 +1,99 @@
+{
+  "paper_id": "14318685b5959b51d0f1e3db34643eb2855dc6d9",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose": 2,
+    "total": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "GoogLeNet",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2014 classification challenge",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-5 error rate",
+          "value": 6.67,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SuperVision",
+        "Clarifai"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Our final submission in the challenge obtains a top-5 error of 6.67% on both the validation and testing data, ranking the first among other participants.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "63d2b8d109b4",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "GoogLeNet",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "object detection"
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2014 detection challenge",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mean average precision",
+          "value": 43.9,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "UvA-Euvision",
+        "Deep Insight",
+        "CUHK DeepID-Net"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Finally, we use an ensemble of 6 ConvNets when classifying each region which improves results from ~40% to 43.9% accuracy.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "63d2b8d109b4",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    }
+  ]
+}

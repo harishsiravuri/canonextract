@@ -1,0 +1,321 @@
+{
+  "paper_id": "21a1654b856cf0c64e60e58258669b374cb05539",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "header_path": "mAP",
+          "cell": "63.4"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "column_header": "mAP",
+          "cell": "63.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "object detection",
+      "dataset": "voc 2007",
+      "metric": "map",
+      "value": 63.4
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "header_path": "FPS",
+          "cell": "45"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "column_header": "FPS",
+          "cell": "45",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "object detection",
+      "dataset": "voc 2007",
+      "metric": "fps",
+      "value": 45
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "YOLO",
+      "task": "object detection",
+      "dataset": "voc 2012",
+      "metric": "map",
+      "value": 57.9
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 6,
+          "row_label": "YOLO",
+          "header_path": "Picasso",
+          "cell": "53.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "YOLO",
+          "column_header": "Best F_1",
+          "cell": "53.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "object detection",
+      "dataset": "picasso",
+      "metric": "ap",
+      "value": 53.3
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 6,
+          "row_label": "YOLO",
+          "header_path": "People-Art",
+          "cell": "45"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "column_header": "FPS",
+          "cell": "45",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "object detection",
+      "dataset": "people art",
+      "metric": "best f 1",
+      "value": 45
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "header_path": "mAP",
+          "cell": "63.4"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "column_header": "mAP",
+          "cell": "63.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "real time object detection",
+      "dataset": "voc 2007",
+      "metric": "map",
+      "value": 63.4
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "header_path": "FPS",
+          "cell": "45"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "column_header": "FPS",
+          "cell": "45",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "real time object detection",
+      "dataset": "voc 2007",
+      "metric": "fps",
+      "value": 45
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "YOLO",
+          "header_path": "Combined",
+          "cell": "75.0"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "YOLO",
+          "column_header": "Gain",
+          "cell": "75.0",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "model combination",
+      "dataset": "voc 2007",
+      "metric": "map",
+      "value": 75.0
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 6,
+          "row_label": "YOLO",
+          "header_path": "Picasso",
+          "cell": "53.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "YOLO",
+          "column_header": "Best F_1",
+          "cell": "53.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "generalization to artwork",
+      "dataset": "picasso",
+      "metric": "ap",
+      "value": 53.3
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 6,
+          "row_label": "YOLO",
+          "header_path": "Picasso",
+          "cell": "53.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "YOLO",
+          "column_header": "AP",
+          "cell": "0.590",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "generalization to artwork",
+      "dataset": "picasso",
+      "metric": "best f 1",
+      "value": 0.59
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 6,
+          "row_label": "YOLO",
+          "header_path": "Picasso",
+          "cell": "53.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "YOLO",
+          "column_header": "Best F_1",
+          "cell": "53.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "generalization to artwork",
+      "dataset": "people art",
+      "metric": "ap",
+      "value": 53.3
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 6,
+          "row_label": "YOLO",
+          "header_path": "Picasso",
+          "cell": "53.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "YOLO",
+          "column_header": "AP",
+          "cell": "0.590",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "YOLO",
+      "task": "generalization to artwork",
+      "dataset": "people art",
+      "metric": "best f 1",
+      "value": 0.59
+    }
+  ]
+}

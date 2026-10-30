@@ -1,0 +1,710 @@
+{
+  "paper_id": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 4,
+    "total": 13,
+    "partial_table_valid": 8,
+    "prose_claimed_table": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "mnist"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.5225,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "2 l | SA Fernando13",
+        "Train on target"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Source only",
+        "header_path": "Method",
+        "cell": ".5225",
+        "_content_hash": "8c0930ece8a9",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell's row label \"Source only\" does not match the tuple's Method \"DANN\", indicating the cell is not the source of the tuple."
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": "svhn"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.5225,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "2 l | SA Fernando13",
+        "Train on target"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Source only",
+        "header_path": "Method",
+        "cell": ".5225",
+        "_content_hash": "8c0930ece8a9",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell's row label \"Source only\" does not match the tuple's Method \"DANN\", indicating the cell content is not the source of the tuple's combination."
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "Syn Numbers",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.5225,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "2 l | SA Fernando13",
+        "Train on target"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Source only",
+        "header_path": "Method",
+        "cell": ".5225",
+        "_content_hash": "8c0930ece8a9",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "MNIST",
+          "cell": ".9109 \\; (79.7\\%)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell's row label \"Source only\" does not match the tuple's Method \"DANN\", indicating a mismatch in the provenance."
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "Syn Signs",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.5225,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "2 l | SA Fernando13",
+        "Train on target"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Source only",
+        "header_path": "Method",
+        "cell": ".5225",
+        "_content_hash": "8c0930ece8a9",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "Amazon",
+          "canonical_id": "amazon"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.197,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "2 l | GFK(PLS, PCA) Gong12",
+        "2 l | SA* Fernando13",
+        "2 l | DLID Chopra13",
+        "2 l | DDC Tzeng14",
+        "2 l | DAN Long15",
+        "Source only"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "2 l | GFK(PLS, PCA) Gong12",
+        "header_path": "Method",
+        "cell": ".197",
+        "_content_hash": "b104b8a25a0b",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "2 l | GFK(PLS, PCA) Gong12",
+          "column_header": "Webcam",
+          "cell": ".497",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "DSLR",
+          "canonical_id": "dslr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.197,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "2 l | GFK(PLS, PCA) Gong12",
+        "2 l | SA* Fernando13",
+        "2 l | DLID Chopra13",
+        "2 l | DDC Tzeng14",
+        "2 l | DAN Long15",
+        "Source only"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "2 l | GFK(PLS, PCA) Gong12",
+        "header_path": "Method",
+        "cell": ".197",
+        "_content_hash": "b104b8a25a0b",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "2 l | GFK(PLS, PCA) Gong12",
+          "column_header": "DSLR",
+          "cell": ".6631",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "Webcam",
+          "canonical_id": "webcam"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.197,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "2 l | GFK(PLS, PCA) Gong12",
+        "2 l | SA* Fernando13",
+        "2 l | DLID Chopra13",
+        "2 l | DDC Tzeng14",
+        "2 l | DAN Long15",
+        "Source only"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "2 l | GFK(PLS, PCA) Gong12",
+        "header_path": "Method",
+        "cell": ".197",
+        "_content_hash": "b104b8a25a0b",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "2 l | GFK(PLS, PCA) Gong12",
+          "column_header": "Webcam",
+          "cell": ".497",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": "sentiment analysis"
+      },
+      "datasets": [
+        {
+          "name": "books",
+          "canonical_id": "books"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.733,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DANN",
+        "NN",
+        "SVM"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "electronics",
+        "header_path": "Original data",
+        "cell": ".733",
+        "_content_hash": "9b057a76191a",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": "sentiment analysis"
+      },
+      "datasets": [
+        {
+          "name": "dvd",
+          "canonical_id": "dvd"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.733,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DANN",
+        "NN",
+        "SVM"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "electronics",
+        "header_path": "Original data",
+        "cell": ".733",
+        "_content_hash": "9b057a76191a",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": "sentiment analysis"
+      },
+      "datasets": [
+        {
+          "name": "electronics",
+          "canonical_id": "electronics"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.733,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DANN",
+        "NN",
+        "SVM"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "electronics",
+        "header_path": "Original data",
+        "cell": ".733",
+        "_content_hash": "9b057a76191a",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": "sentiment analysis"
+      },
+      "datasets": [
+        {
+          "name": "kitchen",
+          "canonical_id": "kitchen"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.733,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DANN",
+        "NN",
+        "SVM"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "electronics",
+        "header_path": "Original data",
+        "cell": ".733",
+        "_content_hash": "9b057a76191a",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Amazon reviews",
+          "canonical_id": "amazon"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.784,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "mSDA"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "dvd",
+        "header_path": "Original data",
+        "cell": ".784",
+        "_content_hash": "1bf2feae1a49",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "DANN",
+          "column_header": "Webcam",
+          "cell": ".730",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \".784\" does not match any cell content in the provided table, and the row label \"dvd\" does not describe the tuple's Method \"DANN\"."
+      }
+    },
+    {
+      "method": {
+        "name": "DANN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "Office",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.197,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "2 l | GFK(PLS, PCA) Gong12"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "2 l | GFK(PLS, PCA) Gong12",
+        "header_path": "Method",
+        "cell": ".197",
+        "_content_hash": "b104b8a25a0b",
+        "_paper_hash": "339c2e3e3d00",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Source only",
+          "column_header": "SVHN",
+          "cell": ".5225",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    }
+  ]
+}

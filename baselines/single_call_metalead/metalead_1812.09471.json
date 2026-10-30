@@ -1,0 +1,93 @@
+{
+  "paper_id": "1812.09471",
+  "contributions": [
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1563
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "slot filling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 187,
+          "end": 202
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3945,
+            "end": 3956
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3963,
+            "end": 3967
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.918,
+          "unit": null,
+          "evidence_span": {
+            "start": 4251,
+            "end": 4253
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 0.973,
+          "unit": null,
+          "evidence_span": {
+            "start": 4255,
+            "end": 4263
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 49580,
+    "tokens_out": 5778,
+    "cost_usd": 0.02551095,
+    "wall_time_seconds": 117.14476525015198,
+    "voting_samples": 3
+  }
+}

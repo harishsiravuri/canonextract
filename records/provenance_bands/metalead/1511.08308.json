@@ -1,0 +1,60 @@
+{
+  "paper_id": "1511.08308",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BLSTM-CNN + emb + lex",
+          "header_path": "CoNLL-2003",
+          "cell": "91.62 ( 0.33)"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "BLSTM-CNN + emb + lex",
+          "column_header": "CoNLL-2003",
+          "cell": "91.62 ( 0.33)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BLSTM-CNN + emb + lex",
+      "task": "named entity recognition ner",
+      "dataset": "conll 2003 english",
+      "metric": "f1",
+      "value": 91.62
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BLSTM-CNN + emb + lex",
+          "header_path": "OntoNotes 5.0",
+          "cell": "86.28 ( 0.26)"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "BLSTM-CNN + emb",
+          "column_header": "OntoNotes 5.0",
+          "cell": "86.17 ( 0.22)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BLSTM-CNN + emb + lex",
+      "task": "named entity recognition ner",
+      "dataset": "ontonotes v5 english",
+      "metric": "f1",
+      "value": 86.28
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "paper_id": "1130d8fdd931225c2d7563c3808367726cfa1c3a",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "PixelGAN Autoencoders",
+          "header_path": "MNIST",
+          "cell": "5.27\\;(\\pm 1.81)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "InfoGAN infogan",
+          "column_header": "MNIST",
+          "cell": "5.00 3.6em",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PixelGAN Autoencoders",
+      "task": "semi-supervised learning",
+      "dataset": "MNIST",
+      "metric": "error rate",
+      "value": 5.27
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "InfoGAN infogan",
+          "column_header": "MNIST",
+          "cell": "5.00 3.6em",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "PixelGAN Autoencoders",
+      "task": "semi-supervised learning",
+      "dataset": "SVHN",
+      "metric": "error rate",
+      "value": 5.27
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "InfoGAN infogan",
+          "column_header": "MNIST",
+          "cell": "5.00 3.6em",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "PixelGAN Autoencoders",
+      "task": "semi-supervised learning",
+      "dataset": "NORB",
+      "metric": "error rate",
+      "value": 5.27
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "PixelGAN Autoencoders",
+          "header_path": "MNIST",
+          "cell": "5.27\\;(\\pm 1.81)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "InfoGAN infogan",
+          "column_header": "MNIST",
+          "cell": "5.00 3.6em",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PixelGAN Autoencoders",
+      "task": "unsupervised clustering",
+      "dataset": "MNIST",
+      "metric": "error rate",
+      "value": 5.27
+    }
+  ]
+}

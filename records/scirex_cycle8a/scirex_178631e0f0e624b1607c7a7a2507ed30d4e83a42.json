@@ -1,0 +1,61 @@
+{
+  "paper_id": "178631e0f0e624b1607c7a7a2507ed30d4e83a42",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 1,
+    "total": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "CTC-3l-500h-tanh",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "TIMIT",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PER",
+          "value": 37.6,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CTC-3l-500h-tanh",
+        "header_path": "PER",
+        "cell": "37.6\\%",
+        "_content_hash": "f487a168f05f",
+        "_paper_hash": "4d1aa708d03c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CTC-3l-500h-tanh",
+          "column_header": "PER",
+          "cell": "37.6\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"CTC-3l-500h-tanh\" describes the tuple's Method, the header path \"PER\" describes the tuple's Metric, and the cell content \"37.6%\" matches the tuple's Value."
+      }
+    }
+  ]
+}

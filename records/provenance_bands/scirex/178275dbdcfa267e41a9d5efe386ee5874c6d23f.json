@@ -1,0 +1,195 @@
+{
+  "paper_id": "178275dbdcfa267e41a9d5efe386ee5874c6d23f",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Fraternal dropout + AWD-LSTM 3-layer",
+          "header_path": "Validation",
+          "cell": "58.9"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Fraternal dropout + AWD-LSTM 3-layer",
+          "column_header": "Validation",
+          "cell": "58.9",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Fraternal dropout + AWD-LSTM 3-layer",
+      "task": "language modeling",
+      "dataset": "Penn Treebank",
+      "metric": "perplexity",
+      "value": 58.9
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Fraternal dropout + AWD-LSTM 3-layer",
+          "header_path": "Validation",
+          "cell": "66.8"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Fraternal dropout + AWD-LSTM 3-layer",
+          "column_header": "Validation",
+          "cell": "66.8",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Fraternal dropout + AWD-LSTM 3-layer",
+      "task": "language modeling",
+      "dataset": "WikiText-2",
+      "metric": "perplexity",
+      "value": 66.8
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "header_path": "BLEU-1",
+          "cell": "69.3"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "column_header": "BLEU-1",
+          "cell": "69.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Fraternal dropout, = 0.015",
+      "task": "image captioning",
+      "dataset": "Microsoft COCO",
+      "metric": "BLEU-1",
+      "value": 69.3
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "header_path": "BLEU-1",
+          "cell": "69.3"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "column_header": "BLEU-2",
+          "cell": "51.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Fraternal dropout, = 0.015",
+      "task": "image captioning",
+      "dataset": "Microsoft COCO",
+      "metric": "BLEU-2",
+      "value": 51.4
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "header_path": "BLEU-1",
+          "cell": "69.3"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "column_header": "BLEU-3",
+          "cell": "36.6",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Fraternal dropout, = 0.015",
+      "task": "image captioning",
+      "dataset": "Microsoft COCO",
+      "metric": "BLEU-3",
+      "value": 36.6
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "header_path": "BLEU-1",
+          "cell": "69.3"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "column_header": "BLEU-4",
+          "cell": "26.1",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Fraternal dropout, = 0.015",
+      "task": "image captioning",
+      "dataset": "Microsoft COCO",
+      "metric": "BLEU-4",
+      "value": 26.1
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Fraternal dropout ( =0.05)",
+          "header_path": "Validation",
+          "cell": "79.3 ( 0.38)"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Fraternal dropout ( =0.05)",
+          "column_header": "Validation",
+          "cell": "79.3 ( 0.38)",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Fraternal dropout ( =0.05)",
+      "task": "semi-supervised image classification",
+      "dataset": "CIFAR-10",
+      "metric": "accuracy",
+      "value": 79.3
+    }
+  ]
+}

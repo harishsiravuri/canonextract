@@ -1,0 +1,249 @@
+{
+  "paper_id": "1703.06345",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours w/ transfer",
+          "header_path": "PTB 2003",
+          "cell": "97.55"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "PTB 2003",
+          "cell": "97.55",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours w/ transfer",
+      "task": "pos tagging",
+      "dataset": "PTB 2003",
+      "metric": "97.55",
+      "value": 97.55
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours w/ transfer",
+          "header_path": "CoNLL 2003",
+          "cell": "91.26"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "CoNLL 2003",
+          "cell": "91.20",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours w/ transfer",
+      "task": "ner",
+      "dataset": "CoNLL 2003",
+      "metric": "91.26",
+      "value": 91.26
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours w/o transfer",
+          "header_path": "CoNLL 2003",
+          "cell": "91.20"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "CoNLL 2003",
+          "cell": "91.20",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours w/o transfer",
+      "task": "ner",
+      "dataset": "CoNLL 2003",
+      "metric": "91.20",
+      "value": 91.2
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours w/ transfer",
+          "header_path": "Spanish",
+          "cell": "85.77"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours w/ transfer",
+          "column_header": "Spanish",
+          "cell": "85.77",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours w/ transfer",
+      "task": "ner",
+      "dataset": "Spanish",
+      "metric": "85.77",
+      "value": 85.77
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours w/o transfer",
+          "header_path": "Spanish",
+          "cell": "84.69"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "Spanish",
+          "cell": "84.69",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours w/o transfer",
+      "task": "ner",
+      "dataset": "Spanish",
+      "metric": "84.69",
+      "value": 84.69
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours w/ transfer",
+          "header_path": "Dutch",
+          "cell": "85.19"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "Dutch",
+          "cell": "85.00",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours w/ transfer",
+      "task": "ner",
+      "dataset": "Dutch",
+      "metric": "85.19",
+      "value": 85.19
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours w/o transfer",
+          "header_path": "Dutch",
+          "cell": "85.00"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "Dutch",
+          "cell": "85.00",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours w/o transfer",
+      "task": "ner",
+      "dataset": "Dutch",
+      "metric": "85.00",
+      "value": 85.0
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours w/ transfer",
+          "header_path": "CoNLL 2000",
+          "cell": "95.41"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours w/ transfer",
+          "column_header": "CoNLL 2000",
+          "cell": "95.41",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours w/ transfer",
+      "task": "chunking",
+      "dataset": "CoNLL 2000",
+      "metric": "95.41",
+      "value": 95.41
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours w/o transfer",
+          "header_path": "CoNLL 2000",
+          "cell": "94.66"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "CoNLL 2000",
+          "cell": "94.66",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours w/o transfer",
+      "task": "chunking",
+      "dataset": "CoNLL 2000",
+      "metric": "94.66",
+      "value": 94.66
+    }
+  ]
+}

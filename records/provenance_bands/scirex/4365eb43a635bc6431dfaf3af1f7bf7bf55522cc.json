@@ -1,0 +1,96 @@
+{
+  "paper_id": "4365eb43a635bc6431dfaf3af1f7bf7bf55522cc",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "CoupleNet",
+          "header_path": "mAP (\\%) on VOC07",
+          "cell": "81.7"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "CoupleNet",
+          "column_header": "mAP(\\%)",
+          "cell": "81.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CoupleNet",
+      "task": "object detection",
+      "dataset": "VOC07",
+      "metric": "mAP",
+      "value": 81.7
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "CoupleNet",
+      "task": "object detection",
+      "dataset": "VOC12",
+      "metric": "mAP",
+      "value": 80.4
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "CoupleNet",
+      "task": "object detection",
+      "dataset": "COCO",
+      "metric": "AP",
+      "value": 34.4
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "CoupleNet",
+          "header_path": "test time (ms/img)",
+          "cell": "102"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "CoupleNet",
+          "column_header": "col_4",
+          "cell": "102",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CoupleNet",
+      "task": "object detection",
+      "dataset": "VOC07",
+      "metric": "test time",
+      "value": 102
+    }
+  ]
+}

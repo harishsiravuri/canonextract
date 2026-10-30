@@ -1,0 +1,599 @@
+{
+  "paper_id": "175f74a09241b6cb5101a2a09978095720db7d5f",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 4,
+    "total": 12,
+    "missing": 8
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "4 * 90 Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": "Set5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 34.66,
+          "unit": null,
+          "canonical_id": "psnr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+ lim2017enhanced (1)",
+        "Wang et al. timofte2017ntire (2)",
+        "Bae et al. bae2016beyond (3)",
+        "SelNet choi2017deep (4)",
+        "BTSRN fan2017balanced (5)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.66",
+        "_content_hash": "b2889d8e7cf2",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "90 Ours",
+          "column_header": "x3",
+          "cell": "34.66",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "4 * 90 Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "Set14",
+          "canonical_id": "Set14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 34.66,
+          "unit": null,
+          "canonical_id": "psnr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+ lim2017enhanced (1)",
+        "Wang et al. timofte2017ntire (2)",
+        "Bae et al. bae2016beyond (3)",
+        "SelNet choi2017deep (4)",
+        "BTSRN fan2017balanced (5)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.66",
+        "_content_hash": "b2889d8e7cf2",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "90 Ours",
+          "column_header": "x3",
+          "cell": "34.66",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "4 * 90 Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "BSDS100",
+          "canonical_id": "BSDS100"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 34.66,
+          "unit": null,
+          "canonical_id": "psnr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+ lim2017enhanced (1)",
+        "Wang et al. timofte2017ntire (2)",
+        "Bae et al. bae2016beyond (3)",
+        "SelNet choi2017deep (4)",
+        "BTSRN fan2017balanced (5)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.66",
+        "_content_hash": "b2889d8e7cf2",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "90 Ours",
+          "column_header": "x3",
+          "cell": "34.66",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "4 * 90 Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "Urban100",
+          "canonical_id": "Urban100"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 34.66,
+          "unit": null,
+          "canonical_id": "psnr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+ lim2017enhanced (1)",
+        "Wang et al. timofte2017ntire (2)",
+        "Bae et al. bae2016beyond (3)",
+        "SelNet choi2017deep (4)",
+        "BTSRN fan2017balanced (5)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.66",
+        "_content_hash": "b2889d8e7cf2",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "90 Ours",
+          "column_header": "x3",
+          "cell": "34.66",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "DSRN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": "Set5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SSIM",
+          "value": 0.913,
+          "unit": null,
+          "canonical_id": "ssim"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+",
+        "Wang et al.",
+        "Bae et al.",
+        "SelNet",
+        "BTSRN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.96",
+        "_content_hash": "efd020e9149d",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "DSRN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": "Set5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IFC",
+          "value": 8.169,
+          "unit": null,
+          "canonical_id": "ifc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+",
+        "Wang et al.",
+        "Bae et al.",
+        "SelNet",
+        "BTSRN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.96",
+        "_content_hash": "efd020e9149d",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "DSRN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "Set14",
+          "canonical_id": "Set14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SSIM",
+          "value": 0.913,
+          "unit": null,
+          "canonical_id": "ssim"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+",
+        "Wang et al.",
+        "Bae et al.",
+        "SelNet",
+        "BTSRN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.96",
+        "_content_hash": "efd020e9149d",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "DSRN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "Set14",
+          "canonical_id": "Set14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IFC",
+          "value": 8.169,
+          "unit": null,
+          "canonical_id": "ifc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+",
+        "Wang et al.",
+        "Bae et al.",
+        "SelNet",
+        "BTSRN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.96",
+        "_content_hash": "efd020e9149d",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "DSRN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "BSDS100",
+          "canonical_id": "BSDS100"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SSIM",
+          "value": 0.913,
+          "unit": null,
+          "canonical_id": "ssim"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+",
+        "Wang et al.",
+        "Bae et al.",
+        "SelNet",
+        "BTSRN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.96",
+        "_content_hash": "efd020e9149d",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "DSRN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "BSDS100",
+          "canonical_id": "BSDS100"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IFC",
+          "value": 8.169,
+          "unit": null,
+          "canonical_id": "ifc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+",
+        "Wang et al.",
+        "Bae et al.",
+        "SelNet",
+        "BTSRN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.96",
+        "_content_hash": "efd020e9149d",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "DSRN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "Urban100",
+          "canonical_id": "Urban100"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SSIM",
+          "value": 0.913,
+          "unit": null,
+          "canonical_id": "ssim"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+",
+        "Wang et al.",
+        "Bae et al.",
+        "SelNet",
+        "BTSRN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.96",
+        "_content_hash": "efd020e9149d",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "DSRN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super resolution",
+        "canonical_id": "image super resolution"
+      },
+      "datasets": [
+        {
+          "name": "Urban100",
+          "canonical_id": "Urban100"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IFC",
+          "value": 8.169,
+          "unit": null,
+          "canonical_id": "ifc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "EDSR+",
+        "Wang et al.",
+        "Bae et al.",
+        "SelNet",
+        "BTSRN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "4 * 90 Ours",
+        "header_path": "x3",
+        "cell": "34.96",
+        "_content_hash": "efd020e9149d",
+        "_paper_hash": "b7e1ab788950",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    }
+  ]
+}

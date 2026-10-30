@@ -1,0 +1,411 @@
+{
+  "paper_id": "1d0dcb458aa4d30b51f7c74b159be687f39120a0",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "PDC",
+          "header_path": "rank1",
+          "cell": "88.70"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank1",
+          "cell": "88.70",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "CUHK 03",
+      "metric": "rank1",
+      "value": 88.7
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank5",
+          "cell": "98.61",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "CUHK 03",
+      "metric": "rank5",
+      "value": 98.61
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank10",
+          "cell": "99.24",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "CUHK 03",
+      "metric": "rank10",
+      "value": 99.24
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank20",
+          "cell": "99.67",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "CUHK 03",
+      "metric": "rank20",
+      "value": 99.67
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "PDC",
+          "column_header": "mAP",
+          "cell": "63.41",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "CUHK 03",
+      "metric": "mAP",
+      "value": 63.41
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank1",
+          "cell": "88.70",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "Market 1501",
+      "metric": "rank1",
+      "value": 88.7
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank5",
+          "cell": "98.61",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "Market 1501",
+      "metric": "rank5",
+      "value": 98.61
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank10",
+          "cell": "99.24",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "Market 1501",
+      "metric": "rank10",
+      "value": 99.24
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank20",
+          "cell": "99.67",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "Market 1501",
+      "metric": "rank20",
+      "value": 99.67
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "PDC",
+          "column_header": "mAP",
+          "cell": "63.41",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "Market 1501",
+      "metric": "mAP",
+      "value": 63.41
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank1",
+          "cell": "88.70",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "VIPeR",
+      "metric": "rank1",
+      "value": 88.7
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank5",
+          "cell": "98.61",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "VIPeR",
+      "metric": "rank5",
+      "value": 98.61
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank10",
+          "cell": "99.24",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "VIPeR",
+      "metric": "rank10",
+      "value": 99.24
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank20",
+          "cell": "99.67",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "VIPeR",
+      "metric": "rank20",
+      "value": 99.67
+    },
+    {
+      "tuple_idx": 14,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "PDC",
+          "column_header": "mAP",
+          "cell": "63.41",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PDC",
+      "task": "person re identification",
+      "dataset": "VIPeR",
+      "metric": "mAP",
+      "value": 63.41
+    }
+  ]
+}

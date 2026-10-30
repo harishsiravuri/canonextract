@@ -1,0 +1,518 @@
+{
+  "paper_id": "18168aea48a22f6fe2fe407c0ff70083cba225a7",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "missing": 4,
+    "total": 10,
+    "partial_table_valid": 4,
+    "prose_claimed_table": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "RED30",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image denoising",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "14 images",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 34.81,
+          "unit": "dB",
+          "canonical_id": "psnr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "WNNM",
+        "PCLR",
+        "PGPD",
+        "NCSR",
+        "EPLL",
+        "BM3D"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "RED30",
+        "header_path": "PSNR",
+        "cell": "34.81",
+        "_content_hash": "0a6fd3718c13",
+        "_paper_hash": "67602ac4fcfa",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "RED30",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image denoising",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "14 images",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SSIM",
+          "value": 0.9402,
+          "unit": null,
+          "canonical_id": "ssim"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "WNNM",
+        "PCLR",
+        "PGPD",
+        "NCSR",
+        "EPLL",
+        "BM3D"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "RED30",
+        "header_path": "PSNR",
+        "cell": "34.81",
+        "_content_hash": "0a6fd3718c13",
+        "_paper_hash": "67602ac4fcfa",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 5,
+          "row_label": "SSIM",
+          "column_header": "14 images",
+          "cell": "0.7716",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "RED30",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image denoising",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "BSD200",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 33.63,
+          "unit": "dB",
+          "canonical_id": "psnr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "WNNM",
+        "PCLR",
+        "PGPD",
+        "NCSR",
+        "EPLL",
+        "BM3D"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "RED30",
+        "header_path": "PSNR",
+        "cell": "33.63",
+        "_content_hash": "a69f0b7e6261",
+        "_paper_hash": "67602ac4fcfa",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "RED30",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image denoising",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "BSD200",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SSIM",
+          "value": 0.9319,
+          "unit": null,
+          "canonical_id": "ssim"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "WNNM",
+        "PCLR",
+        "PGPD",
+        "NCSR",
+        "EPLL",
+        "BM3D"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "RED30",
+        "header_path": "PSNR",
+        "cell": "33.63",
+        "_content_hash": "a69f0b7e6261",
+        "_paper_hash": "67602ac4fcfa",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 5,
+          "row_label": "SSIM",
+          "column_header": "BSD200",
+          "cell": "0.7119",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "RED30",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 37.66,
+          "unit": "dB",
+          "canonical_id": "psnr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CSCN",
+        "ARFL+",
+        "TSE",
+        "CSC",
+        "NBSRF",
+        "SRCNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "RED30",
+        "header_path": "PSNR",
+        "cell": "37.66",
+        "_paper_hash": "67602ac4fcfa",
+        "_content_hash": "3cd143fc8fb4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "RED30",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "Set5",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SSIM",
+          "value": 0.9599,
+          "unit": null,
+          "canonical_id": "ssim"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CSCN",
+        "ARFL+",
+        "TSE",
+        "CSC",
+        "NBSRF",
+        "SRCNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "67602ac4fcfa",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "=10",
+          "column_header": "EPLL",
+          "cell": "0.9339",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "RED30",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "Set14",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 32.94,
+          "unit": "dB",
+          "canonical_id": "psnr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CSCN",
+        "ARFL+",
+        "TSE",
+        "CSC",
+        "NBSRF",
+        "SRCNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "RED30",
+        "header_path": "PSNR",
+        "cell": "32.94",
+        "_paper_hash": "67602ac4fcfa",
+        "_content_hash": "b4b520805202",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "RED30",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "Set14",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SSIM",
+          "value": 0.9144,
+          "unit": null,
+          "canonical_id": "ssim"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CSCN",
+        "ARFL+",
+        "TSE",
+        "CSC",
+        "NBSRF",
+        "SRCNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "67602ac4fcfa",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "=10",
+          "column_header": "EPLL",
+          "cell": "0.9339",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "RED30",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "BSD100",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 31.99,
+          "unit": "dB",
+          "canonical_id": "psnr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CSCN",
+        "ARFL+",
+        "TSE",
+        "CSC",
+        "NBSRF",
+        "SRCNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 4,
+        "row_label": "RED30",
+        "header_path": "PSNR",
+        "cell": "31.99",
+        "_paper_hash": "67602ac4fcfa",
+        "_content_hash": "d0374254d265",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 6,
+          "row_label": "PSNR",
+          "column_header": "s = 3",
+          "cell": "31.96",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "RED30",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image super-resolution",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "BSD100",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SSIM",
+          "value": 0.8974,
+          "unit": null,
+          "canonical_id": "ssim"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CSCN",
+        "ARFL+",
+        "TSE",
+        "CSC",
+        "NBSRF",
+        "SRCNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "67602ac4fcfa",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 6,
+          "row_label": "SSIM",
+          "column_header": "s = 3",
+          "cell": "0.8972",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,698 @@
+{
+  "paper_id": "1811.09242",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 5,
+    "total": 12,
+    "partial_table_valid": 4,
+    "prose_claimed_table": 3
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 WSI dataset",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 61.7,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "Spectral",
+        "HC",
+        "HC+Zipf",
+        "BNP-HC",
+        "CRP-PPMI",
+        "SE-WSI-fix"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "F-S",
+        "cell": "61.7",
+        "_content_hash": "ce318a1258de",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "F-S",
+          "cell": "61.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe claimed cell is the source of the tuple because the row label \"AutoSense\" refers to the proposed method in the paper, the header path \"F-S\" matches the tuple's Metric, and the cell content \"61.7\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 WSI dataset",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 9.8,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "Spectral",
+        "HC",
+        "HC+Zipf",
+        "BNP-HC",
+        "CRP-PPMI",
+        "SE-WSI-fix"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "V-M",
+        "cell": "9.8",
+        "_content_hash": "318c6391b261",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "V-M",
+          "cell": "9.8",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"AutoSense\" refers to the proposed method in the paper excerpt, the header path \"V-M\" matches the tuple's Metric, and the cell content \"9.8\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 WSI dataset",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 24.59,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "Spectral",
+        "HC",
+        "HC+Zipf",
+        "BNP-HC",
+        "CRP-PPMI",
+        "SE-WSI-fix"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "AVG",
+        "cell": "24.59",
+        "_content_hash": "3de477c8b9f4",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "AVG",
+          "cell": "24.59",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"AutoSense\" directly matches the tuple's Method, the header path \"AVG\" matches the tuple's Metric, and the cell content \"24.59\" matches the tuple's Value, with \"SemEval 2010 WSI dataset\" being the dataset from the table caption."
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 WSI dataset",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 61.7,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "AI-KU",
+        "Unimelb",
+        "STM",
+        "STM+w2v",
+        "WG",
+        "DIVE",
+        "MCC"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "F-BC",
+        "cell": "61.7",
+        "_content_hash": "2e8ee2c7cd22",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "F-S",
+          "cell": "61.7",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 WSI dataset",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 7.96,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "AI-KU",
+        "Unimelb",
+        "STM",
+        "STM+w2v",
+        "WG",
+        "DIVE",
+        "MCC"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "F-NMI",
+        "cell": "7.96",
+        "_content_hash": "245e126cbd14",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "SemEval 2010",
+          "column_header": "Mean",
+          "cell": "7.68",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 WSI dataset",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.16,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "AI-KU",
+        "Unimelb",
+        "STM",
+        "STM+w2v",
+        "WG",
+        "DIVE",
+        "MCC"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "AVG",
+        "cell": "22.16",
+        "_content_hash": "a1f328a6484c",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "HC",
+          "column_header": "V-M",
+          "cell": "22.62",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 WSI dataset",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 0.33,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "Spectral",
+        "HC",
+        "HC+Zipf",
+        "BNP-HC",
+        "CRP-PPMI",
+        "SE-WSI-fix"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "F-S",
+        "cell": "61.7",
+        "_content_hash": "ce318a1258de",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "(\\#S)",
+          "cell": "0.33",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 WSI dataset",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 61.7,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "Spectral",
+        "HC",
+        "HC+Zipf",
+        "BNP-HC",
+        "CRP-PPMI",
+        "SE-WSI-fix"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "F-S",
+        "cell": "61.7",
+        "_content_hash": "ce318a1258de",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "F-S",
+          "cell": "61.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the dataset in the table is SemEval 2010 WSI dataset, whereas the tuple's dataset is SemEval 2013 WSI dataset."
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 WSI dataset",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 9.8,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "Spectral",
+        "HC",
+        "HC+Zipf",
+        "BNP-HC",
+        "CRP-PPMI",
+        "SE-WSI-fix"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "F-S",
+        "cell": "61.7",
+        "_content_hash": "ce318a1258de",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "V-M",
+          "cell": "9.8",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell does not match the tuple's Metric, as the header path \"F-S\" does not describe the tuple's Metric \"V-M\", and the cell content \"61.7\" does not match the tuple's Value \"9.8\"."
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 WSI dataset",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 0.33,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "Spectral",
+        "HC",
+        "HC+Zipf",
+        "BNP-HC",
+        "CRP-PPMI",
+        "SE-WSI-fix"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "F-S",
+        "cell": "61.7",
+        "_content_hash": "ce318a1258de",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "(\\#S)",
+          "cell": "0.33",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "Arnet Dataset",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 58.8,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "HC",
+        "STM"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "S=100",
+        "cell": "58.8",
+        "_content_hash": "ed79077c8d4b",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "AutoSense",
+          "column_header": "S=100",
+          "cell": "58.8",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "PubMed Dataset",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 46.5,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "HC",
+        "STM"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "AutoSense",
+        "header_path": "S=100",
+        "cell": "46.5",
+        "_content_hash": "e6d243054a6d",
+        "_paper_hash": "03f01ee6e989",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "HC",
+          "column_header": "S=5",
+          "cell": "46.3",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "paper_id": "2203.16804",
+  "contributions": [
+    {
+      "method": {
+        "name": "BRIO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1555,
+          "end": 1560
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1555,
+          "end": 1574
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2691,
+            "end": 2705
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "XSum",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3119,
+            "end": 3124
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3419,
+            "end": 3422
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 47.78,
+          "unit": null,
+          "evidence_span": {
+            "start": 2691,
+            "end": 2705
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-1",
+          "value": 49.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 3119,
+            "end": 3124
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-1",
+          "value": 57.75,
+          "unit": null,
+          "evidence_span": {
+            "start": 3419,
+            "end": 3422
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART",
+        "PEGASUS",
+        "GSum",
+        "ConSum",
+        "SeqCo",
+        "GOLD",
+        "SimCLS"
+      ],
+      "self_consistency": 0.75,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "PARTIAL",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 58311,
+    "tokens_out": 5463,
+    "cost_usd": 0.02844182,
+    "wall_time_seconds": 97.4752898751758,
+    "voting_samples": 3
+  }
+}

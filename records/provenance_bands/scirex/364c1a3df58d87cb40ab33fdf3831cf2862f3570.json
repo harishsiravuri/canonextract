@@ -1,0 +1,60 @@
+{
+  "paper_id": "364c1a3df58d87cb40ab33fdf3831cf2862f3570",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 4,
+          "row_label": "aNMM-1",
+          "header_path": "MAP",
+          "cell": "0.7385"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "aNMM-IDF",
+          "column_header": "MAP",
+          "cell": "0.7225",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "aNMM-1",
+      "task": "question answering",
+      "dataset": "TREC QA",
+      "metric": "MAP",
+      "value": 0.7385
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 4,
+          "row_label": "aNMM-1",
+          "header_path": "MAP",
+          "cell": "0.7385"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "aNMM-IDF",
+          "column_header": "MRR",
+          "cell": "0.7873",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "aNMM-1",
+      "task": "question answering",
+      "dataset": "TREC QA",
+      "metric": "MRR",
+      "value": 0.7995
+    }
+  ]
+}

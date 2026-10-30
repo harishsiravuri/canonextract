@@ -1,0 +1,168 @@
+{
+  "paper_id": "05d2700846c0323f79c1344aca5333994c7c03a5",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "RNN maxout (ST)",
+          "header_path": "WER SWB",
+          "cell": "9.3"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "RNN maxout (ST)",
+          "column_header": "WER SWB",
+          "cell": "9.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RNN maxout",
+      "task": "speech recognition",
+      "dataset": "swb 2000h",
+      "metric": "wer swb",
+      "value": 9.3
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "RNN maxout (ST)",
+          "header_path": "WER CH",
+          "cell": "15.4"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "RNN maxout (ST)",
+          "column_header": "WER CH",
+          "cell": "15.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RNN maxout",
+      "task": "speech recognition",
+      "dataset": "swb 2000h",
+      "metric": "wer ch",
+      "value": 15.4
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "n-gram + model M + NNLM",
+          "header_path": "WER SWB",
+          "cell": "6.6"
+        },
+        "hit": {
+          "table_id": 5,
+          "row_label": "n-gram + model M",
+          "column_header": "WER SWB",
+          "cell": "7.0",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "n-gram + model M + NNLM",
+      "task": "language modeling",
+      "dataset": "swb 2000h",
+      "metric": "wer swb",
+      "value": 6.6
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "n-gram + model M + NNLM",
+          "header_path": "WER SWB",
+          "cell": "6.6"
+        },
+        "hit": {
+          "table_id": 5,
+          "row_label": "n-gram + model M",
+          "column_header": "WER CH",
+          "cell": "12.6",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "n-gram + model M + NNLM",
+      "task": "language modeling",
+      "dataset": "swb 2000h",
+      "metric": "wer ch",
+      "value": 12.2
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "RNN maxout (CE)",
+          "header_path": "WER SWB",
+          "cell": "10.4"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "RNN maxout (CE)",
+          "column_header": "WER SWB",
+          "cell": "10.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RNN maxout",
+      "task": "speech recognition",
+      "dataset": "swb 300h",
+      "metric": "wer swb",
+      "value": 10.4
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "RNN maxout (CE)",
+          "header_path": "WER CH",
+          "cell": "16.2"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "RNN maxout (CE)",
+          "column_header": "WER CH",
+          "cell": "16.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RNN maxout",
+      "task": "speech recognition",
+      "dataset": "swb 300h",
+      "metric": "wer ch",
+      "value": 16.2
+    }
+  ]
+}

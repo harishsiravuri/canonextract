@@ -1,0 +1,300 @@
+{
+  "paper_id": "2008.07772",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 1,
+    "total": 6,
+    "prose_claimed_table": 3,
+    "missing": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "ADMIN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French (FR)",
+          "canonical_id": "wmt 14 english french fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.8,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "6L-6L Default"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "60L-12L ADMIN",
+        "header_path": "BLEU",
+        "cell": "43.8",
+        "_content_hash": "788435f42da5",
+        "_paper_hash": "18ad60b7c8fd",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "d:48L-12L",
+          "column_header": "BLEU",
+          "cell": "43.6",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "ADMIN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German (DE)",
+          "canonical_id": "wmt 14 english german de"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 30.1,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "6L-6L Default"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "60L-12L ADMIN",
+        "header_path": "BLEU",
+        "cell": "30.1",
+        "_content_hash": "bdd6e396cc0a",
+        "_paper_hash": "18ad60b7c8fd",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "60L-12L",
+          "column_header": "col_9",
+          "cell": "30.1",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "ADMIN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French (FR)",
+          "canonical_id": "wmt 14 english french fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 40.3,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "6L-6L Default"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "60L-12L ADMIN",
+        "header_path": "TER",
+        "cell": "40.3",
+        "_content_hash": "e2f52c7a9040",
+        "_paper_hash": "18ad60b7c8fd",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "gehring2017",
+          "column_header": "FR",
+          "cell": "40.5",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "ADMIN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French (FR)",
+          "canonical_id": "wmt 14 english french fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 62.4,
+          "unit": null,
+          "canonical_id": "meteor"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "6L-6L Default"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "60L-12L ADMIN",
+        "header_path": "METEOR",
+        "cell": "62.4",
+        "_content_hash": "02c9fa8da2c6",
+        "_paper_hash": "18ad60b7c8fd",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "ADMIN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German (DE)",
+          "canonical_id": "wmt 14 english german de"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 40.3,
+          "unit": null,
+          "canonical_id": "ter"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "6L-6L Default"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "60L-12L ADMIN",
+        "header_path": "BLEU",
+        "cell": "43.8",
+        "_content_hash": "788435f42da5",
+        "_paper_hash": "18ad60b7c8fd",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "gehring2017",
+          "column_header": "FR",
+          "cell": "40.5",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "ADMIN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German (DE)",
+          "canonical_id": "wmt 14 english german de"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 62.4,
+          "unit": null,
+          "canonical_id": "meteor"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "6L-6L Default"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "60L-12L ADMIN",
+        "header_path": "BLEU",
+        "cell": "43.8",
+        "_content_hash": "788435f42da5",
+        "_paper_hash": "18ad60b7c8fd",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    }
+  ]
+}

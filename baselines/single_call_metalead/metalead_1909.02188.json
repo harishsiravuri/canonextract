@@ -1,0 +1,95 @@
+{
+  "paper_id": "1909.02188",
+  "contributions": [
+    {
+      "method": {
+        "name": "Stack-Propagation framework with token-level intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 183
+        },
+        "confidence": 0.875
+      },
+      "task": {
+        "name": "spoken language understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 103,
+          "end": 123
+        },
+        "confidence": 0.875
+      },
+      "datasets": [
+        {
+          "name": "SNIPS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3814,
+            "end": 3820
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1968,
+            "end": 1972
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.2,
+          "unit": null,
+          "evidence_span": {
+            "start": 3001,
+            "end": 3005
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "accuracy",
+          "value": 98.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 3013,
+            "end": 3017
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "PARTIAL"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 56290,
+    "tokens_out": 6858,
+    "cost_usd": 0.02989694,
+    "wall_time_seconds": 172.80904858303256,
+    "voting_samples": 3
+  }
+}

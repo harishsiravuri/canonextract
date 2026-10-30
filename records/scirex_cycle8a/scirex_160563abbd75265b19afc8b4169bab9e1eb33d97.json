@@ -1,0 +1,237 @@
+{
+  "paper_id": "160563abbd75265b19afc8b4169bab9e1eb33d97",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose_claimed_table": 2,
+    "total": 5,
+    "prose": 3
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Proposed method",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "cross-lingual natural language inference",
+        "canonical_id": "cross-lingual natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "XNLI",
+          "canonical_id": "xnli zero shot english to french"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 55.7,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "conneau2018xnli",
+        "X-CBOW",
+        "BERT uncased^*"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "conneau2018xnli",
+        "header_path": "Zero-Shot Transfer, one NLI system for all languages:",
+        "cell": "55.7",
+        "_content_hash": "6e285e627378",
+        "_paper_hash": "c9835c73e54b",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "xx err.",
+          "column_header": "fy",
+          "cell": "55.77",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Proposed method",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "cross-lingual document classification",
+        "canonical_id": "cross-lingual document classification"
+      },
+      "datasets": [
+        {
+          "name": "MLDoc",
+          "canonical_id": "mldoc"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "As shown in Table~\\ref{tab:results_mldoc}, our system obtains the best published results for 5 of the 7 transfer languages.",
+        "_quote_verified": "As shown in Table~\\ref{tab:results_mldoc}, our system obtains the best published results for 5 of the 7 transfer languages.",
+        "_verification_mode": "substring",
+        "_paper_hash": "c9835c73e54b",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Proposed method",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "bitext mining",
+        "canonical_id": "bitext mining"
+      },
+      "datasets": [
+        {
+          "name": "BUCC",
+          "canonical_id": "bucc"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": null,
+          "unit": null,
+          "canonical_id": "f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "As shown in Table \\ref{tab:results_bucc}, our system establishes a new state-of-the-art for all language pairs with the exception of English-Chinese test.",
+        "_quote_verified": "As shown in Table \\ref{tab:results_bucc}, our system establishes a new state-of-the-art for all language pairs with the exception of English-Chinese test.",
+        "_verification_mode": "substring",
+        "_paper_hash": "c9835c73e54b",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Proposed method",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "multilingual similarity search",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "Tatoeba",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": null,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "We also introduce a new test set of aligned sentences in \\NbLangTest languages, and show that our sentence embeddings obtain strong results in multilingual similarity search even for low-resource languages.",
+        "_quote_verified": "We also introduce a new test set of aligned sentences in \\NbLangTest languages, and show that our sentence embeddings obtain strong results in multilingual similarity search even for low-resource languages.",
+        "_verification_mode": "substring",
+        "_paper_hash": "c9835c73e54b",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Proposed method",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "xnli",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 55.7,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "conneau2018xnli",
+        "X-CBOW"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "conneau2018xnli",
+        "header_path": "Zero-Shot Transfer, one NLI system for all languages:",
+        "cell": "55.7",
+        "_content_hash": "6e285e627378",
+        "_paper_hash": "c9835c73e54b",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "xx err.",
+          "column_header": "fy",
+          "cell": "55.77",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    }
+  ]
+}

@@ -1,0 +1,846 @@
+{
+  "paper_id": "11356cd6bb0f2776a88cd584ff108470414c6594",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Class. error (in %)",
+          "header_path": "VGG-A",
+          "cell": "4.15"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "VSC",
+          "cell": "3.82 FLOPs ( 10^ 6 )",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two vgg networks with three different convolutional operations c sc and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better vgg",
+      "dataset": "casia",
+      "metric": "Class. error (in %)",
+      "value": 4.15
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Class. error (in %)",
+          "header_path": "VGG-A",
+          "cell": "4.15"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_7",
+          "cell": "41",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two vgg networks with three different convolutional operations c sc and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better vgg",
+      "dataset": "casia",
+      "metric": "FLOPs (\u00d710^6)",
+      "value": 41
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Class. error (in %)",
+          "header_path": "VGG-A",
+          "cell": "4.15"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_13",
+          "cell": "233",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two vgg networks with three different convolutional operations c sc and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better vgg",
+      "dataset": "casia",
+      "metric": "Hidden states (\u00d710^3)",
+      "value": 233
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Class. error (in %)",
+          "header_path": "ResNet-D",
+          "cell": "3.57"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "C",
+          "cell": "3.45",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of four resnet networks with two different convolutional operations c and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better resnet results",
+      "dataset": "casia",
+      "metric": "Class. error (in %)",
+      "value": 3.57
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Class. error (in %)",
+          "header_path": "ResNet-D",
+          "cell": "3.57"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_16",
+          "cell": "49 Hidden states ( 10^ 3 )",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of four resnet networks with two different convolutional operations c and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better resnet results",
+      "dataset": "casia",
+      "metric": "FLOPs (\u00d710^6)",
+      "value": 49
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Class. error (in %)",
+          "header_path": "ResNet-D",
+          "cell": "3.57"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_24",
+          "cell": "153",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of four resnet networks with two different convolutional operations c and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better resnet results",
+      "dataset": "casia",
+      "metric": "Hidden states (\u00d710^3)",
+      "value": 153
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Class. error (in %)",
+          "header_path": "DenseNet-B",
+          "cell": "4.09"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "VSC",
+          "cell": "3.82 FLOPs ( 10^ 6 )",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two densenet networks with svc convolutions on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better densenet results",
+      "dataset": "casia",
+      "metric": "Class. error (in %)",
+      "value": 4.09
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Class. error (in %)",
+          "header_path": "DenseNet-B",
+          "cell": "4.09"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "16 16",
+          "cell": "15 Hidden states ( 10^ 3 )",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two densenet networks with svc convolutions on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better densenet results",
+      "dataset": "casia",
+      "metric": "FLOPs (\u00d710^6)",
+      "value": 15
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Class. error (in %)",
+          "header_path": "DenseNet-B",
+          "cell": "4.09"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "8 8",
+          "cell": "136",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two densenet networks with svc convolutions on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better densenet results",
+      "dataset": "casia",
+      "metric": "Hidden states (\u00d710^3)",
+      "value": 136
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "Class. error (in %)",
+          "header_path": "VGG-B",
+          "cell": "11.8"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "VSC",
+          "cell": "11.8",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "comparison of two submanifold vgg networks left with the dense 3dnin network right on the modelnet 40 dataset lower values are better vggm",
+      "dataset": "modelnet 40",
+      "metric": "Class. error (in %)",
+      "value": 11.8
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "Class. error (in %)",
+          "header_path": "VGG-B",
+          "cell": "11.8"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_6",
+          "cell": "28",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "comparison of two submanifold vgg networks left with the dense 3dnin network right on the modelnet 40 dataset lower values are better vggm",
+      "dataset": "modelnet 40",
+      "metric": "FLOPs (\u00d710^6)",
+      "value": 28
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "Class. error (in %)",
+          "header_path": "VGG-B",
+          "cell": "11.8"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_10",
+          "cell": "78",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "comparison of two submanifold vgg networks left with the dense 3dnin network right on the modelnet 40 dataset lower values are better vggm",
+      "dataset": "modelnet 40",
+      "metric": "Hidden states (\u00d710^3)",
+      "value": 78
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "VGG-A",
+          "cell": "4.67"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "VSC(3,16,3,1), MP",
+          "cell": "4.49",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two vgg networks with three different convolutional operations c sc and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better vgg",
+      "dataset": "casia",
+      "metric": "Class. error",
+      "value": 4.67
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "VGG-A",
+          "cell": "4.67"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_9",
+          "cell": "7.4",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two vgg networks with three different convolutional operations c sc and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better vgg",
+      "dataset": "casia",
+      "metric": "FLOPs",
+      "value": 7.4
+    },
+    {
+      "tuple_idx": 14,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "VGG-A",
+          "cell": "4.67"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_7",
+          "cell": "41",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two vgg networks with three different convolutional operations c sc and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better vgg",
+      "dataset": "casia",
+      "metric": "Hidden states",
+      "value": 41
+    },
+    {
+      "tuple_idx": 15,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "ResNet-A",
+          "cell": "4.09"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "VSC",
+          "cell": "3.82 FLOPs ( 10^ 6 )",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of four resnet networks with two different convolutional operations c and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better resnet results",
+      "dataset": "casia",
+      "metric": "Class. error",
+      "value": 4.09
+    },
+    {
+      "tuple_idx": 16,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "ResNet-A",
+          "cell": "4.09"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_10",
+          "cell": "14.5",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of four resnet networks with two different convolutional operations c and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better resnet results",
+      "dataset": "casia",
+      "metric": "FLOPs",
+      "value": 14.5
+    },
+    {
+      "tuple_idx": 17,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "ResNet-A",
+          "cell": "4.09"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_18",
+          "cell": "63",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of four resnet networks with two different convolutional operations c and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better resnet results",
+      "dataset": "casia",
+      "metric": "Hidden states",
+      "value": 63
+    },
+    {
+      "tuple_idx": 18,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "DenseNet-A",
+          "cell": "4.49"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "VSC(3,16,3,1), MP",
+          "cell": "4.49",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two densenet networks with svc convolutions on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better densenet results",
+      "dataset": "casia",
+      "metric": "Class. error",
+      "value": 4.49
+    },
+    {
+      "tuple_idx": 19,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "DenseNet-A",
+          "cell": "4.49"
+        },
+        "hit": null
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two densenet networks with svc convolutions on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better densenet results",
+      "dataset": "casia",
+      "metric": "FLOPs",
+      "value": 8.7
+    },
+    {
+      "tuple_idx": 20,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "DenseNet-A",
+          "cell": "4.49"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "2 16 BC layers, Transition",
+          "cell": "84",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two densenet networks with svc convolutions on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better densenet results",
+      "dataset": "casia",
+      "metric": "Hidden states",
+      "value": 84
+    },
+    {
+      "tuple_idx": 21,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "VGG-A",
+          "cell": "13.6"
+        },
+        "hit": null
+      },
+      "method": "VSC",
+      "task": "comparison of two submanifold vgg networks left with the dense 3dnin network right on the modelnet 40 dataset lower values are better vggm",
+      "dataset": "modelnet 40",
+      "metric": "Class. error",
+      "value": 13.6
+    },
+    {
+      "tuple_idx": 22,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "VGG-A",
+          "cell": "13.6"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_5",
+          "cell": "9.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "comparison of two submanifold vgg networks left with the dense 3dnin network right on the modelnet 40 dataset lower values are better vggm",
+      "dataset": "modelnet 40",
+      "metric": "FLOPs",
+      "value": 9.2
+    },
+    {
+      "tuple_idx": 23,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "VGG-A",
+          "cell": "13.6"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_18",
+          "cell": "55",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "comparison of two submanifold vgg networks left with the dense 3dnin network right on the modelnet 40 dataset lower values are better vggm",
+      "dataset": "modelnet 40",
+      "metric": "Hidden states",
+      "value": 55
+    },
+    {
+      "tuple_idx": 24,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "VGG-A",
+          "cell": "4.15"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_7",
+          "cell": "41",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two vgg networks with three different convolutional operations c sc and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better vgg",
+      "dataset": "CASIA",
+      "metric": "FLOPs ($\\times10^{6}$)",
+      "value": 41
+    },
+    {
+      "tuple_idx": 25,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "VGG-A",
+          "cell": "4.15"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_13",
+          "cell": "233",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two vgg networks with three different convolutional operations c sc and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better vgg",
+      "dataset": "CASIA",
+      "metric": "Hidden states ($\\times10^{3}$)",
+      "value": 233
+    },
+    {
+      "tuple_idx": 26,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "ResNet-A",
+          "cell": "3.97"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_9",
+          "cell": "32",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of four resnet networks with two different convolutional operations c and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better resnet results",
+      "dataset": "CASIA",
+      "metric": "FLOPs ($\\times10^{6}$)",
+      "value": 32
+    },
+    {
+      "tuple_idx": 27,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "ResNet-A",
+          "cell": "3.97"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_17",
+          "cell": "193",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of four resnet networks with two different convolutional operations c and vsc on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better resnet results",
+      "dataset": "CASIA",
+      "metric": "Hidden states ($\\times10^{3}$)",
+      "value": 193
+    },
+    {
+      "tuple_idx": 28,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "DenseNet-A",
+          "cell": "4.49"
+        },
+        "hit": null
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two densenet networks with svc convolutions on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better densenet results",
+      "dataset": "CASIA",
+      "metric": "FLOPs ($\\times10^{6}$)",
+      "value": 8.7
+    },
+    {
+      "tuple_idx": 29,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "DenseNet-A",
+          "cell": "4.49"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "2 16 BC layers, Transition",
+          "cell": "84",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "classification error computational requirements in flops and memory load measured by the number of hidden states of two densenet networks with svc convolutions on the casia dataset the network architecture is specified in the top part of the table the bottom part presents the performance characteristics of the networks lower is better densenet results",
+      "dataset": "CASIA",
+      "metric": "Hidden states ($\\times10^{3}$)",
+      "value": 84
+    },
+    {
+      "tuple_idx": 30,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "VGG-A",
+          "cell": "13.6"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_5",
+          "cell": "9.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "comparison of two submanifold vgg networks left with the dense 3dnin network right on the modelnet 40 dataset lower values are better vggm",
+      "dataset": "ModelNet-40",
+      "metric": "FLOPs ($\\times10^{6}$)",
+      "value": 9.2
+    },
+    {
+      "tuple_idx": 31,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "Class. error (in \\%)",
+          "header_path": "VGG-A",
+          "cell": "13.6"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Class. error (in \\%)",
+          "column_header": "col_18",
+          "cell": "55",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "VSC",
+      "task": "comparison of two submanifold vgg networks left with the dense 3dnin network right on the modelnet 40 dataset lower values are better vggm",
+      "dataset": "ModelNet-40",
+      "metric": "Hidden states ($\\times10^{3}$)",
+      "value": 55
+    }
+  ]
+}

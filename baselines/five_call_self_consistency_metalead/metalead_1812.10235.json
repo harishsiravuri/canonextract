@@ -1,0 +1,1279 @@
+{
+  "paper_id": "1812.10235",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bi-model RNN with a decoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 98.99,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Bi-model RNN with a decoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "slot filling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.89,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 35210,
+    "tokens_out": 6061,
+    "cost_usd": 0.016661489999999998,
+    "wall_seconds": 152.2830719947815,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-model RNN with a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 98.99,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN with a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.89,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN without a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 98.76,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN without a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.65,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-model based RNN with a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1430,
+              "end": 1470
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1430,
+              "end": 1470
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1430,
+                "end": 1470
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 98.99,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1430,
+                "end": 1470
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model based RNN with a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1430,
+              "end": 1470
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1430,
+              "end": 1470
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1430,
+                "end": 1470
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.89,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1430,
+                "end": 1470
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model based RNN without a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1430,
+              "end": 1470
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1430,
+              "end": 1470
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1430,
+                "end": 1470
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 98.76,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1430,
+                "end": 1470
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model based RNN without a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1430,
+              "end": 1470
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1430,
+              "end": 1470
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1430,
+                "end": 1470
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.65,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1430,
+                "end": 1470
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-model RNN with a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 98.99,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN with a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.89,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN without a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 98.76,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN without a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.65,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-model RNN with a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1480,
+              "end": 1520
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1480,
+              "end": 1520
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1480,
+                "end": 1520
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 98.99,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1480,
+                "end": 1520
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN with a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1480,
+              "end": 1520
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1480,
+              "end": 1520
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1480,
+                "end": 1520
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.89,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1480,
+                "end": 1520
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN without a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1480,
+              "end": 1520
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1480,
+              "end": 1520
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1480,
+                "end": 1520
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 98.76,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1480,
+                "end": 1520
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN without a decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1480,
+              "end": 1520
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1480,
+              "end": 1520
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1480,
+                "end": 1520
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.65,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1480,
+                "end": 1520
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-model RNN with decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 98.99,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": "Achieves state-of-the-art performance on ATIS dataset."
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN with decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.89,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": "Achieves state-of-the-art performance on ATIS dataset."
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN without decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 98.76,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": "Achieves state-of-the-art performance on ATIS dataset."
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN without decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.65,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": "Achieves state-of-the-art performance on ATIS dataset."
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN with decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "datasets": [
+            {
+              "name": "multi-domain (Movie)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 95.91,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": "Outperforms previous best model on multi-domain data."
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN with decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "datasets": [
+            {
+              "name": "multi-domain (Movie)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 93.8,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": "Outperforms previous best model on multi-domain data."
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN with decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "datasets": [
+            {
+              "name": "multi-domain (Food)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 99.49,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": "Outperforms previous best model on multi-domain data."
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN with decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "datasets": [
+            {
+              "name": "multi-domain (Food)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.8,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": "Outperforms previous best model on multi-domain data."
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN with decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "datasets": [
+            {
+              "name": "multi-domain (Home)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 99.27,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": "Outperforms previous best model on multi-domain data."
+        },
+        {
+          "method": {
+            "name": "Bi-model RNN with decoder",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 10000
+            }
+          },
+          "datasets": [
+            {
+              "name": "multi-domain (Home)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 98.2,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 10000
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Attention BiRNN"
+          ],
+          "notes": "Outperforms previous best model on multi-domain data."
+        }
+      ]
+    }
+  ]
+}

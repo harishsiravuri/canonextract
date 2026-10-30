@@ -1,0 +1,4 @@
+Paper 1 baseline on MetaLead: 27 papers
+python-dotenv could not parse statement starting at line 13
+  baseline ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27/27 0:18:42
+done: ok=7 err=5 skip=15 cost=$0.2024

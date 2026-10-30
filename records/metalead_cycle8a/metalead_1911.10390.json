@@ -1,0 +1,1017 @@
+{
+  "paper_id": "1911.10390",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 16,
+    "total": 20,
+    "prose_claimed_table": 4
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": "gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.19,
+          "unit": null,
+          "canonical_id": "rouge 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "lvt5k-1sent",
+        "Multi-Task w/ Entailment",
+        "SEASS",
+        "DRGD",
+        "EntailGen+QuesGen",
+        "PG Networks",
+        "Struct+2Way+Relation",
+        "R3Sum",
+        "BiSET"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Beam+SBWR (r=0.25)",
+        "header_path": "R-1",
+        "cell": "39.08",
+        "_content_hash": "b68056adeaa2",
+        "_paper_hash": "253eca78385a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-1",
+          "cell": "39.07",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": "gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 20.47,
+          "unit": null,
+          "canonical_id": "rouge 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "lvt5k-1sent",
+        "Multi-Task w/ Entailment",
+        "SEASS",
+        "DRGD",
+        "EntailGen+QuesGen",
+        "PG Networks",
+        "Struct+2Way+Relation",
+        "R3Sum",
+        "BiSET"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Beam+SBWR (r=0.25)",
+        "header_path": "R-1",
+        "cell": "39.08",
+        "_content_hash": "b68056adeaa2",
+        "_paper_hash": "253eca78385a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-2",
+          "cell": "20.28",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": "gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.69,
+          "unit": null,
+          "canonical_id": "rouge l"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "lvt5k-1sent",
+        "Multi-Task w/ Entailment",
+        "SEASS",
+        "DRGD",
+        "EntailGen+QuesGen",
+        "PG Networks",
+        "Struct+2Way+Relation",
+        "R3Sum",
+        "BiSET"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Beam+SBWR (r=0.25)",
+        "header_path": "R-1",
+        "cell": "39.08",
+        "_content_hash": "b68056adeaa2",
+        "_paper_hash": "253eca78385a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-L",
+          "cell": "36.49",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": "gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 61.51,
+          "unit": null,
+          "canonical_id": "bertscore"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "lvt5k-1sent",
+        "Multi-Task w/ Entailment",
+        "SEASS",
+        "DRGD",
+        "EntailGen+QuesGen",
+        "PG Networks",
+        "Struct+2Way+Relation",
+        "R3Sum",
+        "BiSET"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Beam+SBWR (r=0.25)",
+        "header_path": "R-1",
+        "cell": "39.08",
+        "_content_hash": "b68056adeaa2",
+        "_paper_hash": "253eca78385a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "Bert-S",
+          "cell": "61.27",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Newsroom",
+          "canonical_id": "newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.19,
+          "unit": null,
+          "canonical_id": "rouge 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "lvt5k-1sent",
+        "Multi-Task w/ Entailment",
+        "SEASS",
+        "DRGD",
+        "EntailGen+QuesGen",
+        "PG Networks",
+        "Struct+2Way+Relation",
+        "R3Sum",
+        "BiSET"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Beam+SBWR (r=0.25)",
+        "header_path": "R-1",
+        "cell": "39.08",
+        "_content_hash": "b68056adeaa2",
+        "_paper_hash": "253eca78385a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-1",
+          "cell": "39.07",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Newsroom",
+          "canonical_id": "newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 20.47,
+          "unit": null,
+          "canonical_id": "rouge 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "lvt5k-1sent",
+        "Multi-Task w/ Entailment",
+        "SEASS",
+        "DRGD",
+        "EntailGen+QuesGen",
+        "PG Networks",
+        "Struct+2Way+Relation",
+        "R3Sum",
+        "BiSET"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Beam+SBWR (r=0.25)",
+        "header_path": "R-1",
+        "cell": "39.08",
+        "_content_hash": "b68056adeaa2",
+        "_paper_hash": "253eca78385a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-2",
+          "cell": "20.28",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Newsroom",
+          "canonical_id": "newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.69,
+          "unit": null,
+          "canonical_id": "rouge l"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "lvt5k-1sent",
+        "Multi-Task w/ Entailment",
+        "SEASS",
+        "DRGD",
+        "EntailGen+QuesGen",
+        "PG Networks",
+        "Struct+2Way+Relation",
+        "R3Sum",
+        "BiSET"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Beam+SBWR (r=0.25)",
+        "header_path": "R-1",
+        "cell": "39.08",
+        "_content_hash": "b68056adeaa2",
+        "_paper_hash": "253eca78385a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "f.",
+          "column_header": "3-gram",
+          "cell": "36.93",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Newsroom",
+          "canonical_id": "newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 61.51,
+          "unit": null,
+          "canonical_id": "bertscore"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "lvt5k-1sent",
+        "Multi-Task w/ Entailment",
+        "SEASS",
+        "DRGD",
+        "EntailGen+QuesGen",
+        "PG Networks",
+        "Struct+2Way+Relation",
+        "R3Sum",
+        "BiSET"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Beam+SBWR (r=0.25)",
+        "header_path": "R-1",
+        "cell": "39.08",
+        "_content_hash": "b68056adeaa2",
+        "_paper_hash": "253eca78385a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "Bert-S",
+          "cell": "61.27",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": "gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "1-gram",
+          "value": 98.9,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "a.",
+        "header_path": "1-gram",
+        "cell": "98.90",
+        "_paper_hash": "253eca78385a",
+        "_content_hash": "cc8de3329eb4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "a.",
+          "column_header": "1-gram",
+          "cell": "99.19",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": "gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "2-gram",
+          "value": 55.92,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "253eca78385a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "f.",
+          "column_header": "2-gram",
+          "cell": "56.36",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": "gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "3-gram",
+          "value": 33.85,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "253eca78385a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "c.",
+          "column_header": "3-gram",
+          "cell": "33.84",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": "gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "4-gram",
+          "value": 20.32,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "253eca78385a",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-2",
+          "cell": "20.28",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": "gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Average",
+          "value": 52.25,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "253eca78385a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "f.",
+          "column_header": "Average",
+          "cell": "52.23",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Newsroom",
+          "canonical_id": "newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "1-gram",
+          "value": 98.9,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "253eca78385a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "a.",
+          "column_header": "1-gram",
+          "cell": "99.19",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Newsroom",
+          "canonical_id": "newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "2-gram",
+          "value": 55.92,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "253eca78385a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "f.",
+          "column_header": "2-gram",
+          "cell": "56.36",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Newsroom",
+          "canonical_id": "newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "3-gram",
+          "value": 33.85,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "253eca78385a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "c.",
+          "column_header": "3-gram",
+          "cell": "33.84",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Newsroom",
+          "canonical_id": "newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "4-gram",
+          "value": 20.32,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "253eca78385a",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-2",
+          "cell": "20.28",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Newsroom",
+          "canonical_id": "newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Average",
+          "value": 52.25,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "253eca78385a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "c.",
+          "column_header": "2-gram",
+          "cell": "52.67",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": "gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 52.25,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "a.",
+        "header_path": "Average",
+        "cell": "52.25",
+        "_paper_hash": "253eca78385a",
+        "_content_hash": "a8562bc96768",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "c.",
+          "column_header": "2-gram",
+          "cell": "52.67",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom",
+          "canonical_id": "newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 60.22,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "a.",
+        "header_path": "Average",
+        "cell": "60.22",
+        "_paper_hash": "253eca78385a",
+        "_content_hash": "98acdce550b2",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "a.",
+          "column_header": "Average",
+          "cell": "60.22",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    }
+  ]
+}

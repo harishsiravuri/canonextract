@@ -1,0 +1,600 @@
+{
+  "paper_id": "1603.01354",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1040,
+          "end": 1110
+        }
+      },
+      "task": {
+        "name": "part-of-speech tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1110,
+          "end": 1130
+        }
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank WSJ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1110,
+            "end": 1130
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1110,
+            "end": 1130
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Senna",
+        "CharWNN",
+        "BLSTM-CRF"
+      ],
+      "notes": "Achieves state-of-the-art performance on POS tagging.",
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1040,
+          "end": 1110
+        }
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1130,
+          "end": 1150
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1130,
+            "end": 1150
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.21,
+          "unit": "%",
+          "evidence_span": {
+            "start": 1130,
+            "end": 1150
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Senna",
+        "BLSTM-CRF",
+        "LSTM-CNNs",
+        "joint NER and entity linking model"
+      ],
+      "notes": "Achieves state-of-the-art performance on NER.",
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 55380,
+    "tokens_out": 2459,
+    "cost_usd": 0.01991011,
+    "wall_seconds": 157.21408987045288,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-directional LSTM-CNNs-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1040,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1110,
+              "end": 1130
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank WSJ",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1110,
+                "end": 1130
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.55,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1110,
+                "end": 1130
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Senna",
+            "CharWNN",
+            "BLSTM-CRF"
+          ],
+          "notes": "Achieves state-of-the-art performance on POS tagging."
+        },
+        {
+          "method": {
+            "name": "Bi-directional LSTM-CNNs-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1040,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1130,
+              "end": 1150
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1130,
+                "end": 1150
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.21,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1130,
+                "end": 1150
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Senna",
+            "BLSTM-CRF",
+            "LSTM-CNNs",
+            "joint NER and entity linking model"
+          ],
+          "notes": "Achieves state-of-the-art performance on NER."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-directional LSTM-CNNs-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank WSJ",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.55,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "sogaard:2011:ACL-HLT20111"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-directional LSTM-CNNs-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.21,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "luo-EtAl:2015:EMNLP2"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-directional LSTM-CNNs-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1021,
+              "end": 1117
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1182,
+              "end": 1201
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank WSJ",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1182,
+                "end": 1201
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.55,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1287,
+                "end": 1295
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Senna",
+            "CharWNN",
+            "traditional statistical models"
+          ],
+          "notes": "Achieves state-of-the-art accuracy on POS tagging."
+        },
+        {
+          "method": {
+            "name": "Bi-directional LSTM-CNNs-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1021,
+              "end": 1117
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1203,
+              "end": 1225
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1203,
+                "end": 1225
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.21,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1297,
+                "end": 1303
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Senna",
+            "LSTM-CRF",
+            "LSTM-CNNs",
+            "joint NER and entity linking model"
+          ],
+          "notes": "Achieves state-of-the-art F1 score on NER."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BLSTM-CNN-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2257,
+              "end": 2308
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2265,
+              "end": 2286
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank WSJ",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2288,
+                "end": 2311
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.55,
+              "unit": "%",
+              "evidence_span": {
+                "start": 2313,
+                "end": 2322
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Senna",
+            "CharWNN",
+            "sogaard:2011:ACL-HLT20111"
+          ],
+          "notes": "Achieves state-of-the-art accuracy on POS tagging."
+        },
+        {
+          "method": {
+            "name": "BLSTM-CNN-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2257,
+              "end": 2308
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2291,
+              "end": 2318
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2314,
+                "end": 2326
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.21,
+              "unit": "%",
+              "evidence_span": {
+                "start": 2328,
+                "end": 2335
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Senna",
+            "huang2015bidirectional",
+            "chiu2015named",
+            "lample:2016:NAACL",
+            "luo-EtAl:2015:EMNLP2"
+          ],
+          "notes": "Achieves state-of-the-art F1 score on NER."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-directional LSTM-CNNs-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1466,
+              "end": 1528
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1466,
+              "end": 1528
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank WSJ",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1466,
+                "end": 1528
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.55,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1466,
+                "end": 1528
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BRNN",
+            "BLSTM",
+            "BLSTM-CNN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-directional LSTM-CNNs-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1466,
+              "end": 1528
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1466,
+              "end": 1528
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1466,
+                "end": 1528
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.21,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1466,
+                "end": 1528
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BRNN",
+            "BLSTM",
+            "BLSTM-CNN"
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

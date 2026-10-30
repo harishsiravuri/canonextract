@@ -1,0 +1,87 @@
+{
+  "paper_id": "3acc07f7f8951617276cf99483ed02aeb0a6eeac",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "NoAdapt hoffman_fcns_2016",
+          "header_path": "2 * [-2em] IoU",
+          "cell": "21.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "NoAdapt hoffman_fcns_2016",
+          "column_header": "fence",
+          "cell": "21.1",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "NoAdapt hoffman_fcns_2016",
+      "task": "semantic segmentation",
+      "dataset": "Cityscapes",
+      "metric": "IoU",
+      "value": 21.1
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "^2 Distance",
+          "header_path": "Uniform",
+          "cell": "1.13"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "NoAdapt hoffman_fcns_2016",
+          "column_header": "mbike",
+          "cell": "1.0",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Uniform",
+      "task": "semantic segmentation",
+      "dataset": "Cityscapes",
+      "metric": "^2 Distance",
+      "value": 1.13
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "^2 Distance",
+          "header_path": "LR",
+          "cell": "0.27"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours (SP)",
+          "column_header": "car",
+          "cell": "0.0",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LR",
+      "task": "label distribution prediction",
+      "dataset": "Cityscapes",
+      "metric": "^2 Distance",
+      "value": 0.27
+    }
+  ]
+}

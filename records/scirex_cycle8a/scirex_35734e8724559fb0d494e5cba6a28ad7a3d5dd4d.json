@@ -1,0 +1,218 @@
+{
+  "paper_id": "35734e8724559fb0d494e5cba6a28ad7a3d5dd4d",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose": 4,
+    "total": 5,
+    "missing": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "fast gradient sign method",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "mnist"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 99.9,
+          "unit": "%",
+          "canonical_id": "error rate"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "shallow softmax classifier"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "We find that using eps=.25, we cause a shallow softmax classifier to have an error rate of 99.9% with an average confidence of 79.3% on the MNIST test set",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "a6201b5f2074",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "fast gradient sign method",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "cifar 10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 87.15,
+          "unit": "%",
+          "canonical_id": "error rate"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "convolutional maxout network"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Similarly, using eps=.1, we obtain an error rate of 87.15% and an average probability of 96.6% assigned to the incorrect labels when using a convolutional maxout network on a preprocessed version of the CIFAR-10 test set",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "a6201b5f2074",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "fast gradient sign method",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "mnist"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average confidence",
+          "value": 79.3,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "We find that using eps=.25, we cause a shallow softmax classifier to have an error rate of 99.9% with an average confidence of 79.3% on the MNIST test set",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "a6201b5f2074",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "fast gradient sign method",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "cifar-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "average probability",
+          "value": 96.6,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Similarly, using eps=.1, we obtain an error rate of 87.15% and an average probability of 96.6% assigned to the incorrect labels when using a convolutional maxout network on a preprocessed version of the CIFAR-10 test set",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "a6201b5f2074",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "fast gradient sign method",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ImageNet",
+          "canonical_id": "imagenet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "confidence",
+          "value": 57.7,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "``panda''",
+        "header_path": "m .2 m .5in > m .2 m .1in > m .2 panda_577.png",
+        "cell": "57.7\\% confidence",
+        "_content_hash": "b64dd5b46eec",
+        "_paper_hash": "a6201b5f2074",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    }
+  ]
+}

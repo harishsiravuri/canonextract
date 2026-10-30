@@ -1,0 +1,114 @@
+{
+  "paper_id": "160563abbd75265b19afc8b4169bab9e1eb33d97",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "conneau2018xnli",
+          "header_path": "Zero-Shot Transfer, one NLI system for all languages:",
+          "cell": "55.7"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "xx err.",
+          "column_header": "fy",
+          "cell": "55.77",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Proposed method",
+      "task": "cross-lingual natural language inference",
+      "dataset": "XNLI",
+      "metric": "accuracy",
+      "value": 55.7
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Proposed method",
+      "task": "cross-lingual document classification",
+      "dataset": "MLDoc",
+      "metric": "accuracy",
+      "value": null
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Proposed method",
+      "task": "bitext mining",
+      "dataset": "BUCC",
+      "metric": "F1",
+      "value": null
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Proposed method",
+      "task": "multilingual similarity search",
+      "dataset": "Tatoeba",
+      "metric": "error rate",
+      "value": null
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "conneau2018xnli",
+          "header_path": "Zero-Shot Transfer, one NLI system for all languages:",
+          "cell": "55.7"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "xx err.",
+          "column_header": "fy",
+          "cell": "55.77",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Proposed method",
+      "task": "natural language inference",
+      "dataset": "xnli",
+      "metric": "accuracy",
+      "value": 55.7
+    }
+  ]
+}

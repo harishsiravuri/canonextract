@@ -1,0 +1,267 @@
+{
+  "paper_id": "1811.09242",
+  "contributions": [
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1555,
+          "end": 1563
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 247,
+          "end": 264
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1016,
+            "end": 1026
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 9.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 1764,
+            "end": 1767
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F-S",
+          "value": 61.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 1769,
+            "end": 1773
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "Spectral",
+        "HC",
+        "HC+Zipf",
+        "BNP-HC",
+        "CRP-PPMI",
+        "SE-WSI-fix"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1555,
+          "end": 1563
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 247,
+          "end": 264
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1044,
+            "end": 1054
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 61.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 1842,
+            "end": 1845
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F-NMI",
+          "value": 7.96,
+          "unit": null,
+          "evidence_span": {
+            "start": 1847,
+            "end": 1851
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "AI-KU",
+        "Unimelb",
+        "STM",
+        "STM+w2v",
+        "WG",
+        "DIVE",
+        "MCC"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1555,
+          "end": 1563
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2081,
+          "end": 2104
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Arnet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2105,
+            "end": 2109
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 58.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 2234,
+            "end": 2237
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "HC",
+        "STM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1555,
+          "end": 1563
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2081,
+          "end": 2104
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "PubMed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2140,
+            "end": 2146
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 46.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 2259,
+            "end": 2263
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "HC",
+        "STM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 59312,
+    "tokens_out": 8165,
+    "cost_usd": 0.0316179,
+    "wall_time_seconds": 125.8654740001075,
+    "voting_samples": 3
+  }
+}

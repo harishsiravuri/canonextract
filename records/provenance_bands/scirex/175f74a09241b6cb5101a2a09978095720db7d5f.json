@@ -1,0 +1,266 @@
+{
+  "paper_id": "175f74a09241b6cb5101a2a09978095720db7d5f",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.66"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "90 Ours",
+          "column_header": "x3",
+          "cell": "34.66",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "4 * 90 Ours",
+      "task": "image super resolution",
+      "dataset": "Set5",
+      "metric": "PSNR",
+      "value": 34.66
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.66"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "90 Ours",
+          "column_header": "x3",
+          "cell": "34.66",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "4 * 90 Ours",
+      "task": "image super resolution",
+      "dataset": "Set14",
+      "metric": "PSNR",
+      "value": 34.66
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.66"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "90 Ours",
+          "column_header": "x3",
+          "cell": "34.66",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "4 * 90 Ours",
+      "task": "image super resolution",
+      "dataset": "BSDS100",
+      "metric": "PSNR",
+      "value": 34.66
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.66"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "90 Ours",
+          "column_header": "x3",
+          "cell": "34.66",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "4 * 90 Ours",
+      "task": "image super resolution",
+      "dataset": "Urban100",
+      "metric": "PSNR",
+      "value": 34.66
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.96"
+        },
+        "hit": null
+      },
+      "method": "DSRN",
+      "task": "image super resolution",
+      "dataset": "Set5",
+      "metric": "SSIM",
+      "value": 0.913
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.96"
+        },
+        "hit": null
+      },
+      "method": "DSRN",
+      "task": "image super resolution",
+      "dataset": "Set5",
+      "metric": "IFC",
+      "value": 8.169
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.96"
+        },
+        "hit": null
+      },
+      "method": "DSRN",
+      "task": "image super resolution",
+      "dataset": "Set14",
+      "metric": "SSIM",
+      "value": 0.913
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.96"
+        },
+        "hit": null
+      },
+      "method": "DSRN",
+      "task": "image super resolution",
+      "dataset": "Set14",
+      "metric": "IFC",
+      "value": 8.169
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.96"
+        },
+        "hit": null
+      },
+      "method": "DSRN",
+      "task": "image super resolution",
+      "dataset": "BSDS100",
+      "metric": "SSIM",
+      "value": 0.913
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.96"
+        },
+        "hit": null
+      },
+      "method": "DSRN",
+      "task": "image super resolution",
+      "dataset": "BSDS100",
+      "metric": "IFC",
+      "value": 8.169
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.96"
+        },
+        "hit": null
+      },
+      "method": "DSRN",
+      "task": "image super resolution",
+      "dataset": "Urban100",
+      "metric": "SSIM",
+      "value": 0.913
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "4 * 90 Ours",
+          "header_path": "x3",
+          "cell": "34.96"
+        },
+        "hit": null
+      },
+      "method": "DSRN",
+      "task": "image super resolution",
+      "dataset": "Urban100",
+      "metric": "IFC",
+      "value": 8.169
+    }
+  ]
+}

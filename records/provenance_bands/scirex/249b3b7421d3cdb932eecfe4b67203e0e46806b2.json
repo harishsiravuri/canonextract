@@ -1,0 +1,195 @@
+{
+  "paper_id": "249b3b7421d3cdb932eecfe4b67203e0e46806b2",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "300D 3-layer Bi-CAS-LSTM (ours)",
+          "header_path": "Acc. (\\%)",
+          "cell": "87.0"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "300D 2-layer Bi-CAS-LSTM (ours)",
+          "column_header": "Acc. (\\%)",
+          "cell": "86.8",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "300D 3-layer Bi-CAS-LSTM (ours)",
+      "task": "natural language inference",
+      "dataset": "SNLI",
+      "metric": "Acc. (\\%)",
+      "value": 87.0
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "2-layer Bi-CAS-LSTM (ours)",
+          "header_path": "In (\\%)",
+          "cell": "74.6"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "2-layer Bi-CAS-LSTM (ours)",
+          "column_header": "In (\\%)",
+          "cell": "74.6",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "2-layer Bi-CAS-LSTM (ours)",
+      "task": "natural language inference",
+      "dataset": "MultiNLI",
+      "metric": "In (\\%)",
+      "value": 74.6
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Bi-CAS-LSTM (ours)",
+          "header_path": "Acc. (\\%)",
+          "cell": "88.6"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "CAS-LSTM (ours)",
+          "column_header": "Acc. (\\%)",
+          "cell": "88.4",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-CAS-LSTM (ours)",
+      "task": "paraphrase identification",
+      "dataset": "Quora Question Pairs",
+      "metric": "Acc. (\\%)",
+      "value": 88.6
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "2-layer Bi-CAS-LSTM (ours)",
+          "header_path": "SST-2 (\\%)",
+          "cell": "91.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "2-layer CAS-LSTM (ours)",
+          "column_header": "SST-2 (\\%)",
+          "cell": "91.1",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "2-layer Bi-CAS-LSTM (ours)",
+      "task": "sentiment analysis",
+      "dataset": "SST-2",
+      "metric": "SST-2 (\\%)",
+      "value": 91.3
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "300D 2-layer CAS-LSTM (ours)",
+          "header_path": "Acc. (\\%)",
+          "cell": "86.4"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "300D LSTM bowman2016spinn",
+          "column_header": "\\# Params",
+          "cell": "3.0M",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "300D 2-layer CAS-LSTM (ours)",
+      "task": "natural language inference",
+      "dataset": "SNLI",
+      "metric": "\\# Params",
+      "value": 2.9
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "2-layer CAS-LSTM (ours)",
+          "header_path": "In (\\%)",
+          "cell": "74.0"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "2-layer CAS-LSTM (ours)",
+          "column_header": "Cross (\\%)",
+          "cell": "73.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "2-layer CAS-LSTM (ours)",
+      "task": "natural language inference",
+      "dataset": "MultiNLI",
+      "metric": "Cross (\\%)",
+      "value": 73.3
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "2-layer CAS-LSTM (ours)",
+          "header_path": "In (\\%)",
+          "cell": "74.0"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "300D LSTM bowman2016spinn",
+          "column_header": "\\# Params",
+          "cell": "3.0M",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "2-layer CAS-LSTM (ours)",
+      "task": "natural language inference",
+      "dataset": "MultiNLI",
+      "metric": "\\# Params",
+      "value": 2.9
+    }
+  ]
+}

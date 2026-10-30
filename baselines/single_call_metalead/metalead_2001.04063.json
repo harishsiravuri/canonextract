@@ -1,0 +1,99 @@
+{
+  "paper_id": "2001.04063",
+  "contributions": [
+    {
+      "method": {
+        "name": "ProphetNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 155,
+          "end": 165
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 509,
+          "end": 531
+        },
+        "confidence": 0.83
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 509,
+            "end": 523
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 541,
+            "end": 548
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.68,
+          "unit": null,
+          "evidence_span": {
+            "start": 2341,
+            "end": 2347
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ROUGE-2",
+          "value": 20.64,
+          "unit": null,
+          "evidence_span": {
+            "start": 2348,
+            "end": 2354
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "ROUGE-L",
+          "value": 40.72,
+          "unit": null,
+          "evidence_span": {
+            "start": 2355,
+            "end": 2361
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MASS",
+        "UniLM"
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 66366,
+    "tokens_out": 13524,
+    "cost_usd": 0.04048608,
+    "wall_time_seconds": 186.38381504197605,
+    "voting_samples": 3
+  }
+}

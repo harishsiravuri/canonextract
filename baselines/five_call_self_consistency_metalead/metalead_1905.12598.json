@@ -1,0 +1,1066 @@
+{
+  "paper_id": "1905.12598",
+  "contributions": [
+    {
+      "method": {
+        "name": "BERT",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2030
+        }
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1030
+        }
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 3000,
+            "end": 3030
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 37.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 4000,
+            "end": 4030
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ELMo"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "BERT",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 2000,
+          "end": 2030
+        }
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1030
+        }
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5000,
+            "end": 5030
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 53.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 6000,
+            "end": 6030
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ELMo"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 50570,
+    "tokens_out": 5662,
+    "cost_usd": 0.02122158,
+    "wall_seconds": 159.28801774978638,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2000,
+              "end": 2030
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1000,
+              "end": 1030
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 3000,
+                "end": 3030
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 37.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 4000,
+                "end": 4030
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2000,
+              "end": 2030
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1000,
+              "end": 1030
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 5000,
+                "end": 5030
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 53.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 6000,
+                "end": 6030
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERT with dynamic patterns",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 7000,
+              "end": 7030
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1000,
+              "end": 1030
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 3000,
+                "end": 3030
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 37.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 4000,
+                "end": 4030
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT without dynamic patterns"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERT with dynamic patterns",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 7000,
+              "end": 7030
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1000,
+              "end": 1030
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 5000,
+                "end": 5030
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 53.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 6000,
+                "end": 6030
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT without dynamic patterns"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1630,
+              "end": 1634
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 123,
+              "end": 140
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1630,
+                "end": 1651
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 37.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 1630,
+                "end": 1651
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo"
+          ],
+          "notes": "BERT achieves an AVG score of 37.0 compared to 25.4 with ELMo."
+        },
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1630,
+              "end": 1634
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 123,
+              "end": 140
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1630,
+                "end": 1651
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 53.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 1630,
+                "end": 1651
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo"
+          ],
+          "notes": "BERT achieves an AVG score of 53.6 on SemEval 2010 Task 14."
+        },
+        {
+          "method": {
+            "name": "BERT with dynamic patterns",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1630,
+              "end": 1651
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 123,
+              "end": 140
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1630,
+                "end": 1651
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 37.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 1630,
+                "end": 1651
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT without dynamic patterns"
+          ],
+          "notes": "Dynamic patterns contribute almost 2 additional points to the AVG score."
+        },
+        {
+          "method": {
+            "name": "BERT with dynamic patterns",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1630,
+              "end": 1651
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 123,
+              "end": 140
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1630,
+                "end": 1651
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 53.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 1630,
+                "end": 1651
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT without dynamic patterns"
+          ],
+          "notes": "Dynamic patterns contribute to the AVG score on SemEval 2010 Task 14."
+        },
+        {
+          "method": {
+            "name": "Dynamic number of clusters",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1630,
+              "end": 1651
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 123,
+              "end": 140
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1630,
+                "end": 1651
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "Spearman rank correlation",
+              "value": 0.43,
+              "unit": null,
+              "evidence_span": {
+                "start": 1630,
+                "end": 1651
+              }
+            }
+          ],
+          "claim_strength": "novel",
+          "comparison_targets": [
+            "Fixed number of clusters"
+          ],
+          "notes": "Dynamic number of clusters achieves a Spearman rank correlation of 0.43 with the gold number of senses."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2174,
+              "end": 2178
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1024,
+              "end": 1041
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1253,
+                "end": 1272
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 37.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 2179,
+                "end": 2183
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo"
+          ],
+          "notes": "BERT with dynamic patterns achieves AVG score of 37.0 compared to 25.4 with ELMo-based LSDP."
+        },
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2174,
+              "end": 2178
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1024,
+              "end": 1041
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2245,
+                "end": 2264
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 53.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 2245,
+                "end": 2249
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo"
+          ],
+          "notes": "BERT achieves AVG score of 53.6 on SemEval 2010 Task 14."
+        },
+        {
+          "method": {
+            "name": "BERT with dynamic patterns",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2174,
+              "end": 2193
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1024,
+              "end": 1041
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1253,
+                "end": 1272
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 37.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 2179,
+                "end": 2183
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT without dynamic patterns"
+          ],
+          "notes": "Adding dynamic patterns contributes almost 2 additional points to the AVG score."
+        },
+        {
+          "method": {
+            "name": "dynamic number of clusters",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2529,
+              "end": 2553
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1024,
+              "end": 1041
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1253,
+                "end": 1272
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "spearman rank correlation",
+              "value": 0.43,
+              "unit": null,
+              "evidence_span": {
+                "start": 3409,
+                "end": 3423
+              }
+            }
+          ],
+          "claim_strength": "novel",
+          "comparison_targets": [
+            "fixed number of clusters"
+          ],
+          "notes": "Dynamic number of clusters achieves a spearman rank correlation of 0.43 with the gold number of senses."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2402,
+              "end": 2406
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 115,
+              "end": 131
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2402,
+                "end": 2421
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 37.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 2402,
+                "end": 2421
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSDP",
+            "AutoSense",
+            "MCC-S",
+            "ST(SW)",
+            "AI-KU"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2402,
+              "end": 2406
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 115,
+              "end": 131
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2402,
+                "end": 2421
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 53.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 2402,
+                "end": 2421
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "AutoSense",
+            "SE-WSI-fix",
+            "BNP-HC",
+            "LDA"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERT with dynamic patterns",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2402,
+              "end": 2421
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 115,
+              "end": 131
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2402,
+                "end": 2421
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 37.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 2402,
+                "end": 2421
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT without dynamic patterns"
+          ],
+          "notes": "Dynamic patterns contribute almost 2 additional points to the already high AVG scores."
+        },
+        {
+          "method": {
+            "name": "BERT with dynamic patterns",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2402,
+              "end": 2421
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 115,
+              "end": 131
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2402,
+                "end": 2421
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 53.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 2402,
+                "end": 2421
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT without dynamic patterns"
+          ],
+          "notes": "Dynamic patterns contribute almost 2 additional points to the already high AVG scores."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2327,
+              "end": 2331
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 109,
+              "end": 127
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2327,
+                "end": 2347
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 37.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 2327,
+                "end": 2347
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2327,
+              "end": 2331
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 109,
+              "end": 127
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2350,
+                "end": 2370
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 53.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 2350,
+                "end": 2370
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERT with dynamic patterns",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2327,
+              "end": 2331
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 109,
+              "end": 127
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2327,
+                "end": 2347
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 37.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 2327,
+                "end": 2347
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT without dynamic patterns"
+          ],
+          "notes": "Dynamic patterns contribute almost 2 additional points to the AVG scores."
+        },
+        {
+          "method": {
+            "name": "BERT with dynamic patterns",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2327,
+              "end": 2331
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 109,
+              "end": 127
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2350,
+                "end": 2370
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "AVG",
+              "value": 53.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 2350,
+                "end": 2370
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BERT without dynamic patterns"
+          ],
+          "notes": "Dynamic patterns contribute almost 2 additional points to the AVG scores."
+        }
+      ]
+    }
+  ]
+}

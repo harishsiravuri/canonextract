@@ -1,0 +1,419 @@
+{
+  "paper_id": "249b3b7421d3cdb932eecfe4b67203e0e46806b2",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 2,
+    "total": 7,
+    "strict_table_valid": 5
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "300D 3-layer Bi-CAS-LSTM (ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": "snli"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc. (\\%)",
+          "value": 87.0,
+          "unit": null,
+          "canonical_id": "acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "300D LSTM bowman2016spinn",
+        "300D TBCNN mou2016snli",
+        "300D SPINN-PI bowman2016spinn",
+        "600D BiLSTM with intra-attention liu2016learning",
+        "4096D BiLSTM with max-pooling conneau2017infersent",
+        "300D BiLSTM with gated pooling chen2017gated",
+        "300D Gumbel Tree-LSTM choi2018learning",
+        "600D Shortcut stacked BiLSTM nie2017shortcut",
+        "300D Reinforced self-attention network shen2018reinforced",
+        "600D BiLSTM with generalized pooling chen2018generalized"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "300D 3-layer Bi-CAS-LSTM (ours)",
+        "header_path": "Acc. (\\%)",
+        "cell": "87.0",
+        "_content_hash": "42dfc06d32ad",
+        "_paper_hash": "06ce46cb5f37",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "300D 2-layer Bi-CAS-LSTM (ours)",
+          "column_header": "Acc. (\\%)",
+          "cell": "86.8",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "2-layer Bi-CAS-LSTM (ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "MultiNLI",
+          "canonical_id": "multinli"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "In (\\%)",
+          "value": 74.6,
+          "unit": null,
+          "canonical_id": "in"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CBOW williams2018mnli",
+        "BiLSTM williams2018mnli",
+        "Shortcut stacked BiLSTM nie2017shortcut ^",
+        "BiLSTM with gated pooling chen2017gated",
+        "BiLSTM with generalized pooling chen2018generalized"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "2-layer Bi-CAS-LSTM (ours)",
+        "header_path": "In (\\%)",
+        "cell": "74.6",
+        "_content_hash": "fc07ba1c9ead",
+        "_paper_hash": "06ce46cb5f37",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "2-layer Bi-CAS-LSTM (ours)",
+          "column_header": "In (\\%)",
+          "cell": "74.6",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"2-layer Bi-CAS-LSTM (ours)\" refers to the paper's proposed method, the header path \"In (%)\" matches the tuple's Metric, and the cell content \"74.6\" matches the tuple's Value, with \"ours\" referring to the Cell-aware Stacked LSTM (CAS-LSTM) method per the paper excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-CAS-LSTM (ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "paraphrase identification",
+        "canonical_id": "paraphrase detection"
+      },
+      "datasets": [
+        {
+          "name": "Quora Question Pairs",
+          "canonical_id": "quora question pairs"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc. (\\%)",
+          "value": 88.6,
+          "unit": null,
+          "canonical_id": "acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN wang2017bilateral",
+        "LSTM wang2017bilateral",
+        "Multi-Perspective LSTM wang2017bilateral",
+        "LSTM + ElBiS choi2018elbis",
+        "REGMAPR (BASE+REG) brahma2018regmapr"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Bi-CAS-LSTM (ours)",
+        "header_path": "Acc. (\\%)",
+        "cell": "88.6",
+        "_content_hash": "d07bd4897021",
+        "_paper_hash": "06ce46cb5f37",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "CAS-LSTM (ours)",
+          "column_header": "Acc. (\\%)",
+          "cell": "88.4",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "2-layer Bi-CAS-LSTM (ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": "sentiment analysis"
+      },
+      "datasets": [
+        {
+          "name": "SST-2",
+          "canonical_id": "sst 2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "SST-2 (\\%)",
+          "value": 91.3,
+          "unit": null,
+          "canonical_id": "sst 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Recursive Neural Tensor Network socher2013recursive",
+        "2-layer LSTM tai2015treelstm",
+        "2-layer BiLSTM tai2015treelstm",
+        "Constituency Tree-LSTM tai2015treelstm",
+        "Constituency Tree-LSTM with recurrent dropout looks2017deep",
+        "byte mLSTM radford2017learning ^",
+        "Gumbel Tree-LSTM choi2018learning",
+        "BCN + Char + ELMo peters2018elmo ^"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "2-layer Bi-CAS-LSTM (ours)",
+        "header_path": "SST-2 (\\%)",
+        "cell": "91.3",
+        "_content_hash": "bb409eaf8ce6",
+        "_paper_hash": "06ce46cb5f37",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "2-layer CAS-LSTM (ours)",
+          "column_header": "SST-2 (\\%)",
+          "cell": "91.1",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe claimed cell is the source because the row label \"2-layer Bi-CAS-LSTM (ours)\" refers to the proposed method in the paper, the header path \"SST-2 (\\%)\" matches the tuple's Dataset and Metric, and the cell content \"91.3\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "300D 2-layer CAS-LSTM (ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\\# Params",
+          "value": 2.9,
+          "unit": "M",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "300D LSTM bowman2016spinn",
+        "300D TBCNN mou2016snli",
+        "300D SPINN-PI bowman2016spinn",
+        "600D BiLSTM with intra-attention liu2016learning",
+        "4096D BiLSTM with max-pooling conneau2017infersent",
+        "300D BiLSTM with gated pooling chen2017gated",
+        "300D Gumbel Tree-LSTM choi2018learning",
+        "600D Shortcut stacked BiLSTM nie2017shortcut",
+        "300D Reinforced self-attention network shen2018reinforced",
+        "600D BiLSTM with generalized pooling chen2018generalized"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "300D 2-layer CAS-LSTM (ours)",
+        "header_path": "Acc. (\\%)",
+        "cell": "86.4",
+        "_content_hash": "1604aff684aa",
+        "_paper_hash": "06ce46cb5f37",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "300D LSTM bowman2016spinn",
+          "column_header": "\\# Params",
+          "cell": "3.0M",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"86.4\" does not match the tuple's Value \"2.9\", which corresponds to the \"# Params\" metric, not \"Acc. (%)\"."
+      }
+    },
+    {
+      "method": {
+        "name": "2-layer CAS-LSTM (ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MultiNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Cross (\\%)",
+          "value": 73.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CBOW williams2018mnli",
+        "BiLSTM williams2018mnli",
+        "Shortcut stacked BiLSTM nie2017shortcut",
+        "BiLSTM with gated pooling chen2017gated",
+        "BiLSTM with generalized pooling chen2018generalized"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "2-layer CAS-LSTM (ours)",
+        "header_path": "In (\\%)",
+        "cell": "74.0",
+        "_content_hash": "0eb239dceea5",
+        "_paper_hash": "06ce46cb5f37",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "2-layer CAS-LSTM (ours)",
+          "column_header": "Cross (\\%)",
+          "cell": "73.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell content \"74.0\" does not match the tuple's Value \"73.3\", and the header path \"In (%)\" does not describe the tuple's Metric \"Cross (%)\"."
+      }
+    },
+    {
+      "method": {
+        "name": "2-layer CAS-LSTM (ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MultiNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\\# Params",
+          "value": 2.9,
+          "unit": "M",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CBOW williams2018mnli",
+        "BiLSTM williams2018mnli",
+        "Shortcut stacked BiLSTM nie2017shortcut",
+        "BiLSTM with gated pooling chen2017gated",
+        "BiLSTM with generalized pooling chen2018generalized"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "2-layer CAS-LSTM (ours)",
+        "header_path": "In (\\%)",
+        "cell": "74.0",
+        "_content_hash": "0eb239dceea5",
+        "_paper_hash": "06ce46cb5f37",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "300D LSTM bowman2016spinn",
+          "column_header": "\\# Params",
+          "cell": "3.0M",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"74.0\" does not match the tuple's Value \"2.9\", which indicates the number of parameters, not the accuracy."
+      }
+    }
+  ]
+}

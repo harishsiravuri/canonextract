@@ -1,0 +1,765 @@
+{
+  "paper_id": "1812.09471",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 12,
+    "total": 14,
+    "strict_table_valid": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "joint slot filling and intent detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU",
+          "canonical_id": "snips nlu"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Slot F1",
+          "value": 0.918,
+          "unit": null,
+          "canonical_id": "slot f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "SNIPS-NLU",
+        "cell": "0.918",
+        "_content_hash": "8ef59bde260d",
+        "_paper_hash": "7734dc1b283a",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN TriCRF xu2013convolutional",
+          "column_header": "Slot (F1)",
+          "cell": "0.944",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "joint slot filling and intent detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU",
+          "canonical_id": "snips nlu"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 0.973,
+          "unit": null,
+          "canonical_id": "intent acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "SNIPS-NLU",
+        "cell": "0.918",
+        "_content_hash": "8ef59bde260d",
+        "_paper_hash": "7734dc1b283a",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Joint Seq. hakkani2016multi",
+          "column_header": "Intent (Acc)",
+          "cell": "0.926",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "joint slot filling and intent detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU",
+          "canonical_id": "snips nlu"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall Accuracy",
+          "value": 0.809,
+          "unit": null,
+          "canonical_id": "overall acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "SNIPS-NLU",
+        "cell": "0.918",
+        "_content_hash": "8ef59bde260d",
+        "_paper_hash": "7734dc1b283a",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Joint Seq. hakkani2016multi",
+          "column_header": "Overall (Acc)",
+          "cell": "0.807",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "joint slot filling and intent detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Slot F1",
+          "value": 0.918,
+          "unit": null,
+          "canonical_id": "slot f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "SNIPS-NLU",
+        "cell": "0.918",
+        "_content_hash": "8ef59bde260d",
+        "_paper_hash": "7734dc1b283a",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN TriCRF xu2013convolutional",
+          "column_header": "Slot (F1)",
+          "cell": "0.944",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "joint slot filling and intent detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 0.973,
+          "unit": null,
+          "canonical_id": "intent acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "SNIPS-NLU",
+        "cell": "0.918",
+        "_content_hash": "8ef59bde260d",
+        "_paper_hash": "7734dc1b283a",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN TriCRF xu2013convolutional",
+          "column_header": "Slot (F1)",
+          "cell": "0.944",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "joint slot filling and intent detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall Accuracy",
+          "value": 0.809,
+          "unit": null,
+          "canonical_id": "overall acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "SNIPS-NLU",
+        "cell": "0.918",
+        "_content_hash": "8ef59bde260d",
+        "_paper_hash": "7734dc1b283a",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN TriCRF xu2013convolutional",
+          "column_header": "Slot (F1)",
+          "cell": "0.944",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU w/o Intent Detection",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "slot filling",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU",
+          "canonical_id": "snips nlu"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Slot F1",
+          "value": 0.902,
+          "unit": null,
+          "canonical_id": "slot f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "w/o Intent Detection",
+        "header_path": "SNIPS-NLU",
+        "cell": "0.902",
+        "_content_hash": "f58761d81a96",
+        "_paper_hash": "7734dc1b283a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "w/o Intent Detection",
+          "column_header": "Slot (F1)",
+          "cell": "0.902",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"w/o Intent Detection\" describes a variant of the proposed model, and the header path and cell content match the tuple's Dataset, Metric, and Value."
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU w/o Intent Detection",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "slot filling",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Slot F1",
+          "value": 0.902,
+          "unit": null,
+          "canonical_id": "slot f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "w/o Intent Detection",
+        "header_path": "SNIPS-NLU",
+        "cell": "0.902",
+        "_content_hash": "f58761d81a96",
+        "_paper_hash": "7734dc1b283a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "w/o Intent Detection",
+          "column_header": "Slot (F1)",
+          "cell": "0.902",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label \"w/o Intent Detection\" does not match the claimed Method \"Capsule-NLU w/o Intent Detection\", as the paper excerpt refers to \"our model\" which should be related to \"Capsule-NLU\", but the row label does not explicitly state this connection."
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU",
+          "canonical_id": "snips nlu"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Slot (F1)",
+          "value": 0.918,
+          "unit": null,
+          "canonical_id": "slot f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "Slot (F1)",
+        "cell": "0.918",
+        "_paper_hash": "7734dc1b283a",
+        "_content_hash": "ca8cc9451359",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN TriCRF xu2013convolutional",
+          "column_header": "Slot (F1)",
+          "cell": "0.944",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU",
+          "canonical_id": "snips nlu"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent (Acc)",
+          "value": 0.973,
+          "unit": null,
+          "canonical_id": "intent acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "7734dc1b283a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Joint Seq. hakkani2016multi",
+          "column_header": "Intent (Acc)",
+          "cell": "0.926",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU",
+          "canonical_id": "snips nlu"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.809,
+          "unit": null,
+          "canonical_id": "overall acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "7734dc1b283a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Joint Seq. hakkani2016multi",
+          "column_header": "Overall (Acc)",
+          "cell": "0.807",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Slot (F1)",
+          "value": 0.918,
+          "unit": null,
+          "canonical_id": "slot f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "7734dc1b283a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN TriCRF xu2013convolutional",
+          "column_header": "Slot (F1)",
+          "cell": "0.944",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent (Acc)",
+          "value": 0.973,
+          "unit": null,
+          "canonical_id": "intent acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "7734dc1b283a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN TriCRF xu2013convolutional",
+          "column_header": "Slot (F1)",
+          "cell": "0.944",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.809,
+          "unit": null,
+          "canonical_id": "overall acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "7734dc1b283a",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN TriCRF xu2013convolutional",
+          "column_header": "Slot (F1)",
+          "cell": "0.944",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

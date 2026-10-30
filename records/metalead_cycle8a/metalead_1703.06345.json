@@ -1,0 +1,550 @@
+{
+  "paper_id": "1703.06345",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 9,
+    "total": 9
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Ours w/ transfer",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pos tagging",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "PTB 2003",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "97.55",
+          "value": 97.55,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "collobert2011natural",
+        "passos2014lexicon",
+        "luo2015joint",
+        "huang2015bidirectional",
+        "gillick2015multilingual",
+        "ling2015finding",
+        "lample2016neural",
+        "ma2016end"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours w/ transfer",
+        "header_path": "PTB 2003",
+        "cell": "97.55",
+        "_content_hash": "7e40ee24a371",
+        "_paper_hash": "8ae1ade4123e",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "PTB 2003",
+          "cell": "97.55",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label \"PTB 2003\" does not describe the tuple's Method, which is \"Ours w/ transfer\", and the cell content \"97.55\" is not present in the provided table."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours w/ transfer",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "91.26",
+          "value": 91.26,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "collobert2011natural",
+        "passos2014lexicon",
+        "luo2015joint",
+        "huang2015bidirectional",
+        "gillick2015multilingual",
+        "ling2015finding",
+        "lample2016neural",
+        "ma2016end"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours w/ transfer",
+        "header_path": "CoNLL 2003",
+        "cell": "91.26",
+        "_content_hash": "fb977cf42b78",
+        "_paper_hash": "8ae1ade4123e",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "CoNLL 2003",
+          "cell": "91.20",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple because the row label \"Ours w/ transfer\" does not match any row in the provided table, and the header path \"CoNLL 2003\" is a row label, not a header."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "91.20",
+          "value": 91.2,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "collobert2011natural",
+        "passos2014lexicon",
+        "luo2015joint",
+        "huang2015bidirectional",
+        "gillick2015multilingual",
+        "ling2015finding",
+        "lample2016neural",
+        "ma2016end"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours w/o transfer",
+        "header_path": "CoNLL 2003",
+        "cell": "91.20",
+        "_content_hash": "17090f88df0c",
+        "_paper_hash": "8ae1ade4123e",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "CoNLL 2003",
+          "cell": "91.20",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the row label \"PTB 2003\", \"CoNLL 2000\", \"CoNLL 2003\", \"CoNLL 2002\", \"Genia\", \"Twitter\" in the table does not describe the tuple's Method \"Ours w/o transfer\", and the header path does not describe the tuple's Metric."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours w/ transfer",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Spanish",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "85.77",
+          "value": 85.77,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "collobert2011natural",
+        "passos2014lexicon",
+        "luo2015joint",
+        "huang2015bidirectional",
+        "gillick2015multilingual",
+        "ling2015finding",
+        "lample2016neural",
+        "ma2016end"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours w/ transfer",
+        "header_path": "Spanish",
+        "cell": "85.77",
+        "_content_hash": "5c4bbea0790f",
+        "_paper_hash": "8ae1ade4123e",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours w/ transfer",
+          "column_header": "Spanish",
+          "cell": "85.77",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the row label \"Ours w/ transfer\" is not present in the table, and the header path \"Spanish\" does not match the column structure of the table, which has a \"Language\" column but not a \"Spanish\" header."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Spanish",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "84.69",
+          "value": 84.69,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "collobert2011natural",
+        "passos2014lexicon",
+        "luo2015joint",
+        "huang2015bidirectional",
+        "gillick2015multilingual",
+        "ling2015finding",
+        "lample2016neural",
+        "ma2016end"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours w/o transfer",
+        "header_path": "Spanish",
+        "cell": "84.69",
+        "_content_hash": "4f532eb786ce",
+        "_paper_hash": "8ae1ade4123e",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "Spanish",
+          "cell": "84.69",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the row label \"PTB 2003\", \"CoNLL 2000\", \"CoNLL 2003\", \"CoNLL 2002\", \"Genia\", \"Twitter\" does not describe the tuple's Method \"Ours w/o transfer\", and the header path does not describe the tuple's Metric."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours w/ transfer",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Dutch",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "85.19",
+          "value": 85.19,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "collobert2011natural",
+        "passos2014lexicon",
+        "luo2015joint",
+        "huang2015bidirectional",
+        "gillick2015multilingual",
+        "ling2015finding",
+        "lample2016neural",
+        "ma2016end"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours w/ transfer",
+        "header_path": "Dutch",
+        "cell": "85.19",
+        "_content_hash": "31738a3ef82a",
+        "_paper_hash": "8ae1ade4123e",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "Dutch",
+          "cell": "85.00",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell cannot be the source of the tuple because the dataset mentioned in the claim is \"Dutch\", but the table does not contain any row with \"Dutch\" as the language, and the row label \"Ours w/ transfer\" is not present in the table."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Dutch",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "85.00",
+          "value": 85.0,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "collobert2011natural",
+        "passos2014lexicon",
+        "luo2015joint",
+        "huang2015bidirectional",
+        "gillick2015multilingual",
+        "ling2015finding",
+        "lample2016neural",
+        "ma2016end"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours w/o transfer",
+        "header_path": "Dutch",
+        "cell": "85.00",
+        "_content_hash": "98eb3664b0cd",
+        "_paper_hash": "8ae1ade4123e",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "Dutch",
+          "cell": "85.00",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell cannot be the source of the tuple because the row label \"Ours w/o transfer\" does not match the table structure, and the dataset \"Dutch\" is not present in the table, which only contains datasets for English and Spanish."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours w/ transfer",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "chunking",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2000",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "95.41",
+          "value": 95.41,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "collobert2011natural",
+        "passos2014lexicon",
+        "luo2015joint",
+        "huang2015bidirectional",
+        "gillick2015multilingual",
+        "ling2015finding",
+        "lample2016neural",
+        "ma2016end"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours w/ transfer",
+        "header_path": "CoNLL 2000",
+        "cell": "95.41",
+        "_content_hash": "d0a425fc4170",
+        "_paper_hash": "8ae1ade4123e",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours w/ transfer",
+          "column_header": "CoNLL 2000",
+          "cell": "95.41",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple because the row label \"PTB 2003\", \"CoNLL 2000\", etc., in the table does not describe the tuple's Method \"Ours w/ transfer\", which refers to the proposed transfer learning approach based on a deep hierarchical recurrent neural network as per the method excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "chunking",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2000",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "94.66",
+          "value": 94.66,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "collobert2011natural",
+        "passos2014lexicon",
+        "luo2015joint",
+        "huang2015bidirectional",
+        "gillick2015multilingual",
+        "ling2015finding",
+        "lample2016neural",
+        "ma2016end"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours w/o transfer",
+        "header_path": "CoNLL 2000",
+        "cell": "94.66",
+        "_content_hash": "25378d5783ac",
+        "_paper_hash": "8ae1ade4123e",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours w/o transfer",
+          "column_header": "CoNLL 2000",
+          "cell": "94.66",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe row label \"PTB"
+      }
+    }
+  ]
+}

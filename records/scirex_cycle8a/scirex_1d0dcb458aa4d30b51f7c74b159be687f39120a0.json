@@ -1,0 +1,976 @@
+{
+  "paper_id": "1d0dcb458aa4d30b51f7c74b159be687f39120a0",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 15,
+    "total": 15
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CUHK 03",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank1",
+          "value": 88.7,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "PDC",
+        "header_path": "rank1",
+        "cell": "88.70",
+        "_paper_hash": "47c3c0b5338e",
+        "_content_hash": "e20b509a8995",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank1",
+          "cell": "88.70",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe cell content \"78.29\" does not match the tuple's Value \"88.7\", indicating that the claimed cell is not the source of the tuple's combination."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CUHK 03",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank5",
+          "value": 98.61,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank5",
+          "cell": "98.61",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is empty and does not contain any information that matches the tuple's (Method, Dataset, Metric, Value) combination."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CUHK 03",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank10",
+          "value": 99.24,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank10",
+          "cell": "99.24",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is empty and does not contain any information that matches the tuple's (Method, Dataset, Metric, Value) combination, and the table does not provide any data related to the CUHK 03 dataset or the rank10 metric."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CUHK 03",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank20",
+          "value": 99.67,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank20",
+          "cell": "99.67",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label is empty and does not describe the tuple's Method, and there is no information in the table that matches the tuple's Dataset, Metric, or Value."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CUHK 03",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 63.41,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "PDC",
+          "column_header": "mAP",
+          "cell": "63.41",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label is empty and does not describe the tuple's Method, and there is no information in the table that matches the tuple's Dataset, Metric, or Value."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Market 1501",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank1",
+          "value": 88.7,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank1",
+          "cell": "88.70",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is empty and does not contain any information that matches the tuple's (Method, Dataset, Metric, Value) combination, and the table does not explicitly mention the Market 1501 dataset or the rank1 metric."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Market 1501",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank5",
+          "value": 98.61,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank5",
+          "cell": "98.61",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is empty and does not contain any information that matches the tuple's (Method, Dataset, Metric, Value) combination."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Market 1501",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank10",
+          "value": 99.24,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank10",
+          "cell": "99.24",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is empty and does not contain any information that matches the tuple's (Method, Dataset, Metric, Value) combination."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Market 1501",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank20",
+          "value": 99.67,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank20",
+          "cell": "99.67",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is empty and does not contain any information that matches the tuple's Method, Dataset, Metric, or Value."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Market 1501",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 63.41,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "PDC",
+          "column_header": "mAP",
+          "cell": "63.41",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is empty and does not contain any information that matches the tuple's (Method, Dataset, Metric, Value) combination, and the table does not mention the Market 1501 dataset or the mAP metric."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "VIPeR",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank1",
+          "value": 88.7,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank1",
+          "cell": "88.70",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label is empty and does not describe the tuple's Method, and there is no information in the table that matches the tuple's Dataset, Metric, or Value."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "VIPeR",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank5",
+          "value": 98.61,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank5",
+          "cell": "98.61",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is empty and does not contain any information that matches the tuple's (Method, Dataset, Metric, Value) combination."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "VIPeR",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank10",
+          "value": 99.24,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank10",
+          "cell": "99.24",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is empty and does not contain any information that matches the tuple's (Method, Dataset, Metric, Value) combination."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "VIPeR",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank20",
+          "value": 99.67,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "PDC",
+          "column_header": "rank20",
+          "cell": "99.67",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is empty and does not contain any information that matches the tuple's Method, Dataset, Metric, or Value."
+      }
+    },
+    {
+      "method": {
+        "name": "PDC",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "VIPeR",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 63.41,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MLAPG",
+        "LOMO + XQDA",
+        "BoW+HS",
+        "LDNS",
+        "GOG",
+        "IDLA",
+        "SI+CI",
+        "LSTM S-CNN",
+        "Gate S-CNN",
+        "EDM",
+        "PIE",
+        "Spindle",
+        "BoW+Kissme",
+        "WARCA",
+        "TMA",
+        "HVIL",
+        "PersonNet",
+        "DGDropout"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "47c3c0b5338e",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "PDC",
+          "column_header": "mAP",
+          "cell": "63.41",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label is empty and does not describe the tuple's Method, and there is no information in the table that matches the tuple's Dataset, Metric, or Value."
+      }
+    }
+  ]
+}

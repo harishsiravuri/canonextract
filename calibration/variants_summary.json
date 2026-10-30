@@ -1,0 +1,83 @@
+{
+  "seed": 42,
+  "cycle": 4,
+  "notes": "SciREX dev extraction blocked by S2 rate-limit backoffs; 5-fold CV on 765 labeled MetaLead eval + SciREX transfer tuples as calibrator dev pool (spec-permitted fallback).",
+  "n_labeled_tuples": {
+    "metalead_eval_merged": 276,
+    "scirex_transfer_merged": 489,
+    "total": 765
+  },
+  "per_variant_ece": {
+    "cycle2_fixkg_neutral": {
+      "metalead_task_correct": 0.374,
+      "metalead_dataset_correct": 0.226,
+      "metalead_metric_correct": 0.085,
+      "metalead_triple_correct": 0.213,
+      "scirex_task_correct": 0.052,
+      "scirex_dataset_correct": 0.244,
+      "scirex_metric_correct": 0.27,
+      "scirex_triple_correct": 0.474
+    },
+    "cycle3_fixkg_plus_T": {
+      "metalead_task_correct": 0.17240208866990653,
+      "metalead_dataset_correct": 0.10777133898334429,
+      "metalead_metric_correct": 0.3080645607830775,
+      "metalead_triple_correct": 0.36372349613809385,
+      "scirex_task_correct": 0.15490499186127957,
+      "scirex_dataset_correct": 0.3509143563673718,
+      "scirex_metric_correct": 0.4075267508392027,
+      "scirex_triple_correct": 0.5562835840997786
+    },
+    "cycle4_1a_platt_fixkg": {
+      "metalead_task_correct": 0.14569501231094623,
+      "scirex_task_correct": 0.11581247821489746,
+      "metalead_dataset_correct": 0.2736371595354998,
+      "scirex_dataset_correct": 0.15765771545007898,
+      "metalead_metric_correct": 0.14798773736348486,
+      "scirex_metric_correct": 0.0849993750977775,
+      "metalead_triple_correct": 0.16320999539209063,
+      "scirex_triple_correct": 0.09216227189214801
+    },
+    "cycle4_1b_iso_fixkg": {
+      "metalead_task_correct": 0.15112845638218014,
+      "scirex_task_correct": 0.09722018393604473,
+      "metalead_dataset_correct": 0.2575255088746967,
+      "scirex_dataset_correct": 0.1475666225571401,
+      "metalead_metric_correct": 0.17162617504389857,
+      "scirex_metric_correct": 0.08035421540005018,
+      "metalead_triple_correct": 0.14999757596738883,
+      "scirex_triple_correct": 0.08873716551036387
+    },
+    "cycle4_1c_ce_logistic": {
+      "metalead_task_correct": 0.16269969569502937,
+      "scirex_task_correct": 0.0960122849748986,
+      "metalead_dataset_correct": 0.24075010063763563,
+      "scirex_dataset_correct": 0.14523469935082367,
+      "metalead_metric_correct": 0.14564871782144034,
+      "scirex_metric_correct": 0.09255371989763042,
+      "metalead_triple_correct": 0.1544893312450986,
+      "scirex_triple_correct": 0.08424169697697868
+    }
+  },
+  "cells_landed_at_or_below_0_10": {
+    "cycle4_1c_ce_logistic": 3,
+    "cycle4_1b_iso_fixkg": 3,
+    "cycle4_1a_platt_fixkg": 2,
+    "cycle2_fixkg_neutral": 2,
+    "cycle3_fixkg_plus_T": 0
+  },
+  "mean_ece_across_8_cells": {
+    "cycle4_1c_ce_logistic": 0.14020378082494192,
+    "cycle4_1b_iso_fixkg": 0.14301948795897038,
+    "cycle4_1a_platt_fixkg": 0.14764521815711543,
+    "cycle2_fixkg_neutral": 0.24225,
+    "cycle3_fixkg_plus_T": 0.30269889596775684
+  },
+  "winner": {
+    "variant": "cycle4_1c_ce_logistic",
+    "cells_landed": 3,
+    "mean_ece": 0.14020378082494192
+  },
+  "cost_usd_cycle4_additive": 0.0,
+  "cost_usd_cumulative_cycles_1_to_4": 3.824
+}

@@ -1,0 +1,511 @@
+{
+  "paper_id": "1910.13461",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 6,
+    "total": 10,
+    "prose_claimed_table": 4
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "books and Wikipedia data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 6.56,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT Base bert"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BERT Base bert",
+        "header_path": "Test PPL",
+        "cell": "6.56",
+        "_content_hash": "35038f377355",
+        "_paper_hash": "aa61a8ffec63",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "BART",
+          "column_header": "RL",
+          "cell": "6.2",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "books and Wikipedia data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 6.8,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT Base bert"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BERT Base bert",
+        "header_path": "Acc",
+        "cell": "6.80",
+        "_content_hash": "b460ca10cb46",
+        "_paper_hash": "aa61a8ffec63",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Masked Language Model",
+          "column_header": "col_6",
+          "cell": "7.06",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "books and Wikipedia data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test PPL",
+          "value": 6.56,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT Base bert"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BERT Base bert",
+        "header_path": "Test PPL",
+        "cell": "6.56",
+        "_content_hash": "35038f377355",
+        "_paper_hash": "aa61a8ffec63",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "BART",
+          "column_header": "RL",
+          "cell": "6.2",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "books and Wikipedia data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM/F1",
+          "value": 7.87,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT Base bert"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BERT Base bert",
+        "header_path": "EM/F1",
+        "cell": "7.87",
+        "_content_hash": "5f73952b87a3",
+        "_paper_hash": "aa61a8ffec63",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "w/ Sentence Shuffling",
+          "column_header": "col_6",
+          "cell": "7.89",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "books and Wikipedia data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "m/mm",
+          "value": 12.59,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT Base bert"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BERT Base bert",
+        "header_path": "m/mm",
+        "cell": "12.59",
+        "_content_hash": "8acabff7619f",
+        "_paper_hash": "aa61a8ffec63",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Masked Language Model",
+          "column_header": "PPL",
+          "cell": "12.59",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "books and Wikipedia data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Mcc",
+          "value": 11.43,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT Base bert"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BERT Base bert",
+        "header_path": "Mcc",
+        "cell": "11.43",
+        "_content_hash": "c13675f6da07",
+        "_paper_hash": "aa61a8ffec63",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "BART",
+          "column_header": "col_2",
+          "cell": "11.85",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "books and Wikipedia data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 89.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT Base bert"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BERT Base bert",
+        "header_path": "R1",
+        "cell": "89.1",
+        "_content_hash": "cacb40b9f567",
+        "_paper_hash": "aa61a8ffec63",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "BART",
+          "column_header": "EM/F1",
+          "cell": "88.8/94.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "books and Wikipedia data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 83.7,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT Base bert"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BERT Base bert",
+        "header_path": "RL",
+        "cell": "83.7",
+        "_content_hash": "e88993a2501b",
+        "_paper_hash": "aa61a8ffec63",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "BERT",
+          "column_header": "EM/F1",
+          "cell": "84.1/90.9",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "books and Wikipedia data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "%",
+          "value": 11.51,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT Base bert"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose_claimed_table",
+        "table_id": 0,
+        "row_label": "BERT Base bert",
+        "header_path": "%",
+        "cell": "11.51",
+        "_downgrade_reason": "table_id or row/header/cell not resolvable",
+        "_paper_hash": "aa61a8ffec63",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "BART",
+          "column_header": "col_2",
+          "cell": "11.85",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "books and Wikipedia data",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RO-EN",
+          "value": 24.03,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BERT Base bert"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BERT Base bert",
+        "header_path": "RO-EN",
+        "cell": "24.03",
+        "_content_hash": "9051345ec30d",
+        "_paper_hash": "aa61a8ffec63",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "BART",
+          "column_header": "col_3",
+          "cell": "24.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

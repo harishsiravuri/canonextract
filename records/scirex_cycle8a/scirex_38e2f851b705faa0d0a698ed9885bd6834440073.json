@@ -1,0 +1,119 @@
+{
+  "paper_id": "38e2f851b705faa0d0a698ed9885bd6834440073",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 1,
+    "total": 2,
+    "partial_table_valid": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "PLATIPUS (ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "5 way 1 shot",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "miniimagenet",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "5 way 1 shot accuracy",
+          "value": 50.13,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MAML finn2017meta",
+        "LLAMA grant2018recasting",
+        "Reptile nichol2018reptile",
+        "Meta-SGD li2017meta"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "PLATIPUS (ours)",
+        "header_path": "5-way, 1-shot Accuracy",
+        "cell": "50.13 1.86\\%",
+        "_content_hash": "d99f109e7763",
+        "_paper_hash": "bf6b69a478db",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "PLATIPUS (ours)",
+          "column_header": "5-way, 1-shot Accuracy",
+          "cell": "50.13 1.86\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"PLATIPUS (ours)\" refers to the proposed method in the paper, and the header path \"5-way, 1-shot Accuracy\" and cell content \"50.13 1.86\\%\" match the tuple's Metric and Value."
+      }
+    },
+    {
+      "method": {
+        "name": "PLATIPUS (ours) (KL weight = 0.05)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "ambiguous celeba 5 shot",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ambiguous celeba 5 shot",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.0,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MAML",
+        "MAML + noise"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "PLATIPUS (ours) (KL weight = 0.05)",
+        "header_path": "Ambiguous celebA (5-shot)",
+        "cell": "89.00 1.78\\%",
+        "_content_hash": "6a0d364fa4a9",
+        "_paper_hash": "bf6b69a478db",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "MAML",
+          "column_header": "Coverage (max=3)",
+          "cell": "89.00 1.78\\%",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

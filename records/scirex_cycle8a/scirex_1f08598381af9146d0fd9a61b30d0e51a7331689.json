@@ -1,0 +1,6198 @@
+{
+  "paper_id": "1f08598381af9146d0fd9a61b30d0e51a7331689",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 54,
+    "total": 109,
+    "partial_table_valid": 53,
+    "prose": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Ape-X DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Atari",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median human-normalized score",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label \"\\ DQN\" does not describe the tuple's Method \"Ape-X DQN\", indicating a mismatch between the claimed cell and the extracted tuple."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 alien",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 alien",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 amidar",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 amidar",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 assault",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 assault",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 asterix",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label \"\\ DQN\" does not describe the tuple's Method \"apex DQN\", indicating a mismatch between the claimed cell and the tuple's information."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 asterix",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 asteroids",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 asteroids",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 atlantis",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 atlantis",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 bank heist",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\\" matches the tuple's Value, with the paper excerpt not needed for resolving any aliases in this case."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 bank heist",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 battle zone",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 battle zone",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 beam rider",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\\" matches the tuple's Value, with the paper excerpt not needed for resolving any aliases in this case."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 beam rider",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 berzerk",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 berzerk",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 bowling",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 bowling",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 boxing",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 boxing",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 breakout",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 breakout",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 centipede",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 centipede",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 chopper command",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 chopper command",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 crazy climber",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label \"\\ DQN\" does not describe the tuple's Method \"apex DQN\", which is not mentioned in the provided paper excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 crazy climber",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 demon attack",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 demon attack",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 double dunk",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\\" matches the tuple's Value, with the paper excerpt not needed for resolving any aliases in this case."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 double dunk",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 enduro",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label \"\\ DQN\" does not describe the tuple's Method \"apex DQN\", indicating a mismatch between the claimed cell and the extracted tuple."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 enduro",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 fishing derby",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 fishing derby",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 freeway",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 freeway",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 frostbite",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\\" matches the tuple's Value, with the paper excerpt not needed for resolving any aliases in this case."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 frostbite",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 gopher",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 gopher",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 gravitar",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 gravitar",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 hero",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path (no-op starts) describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 hero",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 ice hockey",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 ice hockey",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 james bond",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 james bond",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 kangaroo",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 kangaroo",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 krull",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 krull",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 kung fu master",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 kung fu master",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 ms pacman",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 ms pacman",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 name this game",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 name this game",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 pong",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 pong",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 private eye",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES. The row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 private eye",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 qbert",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 qbert",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 riverraid",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 riverraid",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 road runner",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 road runner",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 robotank",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 robotank",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 seaquest",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 seaquest",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 skiing",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 skiing",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 solaris",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value, allowing for unit differences."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 solaris",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 space invaders",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 space invaders",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 star gunner",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\\" matches the tuple's Value, with the paper excerpt not needed for resolving any aliases in this case."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 star gunner",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 surround",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 surround",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 tennis",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 tennis",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 time pilot",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 time pilot",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 tutankham",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 tutankham",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 up n down",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 up n down",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 venture",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 venture",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 video pinball",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 video pinball",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 wizard of wor",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 wizard of wor",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 yars revenge",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 yars revenge",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 zaxxon",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (no-op starts)",
+          "value": 434,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"\\ DQN\" describes the tuple's Method, the header path \"(no-op starts)\" describes the tuple's Metric, and the cell content \"434\\%\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "apex DQN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "atari games",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "atari 2600 zaxxon",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Median (human starts)",
+          "value": 358,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Rainbow",
+        "Distributional (C51)",
+        "A3C",
+        "Prioritized Dueling",
+        "DQN",
+        "Gorila DQN",
+        "UNREAL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\ DQN",
+        "header_path": "(no-op starts)",
+        "cell": "434\\%",
+        "_content_hash": "63752155716c",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DPG",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "continuous control domains considered for benchmarking dpg a humanoid and b manipulator all tasks simulated in the mujoco physics simulator todorov2012mujoco",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "humanoid domain",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance",
+          "value": null,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DDPG"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Performance improves as we increase the numbers of actors. The black dashed line indicates the maximum performance reached by a standard DDPG baseline over 5 days of training.",
+        "_quote_verified": "Performance improves as we increase the numbers of actors. The black dashed line indicates the maximum performance reached by a standard DDPG baseline over 5 days of training.",
+        "_verification_mode": "substring",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "apex DPG",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "continuous control domains considered for benchmarking dpg a humanoid and b manipulator all tasks simulated in the mujoco physics simulator todorov2012mujoco",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "manipulator domain",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "performance",
+          "value": null,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DDPG"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Performance improves as we increase the numbers of actors. The black dashed line indicates the maximum performance reached by a standard DDPG baseline over 5 days of training.",
+        "_quote_verified": "Performance improves as we increase the numbers of actors. The black dashed line indicates the maximum performance reached by a standard DDPG baseline over 5 days of training.",
+        "_verification_mode": "substring",
+        "_paper_hash": "3456ce08b320",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    }
+  ]
+}

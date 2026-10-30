@@ -1,0 +1,104 @@
+{
+  "paper_id": "081531984770a74e87dbd68907061b4b0f3631bf",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose_claimed_table": 1,
+    "total": 2,
+    "missing": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "ESPCN",
+        "canonical_id": "espcn"
+      },
+      "task": {
+        "name": "video super resolution",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "CDVL",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PSNR",
+          "value": 37.78,
+          "unit": null,
+          "canonical_id": "psnr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SF"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "7",
+        "header_path": "SF",
+        "cell": "37.78",
+        "_content_hash": "6b106831e985",
+        "_paper_hash": "6d55444ac26c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "7",
+          "column_header": "E5",
+          "cell": "37.78",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "SF",
+        "canonical_id": "sf"
+      },
+      "task": {
+        "name": "video super resolution",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "CDVL",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "GOps",
+          "value": 12.29,
+          "unit": null,
+          "canonical_id": "gops"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SF"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "GOps",
+        "header_path": "SF",
+        "cell": "12.29",
+        "_content_hash": "a7d95f16b091",
+        "_paper_hash": "6d55444ac26c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    }
+  ]
+}

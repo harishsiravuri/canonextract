@@ -1,0 +1,168 @@
+{
+  "paper_id": "25f5df29342a04936ba0d308b4d1b8245a7e8f5c",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Convolutional Pose Machines (CPMs)",
+      "task": "pose estimation",
+      "dataset": "MPII",
+      "metric": "pckh 0.5",
+      "value": null
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Convolutional Pose Machines (CPMs)",
+      "task": "pose estimation",
+      "dataset": "LSP",
+      "metric": "pckh 0.5",
+      "value": null
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Convolutional Pose Machines (CPMs)",
+      "task": "pose estimation",
+      "dataset": "FLIC",
+      "metric": "pckh 0.5",
+      "value": null
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Convolutional Pose Machines (CPMs)",
+      "task": "pose estimation",
+      "dataset": "MPII",
+      "metric": "accuracy",
+      "value": null
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Convolutional Pose Machines (CPMs)",
+      "task": "pose estimation",
+      "dataset": "LSP",
+      "metric": "accuracy",
+      "value": null
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Convolutional Pose Machines (CPMs)",
+      "task": "pose estimation",
+      "dataset": "FLIC",
+      "metric": "accuracy",
+      "value": null
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Convolutional Pose Machines (CPMs)",
+      "task": "pose estimation",
+      "dataset": "MPII",
+      "metric": "pck",
+      "value": null
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Convolutional Pose Machines (CPMs)",
+      "task": "pose estimation",
+      "dataset": "LSP",
+      "metric": "pck",
+      "value": null
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Convolutional Pose Machines (CPMs)",
+      "task": "pose estimation",
+      "dataset": "FLIC",
+      "metric": "pck",
+      "value": null
+    }
+  ]
+}

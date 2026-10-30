@@ -1,0 +1,87 @@
+{
+  "paper_id": "1778e32c18bd611169e64c1805a51abff341ca53",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "6. DIIN",
+          "header_path": "Test Accuracy",
+          "cell": "78.8"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "6. DIIN",
+          "column_header": "Mismatched",
+          "cell": "78.8",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "DIIN",
+      "task": "natural language inference",
+      "dataset": "MultiNLI",
+      "metric": "Test Accuracy",
+      "value": 78.8
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "19. DIIN",
+          "header_path": "Test Accuracy",
+          "cell": "88.0"
+        },
+        "hit": {
+          "table_id": 6,
+          "row_label": "1. DIIN(448)",
+          "column_header": "SNLI",
+          "cell": "88.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "DIIN",
+      "task": "natural language inference",
+      "dataset": "SNLI",
+      "metric": "Test Accuracy",
+      "value": 88.0
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "9. DIIN",
+          "header_path": "Accuracy",
+          "cell": "89.44"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "9. DIIN",
+          "column_header": "Test Acc",
+          "cell": "89.44",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "DIIN",
+      "task": "paraphrase identification",
+      "dataset": "Quora question pair",
+      "metric": "Accuracy",
+      "value": 89.44
+    }
+  ]
+}

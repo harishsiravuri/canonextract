@@ -1,0 +1,633 @@
+{
+  "paper_id": "1511.08308",
+  "contributions": [
+    {
+      "method": {
+        "name": "BLSTM-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.62,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Collobert et al. (2011)",
+        "Huang et al. (2015)",
+        "Ratinov and Roth (2009)",
+        "Lin and Wu (2009)",
+        "Suzuki et al. (2011)",
+        "Passos et al. (2014)",
+        "Luo et al. (2015)"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.28,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Finkel and Manning (2009)",
+        "Durrett and Klein (2014)"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 68065,
+    "tokens_out": 2968,
+    "cost_usd": 0.024422320000000004,
+    "wall_seconds": 86.20161366462708,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BLSTM-CNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.62,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Collobert et al. (2011)",
+            "Huang et al. (2015)",
+            "Ratinov and Roth (2009)",
+            "Lin and Wu (2009)",
+            "Suzuki et al. (2011)",
+            "Passos et al. (2014)",
+            "Luo et al. (2015)"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BLSTM-CNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes 5.0",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 86.28,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Finkel and Manning (2009)",
+            "Durrett and Klein (2014)"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BLSTM-CNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.62,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Collobert et al.",
+            "Huang et al.",
+            "Ratinov and Roth",
+            "Lin and Wu",
+            "Suzuki et al.",
+            "Passos et al.",
+            "Luo et al."
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BLSTM-CNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes 5.0",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 86.28,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Finkel and Manning",
+            "Durrett and Klein"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BLSTM-CNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.62,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Collobert et al.",
+            "Huang et al.",
+            "Ratinov and Roth",
+            "Lin and Wu",
+            "Suzuki et al.",
+            "Passos et al.",
+            "Luo et al."
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BLSTM-CNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes 5.0",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 86.28,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Collobert et al.",
+            "Finkel and Manning",
+            "Durrett and Klein"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bidirectional LSTM-CNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.62,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Collobert et al.",
+            "Huang et al.",
+            "Ratinov and Roth",
+            "Lin and Wu",
+            "Finkel and Manning",
+            "Suzuki et al.",
+            "Passos et al.",
+            "Durrett and Klein",
+            "Luo et al."
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bidirectional LSTM-CNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes 5.0",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 86.28,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Collobert et al.",
+            "Huang et al.",
+            "Ratinov and Roth",
+            "Finkel and Manning",
+            "Passos et al.",
+            "Durrett and Klein"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BLSTM-CNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.62,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Collobert et al.",
+            "Huang et al.",
+            "Ratinov and Roth",
+            "Lin and Wu",
+            "Finkel and Manning",
+            "Suzuki et al.",
+            "Passos et al.",
+            "Durrett and Klein",
+            "Luo et al."
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BLSTM-CNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes 5.0",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 86.28,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Collobert et al.",
+            "Huang et al.",
+            "Ratinov and Roth",
+            "Lin and Wu",
+            "Finkel and Manning",
+            "Suzuki et al.",
+            "Passos et al.",
+            "Durrett and Klein",
+            "Luo et al."
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

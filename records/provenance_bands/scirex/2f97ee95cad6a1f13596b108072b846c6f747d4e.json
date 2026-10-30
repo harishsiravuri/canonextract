@@ -1,0 +1,132 @@
+{
+  "paper_id": "2f97ee95cad6a1f13596b108072b846c6f747d4e",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "ResNet",
+      "task": "speech recognition",
+      "dataset": "NIST 2000 CTS test set",
+      "metric": "WER",
+      "value": 6.9
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "\\ + RNNLM, CTS data only",
+          "header_path": "WER",
+          "cell": "7.6"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "\\ + RNNLM, CTS data only",
+          "column_header": "WER",
+          "cell": "7.6",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RNNLM",
+      "task": "speech recognition",
+      "dataset": "NIST 2000 Switchboard test set",
+      "metric": "WER",
+      "value": 7.6
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "i-vector+LFMMI",
+          "header_path": "WER (\\%)",
+          "cell": "8.5"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "i-vector+LFMMI",
+          "column_header": "SWB",
+          "cell": "8.5",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "i-vector+LFMMI",
+      "task": "speech recognition",
+      "dataset": "NIST 2000 CTS set",
+      "metric": "WER",
+      "value": 8.5
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "+ backward RNNLMs",
+          "header_path": "WER",
+          "cell": "6.9"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "+ 2-RNNLM interpolation",
+          "column_header": "WER",
+          "cell": "7.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RNNLM",
+      "task": "language modeling",
+      "dataset": "NIST 2000 Switchboard test set",
+      "metric": "WER",
+      "value": 6.9
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "+ 2-RNNLM interpolation",
+          "header_path": "PPL",
+          "cell": "57.2"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "+ 2-RNNLM interpolation",
+          "column_header": "PPL",
+          "cell": "57.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RNNLM",
+      "task": "language modeling",
+      "dataset": "1997 CTS eval transcripts",
+      "metric": "PPL",
+      "value": 57.2
+    }
+  ]
+}

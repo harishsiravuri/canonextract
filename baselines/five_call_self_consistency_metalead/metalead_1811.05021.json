@@ -1,0 +1,623 @@
+{
+  "paper_id": "1811.05021",
+  "contributions": [
+    {
+      "method": {
+        "name": "ALDMN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "dialogue act classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 81.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "RCNN",
+        "BiLSTM-Softmax",
+        "DRLM-Conditional",
+        "PDI",
+        "UCI",
+        "DMN"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ALDMN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "dialogue act classification",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "MapTask Dialogue Act Corpus",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 68.5,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ADC",
+        "GAN",
+        "PDI",
+        "DMN"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 59395,
+    "tokens_out": 2822,
+    "cost_usd": 0.021517980000000003,
+    "wall_seconds": 75.02617383003235,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ALDMN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "dialogue act classification",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Switchboard Dialogue Act Corpus",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 81.5,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "RCNN",
+            "BiLSTM-Softmax",
+            "DRLM-Conditional",
+            "PDI",
+            "UCI",
+            "DMN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ALDMN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "dialogue act classification",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "MapTask Dialogue Act Corpus",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 68.5,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ADC",
+            "GAN",
+            "PDI",
+            "DMN"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ALDMN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "dialogue act classification",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Switchboard Dialogue Act Corpus",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 81.5,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UCI",
+            "PDI",
+            "DRLM-Conditional",
+            "BiLSTM-Softmax",
+            "RCNN",
+            "DMN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ALDMN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "dialogue act classification",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "MapTask Dialogue Act Corpus",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 68.5,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ADC",
+            "GAN",
+            "PDI",
+            "DMN"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ALDMN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1015,
+              "end": 1088
+            }
+          },
+          "task": {
+            "name": "dialogue act classification",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1015,
+              "end": 1088
+            }
+          },
+          "datasets": [
+            {
+              "name": "Switchboard Dialogue Act Corpus",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1015,
+                "end": 1088
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 81.5,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1015,
+                "end": 1088
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UCI",
+            "DRLM-Conditional",
+            "BiLSTM-Softmax",
+            "RCNN",
+            "PDI",
+            "DMN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ALDMN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1015,
+              "end": 1088
+            }
+          },
+          "task": {
+            "name": "dialogue act classification",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1015,
+              "end": 1088
+            }
+          },
+          "datasets": [
+            {
+              "name": "MapTask Dialogue Act Corpus",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1015,
+                "end": 1088
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 68.5,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1015,
+                "end": 1088
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ADC",
+            "GAN",
+            "PDI",
+            "DMN"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ALDMN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2179,
+              "end": 2243
+            }
+          },
+          "task": {
+            "name": "dialogue act classification",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2179,
+              "end": 2243
+            }
+          },
+          "datasets": [
+            {
+              "name": "Switchboard Dialogue Act Corpus",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10332,
+                "end": 10371
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 81.5,
+              "unit": "%",
+              "evidence_span": {
+                "start": 14410,
+                "end": 14414
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UCI",
+            "DRLM-Conditional",
+            "PDI",
+            "BiLSTM-Softmax",
+            "RCNN",
+            "DMN"
+          ],
+          "notes": "ALDMN improves accuracy by 1.6% over the best performing baseline (UCI) on SwDA dataset."
+        },
+        {
+          "method": {
+            "name": "ALDMN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2179,
+              "end": 2243
+            }
+          },
+          "task": {
+            "name": "dialogue act classification",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2179,
+              "end": 2243
+            }
+          },
+          "datasets": [
+            {
+              "name": "MapTask Dialogue Act Corpus",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10378,
+                "end": 10411
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 68.5,
+              "unit": "%",
+              "evidence_span": {
+                "start": 14752,
+                "end": 14756
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PDI",
+            "GAN",
+            "ADC",
+            "DMN"
+          ],
+          "notes": "ALDMN improves accuracy by 2.6% over the best performing baseline (PDI) on MapTask dataset."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ALDMN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "dialogue act classification",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Switchboard Dialogue Act Corpus",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 81.5,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UCI",
+            "DRLM-Conditional",
+            "BiLSTM-Softmax",
+            "RCNN",
+            "PDI",
+            "DMN"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ALDMN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "dialogue act classification",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "MapTask Dialogue Act Corpus",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 68.5,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ADC",
+            "GAN",
+            "PDI",
+            "DMN"
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

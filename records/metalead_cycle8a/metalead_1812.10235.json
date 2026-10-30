@@ -1,0 +1,415 @@
+{
+  "paper_id": "1812.10235",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "prose_claimed_table": 3,
+    "total": 8,
+    "partial_table_valid": 4,
+    "missing": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Bi-model without a decoder",
+        "canonical_id": "bi model without a decoder"
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 96.65,
+          "unit": "%",
+          "canonical_id": "f1 score"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN",
+        "Joint GRU Model (W)",
+        "Attention Encoder-Decoder NN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Bi-model without a decoder",
+        "header_path": "p 3.5cm |> p 1.5cm > p 1.5cm",
+        "cell": "96.65%",
+        "_content_hash": "0b003bdb45c4",
+        "_paper_hash": "ffae9df0d7f7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Home",
+          "column_header": "col_3",
+          "cell": "96.5\\%",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder",
+        "canonical_id": "bi model without a decoder"
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": "atis"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.76,
+          "unit": "%",
+          "canonical_id": "intent accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN",
+        "Joint GRU Model (W)",
+        "Attention Encoder-Decoder NN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Bi-model without a decoder",
+        "header_path": "p 3.5cm |> p 1.5cm > p 1.5cm",
+        "cell": "96.65%",
+        "_content_hash": "0b003bdb45c4",
+        "_paper_hash": "ffae9df0d7f7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Bi-model without a decoder",
+          "column_header": "col_3",
+          "cell": "98.55\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder",
+        "canonical_id": "bi model without a decoder"
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "Movie",
+          "canonical_id": "movie"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 93.3,
+          "unit": "%",
+          "canonical_id": "f1 score"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Bi-model without a decoder",
+        "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+        "cell": "94.89%",
+        "_content_hash": "f3d8a1496db7",
+        "_paper_hash": "ffae9df0d7f7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Movie",
+          "column_header": "col_4",
+          "cell": "92.86\\%",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder",
+        "canonical_id": "bi model without a decoder"
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "Movie",
+          "canonical_id": "movie"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 94.89,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Bi-model without a decoder",
+        "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+        "cell": "94.89%",
+        "_content_hash": "f3d8a1496db7",
+        "_paper_hash": "ffae9df0d7f7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder",
+        "canonical_id": "bi model without a decoder"
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "Food",
+          "canonical_id": "food"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 93.6,
+          "unit": "%",
+          "canonical_id": "f1 score"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Bi-model without a decoder",
+        "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+        "cell": "98.98%",
+        "_content_hash": "8392d31d7093",
+        "_paper_hash": "ffae9df0d7f7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "2 * Recursive NN",
+          "column_header": "col_1",
+          "cell": "93.96\\%",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder",
+        "canonical_id": "bi model without a decoder"
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "Food",
+          "canonical_id": "food"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 98.98,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Bi-model without a decoder",
+        "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+        "cell": "98.98%",
+        "_content_hash": "8392d31d7093",
+        "_paper_hash": "ffae9df0d7f7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Bi-model without a decoder",
+          "column_header": "col_3",
+          "cell": "98.55\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder",
+        "canonical_id": "bi model without a decoder"
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "Home",
+          "canonical_id": "home"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 97.8,
+          "unit": "%",
+          "canonical_id": "f1 score"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Bi-model without a decoder",
+        "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+        "cell": "98.55%",
+        "_content_hash": "4cb4acc693d4",
+        "_paper_hash": "ffae9df0d7f7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Bi-model without a decoder",
+          "column_header": "col_2",
+          "cell": "97.8\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder",
+        "canonical_id": "bi model without a decoder"
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": "intent detection and slot filling"
+      },
+      "datasets": [
+        {
+          "name": "Home",
+          "canonical_id": "home"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 98.55,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Bi-model without a decoder",
+        "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+        "cell": "98.55%",
+        "_content_hash": "4cb4acc693d4",
+        "_paper_hash": "ffae9df0d7f7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Bi-model without a decoder",
+          "column_header": "col_3",
+          "cell": "98.55\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

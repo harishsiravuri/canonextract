@@ -1,0 +1,379 @@
+{
+  "paper_id": "1908.08345",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 6,
+    "total": 6
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.25,
+          "unit": null,
+          "canonical_id": "rouge 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Oracle",
+        "Lead-3",
+        "SummaRuNNer",
+        "Refresh",
+        "Latent",
+        "NeuSum",
+        "Sumo",
+        "TransformerExt",
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "BottomUp",
+        "DCA",
+        "TransformerAbs"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BertSumExt",
+        "header_path": "R1",
+        "cell": "43.25",
+        "_content_hash": "ed95164843f1",
+        "_paper_hash": "d3e315e458a7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "1 @ l| BertSumExt",
+          "column_header": "R1",
+          "cell": "43.25",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.24,
+          "unit": null,
+          "canonical_id": "rouge 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Oracle",
+        "Lead-3",
+        "SummaRuNNer",
+        "Refresh",
+        "Latent",
+        "NeuSum",
+        "Sumo",
+        "TransformerExt",
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "BottomUp",
+        "DCA",
+        "TransformerAbs"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BertSumExt",
+        "header_path": "R1",
+        "cell": "43.25",
+        "_content_hash": "ed95164843f1",
+        "_paper_hash": "d3e315e458a7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "1 @ l| BertSumExt",
+          "column_header": "R2",
+          "cell": "20.24",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 39.63,
+          "unit": null,
+          "canonical_id": "rouge l"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Oracle",
+        "Lead-3",
+        "SummaRuNNer",
+        "Refresh",
+        "Latent",
+        "NeuSum",
+        "Sumo",
+        "TransformerExt",
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "BottomUp",
+        "DCA",
+        "TransformerAbs"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BertSumExt",
+        "header_path": "R1",
+        "cell": "43.25",
+        "_content_hash": "ed95164843f1",
+        "_paper_hash": "d3e315e458a7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "1 @ l| BertSumExt",
+          "column_header": "RL",
+          "cell": "39.63",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": "new york times nyt"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 46.66,
+          "unit": null,
+          "canonical_id": "rouge 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Oracle",
+        "Lead-3",
+        "Compress",
+        "Sumo",
+        "TransformerExt",
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "TransformerAbs"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BertSumExt",
+        "header_path": "R1",
+        "cell": "46.66",
+        "_content_hash": "d2c21fb0eade",
+        "_paper_hash": "d3e315e458a7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "BertSumExt",
+          "column_header": "R1",
+          "cell": "46.66",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": "new york times nyt"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 26.35,
+          "unit": null,
+          "canonical_id": "rouge 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Oracle",
+        "Lead-3",
+        "Compress",
+        "Sumo",
+        "TransformerExt",
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "TransformerAbs"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BertSumExt",
+        "header_path": "R1",
+        "cell": "46.66",
+        "_content_hash": "d2c21fb0eade",
+        "_paper_hash": "d3e315e458a7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "BertSumExt",
+          "column_header": "R2",
+          "cell": "26.35",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": "new york times nyt"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 42.62,
+          "unit": null,
+          "canonical_id": "rouge l"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Oracle",
+        "Lead-3",
+        "Compress",
+        "Sumo",
+        "TransformerExt",
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "TransformerAbs"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BertSumExt",
+        "header_path": "R1",
+        "cell": "46.66",
+        "_content_hash": "d2c21fb0eade",
+        "_paper_hash": "d3e315e458a7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "BertSumExt",
+          "column_header": "RL",
+          "cell": "42.62",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

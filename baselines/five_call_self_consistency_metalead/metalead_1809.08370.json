@@ -1,0 +1,2538 @@
+{
+  "paper_id": "1809.08370",
+  "contributions": [
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CCGBank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 95.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Shortcut LSTM",
+        "ID-CNN-CRF",
+        "JMT",
+        "TagLM",
+        "ELMo"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "text chunking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Shortcut LSTM",
+        "ID-CNN-CRF",
+        "JMT",
+        "TagLM",
+        "ELMo"
+      ],
+      "notes": null,
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Shortcut LSTM",
+        "ID-CNN-CRF",
+        "JMT",
+        "TagLM",
+        "ELMo"
+      ],
+      "notes": null,
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "fine-grained named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Shortcut LSTM",
+        "ID-CNN-CRF",
+        "JMT",
+        "TagLM",
+        "ELMo"
+      ],
+      "notes": null,
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "part-of-speech tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.7,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Shortcut LSTM",
+        "ID-CNN-CRF",
+        "JMT",
+        "TagLM",
+        "ELMo"
+      ],
+      "notes": null,
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 95.9,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Biaffine",
+        "Stack Pointer"
+      ],
+      "notes": null,
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 94.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Biaffine",
+        "Stack Pointer"
+      ],
+      "notes": null,
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "Cross-View Training (CVT)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Stanford",
+        "Google"
+      ],
+      "notes": null,
+      "_sc_support": 0.6
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 60360,
+    "tokens_out": 12060,
+    "cost_usd": 0.0300486,
+    "wall_seconds": 353.82262778282166,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CCGBank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 95.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "ID-CNN-CRF",
+            "JMT",
+            "TagLM",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "text chunking",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "ID-CNN-CRF",
+            "JMT",
+            "TagLM",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "ID-CNN-CRF",
+            "JMT",
+            "TagLM",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "fine-grained named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 88.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "ID-CNN-CRF",
+            "JMT",
+            "TagLM",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "ID-CNN-CRF",
+            "JMT",
+            "TagLM",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "UAS",
+              "value": 95.9,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Biaffine",
+            "Stack Pointer"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "LAS",
+              "value": 94.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Biaffine",
+            "Stack Pointer"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "IWSLT 2015",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 29.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Stanford",
+            "Google"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "datasets": [
+            {
+              "name": "CCGBank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4321,
+                "end": 4341
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 95.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 4321,
+                "end": 4341
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "task": {
+            "name": "text chunking",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4353,
+                "end": 4367
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 4353,
+                "end": 4367
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "JMT",
+            "TagLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4379,
+                "end": 4393
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 4379,
+                "end": 4393
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ID-CNN-CRF",
+            "TagLM",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "task": {
+            "name": "fine-grained named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4405,
+                "end": 4415
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 88.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 4405,
+                "end": 4415
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ID-CNN-CRF"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4437,
+                "end": 4452
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 4437,
+                "end": 4452
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "JMT"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank (Stanford Dependencies v3.3.0)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4464,
+                "end": 4499
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "UAS",
+              "value": 95.9,
+              "unit": null,
+              "evidence_span": {
+                "start": 4464,
+                "end": 4499
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Biaffine",
+            "Stack Pointer"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank (Stanford Dependencies v3.3.0)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4464,
+                "end": 4499
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "LAS",
+              "value": 94.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 4464,
+                "end": 4499
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Biaffine",
+            "Stack Pointer"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1159,
+              "end": 1201
+            }
+          },
+          "datasets": [
+            {
+              "name": "IWSLT 2015 English-Vietnamese",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4511,
+                "end": 4540
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 29.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 4511,
+                "end": 4540
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Stanford",
+            "Google"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "CCGBank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4445,
+                "end": 4490
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 95.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 10125,
+                "end": 10129
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4495,
+                "end": 4533
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 10130,
+                "end": 10134
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "JMT",
+            "TagLM",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4538,
+                "end": 4576
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 10135,
+                "end": 10139
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ID-CNN-CRF",
+            "TagLM",
+            "ELMo",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4581,
+                "end": 4613
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 88.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 10140,
+                "end": 10144
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ID-CNN-CRF",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4618,
+                "end": 4665
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 10145,
+                "end": 10150
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "JMT",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank (Stanford Dependencies v3.3.0)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4670,
+                "end": 4725
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "UAS",
+              "value": 95.9,
+              "unit": null,
+              "evidence_span": {
+                "start": 10151,
+                "end": 10155
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Biaffine",
+            "Stack Pointer",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank (Stanford Dependencies v3.3.0)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4670,
+                "end": 4725
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "LAS",
+              "value": 94.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 10156,
+                "end": 10160
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Biaffine",
+            "Stack Pointer",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "IWSLT 2015 English-Vietnamese",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4730,
+                "end": 4775
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 29.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 10161,
+                "end": 10166
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Stanford",
+            "Google",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT) + Multi-task",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "CCGBank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4445,
+                "end": 4490
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 96.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 10167,
+                "end": 10171
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo + Multi-task",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT) + Multi-task",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4495,
+                "end": 4533
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.9,
+              "unit": null,
+              "evidence_span": {
+                "start": 10172,
+                "end": 10176
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo + Multi-task",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT) + Multi-task",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4538,
+                "end": 4576
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 10177,
+                "end": 10181
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo + Multi-task",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT) + Multi-task",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4581,
+                "end": 4613
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 88.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 10182,
+                "end": 10186
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo + Multi-task",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT) + Multi-task",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4618,
+                "end": 4665
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.76,
+              "unit": null,
+              "evidence_span": {
+                "start": 10187,
+                "end": 10193
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo + Multi-task",
+            "Supervised"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT) + Multi-task",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1048,
+              "end": 1110
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank (Stanford Dependencies v3.3.0)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4670,
+                "end": 4725
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "UAS",
+              "value": 96.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 10194,
+                "end": 10198
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ELMo + Multi-task",
+            "Supervised"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "datasets": [
+            {
+              "name": "CCGBank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 5685,
+                "end": 5693
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 95.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 17277,
+                "end": 17281
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Supervised",
+            "Virtual Adversarial Training",
+            "Word Dropout",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "task": {
+            "name": "text chunking",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 5714,
+                "end": 5725
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 17285,
+                "end": 17289
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Supervised",
+            "Virtual Adversarial Training",
+            "Word Dropout",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 5756,
+                "end": 5767
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 17293,
+                "end": 17297
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Supervised",
+            "Virtual Adversarial Training",
+            "Word Dropout",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "task": {
+            "name": "fine-grained named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 5798,
+                "end": 5806
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 88.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 17301,
+                "end": 17305
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Supervised",
+            "Virtual Adversarial Training",
+            "Word Dropout",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 5841,
+                "end": 5854
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 17309,
+                "end": 17313
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Supervised",
+            "Virtual Adversarial Training",
+            "Word Dropout",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 5888,
+                "end": 5901
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "UAS",
+              "value": 95.9,
+              "unit": null,
+              "evidence_span": {
+                "start": 17317,
+                "end": 17321
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Supervised",
+            "Virtual Adversarial Training",
+            "Word Dropout",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 5888,
+                "end": 5901
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "LAS",
+              "value": 94.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 17325,
+                "end": 17329
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Supervised",
+            "Virtual Adversarial Training",
+            "Word Dropout",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2331,
+              "end": 2343
+            }
+          },
+          "datasets": [
+            {
+              "name": "IWSLT 2015",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 5932,
+                "end": 5943
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 29.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 17333,
+                "end": 17337
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Supervised",
+            "Virtual Adversarial Training",
+            "Word Dropout",
+            "ELMo"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CCGBank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 95.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 96.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "JMT",
+            "TagLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ID-CNN-CRF",
+            "TagLM",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 88.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ID-CNN-CRF",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Shortcut LSTM",
+            "JMT",
+            "ELMo"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "UAS",
+              "value": 95.9,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Biaffine",
+            "Stack Pointer"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "dependency parsing",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "LAS",
+              "value": 94.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Biaffine",
+            "Stack Pointer"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Cross-View Training (CVT)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "IWSLT 2015",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 29.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Stanford",
+            "Google"
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

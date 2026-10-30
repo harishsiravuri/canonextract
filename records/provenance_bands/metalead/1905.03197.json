@@ -1,0 +1,106 @@
+{
+  "paper_id": "1905.03197",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Abstractive Summarization",
+          "header_path": "RG-L",
+          "cell": "40.51"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "43.33",
+          "column_header": "Extractive Summarization",
+          "cell": "40.51",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "UniLM",
+      "task": "abstractive summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-L",
+      "value": 40.51
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "UniLM",
+      "task": "abstractive summarization",
+      "dataset": "Gigaword",
+      "metric": "ROUGE-L",
+      "value": 35.75
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "UniLM",
+      "task": "generative question answering",
+      "dataset": "CoQA",
+      "metric": "F1",
+      "value": 82.5
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Best Extractive bertsum",
+          "header_path": "BLEU-4",
+          "cell": "22.12"
+        },
+        "hit": null
+      },
+      "method": "UniLM",
+      "task": "question generation",
+      "dataset": "SQuAD",
+      "metric": "BLEU-4",
+      "value": 22.12
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "UniLM",
+      "task": "dialog response generation",
+      "dataset": "DSTC7",
+      "metric": "NIST-4",
+      "value": 2.67
+    }
+  ]
+}

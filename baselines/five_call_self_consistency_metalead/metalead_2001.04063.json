@@ -1,0 +1,2444 @@
+{
+  "paper_id": "2001.04063",
+  "contributions": [
+    {
+      "method": {
+        "name": "ProphetNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.68,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MASS",
+        "UniLM"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ProphetNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.64,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MASS",
+        "UniLM"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ProphetNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 40.72,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MASS",
+        "UniLM"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ProphetNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.55,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MASS",
+        "UniLM"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ProphetNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.27,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MASS",
+        "UniLM"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ProphetNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.57,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "MASS",
+        "UniLM"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ProphetNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "question generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 23.91,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "UniLM"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ProphetNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "question generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 26.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "UniLM"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ProphetNet",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "question generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 52.26,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "UniLM"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 62210,
+    "tokens_out": 11576,
+    "cost_usd": 0.030209839999999998,
+    "wall_seconds": 290.3043689727783,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 43.68,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 20.64,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 40.72,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.55,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 20.27,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 36.57,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU-4",
+              "value": 23.91,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "METEOR",
+              "value": 26.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 52.26,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 43.68,
+              "unit": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "BERTSUMEXTABS",
+            "BERTSUMABS",
+            "Bottom-Up",
+            "S2S-ELMo",
+            "PTGEN+Coverage",
+            "PTGEN",
+            "LEAD-3"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 20.64,
+              "unit": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "BERTSUMEXTABS",
+            "BERTSUMABS",
+            "Bottom-Up",
+            "S2S-ELMo",
+            "PTGEN+Coverage",
+            "PTGEN",
+            "LEAD-3"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 40.72,
+              "unit": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "BERTSUMEXTABS",
+            "BERTSUMABS",
+            "Bottom-Up",
+            "S2S-ELMo",
+            "PTGEN+Coverage",
+            "PTGEN",
+            "LEAD-3"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.55,
+              "unit": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "Re3Sum",
+            "OpenNMT"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 20.27,
+              "unit": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "Re3Sum",
+            "OpenNMT"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 36.57,
+              "unit": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "Re3Sum",
+            "OpenNMT"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU-4",
+              "value": 23.91,
+              "unit": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "SemQG",
+            "CorefNQG"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "METEOR",
+              "value": 26.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "SemQG",
+            "CorefNQG"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1268,
+              "end": 1322
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 52.26,
+              "unit": null,
+              "evidence_span": {
+                "start": 1268,
+                "end": 1322
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "SemQG",
+            "CorefNQG"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 43.68,
+              "unit": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "BERTSUMEXTABS",
+            "BERTSUMABS",
+            "Bottom-Up",
+            "S2S-ELMo",
+            "PTGEN+Coverage",
+            "PTGEN",
+            "LEAD-3"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 20.64,
+              "unit": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "BERTSUMEXTABS",
+            "BERTSUMABS",
+            "Bottom-Up",
+            "S2S-ELMo",
+            "PTGEN+Coverage",
+            "PTGEN",
+            "LEAD-3"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 40.72,
+              "unit": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "BERTSUMEXTABS",
+            "BERTSUMABS",
+            "Bottom-Up",
+            "S2S-ELMo",
+            "PTGEN+Coverage",
+            "PTGEN",
+            "LEAD-3"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.55,
+              "unit": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "Re3Sum",
+            "OpenNMT"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 20.27,
+              "unit": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "Re3Sum",
+            "OpenNMT"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 36.57,
+              "unit": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "MASS",
+            "Re3Sum",
+            "OpenNMT"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU-4",
+              "value": 23.91,
+              "unit": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "SemQG",
+            "CorefNQG"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "METEOR",
+              "value": 26.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "SemQG",
+            "CorefNQG"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1174,
+              "end": 1223
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 52.26,
+              "unit": null,
+              "evidence_span": {
+                "start": 1174,
+                "end": 1223
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM",
+            "SemQG",
+            "CorefNQG"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1325,
+              "end": 1395
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1396,
+              "end": 1416
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1417,
+                "end": 1431
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 43.68,
+              "unit": null,
+              "evidence_span": {
+                "start": 1432,
+                "end": 1439
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 20.64,
+              "unit": null,
+              "evidence_span": {
+                "start": 1440,
+                "end": 1447
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 40.72,
+              "unit": null,
+              "evidence_span": {
+                "start": 1448,
+                "end": 1455
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1325,
+              "end": 1395
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1396,
+              "end": 1416
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1417,
+                "end": 1426
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.55,
+              "unit": null,
+              "evidence_span": {
+                "start": 1427,
+                "end": 1434
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 20.27,
+              "unit": null,
+              "evidence_span": {
+                "start": 1435,
+                "end": 1442
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 36.57,
+              "unit": null,
+              "evidence_span": {
+                "start": 1443,
+                "end": 1450
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1325,
+              "end": 1395
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1396,
+              "end": 1416
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1417,
+                "end": 1426
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU-4",
+              "value": 23.91,
+              "unit": null,
+              "evidence_span": {
+                "start": 1427,
+                "end": 1434
+              }
+            },
+            {
+              "name": "METEOR",
+              "value": 26.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 1435,
+                "end": 1442
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 52.26,
+              "unit": null,
+              "evidence_span": {
+                "start": 1443,
+                "end": 1450
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1325,
+              "end": 1395
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1396,
+              "end": 1416
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1417,
+                "end": 1431
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 44.2,
+              "unit": null,
+              "evidence_span": {
+                "start": 1432,
+                "end": 1439
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 21.17,
+              "unit": null,
+              "evidence_span": {
+                "start": 1440,
+                "end": 1447
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 41.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 1448,
+                "end": 1455
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "T5",
+            "PEGASUSLARGE",
+            "BART"
+          ],
+          "notes": "Pre-trained on 160GB dataset"
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1325,
+              "end": 1395
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1396,
+              "end": 1416
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1417,
+                "end": 1426
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.51,
+              "unit": null,
+              "evidence_span": {
+                "start": 1427,
+                "end": 1434
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 20.42,
+              "unit": null,
+              "evidence_span": {
+                "start": 1435,
+                "end": 1442
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 36.69,
+              "unit": null,
+              "evidence_span": {
+                "start": 1443,
+                "end": 1450
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PEGASUSLARGE"
+          ],
+          "notes": "Pre-trained on 160GB dataset"
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 43.68,
+              "unit": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 20.64,
+              "unit": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 40.72,
+              "unit": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.55,
+              "unit": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 20.27,
+              "unit": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 36.57,
+              "unit": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "MASS",
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU-4",
+              "value": 23.91,
+              "unit": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "METEOR",
+              "value": 26.6,
+              "unit": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ProphetNet",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "task": {
+            "name": "question generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1787,
+              "end": 1803
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD 1.1",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 52.26,
+              "unit": null,
+              "evidence_span": {
+                "start": 1787,
+                "end": 1803
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "UniLM"
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

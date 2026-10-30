@@ -1,0 +1,2931 @@
+{
+  "paper_id": "1f08598381af9146d0fd9a61b30d0e51a7331689",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ape-X DQN",
+      "task": "atari games",
+      "dataset": "Atari",
+      "metric": "Median human-normalized score",
+      "value": 434
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 alien",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 alien",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 amidar",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 amidar",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 assault",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 assault",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 asterix",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 asterix",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 asteroids",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 asteroids",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 atlantis",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 atlantis",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 bank heist",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 14,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 bank heist",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 15,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 battle zone",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 16,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 battle zone",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 17,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 beam rider",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 18,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 beam rider",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 19,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 berzerk",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 20,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 berzerk",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 21,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 bowling",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 22,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 bowling",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 23,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 boxing",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 24,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 boxing",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 25,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 breakout",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 26,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 breakout",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 27,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 centipede",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 28,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 centipede",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 29,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 chopper command",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 30,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 chopper command",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 31,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 crazy climber",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 32,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 crazy climber",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 33,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 demon attack",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 34,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 demon attack",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 35,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 double dunk",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 36,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 double dunk",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 37,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 enduro",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 38,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 enduro",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 39,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 fishing derby",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 40,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 fishing derby",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 41,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 freeway",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 42,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 freeway",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 43,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 frostbite",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 44,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 frostbite",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 45,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 gopher",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 46,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 gopher",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 47,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 gravitar",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 48,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 gravitar",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 49,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 hero",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 50,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 hero",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 51,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 ice hockey",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 52,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 ice hockey",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 53,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 james bond",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 54,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 james bond",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 55,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 kangaroo",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 56,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 kangaroo",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 57,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 krull",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 58,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 krull",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 59,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 kung fu master",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 60,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 kung fu master",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 61,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 ms pacman",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 62,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 ms pacman",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 63,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 name this game",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 64,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 name this game",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 65,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 pong",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 66,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 pong",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 67,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 private eye",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 68,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 private eye",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 69,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 qbert",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 70,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 qbert",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 71,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 riverraid",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 72,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 riverraid",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 73,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 road runner",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 74,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 road runner",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 75,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 robotank",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 76,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 robotank",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 77,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 seaquest",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 78,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 seaquest",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 79,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 skiing",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 80,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 skiing",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 81,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 solaris",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 82,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 solaris",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 83,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 space invaders",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 84,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 space invaders",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 85,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 star gunner",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 86,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 star gunner",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 87,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 surround",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 88,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 surround",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 89,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 tennis",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 90,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 tennis",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 91,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 time pilot",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 92,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 time pilot",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 93,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 tutankham",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 94,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 tutankham",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 95,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 up n down",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 96,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 up n down",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 97,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 venture",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 98,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 venture",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 99,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 video pinball",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 100,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 video pinball",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 101,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 wizard of wor",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 102,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 wizard of wor",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 103,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 yars revenge",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 104,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 yars revenge",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 105,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "(human starts)",
+          "cell": "434\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 zaxxon",
+      "metric": "Median (no-op starts)",
+      "value": 434
+    },
+    {
+      "tuple_idx": 106,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "header_path": "(no-op starts)",
+          "cell": "434\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "\\ DQN",
+          "column_header": "col_5",
+          "cell": "358\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "apex DQN",
+      "task": "atari games",
+      "dataset": "atari 2600 zaxxon",
+      "metric": "Median (human starts)",
+      "value": 358
+    },
+    {
+      "tuple_idx": 107,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "apex DPG",
+      "task": "continuous control domains considered for benchmarking dpg a humanoid and b manipulator all tasks simulated in the mujoco physics simulator todorov2012mujoco",
+      "dataset": "humanoid domain",
+      "metric": "performance",
+      "value": null
+    },
+    {
+      "tuple_idx": 108,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "apex DPG",
+      "task": "continuous control domains considered for benchmarking dpg a humanoid and b manipulator all tasks simulated in the mujoco physics simulator todorov2012mujoco",
+      "dataset": "manipulator domain",
+      "metric": "performance",
+      "value": null
+    }
+  ]
+}

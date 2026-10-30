@@ -1,0 +1,258 @@
+{
+  "paper_id": "436b07bebaa1d1f05ef85415e10374048d25334d",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "language modeling",
+      "dataset": "1 Billion Word Language Modeling Benchmark",
+      "metric": "Test Perplexity",
+      "value": 28.0
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "language modeling",
+      "dataset": "100 Billion Word Google News Corpus",
+      "metric": "Test Perplexity",
+      "value": null
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "machine translation",
+      "dataset": "WMT'14 En\u2192Fr",
+      "metric": "Test Perplexity",
+      "value": 2.63
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "machine translation",
+      "dataset": "WMT'14 En\u2192Fr",
+      "metric": "Test BLEU",
+      "value": 40.56
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "machine translation",
+      "dataset": "WMT'14 En\u2192De",
+      "metric": "Test Perplexity",
+      "value": 4.64
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "machine translation",
+      "dataset": "WMT'14 En\u2192De",
+      "metric": "Test BLEU",
+      "value": 26.03
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "machine translation",
+      "dataset": "Google Production En\u2192Fr",
+      "metric": "Test Perplexity",
+      "value": 2.69
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "machine translation",
+      "dataset": "Google Production En\u2192Fr",
+      "metric": "Test BLEU",
+      "value": 36.57
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "multilingual machine translation",
+      "dataset": "combined dataset of twelve language pairs",
+      "metric": "Perplexity (dev)",
+      "value": 3.35
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "language modeling",
+      "dataset": "1 Billion Word Language Modeling Benchmark",
+      "metric": "perplexity",
+      "value": 28.0
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "machine translation",
+      "dataset": "WMT'14 En\u2192Fr newstest2014",
+      "metric": "BLEU",
+      "value": 40.56
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "machine translation",
+      "dataset": "WMT'14 En\u2192De newstest2014",
+      "metric": "BLEU",
+      "value": 26.03
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "machine translation",
+      "dataset": "Google Production En\u2192Fr dataset",
+      "metric": "BLEU",
+      "value": 36.57
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+      "task": "language modeling",
+      "dataset": "100 Billion Word Google News Corpus",
+      "metric": "perplexity",
+      "value": null
+    }
+  ]
+}

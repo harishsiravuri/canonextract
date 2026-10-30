@@ -1,0 +1,214 @@
+{
+  "paper_id": "325af39d281d5903a269c01fab8f53d7400a4c49",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 2,
+    "total": 4,
+    "prose_claimed_table": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "BU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "MPII Multi-Person Test",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 72.9,
+          "unit": null,
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 19,
+        "row_label": "bufull",
+        "header_path": "AP",
+        "cell": "72.9",
+        "_paper_hash": "9939b4f33e84",
+        "_content_hash": "9fb88597b8cd",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "+",
+          "column_header": "AP",
+          "cell": "72.7",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "MPII Multi-Person Val",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 71.9,
+          "unit": null,
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 19,
+        "row_label": "bufull",
+        "header_path": "AP",
+        "cell": "71.9",
+        "_paper_hash": "9939b4f33e84",
+        "_content_hash": "0f89f90eb34d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "84.0",
+          "column_header": "Ank",
+          "cell": "72.1",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BU",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "videodata",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 72.1,
+          "unit": null,
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "bufull",
+        "header_path": "AP",
+        "cell": "72.1",
+        "_paper_hash": "9939b4f33e84",
+        "_content_hash": "4ea403f87864",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "84.0",
+          "column_header": "Ank",
+          "cell": "72.1",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Bottom-Up Model (BU)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "pose estimation"
+      },
+      "datasets": [
+        {
+          "name": "MPII Multi-Person Val",
+          "canonical_id": "mpii multi person"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "time",
+          "value": 0.38,
+          "unit": "s/f",
+          "canonical_id": "time ms"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DeeperCut"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose_claimed_table",
+        "table_id": 17,
+        "row_label": "bufull",
+        "header_path": "timeinfer",
+        "cell": "0.38",
+        "_downgrade_reason": "none of (row_label=False, header_path=False, cell=True) resolved in the paper's parsed tables",
+        "_paper_hash": "9939b4f33e84",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "+",
+          "column_header": "time, [s/f]",
+          "cell": "0.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

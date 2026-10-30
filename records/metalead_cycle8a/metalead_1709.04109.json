@@ -1,0 +1,438 @@
+{
+  "paper_id": "1709.04109",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 5,
+    "total": 8,
+    "partial_table_valid": 3
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": "named entity recognition ner"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER",
+          "canonical_id": "conll 2003 english"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F_1 score",
+          "value": 91.71,
+          "unit": null,
+          "canonical_id": "f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF",
+        "TagLM"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "15) \\our$^\\dagger$$^\\ddagger$",
+        "header_path": "F$_1$ score",
+        "cell": "91.71$\\pm$0.10",
+        "_content_hash": "7f19eb3c10b5",
+        "_paper_hash": "8a824a437e44",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 7,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "F_1score",
+          "cell": "91.22 0.19",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label does not match the tuple's Method, as the paper excerpt does not mention \"LM-LSTM-CRF\" and the claimed row label is not present in the provided table."
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "part of speech pos tagging",
+        "canonical_id": "part of speech pos tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ",
+          "canonical_id": "penn treebank ptb"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.53,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "15) \\our$^\\dagger$$^\\ddagger$",
+        "header_path": "Accuracy",
+        "cell": "97.53$\\pm$0.03",
+        "_content_hash": "4ca94a9b4f3e",
+        "_paper_hash": "8a824a437e44",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "LSTM-CRF",
+          "column_header": "Accuracy",
+          "cell": "97.35",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell cannot be verified as the source because the row label, header path, and cell content in the provided table do not match the claimed tuple's information, such as method name, dataset, metric, or value."
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "chunking",
+        "canonical_id": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking",
+          "canonical_id": "conll 2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F_1 score",
+          "value": 95.96,
+          "unit": null,
+          "canonical_id": "f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "15) \\our$^\\dagger$$^\\ddagger$",
+        "header_path": "F$_1$ score",
+        "cell": "95.96$\\pm$0.08",
+        "_content_hash": "b0a213b23df9",
+        "_paper_hash": "8a824a437e44",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "F_1Score",
+          "cell": "95.80",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe row label does not describe the tuple's Method, as there is no indication that \"15) \\our$^\\dagger$$^\\ddagger$\" refers to \"LM-LSTM-CRF\", and the paper excerpt does not provide an alias for \"LM-LSTM-CRF\"."
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": "named entity recognition ner"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER",
+          "canonical_id": "conll 2003 english"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 6,
+          "unit": "hours",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TagLM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "15) \\our",
+        "header_path": "Time $\\cdot$ Device",
+        "cell": "6 h$\\cdot$GTX 1080",
+        "_paper_hash": "8a824a437e44",
+        "_content_hash": "a134c6954c7a",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "h",
+          "cell": "6",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": "named entity recognition ner"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER",
+          "canonical_id": "conll 2003 english"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "recall",
+          "value": 92.14,
+          "unit": null,
+          "canonical_id": "recall"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\our",
+        "header_path": "Recall$\\pm$std",
+        "cell": "92.14$\\pm$0.12",
+        "_content_hash": "5ce473acfea3",
+        "_paper_hash": "8a824a437e44",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 7,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "Recall",
+          "cell": "91.70 0.16",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label does not describe the tuple's Method, as \"our\" refers to the proposed framework in the paper excerpt, which is not explicitly stated to be LM-LSTM-CRF."
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": "named entity recognition ner"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER",
+          "canonical_id": "conll 2003 english"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "precision",
+          "value": 91.3,
+          "unit": null,
+          "canonical_id": "precision"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\our",
+        "header_path": "Precision$\\pm$std",
+        "cell": "91.30$\\pm$0.13",
+        "_content_hash": "5fabc06acbb6",
+        "_paper_hash": "8a824a437e44",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 7,
+          "row_label": "2-5",
+          "column_header": "Precision",
+          "cell": "90.81 0.15",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER",
+          "canonical_id": "conll03 ner"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.71,
+          "unit": null,
+          "canonical_id": "f 1 score"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF",
+        "TagLM"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "15) \\our$^\\dagger$$^\\ddagger$",
+        "header_path": "F$_1$ score",
+        "cell": "91.71$\\pm$0.10",
+        "_content_hash": "7f19eb3c10b5",
+        "_paper_hash": "8a824a437e44",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 7,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "F_1score",
+          "cell": "91.22 0.19",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "chunking",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking",
+          "canonical_id": "conll00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 95.96,
+          "unit": null,
+          "canonical_id": "f 1 score"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "15) \\our$^\\dagger$$^\\ddagger$",
+        "header_path": "F$_1$ score",
+        "cell": "95.96$\\pm$0.08",
+        "_content_hash": "b0a213b23df9",
+        "_paper_hash": "8a824a437e44",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "F_1Score",
+          "cell": "95.80",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe row label does not match the tuple's Method, as \"our\" is not explicitly defined as LM-LSTM-CRF in the provided paper excerpt, and the table row label for CoNLL00 chunking does not contain the claimed method name."
+      }
+    }
+  ]
+}

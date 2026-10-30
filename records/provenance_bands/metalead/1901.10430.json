@@ -1,0 +1,411 @@
+{
+  "paper_id": "1901.10430",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "BLEU",
+          "cell": "29.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ott2018scaling",
+          "column_header": "col_2",
+          "cell": "29.3",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "machine translation",
+      "dataset": "WMT English-German",
+      "metric": "BLEU",
+      "value": 29.7
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "BLEU",
+          "cell": "43.2"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ott2018scaling",
+          "column_header": "col_3",
+          "cell": "43.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "machine translation",
+      "dataset": "WMT English-French",
+      "metric": "BLEU",
+      "value": 43.2
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "BLEU",
+          "cell": "35.2"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "285M",
+          "column_header": "Param (Zh-En)",
+          "cell": "34.8",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "machine translation",
+      "dataset": "IWSLT German-English",
+      "metric": "BLEU",
+      "value": 35.2
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "BLEU",
+          "cell": "24.4"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "hassan2018parity",
+          "column_header": "Param (Zh-En)",
+          "cell": "24.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "machine translation",
+      "dataset": "WMT Chinese-English",
+      "metric": "BLEU",
+      "value": 24.4
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "Test",
+          "cell": "26.67"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "+ Dynamic weights [ ] (H=16)",
+          "column_header": "BLEU",
+          "cell": "26.9 0.2",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "language modeling",
+      "dataset": "Google Billion Word",
+      "metric": "perplexity",
+      "value": 26.67
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "Rouge-1",
+          "cell": "39.84"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "86M",
+          "column_header": "Param",
+          "cell": "39.52",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "abstractive summarization",
+      "dataset": "CNN-DailyMail",
+      "metric": "Rouge-1",
+      "value": 39.84
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "Rouge-1",
+          "cell": "39.84"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "Self-attention baseline",
+          "column_header": "Rouge-2",
+          "cell": "15.98",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "abstractive summarization",
+      "dataset": "CNN-DailyMail",
+      "metric": "Rouge-2",
+      "value": 16.25
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "Rouge-1",
+          "cell": "39.84"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "Self-attention baseline",
+          "column_header": "Rouge-l",
+          "cell": "36.35",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "abstractive summarization",
+      "dataset": "CNN-DailyMail",
+      "metric": "Rouge-l",
+      "value": 36.73
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "sdconv",
+          "header_path": "Rouge-1",
+          "cell": "39.52"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "Self-attention baseline",
+          "column_header": "Rouge-1",
+          "cell": "39.26",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Lightweight convolution",
+      "task": "summarization",
+      "dataset": "CNN-DailyMail",
+      "metric": "ROUGE-1",
+      "value": 39.52
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "sdconv",
+          "header_path": "Rouge-1",
+          "cell": "39.52"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "Self-attention baseline",
+          "column_header": "Rouge-2",
+          "cell": "15.98",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Lightweight convolution",
+      "task": "summarization",
+      "dataset": "CNN-DailyMail",
+      "metric": "ROUGE-2",
+      "value": 15.97
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "sdconv",
+          "header_path": "Rouge-1",
+          "cell": "39.52"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "Self-attention baseline",
+          "column_header": "Rouge-l",
+          "cell": "36.35",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Lightweight convolution",
+      "task": "summarization",
+      "dataset": "CNN-DailyMail",
+      "metric": "ROUGE-L",
+      "value": 36.51
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "BLEU",
+          "cell": "29.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ott2018scaling",
+          "column_header": "col_2",
+          "cell": "29.3",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "machine translation",
+      "dataset": "WMT'14 English-German",
+      "metric": "BLEU",
+      "value": 29.7
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "BLEU",
+          "cell": "43.2"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ott2018scaling",
+          "column_header": "col_3",
+          "cell": "43.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "machine translation",
+      "dataset": "WMT'14 English-French",
+      "metric": "BLEU",
+      "value": 43.2
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "BLEU",
+          "cell": "35.2"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "285M",
+          "column_header": "Param (Zh-En)",
+          "cell": "34.8",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "machine translation",
+      "dataset": "IWSLT'14 German-English",
+      "metric": "BLEU",
+      "value": 35.2
+    },
+    {
+      "tuple_idx": 14,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "tvsdconv",
+          "header_path": "BLEU",
+          "cell": "24.4"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "hassan2018parity",
+          "column_header": "Param (Zh-En)",
+          "cell": "24.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Dynamic convolution",
+      "task": "machine translation",
+      "dataset": "WMT'17 Chinese-English",
+      "metric": "BLEU",
+      "value": 24.4
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "paper_id": "0626908dd710b91aece1a81f4ca0635f23fc47f3",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose": 5,
+    "total": 5
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Inception-v2",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2012",
+          "canonical_id": "imagenet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error",
+          "value": 21.2,
+          "unit": "%",
+          "canonical_id": "top-1 accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GoogLeNet",
+        "BN-GoogLeNet",
+        "BN-Inception",
+        "Inception-v2",
+        "Inception-v2 RMSProp",
+        "Inception-v2 Label Smoothing",
+        "Inception-v2 Factorized 7x7"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "Table~\\ref{results} shows the experimental results about the recognition performance of our proposed architecture (Inception-v2) as described in Section~\\ref{revisited}.",
+        "_quote_verified": "\\section{Experimental Results and Comparisons}\n\\begin{table}\n{\\small\n \\begin{center}\n   \\begin{tabul",
+        "_verification_mode": "offset",
+        "_paper_hash": "235ce86cb2b9",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Inception-v2",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2012",
+          "canonical_id": "imagenet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-5 error",
+          "value": 5.6,
+          "unit": "%",
+          "canonical_id": "top-5 accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GoogLeNet",
+        "BN-GoogLeNet",
+        "BN-Inception",
+        "Inception-v2",
+        "Inception-v2 RMSProp",
+        "Inception-v2 Label Smoothing",
+        "Inception-v2 Factorized 7x7"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "Table~\\ref{results} shows the experimental results about the recognition performance of our proposed architecture (Inception-v2) as described in Section~\\ref{revisited}.",
+        "_quote_verified": "\\section{Experimental Results and Comparisons}\n\\begin{table}\n{\\small\n \\begin{center}\n   \\begin{tabul",
+        "_verification_mode": "offset",
+        "_paper_hash": "235ce86cb2b9",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Inception-v2",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2012",
+          "canonical_id": "imagenet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "computational cost",
+          "value": 4.8,
+          "unit": "Bn Ops",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GoogLeNet",
+        "BN-GoogLeNet",
+        "BN-Inception",
+        "Inception-v2",
+        "Inception-v2 RMSProp",
+        "Inception-v2 Label Smoothing",
+        "Inception-v2 Factorized 7x7"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "Table~\\ref{results} shows the experimental results about the recognition performance of our proposed architecture (Inception-v2) as described in Section~\\ref{revisited}.",
+        "_quote_verified": "\\section{Experimental Results and Comparisons}\n\\begin{table}\n{\\small\n \\begin{center}\n   \\begin{tabul",
+        "_verification_mode": "offset",
+        "_paper_hash": "235ce86cb2b9",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Inception-v2",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2012",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "cost",
+          "value": 3.8,
+          "unit": "Bn Ops",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GoogLeNet",
+        "BN-GoogLeNet",
+        "BN-Inception"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "Table~\\ref{results} shows the experimental results about the recognition performance of our proposed architecture (Inception-v2) as described in Section~\\ref{revisited}.",
+        "_quote_verified": "\\section{Experimental Results and Comparisons}\n\\begin{table}\n{\\small\n \\begin{center}\n   \\begin{tabul",
+        "_verification_mode": "offset",
+        "_paper_hash": "235ce86cb2b9",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Inception-v3",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ILSVRC 2012",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 accuracy",
+          "value": 76.6,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Inception-v2"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "Table~\\ref{lowrescmp} shows the experimental results about the recognition performance of our proposed architecture (Inception-v3) as described in Section~\\ref{revisited}.",
+        "_quote_verified": "\\section{Experimental Results and Comparisons}\n\\begin{table}\n{\\small\n \\begin{center}\n   \\begin{tabul",
+        "_verification_mode": "offset",
+        "_paper_hash": "235ce86cb2b9",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    }
+  ]
+}

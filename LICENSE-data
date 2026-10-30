@@ -1,0 +1,12 @@
+Human-rated label files (human_eval/) and per-paper record outputs (records/,
+baselines/) are released under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0).
+
+You are free to share and adapt these data, for any purpose, provided you
+give appropriate credit by citing:
+
+  Siravuri, H. V. and Alhoori, H. (2026). Table-Aware Extraction of Scientific
+  Results. 6th International Workshop on Big Data and AI-Assisted Tools (BTSD),
+  IEEE BigData 2026.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/

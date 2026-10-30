@@ -1,0 +1,140 @@
+{
+  "paper_id": "1703.06345",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical recurrent neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1541,
+          "end": 1571
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 136,
+          "end": 152
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank (PTB)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2210,
+            "end": 2224
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL 2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2234,
+            "end": 2246
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL 2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2256,
+            "end": 2268
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL 2002 (Dutch)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2303,
+            "end": 2318
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "CoNLL 2002 (Spanish)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2328,
+            "end": 2342
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.26,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10015,
+            "end": 10021
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": 95.41,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10015,
+            "end": 10021
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": 85.77,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10015,
+            "end": 10021
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": 85.19,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10015,
+            "end": 10021
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "state-of-the-art",
+        "collobert2011natural",
+        "huang2015bidirectional",
+        "lample2016neural",
+        "ma2016end",
+        "gillick2015multilingual"
+      ],
+      "self_consistency": 0.8,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 47361,
+    "tokens_out": 6633,
+    "cost_usd": 0.02551984,
+    "wall_time_seconds": 263.82759691611864,
+    "voting_samples": 3
+  }
+}

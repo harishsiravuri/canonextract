@@ -1,0 +1,168 @@
+{
+  "paper_id": "1908.08345",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BertSumExt",
+          "header_path": "R1",
+          "cell": "43.25"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "1 @ l| BertSumExt",
+          "column_header": "R1",
+          "cell": "43.25",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BertSumExt",
+      "task": "summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-1",
+      "value": 43.25
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BertSumExt",
+          "header_path": "R1",
+          "cell": "43.25"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "1 @ l| BertSumExt",
+          "column_header": "R2",
+          "cell": "20.24",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BertSumExt",
+      "task": "summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-2",
+      "value": 20.24
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BertSumExt",
+          "header_path": "R1",
+          "cell": "43.25"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "1 @ l| BertSumExt",
+          "column_header": "RL",
+          "cell": "39.63",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BertSumExt",
+      "task": "summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-L",
+      "value": 39.63
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BertSumExt",
+          "header_path": "R1",
+          "cell": "46.66"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "BertSumExt",
+          "column_header": "R1",
+          "cell": "46.66",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BertSumExt",
+      "task": "summarization",
+      "dataset": "NYT",
+      "metric": "ROUGE-1",
+      "value": 46.66
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BertSumExt",
+          "header_path": "R1",
+          "cell": "46.66"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "BertSumExt",
+          "column_header": "R2",
+          "cell": "26.35",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BertSumExt",
+      "task": "summarization",
+      "dataset": "NYT",
+      "metric": "ROUGE-2",
+      "value": 26.35
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BertSumExt",
+          "header_path": "R1",
+          "cell": "46.66"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "BertSumExt",
+          "column_header": "RL",
+          "cell": "42.62",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BertSumExt",
+      "task": "summarization",
+      "dataset": "NYT",
+      "metric": "ROUGE-L",
+      "value": 42.62
+    }
+  ]
+}

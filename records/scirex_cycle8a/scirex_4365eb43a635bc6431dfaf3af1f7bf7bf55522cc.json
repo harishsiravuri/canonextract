@@ -1,0 +1,204 @@
+{
+  "paper_id": "4365eb43a635bc6431dfaf3af1f7bf7bf55522cc",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 1,
+    "total": 4,
+    "prose": 2,
+    "partial_table_valid": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "CoupleNet",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "VOC07",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 81.7,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "R-FCN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "CoupleNet",
+        "header_path": "mAP (\\%) on VOC07",
+        "cell": "81.7",
+        "_content_hash": "d5f11f0926f4",
+        "_paper_hash": "d7d0601584bc",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "CoupleNet",
+          "column_header": "mAP(\\%)",
+          "cell": "81.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"CoupleNet\" directly matches the tuple's Method, the header path \"mAP (\\%) on VOC07\" matches the tuple's Dataset and Metric, and the cell content \"81.7\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "CoupleNet",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "VOC12",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 80.4,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "R-FCN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "quote": "We achieve state-of-the-art results on all three challenging datasets, \\ie a mAP of $82.7\\%$ on VOC07, $80.4\\%$ on VOC12, and $34.4\\%$ on COCO.",
+        "_quote_verified": "\\documentclass[10pt,twocolumn,letterpaper]{article}\n\n\\usepackage{iccv}\n\\usepackage{times}\n\\usepackage{epsfig}\n\\usepackage{graphicx}\n\\usepackage{amsmath}\n\\usepackage{amssymb}\n\\usepackage{tabularx}\n\\usepackage{array}\n\\usepackage{booktabs}\n\\usepackage{multirow}\n\\usepackage{subfigure}\n\n% Include other packages here, before hyperref.\n\n% If you comment hyperref and then uncomment it, you should delete\n% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex\n% run, let it finish, and you should be clear).\n%\\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}\n\\usepackage[breaklinks=true,bookmarks=false,colorlinks=True, linkcolor=red]{hyperref}\n\n\\iccvfinalcopy % *** Uncomment this line for the final submission\n\n\\def\\iccvPaperID{1727} % *** Enter the ICCV Paper ID here\n\\def\\httilde{\\mbox{\\tt\\raisebox{-.5ex}{\\symbol{126}}}}\n\n% Pages are numbered in submission mode, and unnumbered in camera-ready\n%\\ificcvfinal\\pagestyle{empty}\\fi\n\\s",
+        "_verification_mode": "offset",
+        "_paper_hash": "d7d0601584bc",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "CoupleNet",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "COCO",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 34.4,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "R-FCN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "quote": "We achieve state-of-the-art results on all three challenging datasets, \\ie a mAP of $82.7\\%$ on VOC07, $80.4\\%$ on VOC12, and $34.4\\%$ on COCO.",
+        "_quote_verified": "\\documentclass[10pt,twocolumn,letterpaper]{article}\n\n\\usepackage{iccv}\n\\usepackage{times}\n\\usepackage{epsfig}\n\\usepackage{graphicx}\n\\usepackage{amsmath}\n\\usepackage{amssymb}\n\\usepackage{tabularx}\n\\usepackage{array}\n\\usepackage{booktabs}\n\\usepackage{multirow}\n\\usepackage{subfigure}\n\n% Include other packages here, before hyperref.\n\n% If you comment hyperref and then uncomment it, you should delete\n% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex\n% run, let it finish, and you should be clear).\n%\\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}\n\\usepackage[breaklinks=true,bookmarks=false,colorlinks=True, linkcolor=red]{hyperref}\n\n\\iccvfinalcopy % *** Uncomment this line for the final submission\n\n\\def\\iccvPaperID{1727} % *** Enter the ICCV Paper ID here\n\\def\\httilde{\\mbox{\\tt\\raisebox{-.5ex}{\\symbol{126}}}}\n\n% Pages are numbered in submission mode, and unnumbered in camera-ready\n%\\ificcvfinal\\pagestyle{empty}\\fi\n\\s",
+        "_verification_mode": "offset",
+        "_paper_hash": "d7d0601584bc",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "CoupleNet",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "VOC07",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "test time",
+          "value": 102,
+          "unit": "ms/img",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Faster R-CNN",
+        "R-FCN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "CoupleNet",
+        "header_path": "test time (ms/img)",
+        "cell": "102",
+        "_content_hash": "66642351cc7f",
+        "_paper_hash": "d7d0601584bc",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "CoupleNet",
+          "column_header": "col_4",
+          "cell": "102",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

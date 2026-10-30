@@ -1,0 +1,197 @@
+{
+  "paper_id": "1778e32c18bd611169e64c1805a51abff341ca53",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 3,
+    "total": 3
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "DIIN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "MultiNLI",
+          "canonical_id": "multinli"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test Accuracy",
+          "value": 78.8,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BiLSTM",
+        "InnerAtt",
+        "ESIM",
+        "Gated-Att BiLSTM",
+        "Shorcut-Stacked encoder"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "6. DIIN",
+        "header_path": "Test Accuracy",
+        "cell": "78.8",
+        "_content_hash": "d3fa51a8ee09",
+        "_paper_hash": "4b923efd576c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "6. DIIN",
+          "column_header": "Mismatched",
+          "cell": "78.8",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES. The row label \"6. DIIN\" directly matches the tuple's Method, and the header path \"Test Accuracy\" matches the tuple's Metric, with the cell content \"78.8\" matching the tuple's Value, and the paper context implies that DIIN is used for natural language inference on the MultiNLI dataset."
+      }
+    },
+    {
+      "method": {
+        "name": "DIIN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": "snli"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test Accuracy",
+          "value": 88.0,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Handcrafted features",
+        "LSTM encoder",
+        "pretrained GRU encoders",
+        "tree-based CNN encoders",
+        "SPINN-PI encoders",
+        "BiLSTM intra-attention encoders",
+        "NSE encoders",
+        "LSTM with attention",
+        "mLSTM",
+        "LSTMN with deep attention fusion",
+        "decomposable attention model",
+        "Intra-sentence attention + (11)",
+        "BiMPM",
+        "NTI-SLSTM-LSTM",
+        "re-read LSTM",
+        "ESIM",
+        "ESIM ensemble with syntactic tree-LSTM",
+        "BiMPM (ensemble)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "19. DIIN",
+        "header_path": "Test Accuracy",
+        "cell": "88.0",
+        "_content_hash": "80927315544b",
+        "_paper_hash": "4b923efd576c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 6,
+          "row_label": "1. DIIN(448)",
+          "column_header": "SNLI",
+          "cell": "88.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"19. DIIN\" describes the tuple's Method, the header path \"Test Accuracy\" describes the tuple's Metric, and the cell content is implied to be \"88.0\" which matches the tuple's Value, given that DIIN is mentioned in the paper excerpt as the proposed method."
+      }
+    },
+    {
+      "method": {
+        "name": "DIIN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "paraphrase identification",
+        "canonical_id": "paraphrase detection"
+      },
+      "datasets": [
+        {
+          "name": "Quora question pair",
+          "canonical_id": "quora question pairs"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 89.44,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Siamese-CNN",
+        "Multi-Perspective CNN",
+        "Siamese-LSTM",
+        "Multi-Perspective-LSTM",
+        "L.D.C",
+        "BiMPM",
+        "pt-DecAtt_word",
+        "pt-DecAtt_char"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "9. DIIN",
+        "header_path": "Accuracy",
+        "cell": "89.44",
+        "_content_hash": "928428b87540",
+        "_paper_hash": "4b923efd576c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "9. DIIN",
+          "column_header": "Test Acc",
+          "cell": "89.44",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"9. DIIN\" directly matches the tuple's Method, the header path \"Accuracy\" matches the tuple's Metric, and the cell content \"89.44\" matches the tuple's Value, with the paper excerpt providing context that DIIN is the proposed method."
+      }
+    }
+  ]
+}

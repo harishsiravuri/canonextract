@@ -1,0 +1,459 @@
+{
+  "paper_id": "2002.03184",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "prose_claimed_table": 5,
+    "total": 8,
+    "partial_table_valid": 3
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "TaLK Convolutions",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT English to German (En-De)",
+          "canonical_id": "wmt2014 english german"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.6,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "gehring2017convolutional",
+        "vaswani2017attention",
+        "DBLP:journals/corr/abs-1711-02132",
+        "DBLP:journals/corr/abs-1804-09849",
+        "DBLP:journals/corr/abs-1803-02155",
+        "DBLP:journals/corr/abs-1806-00187",
+        "wu2019pay",
+        "kitaev2020reformer",
+        "deng2018latent"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "BLEU",
+        "cell": "29.6",
+        "_content_hash": "490cb43d9d20",
+        "_paper_hash": "ee5dc3f8417f",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "DBLP:journals/corr/abs-1803-02155",
+          "column_header": "Param (En-De)",
+          "cell": "29.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "TaLK Convolutions",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT English to French (En-Fr)",
+          "canonical_id": "wmt2014 english french"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.6,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "gehring2017convolutional",
+        "vaswani2017attention",
+        "DBLP:journals/corr/abs-1711-02132",
+        "DBLP:journals/corr/abs-1804-09849",
+        "DBLP:journals/corr/abs-1803-02155",
+        "DBLP:journals/corr/abs-1806-00187",
+        "wu2019pay",
+        "kitaev2020reformer",
+        "deng2018latent"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "BLEU",
+        "cell": "29.6",
+        "_content_hash": "490cb43d9d20",
+        "_paper_hash": "ee5dc3f8417f",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "DBLP:journals/corr/abs-1803-02155",
+          "column_header": "Param (En-De)",
+          "cell": "29.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "TaLK Convolutions",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT German to English (De-En)",
+          "canonical_id": "iwslt2015 german english"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.6,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "gehring2017convolutional",
+        "vaswani2017attention",
+        "DBLP:journals/corr/abs-1711-02132",
+        "DBLP:journals/corr/abs-1804-09849",
+        "DBLP:journals/corr/abs-1803-02155",
+        "DBLP:journals/corr/abs-1806-00187",
+        "wu2019pay",
+        "kitaev2020reformer",
+        "deng2018latent"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "BLEU",
+        "cell": "29.6",
+        "_content_hash": "490cb43d9d20",
+        "_paper_hash": "ee5dc3f8417f",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "DBLP:journals/corr/abs-1803-02155",
+          "column_header": "Param (En-De)",
+          "cell": "29.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "TaLK Convolutions",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 40.59,
+          "unit": null,
+          "canonical_id": "rouge 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DBLP:journals/corr/PaulusXS17",
+        "DBLP:journals/corr/abs-1711-05217",
+        "wu2019pay"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "Rouge-1",
+        "cell": "40.59",
+        "_content_hash": "45c0c38db808",
+        "_paper_hash": "ee5dc3f8417f",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "(Deep)",
+          "column_header": "Rouge-1",
+          "cell": "40.59",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "TaLK Convolutions",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-2",
+          "value": 18.97,
+          "unit": null,
+          "canonical_id": "rouge 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DBLP:journals/corr/PaulusXS17",
+        "DBLP:journals/corr/abs-1711-05217",
+        "wu2019pay"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "Rouge-1",
+        "cell": "40.59",
+        "_content_hash": "45c0c38db808",
+        "_paper_hash": "ee5dc3f8417f",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "(Deep)",
+          "column_header": "Rouge-2",
+          "cell": "18.97",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "TaLK Convolutions",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-L",
+          "value": 36.81,
+          "unit": null,
+          "canonical_id": "rouge l"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DBLP:journals/corr/PaulusXS17",
+        "DBLP:journals/corr/abs-1711-05217",
+        "wu2019pay"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "Rouge-1",
+        "cell": "40.59",
+        "_content_hash": "45c0c38db808",
+        "_paper_hash": "ee5dc3f8417f",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Self-Attention Baseline wu2019pay",
+          "column_header": "Rouge-L",
+          "cell": "36.35",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "TaLK Convolutions",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "language modeling"
+      },
+      "datasets": [
+        {
+          "name": "WikiText-103",
+          "canonical_id": "wikitext 103"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 23.3,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "DBLP:journals/corr/GraveJU16",
+        "DBLP:journals/corr/DauphinFAG16",
+        "DBLP:journals/corr/abs-1803-08240",
+        "DBLP:journals/corr/abs-1803-10049",
+        "DBLP:journals/corr/abs-1809-10853",
+        "wu2019pay"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "Test",
+        "cell": "23.3",
+        "_content_hash": "33f296c5a06e",
+        "_paper_hash": "ee5dc3f8417f",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "(Ours)",
+          "column_header": "col_2",
+          "cell": "23.3",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "TaLK Convolutions",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "WikiText-103",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test perplexity",
+          "value": 23.3,
+          "unit": null,
+          "canonical_id": "test perplexity on we used adaptive inputs similar to dblp journals corr abs 1809 10853 and show that our method yields better perplexity than dynamic convolutions and comparative performance with self attention"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DBLP:journals/corr/GraveJU16",
+        "DBLP:journals/corr/DauphinFAG16",
+        "DBLP:journals/corr/abs-1803-08240",
+        "DBLP:journals/corr/abs-1803-10049",
+        "DBLP:journals/corr/abs-1809-10853",
+        "Dynamic Convolutions"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Model",
+        "header_path": "Test",
+        "cell": "23.3",
+        "_content_hash": "33f296c5a06e",
+        "_paper_hash": "ee5dc3f8417f",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "(Ours)",
+          "column_header": "col_2",
+          "cell": "23.3",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    }
+  ]
+}

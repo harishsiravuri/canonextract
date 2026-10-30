@@ -1,0 +1,985 @@
+{
+  "paper_id": "1910.13461",
+  "contributions": [
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "text generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 6.0,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "The evidence spans are set to null as the paper text provided is a LaTeX template and does not contain the actual content of the paper with the contributions.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "WMT Romanian-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 1.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "The evidence spans are set to null as the paper text provided is a LaTeX template and does not contain the actual content of the paper with the contributions.",
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "natural language understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "GLUE",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "RoBERTa"
+      ],
+      "notes": "The evidence spans are set to null as the paper text provided is a LaTeX template and does not contain the actual content of the paper with the contributions.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "natural language understanding",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "SQuAD",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "RoBERTa"
+      ],
+      "notes": "The evidence spans are set to null as the paper text provided is a LaTeX template and does not contain the actual content of the paper with the contributions.",
+      "_sc_support": 0.6
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 56885,
+    "tokens_out": 4630,
+    "cost_usd": 0.0223239,
+    "wall_seconds": 139.66539907455444,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "text generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": 6.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "The evidence spans are set to null as the paper text provided is a LaTeX template and does not contain the actual content of the paper with the contributions."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT Romanian-English",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 1.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "The evidence spans are set to null as the paper text provided is a LaTeX template and does not contain the actual content of the paper with the contributions."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "natural language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "GLUE",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "SQuAD",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "RoBERTa"
+          ],
+          "notes": "The evidence spans are set to null as the paper text provided is a LaTeX template and does not contain the actual content of the paper with the contributions."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "natural language generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": 6.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "BART achieves new state-of-the-art results on abstractive dialogue, question answering, and summarization tasks, with gains of up to 6 ROUGE."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT Romanian-English",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 1.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "BART provides a 1.1 BLEU increase over a back-translation system for machine translation, with only target language pretraining."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "natural language inference",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "GLUE",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "RoBERTa"
+          ],
+          "notes": "BART matches the performance of RoBERTa with comparable training resources on GLUE."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "question answering",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "RoBERTa"
+          ],
+          "notes": "BART matches the performance of RoBERTa with comparable training resources on SQuAD."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "text generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": 6.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous work"
+          ],
+          "notes": "The evidence spans are set to null as the paper text provided does not contain the specific sections where these claims are made."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT Romanian-English",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 1.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "back-translation system"
+          ],
+          "notes": "The evidence spans are set to null as the paper text provided does not contain the specific sections where these claims are made."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "natural language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "GLUE",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "SQuAD",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "RoBERTa"
+          ],
+          "notes": "The evidence spans are set to null as the paper text provided does not contain the specific sections where these claims are made."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "natural language generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": 6.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous work"
+          ],
+          "notes": "The evidence spans are set to null as the paper text provided does not contain the specific details about the contributions."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT Romanian-English",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 1.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "back-translation system"
+          ],
+          "notes": "The evidence spans are set to null as the paper text provided does not contain the specific details about the contributions."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "natural language inference",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "GLUE",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "RoBERTa"
+          ],
+          "notes": "The evidence spans are set to null as the paper text provided does not contain the specific details about the contributions."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "question answering",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "SQuAD",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "RoBERTa"
+          ],
+          "notes": "The evidence spans are set to null as the paper text provided does not contain the specific details about the contributions."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "text generation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": 6.0,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous work"
+          ],
+          "notes": "The evidence spans are set to null as the exact locations in the text are not provided in the input."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT Romanian-English",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 1.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "back-translation system"
+          ],
+          "notes": "The evidence spans are set to null as the exact locations in the text are not provided in the input."
+        },
+        {
+          "method": {
+            "name": "BART",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "natural language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "GLUE",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "SQuAD",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "RoBERTa"
+          ],
+          "notes": "The evidence spans are set to null as the exact locations in the text are not provided in the input. The paper mentions comparable performance but does not specify exact metrics."
+        }
+      ]
+    }
+  ]
+}

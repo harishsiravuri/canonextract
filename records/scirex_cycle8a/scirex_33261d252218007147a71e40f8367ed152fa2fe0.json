@@ -1,0 +1,104 @@
+{
+  "paper_id": "33261d252218007147a71e40f8367ed152fa2fe0",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose_claimed_table": 1,
+    "total": 2,
+    "missing": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Subgraph & A(q)=C2",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": "question answering"
+      },
+      "datasets": [
+        {
+          "name": "WebQuestions",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "P@1",
+          "value": 40.4,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Berant et al., 2013",
+        "Bordes et al., 2014",
+        "Yao and Van Durme, 2014",
+        "Berant and Liang, 2014"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Subgraph & A(q)=C2",
+        "header_path": "P@1",
+        "cell": "40.4",
+        "_paper_hash": "408479f682f2",
+        "_content_hash": "a1b448be7755",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Without multiple predictions",
+          "column_header": "col_1",
+          "cell": "40.4",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Subgraph & A(q)=C2",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": "question answering"
+      },
+      "datasets": [
+        {
+          "name": "WebQuestions",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 39.2,
+          "unit": null,
+          "canonical_id": "f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Berant et al., 2013",
+        "Bordes et al., 2014",
+        "Yao and Van Durme, 2014",
+        "Berant and Liang, 2014"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "408479f682f2",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    }
+  ]
+}

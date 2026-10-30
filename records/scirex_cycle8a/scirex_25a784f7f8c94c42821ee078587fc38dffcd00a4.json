@@ -1,0 +1,463 @@
+{
+  "paper_id": "25a784f7f8c94c42821ee078587fc38dffcd00a4",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 5,
+    "total": 9,
+    "partial_table_valid": 1,
+    "prose": 3
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Baseline-Single",
+        "canonical_id": "baseline single"
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "face detection"
+      },
+      "datasets": [
+        {
+          "name": "WIDER FACE",
+          "canonical_id": "wider face"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "easy",
+          "value": 95.1,
+          "unit": null,
+          "canonical_id": "easy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Baseline-Three"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "|=|=|=|=| Baseline-Single",
+        "header_path": "easy",
+        "cell": "95.1",
+        "_content_hash": "ea85444ffbe4",
+        "_paper_hash": "d698be579c6f",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "|=|=|=|=| Baseline-Single",
+          "column_header": "easy",
+          "cell": "95.1",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe claimed cell is the source of the tuple's combination because the row label \"Baseline-Single\" describes the tuple's Method, the header path \"easy\" describes the tuple's Metric, and the cell content \"95.1\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "Baseline-Single",
+        "canonical_id": "baseline single"
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "face detection"
+      },
+      "datasets": [
+        {
+          "name": "WIDER FACE",
+          "canonical_id": "wider face"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "medium",
+          "value": 94.2,
+          "unit": null,
+          "canonical_id": "medium"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Baseline-Three"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "|=|=|=|=| Baseline-Single",
+        "header_path": "easy",
+        "cell": "95.1",
+        "_content_hash": "ea85444ffbe4",
+        "_paper_hash": "d698be579c6f",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "|=|=|=|=| Baseline-Single",
+          "column_header": "medium",
+          "cell": "94.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"95.1\" does not match the tuple's Value \"94.2\", and the header path \"easy\" does not describe the tuple's Metric \"medium\"."
+      }
+    },
+    {
+      "method": {
+        "name": "Baseline-Single",
+        "canonical_id": "baseline single"
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "face detection"
+      },
+      "datasets": [
+        {
+          "name": "WIDER FACE",
+          "canonical_id": "wider face"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "hard",
+          "value": 89.1,
+          "unit": null,
+          "canonical_id": "hard"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Baseline-Three"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "|=|=|=|=| Baseline-Single",
+        "header_path": "easy",
+        "cell": "95.1",
+        "_content_hash": "ea85444ffbe4",
+        "_paper_hash": "d698be579c6f",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "|=|=|=|=| Baseline-Single",
+          "column_header": "hard",
+          "cell": "89.1",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell content \"95.1\" does not match the tuple's Value \"89.1\", which corresponds to the \"hard\" metric, not the \"easy\" metric in the header path."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": "ours"
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "face detection"
+      },
+      "datasets": [
+        {
+          "name": "WIDER FACE",
+          "canonical_id": "wider face"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP-h",
+          "value": 89.3,
+          "unit": null,
+          "canonical_id": "ap h"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SSH",
+        "S^3FD",
+        "PyramidBox"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours",
+        "header_path": "AP-h",
+        "cell": "89.3",
+        "_content_hash": "0ce5e61ebfcf",
+        "_paper_hash": "d698be579c6f",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Ours",
+          "column_header": "AP-h",
+          "cell": "89.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe cell content \"89.7\" does not match the tuple's Value \"89.3\", and the row label \"Ours\" refers to the proposed method in the paper, but the values do not align."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": "ours"
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "face detection"
+      },
+      "datasets": [
+        {
+          "name": "WIDER FACE",
+          "canonical_id": "wider face"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Time",
+          "value": 0.84,
+          "unit": "second",
+          "canonical_id": "time"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SSH",
+        "S^3FD",
+        "PyramidBox"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours",
+        "header_path": "AP-h",
+        "cell": "89.3",
+        "_content_hash": "0ce5e61ebfcf",
+        "_paper_hash": "d698be579c6f",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "|=|=|=|=|=|=| SSH",
+          "column_header": "Time",
+          "cell": "1.00",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": "ours"
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "face detection"
+      },
+      "datasets": [
+        {
+          "name": "WIDER FACE",
+          "canonical_id": "wider face"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "G-Mem",
+          "value": 5.3,
+          "unit": "gigabyte",
+          "canonical_id": "g mem"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SSH",
+        "S^3FD",
+        "PyramidBox"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours",
+        "header_path": "AP-h",
+        "cell": "89.3",
+        "_content_hash": "0ce5e61ebfcf",
+        "_paper_hash": "d698be579c6f",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Ours^*",
+          "column_header": "G-Mem",
+          "cell": "5.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"89.3\" does not match the tuple's Value \"5.3\", and the header path \"AP-h\" does not describe the tuple's Metric \"G-Mem\"."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": "ours"
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "FDDB",
+          "canonical_id": "fddb"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TPR",
+          "value": 98.7,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-arts"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "our method achieves the state-of-the-art performance of TPR=98.7% given 1000 false positives.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "d698be579c6f",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": "ours"
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "Pascal Faces",
+          "canonical_id": "pascal faces"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 99.0,
+          "unit": null,
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-arts"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "our method achieves a new the state-of-the-art performance of AP=99.0.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "d698be579c6f",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": "ours"
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "AFW",
+          "canonical_id": "afw"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 99.6,
+          "unit": null,
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state-of-the-arts"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "our method achieves state-of-the-art and almost perfect performance, with an AP of 99.60.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "d698be579c6f",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    }
+  ]
+}

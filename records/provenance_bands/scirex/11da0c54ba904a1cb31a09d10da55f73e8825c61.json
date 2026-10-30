@@ -1,0 +1,60 @@
+{
+  "paper_id": "11da0c54ba904a1cb31a09d10da55f73e8825c61",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "\\!\\!TBCNN-pair + cat, ,-",
+          "header_path": "\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!Test acc.\\!\\!\\!",
+          "cell": "83.5\\!\\!"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "\\!\\!TBCNN-pair + cat, ,-",
+          "column_header": "50.4\\!\\!",
+          "cell": "82.1\\!\\!",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "TBCNN-pair",
+      "task": "natural language inference",
+      "dataset": "Stanford Natural Language Inference (SNLI) dataset",
+      "metric": "Test Acc.",
+      "value": 82.1
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "TBCNN+cat, ,-",
+          "header_path": "Valid Acc.",
+          "cell": "82.4"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "TBCNN+cat, ,-",
+          "column_header": "Valid Acc.",
+          "cell": "82.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "TBCNN-pair",
+      "task": "natural language inference",
+      "dataset": "Stanford Natural Language Inference (SNLI) dataset",
+      "metric": "Valid Acc.",
+      "value": 82.4
+    }
+  ]
+}

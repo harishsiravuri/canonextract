@@ -1,0 +1,52 @@
+{
+  "paper_id": "081531984770a74e87dbd68907061b4b0f3631bf",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "7",
+          "header_path": "SF",
+          "cell": "37.78"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "7",
+          "column_header": "E5",
+          "cell": "37.78",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "ESPCN",
+      "task": "video super resolution",
+      "dataset": "CDVL",
+      "metric": "PSNR",
+      "value": 37.78
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "GOps",
+          "header_path": "SF",
+          "cell": "12.29"
+        },
+        "hit": null
+      },
+      "method": "SF",
+      "task": "video super resolution",
+      "dataset": "CDVL",
+      "metric": "GOps",
+      "value": 12.29
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "paper_id": "2777cd26b2c257843273fe41ad4c5b8cdf1b1b75",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "NAN",
+          "header_path": "All",
+          "cell": "24.28"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "NAN",
+          "column_header": "Inter_ 10\\%",
+          "cell": "24.61",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "NAN",
+      "task": "multi-human parsing",
+      "dataset": "MHP v2.0",
+      "metric": "AP^ p _ 0.5 (\\%)",
+      "value": 24.28
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "NAN",
+          "header_path": "All",
+          "cell": "24.28"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Mask R-CNN he2017mask",
+          "column_header": "Inter_ 20\\%",
+          "cell": "12.75",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "NAN",
+      "task": "multi-human parsing",
+      "dataset": "MHP v2.0",
+      "metric": "AP^ p _ vol (\\%)",
+      "value": 12.75
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "NAN",
+          "header_path": "All",
+          "cell": "24.28"
+        },
+        "hit": null
+      },
+      "method": "NAN",
+      "task": "multi-human parsing",
+      "dataset": "MHP v2.0",
+      "metric": "PCP_ 0.5 (\\%)",
+      "value": 20.73
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "NAN",
+          "header_path": "All",
+          "cell": "24.28"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Mask R-CNN he2017mask",
+          "column_header": "Inter_ 10\\%",
+          "cell": "8.38",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "NAN",
+      "task": "multi-human parsing",
+      "dataset": "MHP v2.0",
+      "metric": "Speed (img/s)",
+      "value": 8.38
+    }
+  ]
+}

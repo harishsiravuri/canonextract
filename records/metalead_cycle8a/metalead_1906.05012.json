@@ -1,0 +1,190 @@
+{
+  "paper_id": "1906.05012",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 3,
+    "total": 3
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "BiSET",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Annotated English Gigaword",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.11,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ABS",
+        "ABS+",
+        "RAS-Elman",
+        "Featseq2seq",
+        "Open-NMT",
+        "SEASS",
+        "S2S+CGU",
+        "FTSum",
+        "R^3Sum"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BiSET",
+        "header_path": "ROUGE-1",
+        "cell": "39.11",
+        "_content_hash": "801a7fee7221",
+        "_paper_hash": "b3ee81794e88",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "BiSET without A2T",
+          "column_header": "ROUGE-1",
+          "cell": "39.02",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell does not match the tuple's value because the table does not contain a row label \"BiSET\" with a \"ROUGE-1\" value of 39.11."
+      }
+    },
+    {
+      "method": {
+        "name": "BiSET",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Annotated English Gigaword",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.78,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ABS",
+        "ABS+",
+        "RAS-Elman",
+        "Featseq2seq",
+        "Open-NMT",
+        "SEASS",
+        "S2S+CGU",
+        "FTSum",
+        "R^3Sum"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BiSET",
+        "header_path": "ROUGE-1",
+        "cell": "39.11",
+        "_content_hash": "801a7fee7221",
+        "_paper_hash": "b3ee81794e88",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "BiSET(full)",
+          "column_header": "ROUGE-2",
+          "cell": "19.78",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell does not match the tuple's value, and the row label \"BiSET\" is not present in the table, suggesting that the claimed provenance is incorrect."
+      }
+    },
+    {
+      "method": {
+        "name": "BiSET",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Annotated English Gigaword",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.87,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ABS",
+        "ABS+",
+        "RAS-Elman",
+        "Featseq2seq",
+        "Open-NMT",
+        "SEASS",
+        "S2S+CGU",
+        "FTSum",
+        "R^3Sum"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BiSET",
+        "header_path": "ROUGE-1",
+        "cell": "39.11",
+        "_content_hash": "801a7fee7221",
+        "_paper_hash": "b3ee81794e88",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "BiSET(full)",
+          "column_header": "ROUGE-L",
+          "cell": "36.87",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell does not match the tuple's value and the row label \"BiSET\" is not present in the table, the table only contains rows labeled with template types, not the BiSET method itself."
+      }
+    }
+  ]
+}

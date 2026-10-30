@@ -1,0 +1,570 @@
+{
+  "paper_id": "1806.03489",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF with Lexical Similarity (LS) representation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.73,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF with Lexical Similarity (LS) representation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.95,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "notes": null,
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 67185,
+    "tokens_out": 2845,
+    "cost_usd": 0.024031250000000004,
+    "wall_seconds": 103.96454501152039,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-LSTM-CRF with Lexical Similarity (LS) representation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.73,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "novel",
+          "comparison_targets": [],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Bi-LSTM-CRF with Lexical Similarity (LS) representation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes 5.0",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 87.95,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "novel",
+          "comparison_targets": [],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-LSTM-CRF with Lexical Similarity (LS) representation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named-entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes 5.0",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 87.95,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Chiu and Nichols (2015)",
+            "Strubell et al. (2017)"
+          ],
+          "notes": "New state-of-the-art F1 score on OntoNotes 5.0."
+        },
+        {
+          "method": {
+            "name": "Bi-LSTM-CRF with Lexical Similarity (LS) representation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named-entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.73,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "Tran et al. (2017)",
+            "Liu et al. (2017)"
+          ],
+          "notes": "Matches state-of-the-art performance on CoNLL-2003."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2486,
+              "end": 2500
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1006,
+              "end": 1030
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4339,
+                "end": 4349
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.73,
+              "unit": null,
+              "evidence_span": {
+                "start": 4339,
+                "end": 4349
+              }
+            }
+          ],
+          "claim_strength": "novel",
+          "comparison_targets": [],
+          "notes": "The method achieves state-of-the-art performance on CoNLL-2003."
+        },
+        {
+          "method": {
+            "name": "Bi-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2486,
+              "end": 2500
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1006,
+              "end": 1030
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes 5.0",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4339,
+                "end": 4351
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 87.95,
+              "unit": null,
+              "evidence_span": {
+                "start": 4339,
+                "end": 4351
+              }
+            }
+          ],
+          "claim_strength": "novel",
+          "comparison_targets": [],
+          "notes": "The method achieves a new state-of-the-art F1 score on OntoNotes 5.0."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-LSTM-CRF with Lexical Similarity (LS) representation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1324,
+              "end": 1389
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1324,
+              "end": 1344
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes 5.0",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1380,
+                "end": 1389
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 87.95,
+              "unit": null,
+              "evidence_span": {
+                "start": 1374,
+                "end": 1379
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Chiu and Nichols (2015)",
+            "Strubell et al. (2017)"
+          ],
+          "notes": "New state-of-the-art F1 score on OntoNotes 5.0."
+        },
+        {
+          "method": {
+            "name": "Bi-LSTM-CRF with Lexical Similarity (LS) representation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1324,
+              "end": 1389
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1324,
+              "end": 1344
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1369,
+                "end": 1379
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.73,
+              "unit": null,
+              "evidence_span": {
+                "start": 1363,
+                "end": 1368
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "Tran et al. (2017)",
+            "Liu et al. (2017)"
+          ],
+          "notes": "Matches state-of-the-art performance on CoNLL-2003."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Bi-LSTM-CRF with Lexical Similarity (LR) representation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL-2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.73,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Chiu and Nichols (2015)",
+            "Tran et al. (2017)",
+            "Liu et al. (2017)"
+          ],
+          "notes": "The paper reports matching state-of-the-art performance on CoNLL-2003 with an F1 score of 91.73."
+        },
+        {
+          "method": {
+            "name": "Bi-LSTM-CRF with Lexical Similarity (LR) representation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "OntoNotes 5.0",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 87.95,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Chiu and Nichols (2015)",
+            "Strubell et al. (2017)"
+          ],
+          "notes": "The paper reports a new state-of-the-art F1 score of 87.95 on OntoNotes 5.0."
+        }
+      ]
+    }
+  ]
+}

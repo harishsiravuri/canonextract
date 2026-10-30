@@ -1,0 +1,114 @@
+{
+  "paper_id": "2f04ba0f74df046b0080ca78e56898bd4847898b",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Aggregate Channel Features",
+      "task": "face detection",
+      "dataset": "AFW",
+      "metric": "AP",
+      "value": 96.8
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Aggregate Channel Features",
+      "task": "face detection",
+      "dataset": "FDDB",
+      "metric": "AP",
+      "value": 96.8
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Aggregate Channel Features",
+      "task": "face detection",
+      "dataset": "FDDB",
+      "metric": "true positive rate",
+      "value": 83.7
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "None",
+          "header_path": "AP (\\%)",
+          "cell": "91.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "None",
+          "column_header": "AP (\\%)",
+          "cell": "91.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "None",
+      "task": "1-2 3-4 Reranking",
+      "dataset": "AFW",
+      "metric": "AP",
+      "value": 91.7
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "None",
+          "header_path": "AP (\\%)",
+          "cell": "91.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "None",
+          "column_header": "AP (\\%)",
+          "cell": "91.7",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Greedy* NMS",
+      "task": "Merging",
+      "dataset": "AFW",
+      "metric": "AP",
+      "value": 91.7
+    }
+  ]
+}

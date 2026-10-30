@@ -1,0 +1,195 @@
+{
+  "paper_id": "0a3381f0432c5cfe491c718349d7a44e5814592c",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CRF",
+          "header_path": "Development",
+          "cell": "F_ 0.5"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CRF",
+          "column_header": "predicted",
+          "cell": "36.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CRF",
+      "task": "error detection",
+      "dataset": "FCE",
+      "metric": "F_0.5",
+      "value": 36.3
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Bi-LSTM (full)",
+          "header_path": "Annotation 1",
+          "cell": "60.2"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Bi-LSTM (full)",
+          "column_header": "correct",
+          "cell": "34.3",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-LSTM",
+      "task": "error detection",
+      "dataset": "CoNLL-14",
+      "metric": "F_0.5",
+      "value": 34.3
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "SAT + Bi-LSTM (full)",
+          "header_path": "r",
+          "cell": "79.6"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "SAT + Bi-LSTM (full)",
+          "column_header": "col_1",
+          "cell": "78.0",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-LSTM",
+      "task": "automated essay scoring",
+      "dataset": "FCE",
+      "metric": "Pearson's r",
+      "value": 78.0
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "SAT + Bi-LSTM (full)",
+          "header_path": "r",
+          "cell": "79.2"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "SAT + Bi-LSTM (full)",
+          "column_header": "col_2",
+          "cell": "79.9",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-LSTM",
+      "task": "automated essay scoring",
+      "dataset": "FCE",
+      "metric": "Spearman's correlation",
+      "value": 79.9
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CRF",
+          "header_path": "Development",
+          "cell": "36.3"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CRF",
+          "column_header": "predicted",
+          "cell": "36.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CRF",
+      "task": "error detection results on the two official annotations for the conll 14 shared task test dataset",
+      "dataset": "fce",
+      "metric": "f 0 5",
+      "value": 36.3
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "FCE-public",
+          "header_path": "Test F_ 0.5",
+          "cell": "41.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Bi-LSTM",
+          "column_header": "col_8",
+          "cell": "41.1",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-LSTM",
+      "task": "results on the public fce test set when incrementally providing more training data to the error detection model",
+      "dataset": "fce",
+      "metric": "f 0 5",
+      "value": 41.1
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Annotator 1",
+          "header_path": "Annotation 2",
+          "cell": "55.7"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Annotator 1",
+          "column_header": "correct",
+          "cell": "55.7",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Annotator 1",
+      "task": "error detection results on the two official annotations for the conll 14 shared task test dataset",
+      "dataset": "conll 14 shared task test dataset",
+      "metric": "f 0 5",
+      "value": 55.7
+    }
+  ]
+}

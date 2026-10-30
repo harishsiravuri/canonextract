@@ -1,0 +1,280 @@
+{
+  "paper_id": "455da02e5048dffb51fb6ab5eb8aeca5926c9d9a",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose_claimed_table": 2,
+    "total": 5,
+    "missing": 1,
+    "strict_table_valid": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "SPP-net",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "ImageNet 2012",
+          "canonical_id": "imagenet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-1 error",
+          "value": 29.68,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Krizhevsky2012",
+        "Zeiler2013",
+        "Sermanet2013",
+        "Howard2013"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "ours (SPP O-7)",
+        "header_path": "top-1 val",
+        "cell": "29.68",
+        "_content_hash": "edf7dd7fcd59",
+        "_paper_hash": "aa5dfe44c24c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "(c)",
+          "column_header": "col_5",
+          "cell": "29.68 2.33",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "SPP-net",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "ImageNet 2012",
+          "canonical_id": "imagenet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "top-5 error",
+          "value": 10.95,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Krizhevsky2012",
+        "Zeiler2013",
+        "Sermanet2013",
+        "Howard2013"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "ours (SPP O-7)",
+        "header_path": "top-1 val",
+        "cell": "29.68",
+        "_content_hash": "edf7dd7fcd59",
+        "_paper_hash": "aa5dfe44c24c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "SPP-net",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": "pascal voc 2007"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 82.44,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Lazebnik2006",
+        "Wang2010",
+        "Perronnin2010",
+        "Donahue2013",
+        "Zeiler2013",
+        "Oquab2014",
+        "Chatfield2014"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 5,
+        "row_label": "fc_7/9",
+        "header_path": "(e)",
+        "cell": "82.44",
+        "_content_hash": "d23a10951857",
+        "_paper_hash": "aa5dfe44c24c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 6,
+          "row_label": "ours",
+          "column_header": "VOC 2007",
+          "cell": "82.44",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source because the table does not mention Pascal VOC 2007, and the row label \"fc_7/9\" does not describe the tuple's Method, which is SPP-net, and the cell content does not match the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "SPP-net",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "Caltech101",
+          "canonical_id": "caltech101"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 93.42,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Lazebnik2006",
+        "Wang2010",
+        "Perronnin2010",
+        "Donahue2013",
+        "Zeiler2013",
+        "Oquab2014",
+        "Chatfield2014"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 6,
+        "row_label": "SPP pool_5/7",
+        "header_path": "(d)",
+        "cell": "93.42",
+        "_content_hash": "7dd7dfaa7711",
+        "_paper_hash": "aa5dfe44c24c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 6,
+          "row_label": "ours",
+          "column_header": "Caltech101",
+          "cell": "93.42 0.5",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"ours\" refers to SPP-net per the paper excerpt, the header path describes the Caltech101 dataset and accuracy metric, and the cell content matches the tuple's value."
+      }
+    },
+    {
+      "method": {
+        "name": "SPP-net",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "object detection"
+      },
+      "datasets": [
+        {
+          "name": "Pascal VOC 2007",
+          "canonical_id": "pascal voc 2007"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 44.2,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 8,
+        "row_label": "fc_6",
+        "header_path": "SPP (1-sc)",
+        "cell": "44.2",
+        "_content_hash": "516e23cc4bf2",
+        "_paper_hash": "aa5dfe44c24c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 7,
+          "row_label": "pool_5",
+          "column_header": "col_3",
+          "cell": "44.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "paper_id": "0678a8abea82793993cd89383319da75f6dc4be3",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Second Cascade",
+          "header_path": "Classification",
+          "cell": "89.0"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "gray!30 Simonyan et al. Simonyan14c ^",
+          "column_header": "mAP",
+          "cell": "89.0",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ProNet",
+      "task": "object detection",
+      "dataset": "PASCAL VOC 2012",
+      "metric": "mAP",
+      "value": 89.0
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Second Cascade",
+          "header_path": "Classification",
+          "cell": "89.0"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "gray!30 Simonyan et al. Simonyan14c ^",
+          "column_header": "mAP",
+          "cell": "89.0",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ProNet",
+      "task": "object detection",
+      "dataset": "MS COCO",
+      "metric": "mAP",
+      "value": 89.0
+    }
+  ]
+}

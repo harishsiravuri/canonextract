@@ -1,0 +1,251 @@
+{
+  "paper_id": "2a86bcdfb1d817ddb76ba202319f8267a36c0f62",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "PASCAL VOC",
+      "metric": "mAP",
+      "value": 48.8
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "PASCAL VOC",
+      "metric": "CorLoc",
+      "value": 66.6
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 4,
+          "row_label": "-OB-G-Ens.+FRCNN",
+          "header_path": "Results",
+          "cell": "19.6"
+        },
+        "hit": {
+          "table_id": 5,
+          "row_label": "Ge \\ Ref:Ge2018",
+          "column_header": "mAP@0.5",
+          "cell": "19.3",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "ImageNet detection",
+      "metric": "mAP",
+      "value": 19.6
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "-OB-G-Ens.+FRCNN",
+          "header_path": "mAP@0.5",
+          "cell": "19.6"
+        },
+        "hit": {
+          "table_id": 5,
+          "row_label": "Ge \\ Ref:Ge2018",
+          "column_header": "mAP@0.5",
+          "cell": "19.3",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "MS-COCO",
+      "metric": "mAP@0.5",
+      "value": 19.6
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "-OB-G-Ens.+FRCNN",
+          "header_path": "mAP@[.5, .95]",
+          "cell": "9.2"
+        },
+        "hit": {
+          "table_id": 5,
+          "row_label": "Ge \\ Ref:Ge2018",
+          "column_header": "mAP@[.5, .95]",
+          "cell": "8.9",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "MS-COCO",
+      "metric": "mAP@[.5, .95]",
+      "value": 9.2
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "PASCAL VOC 2007",
+      "metric": "mAP",
+      "value": 48.8
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "PASCAL VOC 2007",
+      "metric": "CorLoc",
+      "value": 66.6
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "ImageNet detection",
+      "metric": "CorLoc",
+      "value": 66.6
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "MS-COCO",
+      "metric": "mAP",
+      "value": 48.8
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "MS-COCO",
+      "metric": "CorLoc",
+      "value": 66.6
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "-OB-G-Ens.+FRCNN",
+          "header_path": "L 3.15cm |* 20 x |x|",
+          "cell": "car"
+        },
+        "hit": null
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "PASCAL VOC 2012",
+      "metric": "AP",
+      "value": null
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "-OB-G-Ens.+FRCNN",
+          "header_path": "L 3.15cm |* 20 x |x|",
+          "cell": "bus"
+        },
+        "hit": null
+      },
+      "method": "PCL",
+      "task": "object detection",
+      "dataset": "PASCAL VOC 2012",
+      "metric": "CorLoc",
+      "value": null
+    }
+  ]
+}

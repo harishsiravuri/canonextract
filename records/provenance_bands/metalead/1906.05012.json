@@ -1,0 +1,87 @@
+{
+  "paper_id": "1906.05012",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BiSET",
+          "header_path": "ROUGE-1",
+          "cell": "39.11"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "BiSET without A2T",
+          "column_header": "ROUGE-1",
+          "cell": "39.02",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BiSET",
+      "task": "summarization",
+      "dataset": "Annotated English Gigaword",
+      "metric": "ROUGE-1",
+      "value": 39.11
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BiSET",
+          "header_path": "ROUGE-1",
+          "cell": "39.11"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "BiSET(full)",
+          "column_header": "ROUGE-2",
+          "cell": "19.78",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BiSET",
+      "task": "summarization",
+      "dataset": "Annotated English Gigaword",
+      "metric": "ROUGE-2",
+      "value": 19.78
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BiSET",
+          "header_path": "ROUGE-1",
+          "cell": "39.11"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "BiSET(full)",
+          "column_header": "ROUGE-L",
+          "cell": "36.87",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BiSET",
+      "task": "summarization",
+      "dataset": "Annotated English Gigaword",
+      "metric": "ROUGE-L",
+      "value": 36.87
+    }
+  ]
+}

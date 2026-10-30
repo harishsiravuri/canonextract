@@ -1,0 +1,91 @@
+{
+  "paper_id": "1806.03489",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF with Lexical Similarity (LS) representation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3441,
+          "end": 3471
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 233,
+          "end": 253
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4141,
+            "end": 4154
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "OntoNotes 5.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4171,
+            "end": 4184
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.73,
+          "unit": null,
+          "evidence_span": {
+            "start": 4631,
+            "end": 4636
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": 87.95,
+          "unit": null,
+          "evidence_span": {
+            "start": 4601,
+            "end": 4606
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Chiu and Nichols (2015)",
+        "Tran et al. (2017)",
+        "Liu et al. (2017)",
+        "Strubell et al. (2017)"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 57629,
+    "tokens_out": 3228,
+    "cost_usd": 0.02584976,
+    "wall_time_seconds": 88.75781120802276,
+    "voting_samples": 3
+  }
+}

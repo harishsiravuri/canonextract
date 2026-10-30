@@ -1,0 +1,276 @@
+{
+  "paper_id": "3aa21de1a7c97e0458e10ed5730ce160bb436caa",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "F-score( )",
+          "cell": "72.128"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "F-score( )",
+          "cell": "72.128",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "3d object reconstruction",
+      "dataset": "ShapeNet-cars",
+      "metric": "F-score( )",
+      "value": 72.128
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "F-score( )",
+          "cell": "72.128"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "F-score(2 )",
+          "cell": "87.247",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "3d object reconstruction",
+      "dataset": "ShapeNet-cars",
+      "metric": "F-score(2 )",
+      "value": 87.247
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "F-score( )",
+          "cell": "72.128"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "CD",
+          "cell": "0.236",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "3d object reconstruction",
+      "dataset": "ShapeNet-cars",
+      "metric": "CD",
+      "value": 0.236
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "F-score( )",
+          "cell": "72.128"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "EMD",
+          "cell": "1.220",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "3d object reconstruction",
+      "dataset": "ShapeNet-cars",
+      "metric": "EMD",
+      "value": 1.22
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "HD",
+          "header_path": "Full model",
+          "cell": "0.603"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "CD",
+          "cell": "0.236",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Full model",
+      "task": "3d object reconstruction",
+      "dataset": "ShapeNet",
+      "metric": "HD",
+      "value": 0.603
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "header_path": "F-score( )",
+          "cell": "65.335"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "column_header": "F-score( )",
+          "cell": "65.335",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Tartarchenko et al",
+      "task": "_novel_",
+      "dataset": "ShapeNet-cars",
+      "metric": "F-score( )",
+      "value": 65.335
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "header_path": "F-score( )",
+          "cell": "65.335"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "column_header": "F-score(2 )",
+          "cell": "79.733",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Tartarchenko et al",
+      "task": "_novel_",
+      "dataset": "ShapeNet-cars",
+      "metric": "F-score(2 )",
+      "value": 79.733
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "header_path": "F-score( )",
+          "cell": "65.335"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "column_header": "CD",
+          "cell": "0.361",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Tartarchenko et al",
+      "task": "_novel_",
+      "dataset": "ShapeNet-cars",
+      "metric": "CD",
+      "value": 0.361
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "header_path": "F-score( )",
+          "cell": "65.335"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "column_header": "EMD",
+          "cell": "1.273",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Tartarchenko et al",
+      "task": "_novel_",
+      "dataset": "ShapeNet-cars",
+      "metric": "EMD",
+      "value": 1.273
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "HD",
+          "header_path": "Full model",
+          "cell": "0.643"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "CD",
+          "cell": "0.236",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Full model",
+      "task": "_novel_",
+      "dataset": "_novel_",
+      "metric": "HD",
+      "value": 0.643
+    }
+  ]
+}

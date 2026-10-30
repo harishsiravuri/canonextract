@@ -1,0 +1,222 @@
+{
+  "paper_id": "2f56b1ac5b9faac9527b6814778925e9242cf5fd",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "header_path": "mAP",
+          "cell": "69.9"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "object detection",
+      "dataset": "07",
+      "metric": "mAP",
+      "value": 69.9
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "header_path": "mAP",
+          "cell": "74.6"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "1pt FRCN frcn",
+          "column_header": "mAP",
+          "cell": "74.7",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "object detection",
+      "dataset": "07+12",
+      "metric": "mAP",
+      "value": 74.6
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours$^1$",
+          "header_path": "mAP",
+          "cell": "69.8"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "object detection",
+      "dataset": "12",
+      "metric": "mAP",
+      "value": 69.8
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "header_path": "mAP",
+          "cell": "69.9"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "object detection",
+      "dataset": "VOC07",
+      "metric": "mAP",
+      "value": 69.9
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "header_path": "mAP",
+          "cell": "74.6"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "1pt FRCN frcn",
+          "column_header": "mAP",
+          "cell": "74.7",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "object detection",
+      "dataset": "VOC07+12",
+      "metric": "mAP",
+      "value": 74.6
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours^1",
+          "header_path": "mAP",
+          "cell": "69.8"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "object detection",
+      "dataset": "VOC12",
+      "metric": "mAP",
+      "value": 69.8
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "header_path": "mAP",
+          "cell": "69.9"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "OHEM",
+      "task": "object detection",
+      "dataset": "PASCAL VOC 2007",
+      "metric": "mAP",
+      "value": 69.9
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours^1",
+          "header_path": "mAP",
+          "cell": "69.8"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "OHEM",
+      "task": "object detection",
+      "dataset": "PASCAL VOC 2012",
+      "metric": "mAP",
+      "value": 69.8
+    }
+  ]
+}

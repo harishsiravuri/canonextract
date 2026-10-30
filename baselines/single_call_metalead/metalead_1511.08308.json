@@ -1,0 +1,96 @@
+{
+  "paper_id": "1511.08308",
+  "contributions": [
+    {
+      "method": {
+        "name": "BLSTM-CNN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1561
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 73,
+          "end": 95
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4441,
+            "end": 4454
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "OntoNotes 5.0",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4555,
+            "end": 4567
+          },
+          "confidence": 0.67
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.62,
+          "unit": null,
+          "evidence_span": {
+            "start": 6939,
+            "end": 6945
+          },
+          "confidence": 0.67
+        },
+        {
+          "name": "F1",
+          "value": 86.28,
+          "unit": null,
+          "evidence_span": {
+            "start": 6975,
+            "end": 6981
+          },
+          "confidence": 0.67
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Collobert et al.",
+        "Huang et al.",
+        "Ratinov and Roth",
+        "Lin and Wu",
+        "Finkel and Manning",
+        "Suzuki et al.",
+        "Passos et al.",
+        "Durrett and Klein",
+        "Luo et al."
+      ],
+      "self_consistency": 0.83,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 57870,
+    "tokens_out": 2987,
+    "cost_usd": 0.0256461,
+    "wall_time_seconds": 98.77642545802519,
+    "voting_samples": 3
+  }
+}

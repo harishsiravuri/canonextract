@@ -1,0 +1,141 @@
+{
+  "paper_id": "270e65acc071b9e4e2a632720130c0e10cb6fa08",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "NTI-SLSTM (Ours)",
+          "header_path": "Test",
+          "cell": "82.4"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "NTI-SLSTM (Ours)",
+          "column_header": "Test",
+          "cell": "82.4",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "NTI-SLSTM",
+      "task": "natural language inference",
+      "dataset": "SNLI",
+      "metric": "accuracy",
+      "value": 82.4
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "NTI (Ours)",
+          "header_path": "MAP",
+          "cell": "0.6742"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "NTI (Ours)",
+          "column_header": "MAP",
+          "cell": "0.6742",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "NTI",
+      "task": "answer sentence selection",
+      "dataset": "WikiQA",
+      "metric": "MAP",
+      "value": 0.6742
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "NTI (Ours)",
+          "header_path": "MAP",
+          "cell": "0.6742"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "NTI (Ours)",
+          "column_header": "MRR",
+          "cell": "0.6884",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "NTI",
+      "task": "answer sentence selection",
+      "dataset": "WikiQA",
+      "metric": "MRR",
+      "value": 0.6884
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "NTI-SLSTM (Ours)",
+          "header_path": "Bin",
+          "cell": "87.8"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "NTI-SLSTM-LSTM node-by-node tree attention (Ours)",
+          "column_header": "Train",
+          "cell": "88.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "NTI-SLSTM",
+      "task": "sentence classification",
+      "dataset": "SST",
+      "metric": "accuracy",
+      "value": 87.8
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "NTI-SLSTM (Ours)",
+          "header_path": "Bin",
+          "cell": "87.8"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "NTI-SLSTM-LSTM node-by-node tree attention (Ours)",
+          "column_header": "Train",
+          "cell": "88.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "NTI-SLSTM",
+      "task": "sentence classification",
+      "dataset": "Stanford Sentiment Treebank",
+      "metric": "accuracy",
+      "value": 87.8
+    }
+  ]
+}

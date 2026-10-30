@@ -1,0 +1,20 @@
+{
+  "metalead": {
+    "n_tuples": 289,
+    "cycle1_ece_raw_self_consistency": 0.5305651672433679,
+    "cycle2_ece_fixkg_calibrator": 0.47685307392489723,
+    "cycle2_mean_calibrated_prob": 0.5841195099110565,
+    "mean_correctness": 0.10726643598615918,
+    "improvement_pts": 0.053712093318470655,
+    "calibrator_source_commit": "b155614 (paper2.2 phdv2 repo)"
+  },
+  "scirex": {
+    "n_tuples": 444,
+    "cycle1_ece_raw_self_consistency": 0.6636636636636636,
+    "cycle2_ece_fixkg_calibrator": 0.5750578733290828,
+    "cycle2_mean_calibrated_prob": 0.5975803958516052,
+    "mean_correctness": 0.02252252252252252,
+    "improvement_pts": 0.08860579033458083,
+    "calibrator_source_commit": "b155614 (paper2.2 phdv2 repo)"
+  }
+}

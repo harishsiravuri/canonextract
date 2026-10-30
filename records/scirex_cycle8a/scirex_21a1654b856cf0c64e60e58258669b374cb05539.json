@@ -1,0 +1,653 @@
+{
+  "paper_id": "21a1654b856cf0c64e60e58258669b374cb05539",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 7,
+    "total": 12,
+    "prose": 1,
+    "partial_table_valid": 4
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "voc 2007",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "map",
+          "value": 63.4,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fast YOLO",
+        "100Hz DPM sadeghi201430hz",
+        "30Hz DPM sadeghi201430hz"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "YOLO",
+        "header_path": "mAP",
+        "cell": "63.4",
+        "_content_hash": "48f1c1fa22ef",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "column_header": "mAP",
+          "cell": "63.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"YOLO\" directly matches the tuple's Method, the header path \"mAP\" matches the tuple's Metric, and the cell content \"63.4\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "voc 2007",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "fps",
+          "value": 45,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fast YOLO",
+        "100Hz DPM sadeghi201430hz",
+        "30Hz DPM sadeghi201430hz"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "YOLO",
+        "header_path": "FPS",
+        "cell": "45",
+        "_content_hash": "842b4bf3b4f1",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "column_header": "FPS",
+          "cell": "45",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"YOLO\" directly matches the tuple's Method, the header path \"FPS\" matches the tuple's Metric, and the cell content \"45\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "voc 2012",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "map",
+          "value": 57.9,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Fast R-CNN",
+        "R-CNN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "On the VOC 2012 test set, YOLO scores 57.9% mAP.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "7663980cd62d",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "picasso",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ap",
+          "value": 53.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN",
+        "DPM"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 6,
+        "row_label": "YOLO",
+        "header_path": "Picasso",
+        "cell": "53.3",
+        "_content_hash": "53a6ea239d52",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "YOLO",
+          "column_header": "Best F_1",
+          "cell": "53.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the table does not contain a header path for \"Picasso\" and the cell content \"63.4\" under the \"mAP\" column does not match the tuple's Value \"53.3\"."
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "people art",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "best f 1",
+          "value": 45,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN",
+        "DPM"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 6,
+        "row_label": "YOLO",
+        "header_path": "People-Art",
+        "cell": "45",
+        "_content_hash": "4aca4c625086",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "column_header": "FPS",
+          "cell": "45",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "real time object detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "voc 2007",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "map",
+          "value": 63.4,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fast YOLO",
+        "100Hz DPM sadeghi201430hz",
+        "30Hz DPM sadeghi201430hz"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "YOLO",
+        "header_path": "mAP",
+        "cell": "63.4",
+        "_content_hash": "48f1c1fa22ef",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "column_header": "mAP",
+          "cell": "63.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"YOLO\" directly matches the tuple's Method, the header path \"mAP\" matches the tuple's Metric, and the cell content \"63.4\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "real time object detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "voc 2007",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "fps",
+          "value": 45,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fast YOLO",
+        "100Hz DPM sadeghi201430hz",
+        "30Hz DPM sadeghi201430hz"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "YOLO",
+        "header_path": "FPS",
+        "cell": "45",
+        "_content_hash": "842b4bf3b4f1",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "YOLO",
+          "column_header": "FPS",
+          "cell": "45",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"YOLO\" directly matches the tuple's Method, the header path \"FPS\" matches the tuple's Metric, and the cell content \"45\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "model combination",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "voc 2007",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "map",
+          "value": 75.0,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fast R-CNN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "YOLO",
+        "header_path": "Combined",
+        "cell": "75.0",
+        "_content_hash": "41b96b224bee",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "YOLO",
+          "column_header": "Gain",
+          "cell": "75.0",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "generalization to artwork",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "picasso",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ap",
+          "value": 53.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN",
+        "DPM",
+        "Poselets BourdevMalikICCV09",
+        "D\\"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 6,
+        "row_label": "YOLO",
+        "header_path": "Picasso",
+        "cell": "53.3",
+        "_content_hash": "53a6ea239d52",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "YOLO",
+          "column_header": "Best F_1",
+          "cell": "53.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell does not match the tuple's combination because the table does not contain a header path for \"Picasso\" or a cell content of \"53.3\" under the row label \"YOLO\"."
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "generalization to artwork",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "picasso",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "best f 1",
+          "value": 0.59,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN",
+        "DPM",
+        "Poselets BourdevMalikICCV09",
+        "D\\"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 6,
+        "row_label": "YOLO",
+        "header_path": "Picasso",
+        "cell": "53.3",
+        "_content_hash": "53a6ea239d52",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "YOLO",
+          "column_header": "AP",
+          "cell": "0.590",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "generalization to artwork",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "people art",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ap",
+          "value": 53.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN",
+        "DPM",
+        "Poselets BourdevMalikICCV09",
+        "D\\"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 6,
+        "row_label": "YOLO",
+        "header_path": "Picasso",
+        "cell": "53.3",
+        "_content_hash": "53a6ea239d52",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "YOLO",
+          "column_header": "Best F_1",
+          "cell": "53.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "YOLO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "generalization to artwork",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "people art",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "best f 1",
+          "value": 0.59,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "R-CNN",
+        "DPM",
+        "Poselets BourdevMalikICCV09",
+        "D\\"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 6,
+        "row_label": "YOLO",
+        "header_path": "Picasso",
+        "cell": "53.3",
+        "_content_hash": "53a6ea239d52",
+        "_paper_hash": "7663980cd62d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "YOLO",
+          "column_header": "AP",
+          "cell": "0.590",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the table does not contain the header \"Picasso\" or any information related to the \"people art\" dataset or \"best f 1\" metric."
+      }
+    }
+  ]
+}

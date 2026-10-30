@@ -1,0 +1,268 @@
+{
+  "paper_id": "2f97ee95cad6a1f13596b108072b846c6f747d4e",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose": 1,
+    "total": 5,
+    "strict_table_valid": 4
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "ResNet",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "NIST 2000 CTS test set",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": 6.9,
+          "unit": "%",
+          "canonical_id": "wer"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Saon et al. saonSRK16 LSTM",
+        "Povey et al. povey2016purely LSTM",
+        "Saon et al. saonSRK16 Combination"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Our best single system achieves an error rate of 6.9% on the NIST 2000 Switchboard set.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "027b9c843b3c",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "RNNLM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "NIST 2000 Switchboard test set",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": 7.6,
+          "unit": "%",
+          "canonical_id": "wer"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "4-gram LM (baseline)"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "\\ + RNNLM, CTS data only",
+        "header_path": "WER",
+        "cell": "7.6",
+        "_content_hash": "f215da6c2b37",
+        "_paper_hash": "027b9c843b3c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "\\ + RNNLM, CTS data only",
+          "column_header": "WER",
+          "cell": "7.6",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple because the row label does not match the tuple's Method, as \"RNNLM\" is not mentioned in the provided table row labels."
+      }
+    },
+    {
+      "method": {
+        "name": "i-vector+LFMMI",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "speech recognition",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "NIST 2000 CTS set",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": 8.5,
+          "unit": "%",
+          "canonical_id": "wer"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "i-vector+LFMMI",
+        "header_path": "WER (\\%)",
+        "cell": "8.5",
+        "_content_hash": "f1d99239ae75",
+        "_paper_hash": "027b9c843b3c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "i-vector+LFMMI",
+          "column_header": "SWB",
+          "cell": "8.5",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label \"Povey et al. povey2016purely LSTM\" does not describe the tuple's Method \"i-vector+LFMMI\", which is not mentioned in the table."
+      }
+    },
+    {
+      "method": {
+        "name": "RNNLM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "NIST 2000 Switchboard test set",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "WER",
+          "value": 6.9,
+          "unit": "%",
+          "canonical_id": "wer"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "4-gram LM (baseline)"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "+ backward RNNLMs",
+        "header_path": "WER",
+        "cell": "6.9",
+        "_content_hash": "eede99f159ef",
+        "_paper_hash": "027b9c843b3c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "+ 2-RNNLM interpolation",
+          "column_header": "WER",
+          "cell": "7.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label does not describe the tuple's Method, as the table does not contain a row label that matches \"RNNLM\", and the paper excerpt does not provide an alias for \"RNNLM\" in the table."
+      }
+    },
+    {
+      "method": {
+        "name": "RNNLM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "1997 CTS eval transcripts",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 57.2,
+          "unit": null,
+          "canonical_id": "ppl"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "4-gram LM (baseline)"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "+ 2-RNNLM interpolation",
+        "header_path": "PPL",
+        "cell": "57.2",
+        "_content_hash": "25594a15a5d4",
+        "_paper_hash": "027b9c843b3c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "+ 2-RNNLM interpolation",
+          "column_header": "PPL",
+          "cell": "57.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the row label does not describe the tuple's Method, \"RNNLM\", and the header path does not describe the tuple's Dataset, \"1997 CTS eval transcripts\", which is not present in the table."
+      }
+    }
+  ]
+}

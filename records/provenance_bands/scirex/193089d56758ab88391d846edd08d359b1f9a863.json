@@ -1,0 +1,222 @@
+{
+  "paper_id": "193089d56758ab88391d846edd08d359b1f9a863",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "CaffeNet (I+V)",
+          "header_path": "rank-1",
+          "cell": "62.14"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CaffeNet (I+V)",
+          "column_header": "rank-1",
+          "cell": "62.14",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours(CaffeNet)",
+      "task": "person re identification",
+      "dataset": "Market1501",
+      "metric": "rank-1",
+      "value": 62.14
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "CaffeNet (I+V)",
+          "header_path": "rank-1",
+          "cell": "62.14"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CaffeNet (I+V)",
+          "column_header": "mAP",
+          "cell": "39.61",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours(CaffeNet)",
+      "task": "person re identification",
+      "dataset": "Market1501",
+      "metric": "mAP",
+      "value": 39.61
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours (CaffeNet)",
+          "header_path": "rank-1",
+          "cell": "59.8"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Ours(ResNet-50)",
+          "column_header": "rank-1",
+          "cell": "59.87",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours(CaffeNet)",
+      "task": "person re identification",
+      "dataset": "CUHK03",
+      "metric": "rank-1",
+      "value": 59.8
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours (CaffeNet)",
+          "header_path": "rank-1",
+          "cell": "59.8"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours (CaffeNet)",
+          "column_header": "mAP",
+          "cell": "65.8",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours(CaffeNet)",
+      "task": "person re identification",
+      "dataset": "CUHK03",
+      "metric": "mAP",
+      "value": 65.8
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "Ours (ResNet)",
+          "header_path": "rank-1",
+          "cell": "68.26"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Gate-SCNN varior2016gated",
+          "column_header": "rank-1",
+          "cell": "68.1",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours(ResNet-50)",
+      "task": "person re identification",
+      "dataset": "Market1501+500K",
+      "metric": "rank-1",
+      "value": 68.26
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ResNet-50 (V)",
+          "column_header": "mAP",
+          "cell": "44.94",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours(ResNet-50)",
+      "task": "person re identification",
+      "dataset": "Market1501+500K",
+      "metric": "mAP",
+      "value": 45.24
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours (CaffeNet)",
+          "header_path": "rank-1",
+          "cell": "59.8"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours (CaffeNet)",
+          "column_header": "rank-5",
+          "cell": "88.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours(CaffeNet)",
+      "task": "person re identification",
+      "dataset": "CUHK03",
+      "metric": "rank-5",
+      "value": 88.3
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours (CaffeNet)",
+          "header_path": "rank-1",
+          "cell": "59.8"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Ours (CaffeNet)",
+          "column_header": "rank-10",
+          "cell": "94.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours(CaffeNet)",
+      "task": "person re identification",
+      "dataset": "CUHK03",
+      "metric": "rank-10",
+      "value": 94.2
+    }
+  ]
+}

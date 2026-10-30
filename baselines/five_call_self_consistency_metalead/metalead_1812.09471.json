@@ -1,0 +1,1225 @@
+{
+  "paper_id": "1812.09471",
+  "contributions": [
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "slot filling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.918,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.973,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "slot filling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.952,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.95,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN TriCRF",
+        "Joint Seq.",
+        "Attention BiRNN",
+        "Slot-gated Full Atten.",
+        "DR-AGG",
+        "IntentCapsNet"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 53385,
+    "tokens_out": 5687,
+    "cost_usd": 0.022144630000000002,
+    "wall_seconds": 150.87300491333008,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS-NLU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 0.918,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS-NLU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 0.973,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 0.952,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 0.95,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1075,
+              "end": 1088
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1075,
+              "end": 1088
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS-NLU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1075,
+                "end": 1088
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 0.918,
+              "unit": null,
+              "evidence_span": {
+                "start": 1075,
+                "end": 1088
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1075,
+              "end": 1088
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1075,
+              "end": 1088
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS-NLU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1075,
+                "end": 1088
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 0.973,
+              "unit": null,
+              "evidence_span": {
+                "start": 1075,
+                "end": 1088
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1075,
+              "end": 1088
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1075,
+              "end": 1088
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1075,
+                "end": 1088
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 0.952,
+              "unit": null,
+              "evidence_span": {
+                "start": 1075,
+                "end": 1088
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1075,
+              "end": 1088
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1075,
+              "end": 1088
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1075,
+                "end": 1088
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 0.95,
+              "unit": null,
+              "evidence_span": {
+                "start": 1075,
+                "end": 1088
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS-NLU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 0.918,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS-NLU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 0.973,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 0.952,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 0.95,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS-NLU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 0.918,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS-NLU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 0.973,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 0.952,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 0.95,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS-NLU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 0.918,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "SNIPS-NLU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 0.973,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 0.952,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Capsule-NLU",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 0.95,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "CNN TriCRF",
+            "Joint Seq.",
+            "Attention BiRNN",
+            "Slot-gated Full Atten.",
+            "DR-AGG",
+            "IntentCapsNet"
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

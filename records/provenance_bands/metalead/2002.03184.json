@@ -1,0 +1,222 @@
+{
+  "paper_id": "2002.03184",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "BLEU",
+          "cell": "29.6"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "DBLP:journals/corr/abs-1803-02155",
+          "column_header": "Param (En-De)",
+          "cell": "29.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "TaLK Convolutions",
+      "task": "machine translation",
+      "dataset": "WMT English to German (En-De)",
+      "metric": "BLEU",
+      "value": 29.6
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "BLEU",
+          "cell": "29.6"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "DBLP:journals/corr/abs-1803-02155",
+          "column_header": "Param (En-De)",
+          "cell": "29.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "TaLK Convolutions",
+      "task": "machine translation",
+      "dataset": "WMT English to French (En-Fr)",
+      "metric": "BLEU",
+      "value": 29.6
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "BLEU",
+          "cell": "29.6"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "DBLP:journals/corr/abs-1803-02155",
+          "column_header": "Param (En-De)",
+          "cell": "29.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "TaLK Convolutions",
+      "task": "machine translation",
+      "dataset": "IWSLT German to English (De-En)",
+      "metric": "BLEU",
+      "value": 29.6
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "Rouge-1",
+          "cell": "40.59"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "(Deep)",
+          "column_header": "Rouge-1",
+          "cell": "40.59",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "TaLK Convolutions",
+      "task": "abstractive summarization",
+      "dataset": "CNN-DailyMail",
+      "metric": "Rouge-1",
+      "value": 40.59
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "Rouge-1",
+          "cell": "40.59"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "(Deep)",
+          "column_header": "Rouge-2",
+          "cell": "18.97",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "TaLK Convolutions",
+      "task": "abstractive summarization",
+      "dataset": "CNN-DailyMail",
+      "metric": "Rouge-2",
+      "value": 18.97
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "Rouge-1",
+          "cell": "40.59"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Self-Attention Baseline wu2019pay",
+          "column_header": "Rouge-L",
+          "cell": "36.35",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "TaLK Convolutions",
+      "task": "abstractive summarization",
+      "dataset": "CNN-DailyMail",
+      "metric": "Rouge-L",
+      "value": 36.81
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "Test",
+          "cell": "23.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "(Ours)",
+          "column_header": "col_2",
+          "cell": "23.3",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "TaLK Convolutions",
+      "task": "language modeling",
+      "dataset": "WikiText-103",
+      "metric": "perplexity",
+      "value": 23.3
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "Test",
+          "cell": "23.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "(Ours)",
+          "column_header": "col_2",
+          "cell": "23.3",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "TaLK Convolutions",
+      "task": "language modeling",
+      "dataset": "WikiText-103",
+      "metric": "Test perplexity",
+      "value": 23.3
+    }
+  ]
+}

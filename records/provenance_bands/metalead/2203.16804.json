@@ -1,0 +1,411 @@
+{
+  "paper_id": "2203.16804",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "R-1",
+          "cell": "50.10"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "R-L",
+          "cell": "47.19",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO-Ctr",
+      "task": "summarization",
+      "dataset": "CNNDM",
+      "metric": "R-1",
+      "value": 47.28
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "R-1",
+          "cell": "50.10"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "2",
+          "column_header": "R-2",
+          "cell": "22.79",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO-Ctr",
+      "task": "summarization",
+      "dataset": "CNNDM",
+      "metric": "R-2",
+      "value": 22.93
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "R-1",
+          "cell": "50.10"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "10",
+          "column_header": "R-L",
+          "cell": "43.94",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO-Ctr",
+      "task": "summarization",
+      "dataset": "CNNDM",
+      "metric": "R-L",
+      "value": 44.15
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "R-1",
+          "cell": "50.10"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "100",
+          "column_header": "R-1",
+          "cell": "47.78",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO-Ctr",
+      "task": "summarization",
+      "dataset": "XSum",
+      "metric": "R-1",
+      "value": 48.13
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "R-1",
+          "cell": "50.10"
+        },
+        "hit": {
+          "table_id": 10,
+          "row_label": "XSum",
+          "column_header": "R-2",
+          "cell": "24.69",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO-Ctr",
+      "task": "summarization",
+      "dataset": "XSum",
+      "metric": "R-2",
+      "value": 25.13
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "R-1",
+          "cell": "50.10"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "ConSum*",
+          "column_header": "CNNDM",
+          "cell": "39.40",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO-Ctr",
+      "task": "summarization",
+      "dataset": "XSum",
+      "metric": "R-L",
+      "value": 39.84
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "R-1",
+          "cell": "50.10"
+        },
+        "hit": {
+          "table_id": 12,
+          "row_label": "CNNDM",
+          "column_header": "(Eq. eq:contr )",
+          "cell": "0.001",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO-Mul",
+      "task": "summarization",
+      "dataset": "NYT",
+      "metric": "R-1",
+      "value": 57.75
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "R-1",
+          "cell": "50.10"
+        },
+        "hit": {
+          "table_id": 12,
+          "row_label": "CNNDM",
+          "column_header": "(Eq. eq:contr )",
+          "cell": "0.001",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO-Mul",
+      "task": "summarization",
+      "dataset": "NYT",
+      "metric": "R-2",
+      "value": 38.64
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "R-1",
+          "cell": "50.10"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "-Mul",
+          "column_header": "CNNDM",
+          "cell": "54.54^",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO-Mul",
+      "task": "summarization",
+      "dataset": "NYT",
+      "metric": "R-L",
+      "value": 54.54
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "Acc.(\\%)",
+          "cell": "79.63"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "Acc.(\\%)",
+          "cell": "79.63",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO",
+      "task": "summarization",
+      "dataset": "CNNDM",
+      "metric": "Acc",
+      "value": 79.63
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\model-Mul",
+          "header_path": "ECE",
+          "cell": ".2719"
+        },
+        "hit": {
+          "table_id": 8,
+          "row_label": "CNNDM",
+          "column_header": "ECE",
+          "cell": ".4097",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO",
+      "task": "summarization",
+      "dataset": "CNNDM",
+      "metric": "ECE",
+      "value": 0.2719
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\model-Mul",
+          "header_path": "ECE",
+          "cell": ".2719"
+        },
+        "hit": {
+          "table_id": 8,
+          "row_label": "CNNDM",
+          "column_header": "Conf",
+          "cell": ".7365",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO",
+      "task": "summarization",
+      "dataset": "CNNDM",
+      "metric": "Conf",
+      "value": 0.6652
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\model-Mul",
+          "header_path": "ECE",
+          "cell": ".1423"
+        },
+        "hit": {
+          "table_id": 8,
+          "row_label": "CNNDM",
+          "column_header": "ECE",
+          "cell": ".4097",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO",
+      "task": "summarization",
+      "dataset": "XSum",
+      "metric": "ECE",
+      "value": 0.1423
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\model-Mul",
+          "header_path": "ECE",
+          "cell": ".1423"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "R-L",
+          "cell": "47.19",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO",
+      "task": "summarization",
+      "dataset": "XSum",
+      "metric": "Acc",
+      "value": 0.4744
+    },
+    {
+      "tuple_idx": 14,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\model-Mul",
+          "header_path": "ECE",
+          "cell": ".1423"
+        },
+        "hit": {
+          "table_id": 8,
+          "row_label": "CNNDM",
+          "column_header": "Conf",
+          "cell": ".7365",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BRIO",
+      "task": "summarization",
+      "dataset": "XSum",
+      "metric": "Conf",
+      "value": 0.5881
+    }
+  ]
+}

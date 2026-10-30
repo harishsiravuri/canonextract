@@ -1,0 +1,271 @@
+{
+  "paper_id": "270e65acc071b9e4e2a632720130c0e10cb6fa08",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 3,
+    "total": 5,
+    "strict_table_valid": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "NTI-SLSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SNLI",
+          "canonical_id": "snli"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.4,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTMs encoders",
+        "Dependency Tree CNN encoders"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "NTI-SLSTM (Ours)",
+        "header_path": "Test",
+        "cell": "82.4",
+        "_content_hash": "e9d304679eeb",
+        "_paper_hash": "a89e3c3e61c4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "NTI-SLSTM (Ours)",
+          "column_header": "Test",
+          "cell": "82.4",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "NTI",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "answer sentence selection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "WikiQA",
+          "canonical_id": "wikiqa"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAP",
+          "value": 0.6742,
+          "unit": null,
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "NASM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "NTI (Ours)",
+        "header_path": "MAP",
+        "cell": "0.6742",
+        "_content_hash": "e5c6f6e11d52",
+        "_paper_hash": "a89e3c3e61c4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "NTI (Ours)",
+          "column_header": "MAP",
+          "cell": "0.6742",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"NTI (Ours)\" refers to the Neural Tree Indexers method per the paper excerpt, and the header path \"MAP\" and cell content \"0.6742\" match the tuple's Metric and Value."
+      }
+    },
+    {
+      "method": {
+        "name": "NTI",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "answer sentence selection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "WikiQA",
+          "canonical_id": "wikiqa"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MRR",
+          "value": 0.6884,
+          "unit": null,
+          "canonical_id": "mrr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "NASM"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "NTI (Ours)",
+        "header_path": "MAP",
+        "cell": "0.6742",
+        "_content_hash": "e5c6f6e11d52",
+        "_paper_hash": "a89e3c3e61c4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "NTI (Ours)",
+          "column_header": "MRR",
+          "cell": "0.6884",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"0.6742\" does not match the tuple's Value \"0.6884\", and the header path \"MAP\" does not describe the tuple's Metric \"MRR\", although Row \"NTI (Ours)\" refers to the proposed method Neural Tree Indexers per the method excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "NTI-SLSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentence classification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SST",
+          "canonical_id": "sst 2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.8,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Bi-LSTM"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "NTI-SLSTM (Ours)",
+        "header_path": "Bin",
+        "cell": "87.8",
+        "_content_hash": "b4390e114dce",
+        "_paper_hash": "a89e3c3e61c4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "NTI-SLSTM-LSTM node-by-node tree attention (Ours)",
+          "column_header": "Train",
+          "cell": "88.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "NTI-SLSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentence classification",
+        "canonical_id": "text classification"
+      },
+      "datasets": [
+        {
+          "name": "Stanford Sentiment Treebank",
+          "canonical_id": "sst 2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.8,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Bi-LSTM tai2015improved"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "NTI-SLSTM (Ours)",
+        "header_path": "Bin",
+        "cell": "87.8",
+        "_content_hash": "b4390e114dce",
+        "_paper_hash": "a89e3c3e61c4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "NTI-SLSTM-LSTM node-by-node tree attention (Ours)",
+          "column_header": "Train",
+          "cell": "88.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

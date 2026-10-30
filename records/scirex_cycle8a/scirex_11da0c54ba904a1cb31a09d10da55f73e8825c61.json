@@ -1,0 +1,128 @@
+{
+  "paper_id": "11da0c54ba904a1cb31a09d10da55f73e8825c61",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 2,
+    "total": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "TBCNN-pair",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI) dataset",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test Acc.",
+          "value": 82.1,
+          "unit": "%",
+          "canonical_id": "test acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Unlexicalized features",
+        "Lexicalized features",
+        "Vector sum + MLP",
+        "Vanilla RNN + MLP",
+        "LSTM RNN + MLP",
+        "CNN + cat",
+        "GRU w/ skip-thought pretraining",
+        "Single-chain LSTM RNNs",
+        "LSTM + word-by-word attention"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "\\!\\!TBCNN-pair + cat, ,-",
+        "header_path": "\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!Test acc.\\!\\!\\!",
+        "cell": "83.5\\!\\!",
+        "_content_hash": "b4e763065471",
+        "_paper_hash": "f7a8bea31b21",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "\\!\\!TBCNN-pair + cat, ,-",
+          "column_header": "50.4\\!\\!",
+          "cell": "82.1\\!\\!",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"83.5\" does not match the tuple's Value \"82.1\", and the row label \"TBCNN+cat, ,-\" does not clearly describe the tuple's Method \"TBCNN-pair\", although \"TBCNN-pair\" is the proposed model in the paper excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "TBCNN-pair",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "Stanford Natural Language Inference (SNLI) dataset",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Valid Acc.",
+          "value": 82.4,
+          "unit": "%",
+          "canonical_id": "valid acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "TBCNN+",
+        "TBCNN+-",
+        "TBCNN+cat",
+        "TBCNN+cat,",
+        "TBCNN+cat,-"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "TBCNN+cat, ,-",
+        "header_path": "Valid Acc.",
+        "cell": "82.4",
+        "_content_hash": "34a5228e08e5",
+        "_paper_hash": "f7a8bea31b21",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "TBCNN+cat, ,-",
+          "column_header": "Valid Acc.",
+          "cell": "82.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label is not present in the provided table, and the table does not contain information about the method \"TBCNN-pair\" or the metric \"Valid Acc.\", making it impossible to verify the claimed provenance."
+      }
+    }
+  ]
+}

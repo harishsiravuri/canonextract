@@ -1,0 +1,448 @@
+{
+  "paper_id": "3842ee1e0fdfeff936b5c49973ff21adfaaf3929",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 6,
+    "total": 8,
+    "partial_table_valid": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "ADDA (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "unsupervised domain adaptation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "mnist"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.894,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Source only",
+        "Gradient reversal",
+        "Domain confusion",
+        "CoGAN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "ADDA (Ours)",
+        "header_path": "MNIST USPS 0.8em",
+        "cell": "0.894 0.002",
+        "_content_hash": "4fac745272be",
+        "_paper_hash": "9850ff69f832",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.8em USPS MNIST",
+          "cell": "0.894 0.002",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the table does not mention the MNIST dataset, and the row label \"ADDA (Ours)\" refers to the Adversarial Discriminative Domain Adaptation method per the method excerpt, but the cell content does not match the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "ADDA (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "unsupervised domain adaptation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "USPS",
+          "canonical_id": "usps"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.901,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Source only",
+        "Gradient reversal",
+        "Domain confusion",
+        "CoGAN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "ADDA (Ours)",
+        "header_path": "0.8em USPS MNIST",
+        "cell": "0.901 0.008",
+        "_content_hash": "7497d4417462",
+        "_paper_hash": "9850ff69f832",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.8em USPS MNIST",
+          "cell": "0.894 0.002",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell is not the source of the tuple's combination because the dataset in the table is \"NYUD nyud2\", not \"USPS\", and the value \"0.901\" is not present in the table."
+      }
+    },
+    {
+      "method": {
+        "name": "ADDA (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "unsupervised domain adaptation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": "svhn"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.76,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Source only",
+        "Gradient reversal",
+        "Domain confusion",
+        "CoGAN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "ADDA (Ours)",
+        "header_path": "0.4em SVHN MNIST",
+        "cell": "0.760 0.018",
+        "_content_hash": "184856bdba91",
+        "_paper_hash": "9850ff69f832",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.4em SVHN MNIST",
+          "cell": "0.901 0.008",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the table does not mention the SVHN dataset, and the cell content does not match the tuple's value."
+      }
+    },
+    {
+      "method": {
+        "name": "ADDA (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "unsupervised domain adaptation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "NYUD",
+          "canonical_id": "nyud2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.211,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Source only",
+        "Train on target"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "ADDA (Ours)",
+        "header_path": "overall",
+        "cell": "0.211",
+        "_content_hash": "0e1c290343e7",
+        "_paper_hash": "9850ff69f832",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "ADDA (Ours)",
+          "column_header": "bed",
+          "cell": "0.000",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "ADDA (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "MNIST USPS 0.8em",
+          "canonical_id": "MNIST USPS 0.8em"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.894,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Gradient reversal",
+        "Domain confusion",
+        "CoGAN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "ADDA (Ours)",
+        "header_path": "MNIST USPS 0.8em",
+        "cell": "0.894 0.002",
+        "_content_hash": "4fac745272be",
+        "_paper_hash": "9850ff69f832",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.8em USPS MNIST",
+          "cell": "0.894 0.002",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple because the table does not mention the \"MNIST USPS 0.8em\" dataset, and the row label \"ADDA (Ours)\" refers to the Adversarial Discriminative Domain Adaptation method per the method excerpt, but the cell content does not match the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "ADDA (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "0.8em USPS MNIST",
+          "canonical_id": "0.8em USPS MNIST"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.901,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Gradient reversal",
+        "Domain confusion",
+        "CoGAN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "ADDA (Ours)",
+        "header_path": "0.8em USPS MNIST",
+        "cell": "0.901 0.008",
+        "_content_hash": "7497d4417462",
+        "_paper_hash": "9850ff69f832",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.8em USPS MNIST",
+          "cell": "0.894 0.002",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell does not match the tuple's dataset, as the table is about the NYUD nyud2 dataset, not USPS MNIST."
+      }
+    },
+    {
+      "method": {
+        "name": "ADDA (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "0.4em SVHN MNIST",
+          "canonical_id": "0.4em SVHN MNIST"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.76,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Gradient reversal",
+        "Domain confusion",
+        "CoGAN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "ADDA (Ours)",
+        "header_path": "0.4em SVHN MNIST",
+        "cell": "0.760 0.018",
+        "_content_hash": "184856bdba91",
+        "_paper_hash": "9850ff69f832",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.8em USPS MNIST",
+          "cell": "0.894 0.002",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO. \nThe claimed cell does not match the tuple's dataset, as the table is about the NYUD nyud2 dataset, not SVHN MNIST."
+      }
+    },
+    {
+      "method": {
+        "name": "ADDA (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image classification",
+        "canonical_id": "image classification"
+      },
+      "datasets": [
+        {
+          "name": "NYUD nyud2",
+          "canonical_id": "NYUD nyud2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 0.211,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Source only",
+        "Train on target"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "ADDA (Ours)",
+        "header_path": "overall",
+        "cell": "0.211",
+        "_content_hash": "0e1c290343e7",
+        "_paper_hash": "9850ff69f832",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "ADDA (Ours)",
+          "column_header": "bed",
+          "cell": "0.000",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

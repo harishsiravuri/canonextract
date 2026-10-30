@@ -1,0 +1,396 @@
+{
+  "paper_id": "178275dbdcfa267e41a9d5efe386ee5874c6d23f",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 3,
+    "total": 7,
+    "strict_table_valid": 4
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Fraternal dropout + AWD-LSTM 3-layer",
+        "canonical_id": "fraternal dropout awd lstm 3 layer"
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "language modeling"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": "penn treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 58.9,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "zaremba2014recurrent - LSTM (medium)",
+        "zaremba2014recurrent - LSTM (large)",
+        "vdropout - Variational LSTM (medium)",
+        "vdropout - Variational LSTM (large)",
+        "inan2016tying - Variational LSTM",
+        "inan2016tying - Variational RHN",
+        "zilly2016recurrent - Variational RHN",
+        "melis2017state - 5-layer RHN",
+        "melis2017state - 4-layer skip connection LSTM",
+        "merity2017regularizing - AWD-LSTM 3-layer (baseline)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Fraternal dropout + AWD-LSTM 3-layer",
+        "header_path": "Validation",
+        "cell": "58.9",
+        "_content_hash": "5c5951a9abd7",
+        "_paper_hash": "5893ffb426b8",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Fraternal dropout + AWD-LSTM 3-layer",
+          "column_header": "Validation",
+          "cell": "58.9",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Fraternal dropout + AWD-LSTM 3-layer",
+        "canonical_id": "fraternal dropout awd lstm 3 layer"
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "language modeling"
+      },
+      "datasets": [
+        {
+          "name": "WikiText-2",
+          "canonical_id": "wikitext 2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 66.8,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "DBLP:journals/corr/MerityXBS16 - Variational LSTM + Zoneout",
+        "DBLP:journals/corr/MerityXBS16 - Variational LSTM",
+        "inan2016tying - Variational LSTM",
+        "melis2017state - 5-layer RHN",
+        "melis2017state - 1-layer LSTM",
+        "melis2017state - 2-layer skip connection LSTM",
+        "merity2017regularizing - AWD-LSTM 3-layer (baseline)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Fraternal dropout + AWD-LSTM 3-layer",
+        "header_path": "Validation",
+        "cell": "66.8",
+        "_content_hash": "9e830be8b304",
+        "_paper_hash": "5893ffb426b8",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Fraternal dropout + AWD-LSTM 3-layer",
+          "column_header": "Validation",
+          "cell": "66.8",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Fraternal dropout, = 0.015",
+        "canonical_id": "fraternal dropout 0 015"
+      },
+      "task": {
+        "name": "image captioning",
+        "canonical_id": "image captioning"
+      },
+      "datasets": [
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": "coco"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-1",
+          "value": 69.3,
+          "unit": null,
+          "canonical_id": "bleu 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Show and Tell DBLP:journals/corr/XuBKCCSZB15",
+        "Baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Fraternal dropout, = 0.015",
+        "header_path": "BLEU-1",
+        "cell": "69.3",
+        "_content_hash": "f7a54b222cde",
+        "_paper_hash": "5893ffb426b8",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "column_header": "BLEU-1",
+          "cell": "69.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"Fraternal dropout, = 0.015\" describes the tuple's Method, the header path \"BLEU-1\" describes the tuple's Metric, and the cell content \"69.3\" matches the tuple's Value, all of which are consistent with the information provided in the paper excerpt and table."
+      }
+    },
+    {
+      "method": {
+        "name": "Fraternal dropout, = 0.015",
+        "canonical_id": "fraternal dropout 0 015"
+      },
+      "task": {
+        "name": "image captioning",
+        "canonical_id": "image captioning"
+      },
+      "datasets": [
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": "coco"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-2",
+          "value": 51.4,
+          "unit": null,
+          "canonical_id": "bleu 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Show and Tell DBLP:journals/corr/XuBKCCSZB15",
+        "Baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Fraternal dropout, = 0.015",
+        "header_path": "BLEU-1",
+        "cell": "69.3",
+        "_content_hash": "f7a54b222cde",
+        "_paper_hash": "5893ffb426b8",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "column_header": "BLEU-2",
+          "cell": "51.4",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell content \"69.3\" does not match the tuple's Value \"51.4\", which is actually found in the \"BLEU-2\" column, not \"BLEU-1\"."
+      }
+    },
+    {
+      "method": {
+        "name": "Fraternal dropout, = 0.015",
+        "canonical_id": "fraternal dropout 0 015"
+      },
+      "task": {
+        "name": "image captioning",
+        "canonical_id": "image captioning"
+      },
+      "datasets": [
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": "coco"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-3",
+          "value": 36.6,
+          "unit": null,
+          "canonical_id": "bleu 3"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Show and Tell DBLP:journals/corr/XuBKCCSZB15",
+        "Baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Fraternal dropout, = 0.015",
+        "header_path": "BLEU-1",
+        "cell": "69.3",
+        "_content_hash": "f7a54b222cde",
+        "_paper_hash": "5893ffb426b8",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "column_header": "BLEU-3",
+          "cell": "36.6",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell content \"69.3\" does not match the tuple's Value \"36.6\", which is actually found in the \"BLEU-3\" column, not \"BLEU-1\"."
+      }
+    },
+    {
+      "method": {
+        "name": "Fraternal dropout, = 0.015",
+        "canonical_id": "fraternal dropout 0 015"
+      },
+      "task": {
+        "name": "image captioning",
+        "canonical_id": "image captioning"
+      },
+      "datasets": [
+        {
+          "name": "Microsoft COCO",
+          "canonical_id": "coco"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 26.1,
+          "unit": null,
+          "canonical_id": "bleu 4"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Show and Tell DBLP:journals/corr/XuBKCCSZB15",
+        "Baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Fraternal dropout, = 0.015",
+        "header_path": "BLEU-1",
+        "cell": "69.3",
+        "_content_hash": "f7a54b222cde",
+        "_paper_hash": "5893ffb426b8",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Fraternal dropout, = 0.015",
+          "column_header": "BLEU-4",
+          "cell": "26.1",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell content \"69.3\" does not match the tuple's Value \"26.1\", which is actually found in the \"BLEU-4\" column, not \"BLEU-1\"."
+      }
+    },
+    {
+      "method": {
+        "name": "Fraternal dropout ( =0.05)",
+        "canonical_id": "fraternal dropout 0 05"
+      },
+      "task": {
+        "name": "semi-supervised image classification",
+        "canonical_id": "semi supervised image classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10",
+          "canonical_id": "cifar 10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 79.3,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Traditional dropout",
+        "No dropout"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Fraternal dropout ( =0.05)",
+        "header_path": "Validation",
+        "cell": "79.3 ( 0.38)",
+        "_content_hash": "1b3f73c302ef",
+        "_paper_hash": "5893ffb426b8",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Fraternal dropout ( =0.05)",
+          "column_header": "Validation",
+          "cell": "79.3 ( 0.38)",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

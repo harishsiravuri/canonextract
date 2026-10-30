@@ -1,0 +1,573 @@
+{
+  "paper_id": "1235dd37312cb20aced0e97d953f6379d8a0c7d4",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "header_path": "LSTM [H]",
+          "cell": "72.65"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "LSTM",
+          "cell": "72.65",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LSTM [H]",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "72.65",
+      "value": 72.65
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "header_path": "LSTM [H]",
+          "cell": "90.38"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "V-BiMPM",
+          "cell": "90.03",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LSTM [H]",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "90.38",
+      "value": 90.38
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "header_path": "LSTM [H]",
+          "cell": "86.25"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "BiMPM",
+          "cell": "86.1",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LSTM [H]",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "86.25",
+      "value": 86.25
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Overall",
+          "header_path": "LSTM [H]",
+          "cell": "73.56"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "BiMPM",
+          "cell": "73.56",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LSTM [H]",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "73.56",
+      "value": 73.56
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "header_path": "LSTM",
+          "cell": "87.53"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "V-LSTM",
+          "cell": "87.71",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LSTM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "87.53",
+      "value": 87.53
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Overall",
+          "header_path": "LSTM",
+          "cell": "82.79"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "V-BiMPM",
+          "cell": "82.79",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LSTM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "82.79",
+      "value": 82.79
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "header_path": "V-LSTM",
+          "cell": "87.71"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "V-LSTM",
+          "cell": "87.71",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "V-LSTM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "87.71",
+      "value": 87.71
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "header_path": "V-LSTM",
+          "cell": "66.29"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "column_header": "LSTM",
+          "cell": "66.29",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "V-LSTM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "66.29",
+      "value": 66.29
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Overall",
+          "header_path": "V-LSTM",
+          "cell": "82.91"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "V-BiMPM",
+          "cell": "82.79",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "V-LSTM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "82.91",
+      "value": 82.91
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "header_path": "VQA",
+          "cell": "87.14"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "VQA",
+          "cell": "87.14",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VQA",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "87.14",
+      "value": 87.14
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "header_path": "VQA",
+          "cell": "79.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "column_header": "V-LSTM",
+          "cell": "79.7",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VQA",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "79.7",
+      "value": 79.7
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "header_path": "VQA",
+          "cell": "66.36"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "column_header": "LSTM",
+          "cell": "66.29",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VQA",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "66.36",
+      "value": 66.36
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "header_path": "BiMPM",
+          "cell": "86.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "BiMPM",
+          "cell": "86.1",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BiMPM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "86.1",
+      "value": 86.1
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "header_path": "BiMPM",
+          "cell": "71.39"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "column_header": "VQA",
+          "cell": "71.39",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BiMPM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "71.39",
+      "value": 71.39
+    },
+    {
+      "tuple_idx": 14,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "header_path": "BiMPM",
+          "cell": "76.79"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "V-LSTM",
+          "cell": "76.79",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BiMPM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "76.79",
+      "value": 76.79
+    },
+    {
+      "tuple_idx": 15,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Overall",
+          "header_path": "BiMPM",
+          "cell": "68.49"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "VQA",
+          "cell": "68.06",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BiMPM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "68.49",
+      "value": 68.49
+    },
+    {
+      "tuple_idx": 16,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "header_path": "V-LSTM",
+          "cell": "68.06"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "VQA",
+          "cell": "68.06",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "V-LSTM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "68.06",
+      "value": 68.06
+    },
+    {
+      "tuple_idx": 17,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "header_path": "VQA",
+          "cell": "78.99"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "column_header": "BiMPM",
+          "cell": "78.99",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "VQA",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "78.99",
+      "value": 78.99
+    },
+    {
+      "tuple_idx": 18,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "header_path": "BiMPM",
+          "cell": "90.03"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "V-BiMPM",
+          "cell": "90.03",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BiMPM",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "90.03",
+      "value": 90.03
+    },
+    {
+      "tuple_idx": 19,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Overall",
+          "header_path": "LSTM [H]",
+          "cell": "68.49"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "VQA",
+          "cell": "68.06",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LSTM [H]",
+      "task": "natural language inference",
+      "dataset": "V-SNLI",
+      "metric": "accuracy",
+      "value": 68.49
+    },
+    {
+      "tuple_idx": 20,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Overall",
+          "header_path": "LSTM [H]",
+          "cell": "25.57"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Contradiction",
+          "column_header": "LSTM",
+          "cell": "25.29",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LSTM [H]",
+      "task": "natural language inference",
+      "dataset": "V-SNLI$_ hard",
+      "metric": "accuracy",
+      "value": 25.57
+    }
+  ]
+}

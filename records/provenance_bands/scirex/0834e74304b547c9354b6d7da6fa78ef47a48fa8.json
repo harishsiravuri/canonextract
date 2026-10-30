@@ -1,0 +1,222 @@
+{
+  "paper_id": "0834e74304b547c9354b6d7da6fa78ef47a48fa8",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "LINE(2nd)",
+          "header_path": "Semantic (\\%)",
+          "cell": "73.79"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "LINE(2nd)",
+          "column_header": "Semantic (\\%)",
+          "cell": "73.79",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "LINE",
+      "task": "word analogy",
+      "dataset": "Wikipedia",
+      "metric": "Semantic (%)",
+      "value": 73.79
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "LINE(2nd)",
+          "header_path": "Semantic (\\%)",
+          "cell": "73.79"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "LINE(2nd)",
+          "column_header": "Syntactic (\\%)",
+          "cell": "59.72",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "LINE",
+      "task": "word analogy",
+      "dataset": "Wikipedia",
+      "metric": "Syntactic (%)",
+      "value": 59.72
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "LINE(2nd)",
+          "header_path": "Semantic (\\%)",
+          "cell": "73.79"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "LINE(2nd)",
+          "column_header": "Overall (\\%)",
+          "cell": "66.10",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "LINE",
+      "task": "word analogy",
+      "dataset": "Wikipedia",
+      "metric": "Overall (%)",
+      "value": 66.1
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "LINE(2nd)",
+          "header_path": "Semantic (\\%)",
+          "cell": "73.79"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "LINE(1st)",
+          "column_header": "Running time",
+          "cell": "2.44h",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "LINE",
+      "task": "word analogy",
+      "dataset": "Wikipedia",
+      "metric": "Running time",
+      "value": 2.55
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "LINE(2nd)",
+          "header_path": "Micro-F1",
+          "cell": "81.80"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "LINE(1st)",
+          "column_header": "50\\%",
+          "cell": "81.43",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LINE",
+      "task": "Wikipedia page classification",
+      "dataset": "Wikipedia",
+      "metric": "Micro-F1",
+      "value": 81.8
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "LINE-SGD(2nd)",
+          "column_header": "80\\%",
+          "cell": "79.46",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LINE",
+      "task": "Wikipedia page classification",
+      "dataset": "Wikipedia",
+      "metric": "Macro-F1",
+      "value": 79.82
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 4,
+          "row_label": "LINE(2nd)",
+          "header_path": "Micro-F1",
+          "cell": "63.34"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "LINE(1st)",
+          "column_header": "60\\%",
+          "cell": "62.86",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LINE",
+      "task": "multi-label classification",
+      "dataset": "Flickr",
+      "metric": "Micro-F1",
+      "value": 63.34
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "LINE(2nd)",
+          "column_header": "Algorithm",
+          "cell": "61.46",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LINE",
+      "task": "multi-label classification",
+      "dataset": "Flickr",
+      "metric": "Macro-F1",
+      "value": 61.46
+    }
+  ]
+}

@@ -1,0 +1,859 @@
+{
+  "paper_id": "1709.04109",
+  "contributions": [
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.71,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "part-of-speech tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "WSJ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.53,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "chunking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.96,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 69525,
+    "tokens_out": 4184,
+    "cost_usd": 0.025971760000000003,
+    "wall_seconds": 111.3298032283783,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL03 NER",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.71,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WSJ",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.53,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "chunking",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL00 chunking",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.96,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL03 NER",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.71,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model achieves a significant improvement over the state-of-the-art on the CoNLL03 NER task."
+        },
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "WSJ",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.53,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model outperforms all baselines on the WSJ portion of the PTB POS tagging task."
+        },
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "chunking",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL00 chunking",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.96,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model achieves relatively high F1 scores on the chunking task, outperforming all baselines without extra resources."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL03 NER",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.71,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model achieves a higher F1 score compared to baselines without additional resources."
+        },
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "WSJ",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.53,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model achieves higher accuracy compared to baselines without additional resources."
+        },
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "chunking",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL00 chunking",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.96,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model achieves higher F1 score compared to baselines without additional resources."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1079,
+              "end": 1085
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 102,
+              "end": 118
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL03 NER",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2127,
+                "end": 2138
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.71,
+              "unit": null,
+              "evidence_span": {
+                "start": 1079,
+                "end": 1085
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF",
+            "TagLM"
+          ],
+          "notes": "The model achieves a higher F1 score compared to previous methods without using any extra annotations."
+        },
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1079,
+              "end": 1085
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 102,
+              "end": 118
+            }
+          },
+          "datasets": [
+            {
+              "name": "WSJ",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2142,
+                "end": 2145
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.53,
+              "unit": null,
+              "evidence_span": {
+                "start": 1079,
+                "end": 1085
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model achieves higher accuracy on the WSJ dataset compared to previous methods."
+        },
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1079,
+              "end": 1085
+            }
+          },
+          "task": {
+            "name": "chunking",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 102,
+              "end": 118
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL00 chunking",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2139,
+                "end": 2154
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.96,
+              "unit": null,
+              "evidence_span": {
+                "start": 1079,
+                "end": 1085
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model achieves higher F1 score on the CoNLL00 chunking dataset compared to previous methods."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1082,
+              "end": 1095
+            }
+          },
+          "task": {
+            "name": "named entity recognition",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1198,
+              "end": 1218
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL03 NER",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1198,
+                "end": 1218
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.71,
+              "unit": null,
+              "evidence_span": {
+                "start": 1198,
+                "end": 1218
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model achieves a higher F1 score compared to previous methods without using any extra annotations."
+        },
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1082,
+              "end": 1095
+            }
+          },
+          "task": {
+            "name": "part-of-speech tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1265,
+              "end": 1280
+            }
+          },
+          "datasets": [
+            {
+              "name": "WSJ",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1265,
+                "end": 1280
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.53,
+              "unit": null,
+              "evidence_span": {
+                "start": 1265,
+                "end": 1280
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model achieves higher accuracy on the WSJ dataset compared to previous methods."
+        },
+        {
+          "method": {
+            "name": "LM-LSTM-CRF",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1082,
+              "end": 1095
+            }
+          },
+          "task": {
+            "name": "chunking",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1238,
+              "end": 1256
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL00 chunking",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1238,
+                "end": 1256
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.96,
+              "unit": null,
+              "evidence_span": {
+                "start": 1238,
+                "end": 1256
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LSTM-CRF",
+            "LSTM-CNN-CRF"
+          ],
+          "notes": "The model achieves higher F1 score on the CoNLL00 chunking dataset compared to previous methods."
+        }
+      ]
+    }
+  ]
+}

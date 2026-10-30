@@ -1,0 +1,50 @@
+row_id,paper_id,method,task,dataset,metric,value,unit,binding_correct_yes_no,error_type,notes
+H001,175f74a09241,Dual-State Recurrent Network (DSRN),image super-resolution,Set14,IFC,,,YES,,SectionBlock 10 reports DSRN evaluation on Set14 using IFC.
+H002,1d0dcb458aa4,Pose-driven Deep Convolutional (PDC) model,person re-identification,VIPeR,mAP,63.41,%,NO,wrong_dataset,SectionBlock 13 assigns 63.41% mAP to Market-1501; VIPeR is reported with rank-1 accuracy.
+H003,21a1654b856c,YOLO,object detection,People-Art Dataset,mAP,57.9,,NO,wrong_dataset,"SectionBlock 13 reports 57.9 mAP on VOC 2012, not People-Art."
+H004,21a1654b856c,YOLO,object detection,Pascal VOC 2012,AP,,,YES,,SectionBlock 13 and its VOC 2012 results table report YOLO AP/mAP on Pascal VOC 2012.
+H005,0834e74304b5,LINE,network embedding,language networks,F1,,,YES,,"SectionBlocks 2 and 20-24 evaluate LINE on language networks, with F1 used for the classification evaluation."
+H006,35734e872455,fast gradient sign method,adversarial example generation,CIFAR-10,error rate,99.9,%,NO,wrong_dataset,"SectionBlock 6 reports the 99.9% FGSM error rate on MNIST, not CIFAR-10."
+H007,455da02e5048,SPP-net,object detection,Pascal VOC 2007,mAP,59.2,%,YES,,SectionBlocks 21-23 report SPP-net detection on VOC 2007 with 59.2% mAP.
+H008,21a1654b856c,YOLO,object detection,Pascal VOC 2007,mAP,57.9,,NO,wrong_dataset,SectionBlock 13 reports 57.9 mAP for VOC 2012; VOC 2007 has a different result.
+H009,0c47cad9729c,Cross-View Training (CVT),machine translation,IWSLT 2015,BLEU,,,YES,,SectionBlock 11 specifies CVT English-Vietnamese translation on IWSLT 2015 with BLEU.
+H010,269730dbbabe,Query-Reduction Network (QRN),question answering,bAbI QA,accuracy,99.7,%,YES,,SectionBlock 13 reports QRN bAbI QA 10k accuracy of 99.7%.
+H011,1130d8fdd931,PixelGAN autoencoder,semi-supervised classification,NORB,error rate,8.17,%,YES,,The NORB semi-supervised results table reports PixelGAN autoencoder error of 8.17%.
+H012,247304242367,Joint Maximum Purity Forest (JMPF),classification,public benchmark datasets,error rate,,,YES,,The experiments evaluate JMPF classification error on multiple public benchmark datasets.
+H013,1130d8fdd931,PixelGAN autoencoder,semi-supervised classification,SVHN,error rate,8.17,%,NO,wrong_dataset,"The 8.17% PixelGAN autoencoder error is the NORB result, not SVHN."
+H014,14318685b595,GoogLeNet,object detection,ImageNet,mAP,43.9,%,YES,,The ILSVRC detection results report GoogLeNet mAP of 43.9%.
+H015,081531984770,spatio-temporal sub-pixel convolution networks,video super-resolution,Vid4,SSIM,,,YES,,The Vid4 evaluation reports SSIM for the spatio-temporal sub-pixel convolution model.
+H016,25a784f7f8c9,anchor-based deep face detector,face detection,Pascal Faces,TPR,98.7,%,NO,wrong_dataset,SectionBlocks 2 and 16 assign TPR 98.7% to FDDB; Pascal Faces is reported with AP 99.00.
+H017,14318685b595,GoogLeNet,image classification,ImageNet,top-5 error rate,6.67,%,YES,,SectionBlock 8 reports GoogLeNet top-5 error of 6.67% on ImageNet/ILSVRC 2014.
+H018,25a784f7f8c9,anchor-based deep face detector,face detection,FDDB,AP,95.7,%,NO,wrong_dataset,SectionBlock 2 assigns AP 95.7% to WIDER FACE easy; FDDB is reported as TPR 98.7%.
+H019,107010b7f2ab,Domain-Adversarial Neural Networks (DANN),person re-identification,CUHK,accuracy,,,YES,,SectionBlocks 26-27 evaluate DANN descriptors for person re-identification on CUHK using identification accuracy.
+H020,193089d56758,siamese network with identification and verification losses,person re-identification,Market1501,mAP,59.87,%,YES,,SectionBlock 16 reports the ResNet-50 identification+verification model at 59.87% mAP on Market1501.
+H021,1778e32c18bd,Densely Interactive Inference Network (DIIN),natural language inference,SNLI,accuracy,80.0,%,NO,wrong_dataset,The 80.0% DIIN result is the MultiNLI result; the SNLI experiment reports 88.0% test accuracy.
+H022,0c47cad9729c,Cross-View Training (CVT),dependency parsing,Penn Treebank,accuracy,,,YES,,SectionBlocks 9 and 11 evaluate CVT dependency parsing on the Penn Treebank and report parsing accuracy.
+H023,193089d56758,siamese network with identification and verification losses,image retrieval,Oxford5k,mAP,,%,YES,,Sections 15-17 evaluate the identification+verification network for Oxford5k image retrieval using mAP.
+H024,3448e6a50394,eXtreme Deep Factorization Machine (xDeepFM),recommender systems,Dianping Dataset,Logloss,,,YES,,Sections 17-19 evaluate xDeepFM on Dianping and define Logloss as an evaluation metric.
+H025,44078d0daed8,Triplet Probability Embedding (TPE),face clustering,LFW,F-score,,,YES,,Sections 14-15 apply TPE features to LFW face clustering and report F-score.
+H026,232b43584b22,Implicit Quantile Networks (IQN),reinforcement learning,Atari 2600 games (ALE),human-normalized score,,,YES,,The Atari-57 experiments evaluate IQN with human-normalized scores.
+H027,2f04ba0f74df,aggregate channel features,face detection,AFW,FPS,42.0,frames per second,YES,,The abstract reports the aggregate-channel face detector on AFW/FDDB and a speed of 42 FPS on VGA images.
+H028,0a6c36de8726,Filtered Channel Features,pedestrian detection,KITTI,FPPI,1.0,,NO,wrong_dataset,The abstract's recall at 1 FPPI is the Caltech result; KITTI performance is reported with its benchmark metric.
+H029,2f56b1ac5b9f,Online Hard Example Mining (OHEM),object detection,PASCAL VOC 2007,mAP,78.9,%,YES,,The VOC 2007 experiments report OHEM detection mAP of 78.9%.
+H030,322a7dad274f,PSPNet,scene parsing,Cityscapes,mIoU,85.4,%,NO,wrong_dataset,The introduction reports 85.4% mIoU on PASCAL VOC 2012 and 80.2% on Cityscapes.
+H031,0398552184f8,Self-paced Curriculum Learning (SPCL),weakly supervised object detection,Pascal VOC 2007,average precision,29.96,,YES,,Sections 12-13 report SPCL weakly supervised detection on VOC 2007 with average AP 29.96.
+H032,02b3d1d16208,Char LSTM Predictions,language modeling,One Billion Word Benchmark,perplexity,47.9,,YES,,Sections 10 and 21 report Char LSTM Predictions on One Billion Word with perplexity 47.9.
+H033,45429c281e30,conditional GANs with multi-scale generator and discriminator architectures,high-resolution image synthesis,Helen Face,human preference rate,,,NO,wrong_metric,Section 12 says Helen Face is used for additional qualitative/editing results; human preference evaluation is on other datasets.
+H034,270e65acc071,Neural Tree Indexers (NTI),answer sentence selection,WikiQA,MRR,,,YES,,Section 11 evaluates NTI answer sentence selection on WikiQA using MAP and MRR.
+H035,193b518bc302,adversarial learning in output space,semantic segmentation,Cityscapes,IoU,,%,YES,,Sections 10-12 evaluate output-space adversarial adaptation on Cityscapes using IoU.
+H036,160563abbd75,BiLSTM encoder with shared BPE vocabulary,bitext mining,BUCC,F1,,,YES,,The BUCC bitext-mining experiments evaluate the shared-BPE BiLSTM encoder with F1.
+H037,1f08598381af,Ape-X DQN,reinforcement learning,Arcade Learning Environment,human-normalized score,,,YES,,The Atari/ALE experiments report Ape-X DQN human-normalized scores.
+H038,408e8eecc14c,Exemplar-CNN,visual object recognition,Caltech-101,accuracy,72.8,%,NO,wrong_dataset,"Section 4.3 reports 72.8% accuracy on STL-10, not Caltech-101."
+H039,2f56b1ac5b9f,Online Hard Example Mining (OHEM),object detection,PASCAL VOC 2012,mAP,78.9,%,NO,wrong_dataset,The OHEM 78.9% mAP result is for VOC 2007; the VOC 2012 result is different.
+H040,21a1654b856c,YOLO,object detection,Picasso Dataset,AP,,,YES,,Section 14 compares YOLO on the Picasso dataset and reports detector AP in the comparison figure.
+H041,3cf31ecb2724,BiLSTM,dependency parsing,Chinese Treebank 5.1,UAS,93.1,,NO,wrong_value,SectionBlock 2 reports 93.1 UAS for English; Chinese CTB5.1 is 86.6 UAS.
+H042,1f08598381af,Ape-X DPG,reinforcement learning,continuous control tasks,performance,,,YES,,Sections 9 and 12 evaluate Ape-X DPG on continuous-control tasks and report performance.
+H043,25f5df29342a,Convolutional Pose Machines (CPM),pose estimation,MPII,PCK,84.32,%,NO,wrong_dataset,Section 13 reports 84.32% PCK on LSP; MPII uses its own benchmark results.
+H044,081531984770,spatio-temporal sub-pixel convolution networks,video super-resolution,Vid4,MOVIE,,,YES,,The Vid4 video-super-resolution evaluation includes the MOVIE perceptual metric.
+H045,33261d252218,Subgraph Embedding Model,question answering,WebQuestions,F1,,,YES,,Section 18 evaluates the Subgraph Embedding Model on WebQuestions using F1.
+H046,3ca3993b1f35,BB8,3D object detection and pose estimation,LINEMOD,Pose 6D criterion,54.0,%,NO,wrong_dataset,"The 54.0% Pose 6D result is reported for T-LESS, not LINEMOD."
+H047,1d0dcb458aa4,Pose-driven Deep Convolutional (PDC) model,person re-identification,Market 1501,rank1 accuracy,88.7,%,NO,wrong_dataset,Section 13 assigns 88.70 rank-1 to the CUHK03 labeled setting; Market1501 detected is 78.29.
+H048,11356cd6bb0f,Submanifold Sparse Convolutional Networks (VSC),3D shape classification,ModelNet-40,accuracy,,%,YES,,The ModelNet-40 experiments evaluate VSC for 3D shape classification; accuracy is represented equivalently via class error.
+H049,249b3b7421d3,Cell-aware Stacked LSTM (CAS-LSTM),natural language inference,SNLI,accuracy,87.0,%,YES,,The SNLI results table reports CAS-LSTM accuracy of 87.0%.

@@ -1,0 +1,102 @@
+{
+  "paper_id": "0a6c36de8726b6feaab586046ddc1d1a008f44f9",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 1,
+    "total": 2,
+    "missing": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "ACF-Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": "pedestrian detection"
+      },
+      "datasets": [
+        {
+          "name": "Caltech",
+          "canonical_id": "caltech"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MR",
+          "value": 50.2,
+          "unit": null,
+          "canonical_id": "mr"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Caltech",
+        "header_path": "L 2",
+        "cell": "50.2",
+        "_content_hash": "2466a1b3cd60",
+        "_paper_hash": "7eb71480a17c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "ACF-Ours",
+          "column_header": "Caltech",
+          "cell": "50.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"50.2\" does not match any value in the provided table, and the row label \"Caltech\" describes the dataset, not the method, which is referred to as \"ACF-Ours\" in the claim."
+      }
+    },
+    {
+      "method": {
+        "name": "ACF-Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pedestrian detection",
+        "canonical_id": "pedestrian detection"
+      },
+      "datasets": [
+        {
+          "name": "Caltech10x",
+          "canonical_id": "caltech10x"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MR",
+          "value": 52.6,
+          "unit": null,
+          "canonical_id": "mr"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Caltech",
+        "header_path": "L 2",
+        "cell": "52.6",
+        "_content_hash": "4dcb8eb92c64",
+        "_paper_hash": "7eb71480a17c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    }
+  ]
+}

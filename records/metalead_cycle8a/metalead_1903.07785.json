@@ -1,0 +1,2157 @@
+{
+  "paper_id": "1903.07785",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 40,
+    "total": 42,
+    "strict_table_valid": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CoLA",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 53.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CoLA",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 93.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CoLA",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CoLA",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 82.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SST-2",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 53.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SST-2",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 93.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SST-2",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SST-2",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 82.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MRPC",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 53.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MRPC",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 93.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MRPC",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MRPC",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 82.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "STS-B",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 53.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "STS-B",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 93.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "STS-B",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "STS-B",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 82.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "QQP",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 53.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "QQP",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 93.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "QQP",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "QQP",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 82.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MNLI-m",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 53.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MNLI-m",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 93.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MNLI-m",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MNLI-m",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 82.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "QNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 53.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "QNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 93.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "QNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "QNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 82.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "RTE",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 53.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "RTE",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 93.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "RTE",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "RTE",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 82.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "CoLA",
+        "cell": "53.1",
+        "_content_hash": "e29dd24e9482",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Large + ELMo",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": "named entity recognition ner"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003",
+          "canonical_id": "conll 2003 english"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ELMo$_{BASE}$"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Large + ELMo",
+        "header_path": "test F1",
+        "cell": "93.2",
+        "_content_hash": "740efd33ef6d",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "CNN Large + ELMo",
+          "column_header": "test F1",
+          "cell": "93.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell is not the source of the tuple's combination because the row label \"CNN Large\" does not match the tuple's Method \"CNN Large + ELMo\", and the header path does not describe the tuple's Dataset \"CoNLL-2003\" or Metric \"F1\"."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Large + ELMo",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "constituency parsing",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank",
+          "canonical_id": "penn treebank ptb"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ELMo$_{BASE}$"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Large + ELMo",
+        "header_path": "test F1",
+        "cell": "95.2",
+        "_content_hash": "865537f19419",
+        "_paper_hash": "ada63686bd96",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "ELMo_ BASE",
+          "column_header": "dev F1",
+          "cell": "95.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the row label \"CNN Large\" does not match the tuple's Method \"CNN Large + ELMo\", and the table does not mention the dataset \"Penn Treebank\" or the metric \"F1\" for constituency parsing."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "SST-2",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 93.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "SST-2",
+        "cell": "93.6",
+        "_paper_hash": "ada63686bd96",
+        "_content_hash": "75e0b270b9e6",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "paraphrase detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "MRPC",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "MRPC",
+        "cell": "81.3",
+        "_paper_hash": "ada63686bd96",
+        "_content_hash": "fdc50709d96f",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "text similarity",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "STS-B",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 82.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "STS-B",
+        "cell": "82.2",
+        "_paper_hash": "ada63686bd96",
+        "_content_hash": "be702cb563b5",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "paraphrase detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "QQP",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 70.5,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "QQP",
+        "cell": "70.5",
+        "_paper_hash": "ada63686bd96",
+        "_content_hash": "3c487fd5d3f3",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_5",
+          "cell": "70.5",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "MNLI-(m/mm)",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 82.5,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "MNLI-(m/mm)",
+        "cell": "82.5",
+        "_paper_hash": "ada63686bd96",
+        "_content_hash": "6b1871e4dd56",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "QNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 89.5,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "QNLI",
+        "cell": "89.5",
+        "_paper_hash": "ada63686bd96",
+        "_content_hash": "7b95b12945c8",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_7",
+          "cell": "89.5",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "GLUE",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "GLUE",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 77.7,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "Avg",
+        "cell": "77.7",
+        "_paper_hash": "ada63686bd96",
+        "_content_hash": "1947d32c89e8",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_9",
+          "cell": "77.7",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "GLUE",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 77.7,
+          "unit": null,
+          "canonical_id": "avg"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "OpenAI GPT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN Base",
+        "header_path": "Avg",
+        "cell": "77.7",
+        "_paper_hash": "ada63686bd96",
+        "_content_hash": "1947d32c89e8",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_9",
+          "cell": "77.7",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

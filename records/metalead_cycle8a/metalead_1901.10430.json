@@ -1,0 +1,776 @@
+{
+  "paper_id": "1901.10430",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "prose_claimed_table": 9,
+    "total": 15,
+    "partial_table_valid": 6
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": "dynamic convolution"
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT English-German",
+          "canonical_id": "wmt 14 en de"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.7,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "BLEU",
+        "cell": "29.7",
+        "_content_hash": "b1b4346b015a",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ott2018scaling",
+          "column_header": "col_2",
+          "cell": "29.3",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": "dynamic convolution"
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT English-French",
+          "canonical_id": "wmt 14 en fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "BLEU",
+        "cell": "43.2",
+        "_content_hash": "13b9aaa867f7",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ott2018scaling",
+          "column_header": "col_3",
+          "cell": "43.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": "dynamic convolution"
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT German-English",
+          "canonical_id": "iwslt 14 de en"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.2,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "BLEU",
+        "cell": "35.2",
+        "_content_hash": "005bdc073e2a",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "285M",
+          "column_header": "Param (Zh-En)",
+          "cell": "34.8",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": "dynamic convolution"
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT Chinese-English",
+          "canonical_id": "wmt 17 zh en"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 24.4,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "BLEU",
+        "cell": "24.4",
+        "_content_hash": "ce203f9f4d81",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "hassan2018parity",
+          "column_header": "Param (Zh-En)",
+          "cell": "24.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": "dynamic convolution"
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "language modeling"
+      },
+      "datasets": [
+        {
+          "name": "Google Billion Word",
+          "canonical_id": "google billion word"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 26.67,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "Test",
+        "cell": "26.67",
+        "_content_hash": "bbb60e36e1e7",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "+ Dynamic weights [ ] (H=16)",
+          "column_header": "BLEU",
+          "cell": "26.9 0.2",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": "dynamic convolution"
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 39.84,
+          "unit": null,
+          "canonical_id": "rouge 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "Rouge-1",
+        "cell": "39.84",
+        "_content_hash": "2de5dd0c2333",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "86M",
+          "column_header": "Param",
+          "cell": "39.52",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": "dynamic convolution"
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-2",
+          "value": 16.25,
+          "unit": null,
+          "canonical_id": "rouge 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "Rouge-1",
+        "cell": "39.84",
+        "_content_hash": "2de5dd0c2333",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "Self-attention baseline",
+          "column_header": "Rouge-2",
+          "cell": "15.98",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": "dynamic convolution"
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-l",
+          "value": 36.73,
+          "unit": null,
+          "canonical_id": "rouge l"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "Rouge-1",
+        "cell": "39.84",
+        "_content_hash": "2de5dd0c2333",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "Self-attention baseline",
+          "column_header": "Rouge-l",
+          "cell": "36.35",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.52,
+          "unit": null,
+          "canonical_id": "rouge 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "sdconv",
+        "header_path": "Rouge-1",
+        "cell": "39.52",
+        "_content_hash": "b34f6ada69be",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "Self-attention baseline",
+          "column_header": "Rouge-1",
+          "cell": "39.26",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 15.97,
+          "unit": null,
+          "canonical_id": "rouge 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "sdconv",
+        "header_path": "Rouge-1",
+        "cell": "39.52",
+        "_content_hash": "b34f6ada69be",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "Self-attention baseline",
+          "column_header": "Rouge-2",
+          "cell": "15.98",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.51,
+          "unit": null,
+          "canonical_id": "rouge l"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "sdconv",
+        "header_path": "Rouge-1",
+        "cell": "39.52",
+        "_content_hash": "b34f6ada69be",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "Self-attention baseline",
+          "column_header": "Rouge-l",
+          "cell": "36.35",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.7,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "BLEU",
+        "cell": "29.7",
+        "_content_hash": "b1b4346b015a",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ott2018scaling",
+          "column_header": "col_2",
+          "cell": "29.3",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "BLEU",
+        "cell": "43.2",
+        "_content_hash": "13b9aaa867f7",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ott2018scaling",
+          "column_header": "col_3",
+          "cell": "43.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "IWSLT'14 German-English",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "BLEU",
+        "cell": "35.2",
+        "_content_hash": "005bdc073e2a",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "285M",
+          "column_header": "Param (Zh-En)",
+          "cell": "34.8",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "WMT'17 Chinese-English",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 24.4,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Self-attention baseline"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "tvsdconv",
+        "header_path": "BLEU",
+        "cell": "24.4",
+        "_content_hash": "ce203f9f4d81",
+        "_paper_hash": "9a3e28abd25d",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "hassan2018parity",
+          "column_header": "Param (Zh-En)",
+          "cell": "24.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    }
+  ]
+}

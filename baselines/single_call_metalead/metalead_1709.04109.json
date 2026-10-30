@@ -1,0 +1,180 @@
+{
+  "paper_id": "1709.04109",
+  "contributions": [
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 206,
+          "end": 216
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 123,
+          "end": 143
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 444,
+            "end": 457
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.71,
+          "unit": null,
+          "evidence_span": {
+            "start": 574,
+            "end": 579
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 206,
+          "end": 216
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "part-of-speech tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 123,
+          "end": 143
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "WSJ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 531,
+            "end": 534
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.53,
+          "unit": null,
+          "evidence_span": {
+            "start": 682,
+            "end": 687
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 206,
+          "end": 216
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "chunking",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 123,
+          "end": 143
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 444,
+            "end": 459
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.96,
+          "unit": null,
+          "evidence_span": {
+            "start": 723,
+            "end": 728
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM-CRF",
+        "LSTM-CNN-CRF"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 60936,
+    "tokens_out": 4651,
+    "cost_usd": 0.028626480000000003,
+    "wall_time_seconds": 111.92814420792274,
+    "voting_samples": 3
+  }
+}

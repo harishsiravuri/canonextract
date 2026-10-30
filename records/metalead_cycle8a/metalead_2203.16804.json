@@ -1,0 +1,785 @@
+{
+  "paper_id": "2203.16804",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 12,
+    "total": 15,
+    "prose_claimed_table": 2,
+    "strict_table_valid": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "BRIO-Ctr",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNNDM",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 47.28,
+          "unit": null,
+          "canonical_id": "rouge 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART",
+        "SimCLS"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "R-1",
+        "cell": "50.10",
+        "_content_hash": "f48bedd09300",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "R-L",
+          "cell": "47.19",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO-Ctr",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNNDM",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 22.93,
+          "unit": null,
+          "canonical_id": "rouge 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART",
+        "SimCLS"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "R-1",
+        "cell": "50.10",
+        "_content_hash": "f48bedd09300",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "2",
+          "column_header": "R-2",
+          "cell": "22.79",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO-Ctr",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNNDM",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 44.15,
+          "unit": null,
+          "canonical_id": "rouge l"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART",
+        "SimCLS"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "R-1",
+        "cell": "50.10",
+        "_content_hash": "f48bedd09300",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "10",
+          "column_header": "R-L",
+          "cell": "43.94",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO-Ctr",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": "xsum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 48.13,
+          "unit": null,
+          "canonical_id": "rouge 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PEGASUS",
+        "SimCLS"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "R-1",
+        "cell": "50.10",
+        "_content_hash": "f48bedd09300",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "100",
+          "column_header": "R-1",
+          "cell": "47.78",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO-Ctr",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": "xsum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 25.13,
+          "unit": null,
+          "canonical_id": "rouge 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PEGASUS",
+        "SimCLS"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "R-1",
+        "cell": "50.10",
+        "_content_hash": "f48bedd09300",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 10,
+          "row_label": "XSum",
+          "column_header": "R-2",
+          "cell": "24.69",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO-Ctr",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": "xsum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 39.84,
+          "unit": null,
+          "canonical_id": "rouge l"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PEGASUS",
+        "SimCLS"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "R-1",
+        "cell": "50.10",
+        "_content_hash": "f48bedd09300",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "ConSum*",
+          "column_header": "CNNDM",
+          "cell": "39.40",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO-Mul",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": "new york times nyt"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 57.75,
+          "unit": null,
+          "canonical_id": "rouge 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "R-1",
+        "cell": "50.10",
+        "_content_hash": "f48bedd09300",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 12,
+          "row_label": "CNNDM",
+          "column_header": "(Eq. eq:contr )",
+          "cell": "0.001",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO-Mul",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": "new york times nyt"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 38.64,
+          "unit": null,
+          "canonical_id": "rouge 2"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "R-1",
+        "cell": "50.10",
+        "_content_hash": "f48bedd09300",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 12,
+          "row_label": "CNNDM",
+          "column_header": "(Eq. eq:contr )",
+          "cell": "0.001",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO-Mul",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": "new york times nyt"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 54.54,
+          "unit": null,
+          "canonical_id": "rouge l"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "R-1",
+        "cell": "50.10",
+        "_content_hash": "f48bedd09300",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "-Mul",
+          "column_header": "CNNDM",
+          "cell": "54.54^",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell does not match the tuple's combination because the row label \"Ours\" refers to the BRIO method per the paper excerpt, but the dataset and metric do not match, and the cell content \"50.10\" is for R-1, not R-L, and its value does not match the tuple's value \"54.54\"."
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNNDM",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 79.63,
+          "unit": null,
+          "canonical_id": "acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "Acc.(\\%)",
+        "cell": "79.63",
+        "_content_hash": "24470756ded9",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "Acc.(\\%)",
+          "cell": "79.63",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNNDM",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ECE",
+          "value": 0.2719,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\model-Mul",
+        "header_path": "ECE",
+        "cell": ".2719",
+        "_content_hash": "f00af2beee57",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 8,
+          "row_label": "CNNDM",
+          "column_header": "ECE",
+          "cell": ".4097",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNNDM",
+          "canonical_id": "cnn dailymail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Conf",
+          "value": 0.6652,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\model-Mul",
+        "header_path": "ECE",
+        "cell": ".2719",
+        "_content_hash": "f00af2beee57",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 8,
+          "row_label": "CNNDM",
+          "column_header": "Conf",
+          "cell": ".7365",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": "xsum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ECE",
+          "value": 0.1423,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PEGASUS"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\model-Mul",
+        "header_path": "ECE",
+        "cell": ".1423",
+        "_content_hash": "2221c19bd9e6",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 8,
+          "row_label": "CNNDM",
+          "column_header": "ECE",
+          "cell": ".4097",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": "xsum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.4744,
+          "unit": null,
+          "canonical_id": "acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PEGASUS"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\model-Mul",
+        "header_path": "ECE",
+        "cell": ".1423",
+        "_content_hash": "2221c19bd9e6",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "R-L",
+          "cell": "47.19",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "BRIO",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": "xsum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Conf",
+          "value": 0.5881,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PEGASUS"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "\\model-Mul",
+        "header_path": "ECE",
+        "cell": ".1423",
+        "_content_hash": "2221c19bd9e6",
+        "_paper_hash": "43cea41e2075",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 8,
+          "row_label": "CNNDM",
+          "column_header": "Conf",
+          "cell": ".7365",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

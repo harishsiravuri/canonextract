@@ -1,0 +1,152 @@
+{
+  "paper_id": "2008.07772",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "60L-12L ADMIN",
+          "header_path": "BLEU",
+          "cell": "43.8"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "d:48L-12L",
+          "column_header": "BLEU",
+          "cell": "43.6",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ADMIN",
+      "task": "machine translation",
+      "dataset": "WMT'14 English-French (FR)",
+      "metric": "BLEU",
+      "value": 43.8
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "60L-12L ADMIN",
+          "header_path": "BLEU",
+          "cell": "30.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "60L-12L",
+          "column_header": "col_9",
+          "cell": "30.1",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "ADMIN",
+      "task": "machine translation",
+      "dataset": "WMT'14 English-German (DE)",
+      "metric": "BLEU",
+      "value": 30.1
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "60L-12L ADMIN",
+          "header_path": "TER",
+          "cell": "40.3"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "gehring2017",
+          "column_header": "FR",
+          "cell": "40.5",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "ADMIN",
+      "task": "machine translation",
+      "dataset": "WMT'14 English-French (FR)",
+      "metric": "TER",
+      "value": 40.3
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "60L-12L ADMIN",
+          "header_path": "METEOR",
+          "cell": "62.4"
+        },
+        "hit": null
+      },
+      "method": "ADMIN",
+      "task": "machine translation",
+      "dataset": "WMT'14 English-French (FR)",
+      "metric": "METEOR",
+      "value": 62.4
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "60L-12L ADMIN",
+          "header_path": "BLEU",
+          "cell": "43.8"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "gehring2017",
+          "column_header": "FR",
+          "cell": "40.5",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "ADMIN",
+      "task": "machine translation",
+      "dataset": "WMT'14 English-German (DE)",
+      "metric": "TER",
+      "value": 40.3
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "60L-12L ADMIN",
+          "header_path": "BLEU",
+          "cell": "43.8"
+        },
+        "hit": null
+      },
+      "method": "ADMIN",
+      "task": "machine translation",
+      "dataset": "WMT'14 English-German (DE)",
+      "metric": "METEOR",
+      "value": 62.4
+    }
+  ]
+}

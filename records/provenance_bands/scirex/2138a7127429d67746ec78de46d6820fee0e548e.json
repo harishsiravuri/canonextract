@@ -1,0 +1,249 @@
+{
+  "paper_id": "2138a7127429d67746ec78de46d6820fee0e548e",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Graph2Seq",
+          "header_path": "bAbI T19",
+          "cell": "99.9%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Graph2Seq",
+          "column_header": "SP-S",
+          "cell": "99.9\\%",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Graph2Seq",
+      "task": "bAbI T19",
+      "dataset": "bAbI T19",
+      "metric": "accuracy",
+      "value": 99.9
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Graph2Seq",
+          "header_path": "SP-S",
+          "cell": "100.0%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Graph2Seq",
+          "column_header": "SP-S",
+          "cell": "99.9\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Graph2Seq",
+      "task": "SP-S",
+      "dataset": "SP-S",
+      "metric": "accuracy",
+      "value": 100.0
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Graph2Seq",
+          "header_path": "SP-L",
+          "cell": "99.3%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Graph2Seq",
+          "column_header": "col_3",
+          "cell": "99.3\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Graph2Seq",
+      "task": "SP-L",
+      "dataset": "SP-L",
+      "metric": "accuracy",
+      "value": 99.3
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "G2S-MA",
+          "header_path": "SDP_ DAG",
+          "cell": "99.8%"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "G2S-MA",
+          "column_header": "SDP_ DAG",
+          "cell": "99.8\\%",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "G2S-MA",
+      "task": "SDP_DAG",
+      "dataset": "SDP_DAG",
+      "metric": "accuracy",
+      "value": 99.8
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "G2S-MA",
+          "header_path": "SDP_ DCG",
+          "cell": "99.2%"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "G2S-MA",
+          "column_header": "SDP_ DCG",
+          "cell": "99.2\\%",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "G2S-MA",
+      "task": "SDP_DCG",
+      "dataset": "SDP_DCG",
+      "metric": "accuracy",
+      "value": 99.2
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "G2S-MA",
+          "header_path": "SDP_ SEQ",
+          "cell": "100%"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "G2S-MA",
+          "column_header": "SDP_ DAG",
+          "cell": "99.8\\%",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "G2S-MA",
+      "task": "SDP_SEQ",
+      "dataset": "SDP_SEQ",
+      "metric": "accuracy",
+      "value": 100.0
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Graph2Seq-NGE",
+          "header_path": "BLEU-4",
+          "cell": "26.67"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Tree2Seq",
+          "column_header": "col_1",
+          "cell": "26.67",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Graph2Seq",
+      "task": "sql to text",
+      "dataset": "WikiSQL",
+      "metric": "BLEU-4",
+      "value": 26.67
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Graph2Seq-PGE",
+          "header_path": "BLEU-4",
+          "cell": "26.67"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Tree2Seq",
+          "column_header": "col_1",
+          "cell": "26.67",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Graph2Seq-PGE",
+      "task": "results on wikisql",
+      "dataset": "wikisql",
+      "metric": "BLEU-4",
+      "value": 26.67
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Graph2Seq-PGE",
+          "header_path": "BLEU-4",
+          "cell": "26.67"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Tree2Seq",
+          "column_header": "col_1",
+          "cell": "26.67",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Graph2Seq-PGE",
+      "task": "natural language generation",
+      "dataset": "WikiSQL",
+      "metric": "BLEU-4",
+      "value": 26.67
+    }
+  ]
+}

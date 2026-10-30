@@ -1,0 +1,214 @@
+{
+  "paper_id": "1812.10235",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Bi-model without a decoder",
+          "header_path": "p 3.5cm |> p 1.5cm > p 1.5cm",
+          "cell": "96.65%"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Home",
+          "column_header": "col_3",
+          "cell": "96.5\\%",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-model without a decoder",
+      "task": "intent detection and slot filling",
+      "dataset": "ATIS",
+      "metric": "F1 Score",
+      "value": 96.65
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Bi-model without a decoder",
+          "header_path": "p 3.5cm |> p 1.5cm > p 1.5cm",
+          "cell": "96.65%"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Bi-model without a decoder",
+          "column_header": "col_3",
+          "cell": "98.55\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-model without a decoder",
+      "task": "intent detection and slot filling",
+      "dataset": "ATIS",
+      "metric": "Intent Accuracy",
+      "value": 98.76
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Bi-model without a decoder",
+          "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+          "cell": "94.89%"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Movie",
+          "column_header": "col_4",
+          "cell": "92.86\\%",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-model without a decoder",
+      "task": "intent detection and slot filling",
+      "dataset": "Movie",
+      "metric": "F1 Score",
+      "value": 93.3
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Bi-model without a decoder",
+          "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+          "cell": "94.89%"
+        },
+        "hit": null
+      },
+      "method": "Bi-model without a decoder",
+      "task": "intent detection and slot filling",
+      "dataset": "Movie",
+      "metric": "Accuracy",
+      "value": 94.89
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Bi-model without a decoder",
+          "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+          "cell": "98.98%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "2 * Recursive NN",
+          "column_header": "col_1",
+          "cell": "93.96\\%",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-model without a decoder",
+      "task": "intent detection and slot filling",
+      "dataset": "Food",
+      "metric": "F1 Score",
+      "value": 93.6
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Bi-model without a decoder",
+          "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+          "cell": "98.98%"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Bi-model without a decoder",
+          "column_header": "col_3",
+          "cell": "98.55\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-model without a decoder",
+      "task": "intent detection and slot filling",
+      "dataset": "Food",
+      "metric": "Accuracy",
+      "value": 98.98
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Bi-model without a decoder",
+          "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+          "cell": "98.55%"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Bi-model without a decoder",
+          "column_header": "col_2",
+          "cell": "97.8\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-model without a decoder",
+      "task": "intent detection and slot filling",
+      "dataset": "Home",
+      "metric": "F1 Score",
+      "value": 97.8
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Bi-model without a decoder",
+          "header_path": "p 0.8cm |> p 2.6cm |c> p 0.4cm > p 1.5cm c",
+          "cell": "98.55%"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Bi-model without a decoder",
+          "column_header": "col_3",
+          "cell": "98.55\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Bi-model without a decoder",
+      "task": "intent detection and slot filling",
+      "dataset": "Home",
+      "metric": "Accuracy",
+      "value": 98.55
+    }
+  ]
+}

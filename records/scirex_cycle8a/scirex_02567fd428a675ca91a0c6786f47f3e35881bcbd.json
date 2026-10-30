@@ -1,0 +1,183 @@
+{
+  "paper_id": "02567fd428a675ca91a0c6786f47f3e35881bcbd",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 2,
+    "total": 3,
+    "partial_table_valid": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "DLDL (KL, Max)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "age estimation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "Morph",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAE",
+          "value": 2.51,
+          "unit": null,
+          "canonical_id": "mae"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "C-ConvNet (softmax, Max)",
+        "R-ConvNet (\u21132)",
+        "R-ConvNet (\u21131)",
+        "R-ConvNet (\u03f5-ins)",
+        "ConvNet+LS (KL, Max)",
+        "ConvNet+LD (\u03b1-div, Max)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "DLDL (KL, Max)",
+        "header_path": "Morph",
+        "cell": "2.51\u00b10.03",
+        "_content_hash": "36ab23f52063",
+        "_paper_hash": "4eef5f1f41dc",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "DLDL (KL, Max)",
+          "column_header": "MAE",
+          "cell": "2.51 0.03",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"DLDL (KL, Max)\" describes the tuple's Method, the header path \"Morph\" describes the tuple's Dataset, and the cell content \"2.51\u00b10.03\" matches the tuple's Value, with \"DLDL\" referring to the proposed Deep Label Distribution Learning method per the paper excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL (KL, Max)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "age estimation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ChaLearn",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAE",
+          "value": 5.49,
+          "unit": null,
+          "canonical_id": "mae"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "C-ConvNet (softmax, Max)",
+        "R-ConvNet (\u21132)",
+        "R-ConvNet (\u21131)",
+        "R-ConvNet (\u03f5-ins)",
+        "ConvNet+LS (KL, Max)",
+        "ConvNet+LD (\u03b1-div, Max)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "DLDL (KL, Max)",
+        "header_path": "ChaLearn",
+        "cell": "5.49",
+        "_content_hash": "8f16d72c5ef9",
+        "_paper_hash": "4eef5f1f41dc",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "DLDL (KL, Max)",
+          "column_header": "-error",
+          "cell": "5.49",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe cell content \"2.51 0.03\" does not match the tuple's Value \"5.49\", indicating that the claimed cell is not the source of the tuple's combination."
+      }
+    },
+    {
+      "method": {
+        "name": "DLDL (KL, Max)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "age estimation",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ChaLearn",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03f5-error",
+          "value": 0.44,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "C-ConvNet (softmax, Max)",
+        "R-ConvNet (\u21132)",
+        "R-ConvNet (\u21131)",
+        "R-ConvNet (\u03f5-ins)",
+        "ConvNet+LS (KL, Max)",
+        "ConvNet+LD (\u03b1-div, Max)"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "DLDL (KL, Max)",
+        "header_path": "ChaLearn",
+        "cell": "0.44",
+        "_content_hash": "541e44b1afa7",
+        "_paper_hash": "4eef5f1f41dc",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "VGG (softmax, Exp) rothe2015dex 3",
+          "column_header": "-error",
+          "cell": "0.51",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "paper_id": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 6,
+    "total": 9,
+    "strict_table_valid": 3
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "MT-Tri",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Book",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 79.15,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VFAE",
+        "DANN",
+        "Asym",
+        "Src",
+        "Self",
+        "Tri",
+        "Tri-D"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "MT-Tri",
+        "header_path": "Avg",
+        "cell": "79.15",
+        "_content_hash": "b61bfc887976",
+        "_paper_hash": "04284d7c006b",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Tri",
+          "column_header": "D",
+          "cell": "78.72",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "MT-Tri",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "DVD",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 79.15,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VFAE",
+        "DANN",
+        "Asym",
+        "Src",
+        "Self",
+        "Tri",
+        "Tri-D"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "MT-Tri",
+        "header_path": "Avg",
+        "cell": "79.15",
+        "_content_hash": "b61bfc887976",
+        "_paper_hash": "04284d7c006b",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Tri",
+          "column_header": "D",
+          "cell": "78.72",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "MT-Tri",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Electronics",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 79.15,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VFAE",
+        "DANN",
+        "Asym",
+        "Src",
+        "Self",
+        "Tri",
+        "Tri-D"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "MT-Tri",
+        "header_path": "Avg",
+        "cell": "79.15",
+        "_content_hash": "b61bfc887976",
+        "_paper_hash": "04284d7c006b",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Tri",
+          "column_header": "D",
+          "cell": "78.72",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "MT-Tri",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sentiment analysis",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Kitchen",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 79.15,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VFAE",
+        "DANN",
+        "Asym",
+        "Src",
+        "Self",
+        "Tri",
+        "Tri-D"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "MT-Tri",
+        "header_path": "Avg",
+        "cell": "79.15",
+        "_content_hash": "b61bfc887976",
+        "_paper_hash": "04284d7c006b",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Tri",
+          "column_header": "D",
+          "cell": "78.72",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Tri",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "part of speech pos tagging",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Answers",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.56,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Src (+glove)",
+        "Self",
+        "Tri-D",
+        "Asym",
+        "MT-Tri",
+        "FLORS"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Tri",
+        "header_path": "Avg",
+        "cell": "89.56",
+        "_paper_hash": "04284d7c006b",
+        "_content_hash": "192364d37523",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Tri-D",
+          "column_header": "Answers",
+          "cell": "89.80 .19",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"89.56\" does not match the tuple's claimed provenance, as the cell is under the \"Avg\" header, but the tuple's Dataset is \"Answers\", which has a different value in the table."
+      }
+    },
+    {
+      "method": {
+        "name": "Tri",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "part of speech pos tagging",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Emails",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.56,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Src (+glove)",
+        "Self",
+        "Tri-D",
+        "Asym",
+        "MT-Tri",
+        "FLORS"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "04284d7c006b",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Tri",
+          "column_header": "Avg",
+          "cell": "89.56 .16",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Tri",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "part of speech pos tagging",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Newsgroups",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.56,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Src (+glove)",
+        "Self",
+        "Tri-D",
+        "Asym",
+        "MT-Tri",
+        "FLORS"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "04284d7c006b",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Tri-D",
+          "column_header": "Newsgroups",
+          "cell": "90.03 .22",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label does not describe the tuple's Method, as \"Newsgroups\" refers to the dataset, not the method \"Tri\", which is an alias for \"classic tri-training\" per the paper excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "Tri",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "part of speech pos tagging",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Reviews",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.56,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Src (+glove)",
+        "Self",
+        "Tri-D",
+        "Asym",
+        "MT-Tri",
+        "FLORS"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "04284d7c006b",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "MT-Tri",
+          "column_header": "Reviews",
+          "cell": "89.77 .26",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label does not describe the tuple's Method, as \"90 POS tagging\" and other row labels do not mention \"Tri\", which is the claimed method."
+      }
+    },
+    {
+      "method": {
+        "name": "Tri",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "part of speech pos tagging",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Weblogs",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.56,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Src (+glove)",
+        "Self",
+        "Tri-D",
+        "Asym",
+        "MT-Tri",
+        "FLORS"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "04284d7c006b",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Src (+glove)",
+          "column_header": "Weblogs",
+          "cell": "89.14 .28",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

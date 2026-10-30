@@ -1,0 +1,1000 @@
+{
+  "paper_id": "44078d0daed8b13114cffb15b368acc467f96351",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 7,
+    "total": 19,
+    "strict_table_valid": 12
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "CNN_media (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": "ijb a"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMR@FMR",
+          "value": 0.234,
+          "unit": null,
+          "canonical_id": "ijb a verification fnmr fmr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GOTS ijba15",
+        "VGG-Face parkhi15",
+        "Masi et al. isi3d",
+        "NAN nan",
+        "Crosswhite et al. str-temp"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN_ media (Ours)",
+        "header_path": "IJB-A Verification (FNMR@FMR)",
+        "cell": "0.234 (0.02)",
+        "_content_hash": "24f863b69345",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "0.001",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "FPIR=0.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_media (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face identification",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": "ijb a"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rank=1",
+          "value": 0.925,
+          "unit": null,
+          "canonical_id": "rank 1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GOTS ijba15",
+        "VGG-Face parkhi15",
+        "Masi et al. isi3d",
+        "NAN nan",
+        "Crosswhite et al. str-temp"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN_ media (Ours)",
+        "header_path": "IJB-A Identification",
+        "cell": "0.925 (0.01)",
+        "_content_hash": "271d463aab39",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "GOTS ijba15",
+          "column_header": "IJB-A Identification",
+          "cell": "0.443 (0.02)",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face clustering",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "LFW",
+          "canonical_id": "labeled faces in the wild"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F_1-score",
+          "value": 0.955,
+          "unit": null,
+          "canonical_id": "f 1 score"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "msu_cluster"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "CNN (Ours)",
+        "header_path": "F_1-score",
+        "cell": "0.955",
+        "_content_hash": "cda4b64b86c4",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "column_header": "F_1-score",
+          "cell": "0.955",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source because the tuple's Dataset is \"LFW\", but the table does not specify the dataset for the \"F_1-score\" metric, and the paper excerpt does not provide enough information to confirm that the table refers to the LFW dataset."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_media+TPE (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face clustering",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": "ijb a"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F_1-score",
+          "value": 0.843,
+          "unit": null,
+          "canonical_id": "f 1 score"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN_media"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "CNN_ media +TPE",
+        "header_path": "F_1-score",
+        "cell": "0.843 (0.03)",
+        "_content_hash": "b64b4459d18b",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "column_header": "F_1-score",
+          "cell": "0.955",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe claimed cell is the source of the tuple because the row label \"CNN_ media +TPE\" describes the tuple's Method, which refers to the proposed method \"Triplet Probabilistic Embedding\" as per the paper excerpt, and the cell content \"0.843 (0.03)\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_ ave (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "IJB-A Verification (FNMR@FMR)",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMR@FMR=0.001",
+          "value": 0.287,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN_ ave (Ours)",
+        "header_path": "IJB-A Verification (FNMR@FMR)",
+        "cell": "0.287 (0.05)",
+        "_content_hash": "909c333e8577",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.051 (0.006)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe cell content \"0.051 (0.006)\" does not match the tuple's Value \"0.287\", and row \"CNN_ ave (Ours)\" refers to the proposed method per the method excerpt, but the values do not align."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_ ave (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "IJB-A Verification (FNMR@FMR)",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMR@FMR=0.01",
+          "value": 0.146,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN_ ave (Ours)",
+        "header_path": "IJB-A Verification (FNMR@FMR)",
+        "cell": "0.146 (0.01)",
+        "_content_hash": "60a89590a1dc",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.051 (0.006)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe cell content \"0.051 (0.006)\" does not match the tuple's Value \"0.146\", and row \"CNN_ ave (Ours)\" refers to the proposed method per the method excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_ ave (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "IJB-A Verification (FNMR@FMR)",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMR@FMR=0.1",
+          "value": 0.051,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN_ ave (Ours)",
+        "header_path": "IJB-A Verification (FNMR@FMR)",
+        "cell": "0.051 (0.006)",
+        "_content_hash": "36254df96093",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.051 (0.006)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"CNN_ ave (Ours)\" refers to the proposed method per the paper excerpt, the header path \"IJB-A Verification (FNMR@FMR)\" matches the tuple's Dataset and Metric, and the cell content \"0.051 (0.006)\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_ ave (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "IJB-A Identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rank=1",
+          "value": 0.913,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN_ ave (Ours)",
+        "header_path": "IJB-A Identification",
+        "cell": "0.913 (0.01)",
+        "_content_hash": "53324e37638f",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "column_header": "IJB-A Identification",
+          "cell": "0.974 (0.004)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell content \"0.974 (0.004)\" does not match the tuple's Value \"0.913\", and row \"CNN_ ave (Ours)\" refers to the proposed method per the paper excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "Clustering",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "LFW",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F_1-score",
+          "value": 0.955,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "CNN (Ours)",
+        "header_path": "F_1-score",
+        "cell": "0.955",
+        "_content_hash": "cda4b64b86c4",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "column_header": "F_1-score",
+          "cell": "0.955",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell does not match the tuple's Dataset, as the table does not specify that the F_1-score of 0.955 is for the LFW dataset."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "Clustering",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "LFW",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Clusters",
+          "value": 5351,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "CNN (Ours)",
+        "header_path": "Clusters",
+        "cell": "5351",
+        "_content_hash": "005381ce3b31",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "column_header": "Clusters",
+          "cell": "5351",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell does not match the tuple's Dataset, as the table does not specify the LFW dataset, and the paper excerpt does not provide enough information to confirm that the \"CNN (Ours)\" row is related to the LFW dataset."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_ media",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "Clustering",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F_1-score",
+          "value": 0.79,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "CNN_ media",
+        "header_path": "F_1-score",
+        "cell": "0.79 (0.02)",
+        "_content_hash": "c2cecb24e6ae",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CNN_ media (Ours)",
+          "column_header": "IJB-A Identification",
+          "cell": "0.978 (0.005)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"CNN_ media\" describes the tuple's Method, the header path \"F_1-score\" describes the tuple's Metric, and the cell content \"0.79 (0.02)\" matches the tuple's Value, with the dataset implied to be related to the experiments discussed in the paper excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_ media",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "Clustering",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Clusters",
+          "value": 293,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "CNN_ media",
+        "header_path": "Clusters",
+        "cell": "293 (22)",
+        "_content_hash": "c9bf0e8190e8",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "CNN_ media",
+          "column_header": "Clusters",
+          "cell": "293 (22)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"CNN_ media\" describes the tuple's Method, the header path \"Clusters\" describes the tuple's Metric, and the cell content \"293 (22)\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_ media",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "Clustering",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "After Pruning",
+          "value": 173,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "CNN_ media",
+        "header_path": "After Pruning",
+        "cell": "173",
+        "_content_hash": "4f3c6f3da908",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "CNN_ media",
+          "column_header": "After Pruning",
+          "cell": "173",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"CNN_ media\" describes the tuple's Method, the header path \"After Pruning\" describes the tuple's Metric, and the cell content \"173\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_ave (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMR@FMR=0.001",
+          "value": 0.287,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GOTS ijba15",
+        "VGG-Face parkhi15",
+        "Masi et al. isi3d"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN_ ave (Ours)",
+        "header_path": "IJB-A Verification (FNMR@FMR)",
+        "cell": "0.67 (0.03)",
+        "_content_hash": "f4f3fc5f1303",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "0.001",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "FPIR=0.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_ave (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMR@FMR=0.01",
+          "value": 0.146,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GOTS ijba15",
+        "VGG-Face parkhi15",
+        "Masi et al. isi3d"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN_ ave (Ours)",
+        "header_path": "IJB-A Verification (FNMR@FMR)",
+        "cell": "0.67 (0.03)",
+        "_content_hash": "f4f3fc5f1303",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "0.001",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "FPIR=0.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_ave (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face verification",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMR@FMR=0.1",
+          "value": 0.051,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GOTS ijba15",
+        "VGG-Face parkhi15",
+        "Masi et al. isi3d"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CNN_ ave (Ours)",
+        "header_path": "IJB-A Verification (FNMR@FMR)",
+        "cell": "0.67 (0.03)",
+        "_content_hash": "f4f3fc5f1303",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "0.001",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "FPIR=0.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face clustering",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "LFW",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Clusters",
+          "value": 5351,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "msu_cluster"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "CNN (Ours)",
+        "header_path": "F_1-score",
+        "cell": "0.955",
+        "_content_hash": "cda4b64b86c4",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "column_header": "Clusters",
+          "cell": "5351",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell does not match the tuple's Metric, as the header path \"F_1-score\" does not describe the tuple's Metric \"Clusters\", and the cell content \"0.955\" does not match the tuple's Value \"5351\"."
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_media+TPE (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face clustering",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Clusters",
+          "value": 258,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN_media"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "CNN_ media +TPE",
+        "header_path": "F_1-score",
+        "cell": "0.843 (0.03)",
+        "_content_hash": "b64b4459d18b",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "CNN_ media +TPE",
+          "column_header": "Clusters",
+          "cell": "258 (17)",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CNN_media+TPE (Ours)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face clustering",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "IJB-A",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "After Pruning",
+          "value": 167,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CNN_media"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "CNN_ media +TPE",
+        "header_path": "F_1-score",
+        "cell": "0.843 (0.03)",
+        "_content_hash": "b64b4459d18b",
+        "_paper_hash": "e9620270510c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "CNN_ media +TPE",
+          "column_header": "After Pruning",
+          "cell": "167",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "paper_id": "33261d252218007147a71e40f8367ed152fa2fe0",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Subgraph & A(q)=C2",
+          "header_path": "P@1",
+          "cell": "40.4"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Without multiple predictions",
+          "column_header": "col_1",
+          "cell": "40.4",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "Subgraph & A(q)=C2",
+      "task": "question answering",
+      "dataset": "WebQuestions",
+      "metric": "P@1",
+      "value": 40.4
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": null
+      },
+      "method": "Subgraph & A(q)=C2",
+      "task": "question answering",
+      "dataset": "WebQuestions",
+      "metric": "F1",
+      "value": 39.2
+    }
+  ]
+}

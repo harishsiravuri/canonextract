@@ -1,0 +1,497 @@
+{
+  "paper_id": "1809.08370",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 8,
+    "total": 9,
+    "strict_table_valid": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "CVT",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "combinatory categorial grammar ccg supertagging",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ccgbank",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 96.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Supervised",
+        "Virtual Adversarial Training*",
+        "Word Dropout*",
+        "ELMo (our implementation)*",
+        "ELMo + Multi-task*^"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CVT + Multi-task + Large*^",
+        "header_path": "CCG",
+        "cell": "96.1",
+        "_content_hash": "28079292fe8f",
+        "_paper_hash": "01b640c554f4",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "LAS",
+          "cell": "95.86 0.03",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CVT",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "text chunking",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "conll 2000",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 97.0,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Supervised",
+        "Virtual Adversarial Training*",
+        "Word Dropout*",
+        "ELMo (our implementation)*",
+        "ELMo + Multi-task*^"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CVT + Multi-task + Large*^",
+        "header_path": "Chunk",
+        "cell": "97.0",
+        "_content_hash": "548d7a78ccb4",
+        "_paper_hash": "01b640c554f4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CVT + Multi-Task + Large*^",
+          "column_header": "LAS",
+          "cell": "96.61 0.04",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CVT",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "conll 2003 english",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Supervised",
+        "Virtual Adversarial Training*",
+        "Word Dropout*",
+        "ELMo (our implementation)*",
+        "ELMo + Multi-task*^"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CVT + Multi-task + Large*^",
+        "header_path": "NER",
+        "cell": "92.6",
+        "_content_hash": "06f60aed8413",
+        "_paper_hash": "01b640c554f4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "F1",
+          "cell": "92.34 0.06",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label \"CVT + Multi-task + Large*^\" does not match the tuple's Method \"CVT\", as it includes additional specifications (\"+ Multi-task + Large*^\") not present in the tuple."
+      }
+    },
+    {
+      "method": {
+        "name": "CVT",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "fine grained ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ontonotes v5 english",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.8,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Supervised",
+        "Virtual Adversarial Training*",
+        "Word Dropout*",
+        "ELMo (our implementation)*",
+        "ELMo + Multi-task*^"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CVT + Multi-task + Large*^",
+        "header_path": "FGN",
+        "cell": "88.8",
+        "_content_hash": "ece3eeccc8a9",
+        "_paper_hash": "01b640c554f4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "Acc.",
+          "cell": "88.68 0.14",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CVT",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "part of speech pos tagging",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "penn treebank ptb",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.74,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Supervised",
+        "Virtual Adversarial Training*",
+        "Word Dropout*",
+        "ELMo (our implementation)*",
+        "ELMo + Multi-task*^"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CVT + Multi-task + Large*^",
+        "header_path": "POS",
+        "cell": "97.74",
+        "_content_hash": "8e055a489c4f",
+        "_paper_hash": "01b640c554f4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "UAS",
+          "cell": "97.70 0.03",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CVT",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "penn treebank",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 96.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Supervised",
+        "Virtual Adversarial Training*",
+        "Word Dropout*",
+        "ELMo (our implementation)*",
+        "ELMo + Multi-task*^"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose_claimed_table",
+        "table_id": 0,
+        "row_label": "CVT + Multi-task + Large*^",
+        "header_path": "Dep. Parse",
+        "cell": "96.6 / 95.0",
+        "_downgrade_reason": "none of (row_label=True, header_path=False, cell=False) resolved in the paper's parsed tables",
+        "_paper_hash": "01b640c554f4",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CVT + Multi-Task*^",
+          "column_header": "LAS",
+          "cell": "96.44 0.04",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CVT",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "penn treebank",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 95.0,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Supervised",
+        "Virtual Adversarial Training*",
+        "Word Dropout*",
+        "ELMo (our implementation)*",
+        "ELMo + Multi-task*^"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "01b640c554f4",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Virtual Adversarial Training*",
+          "column_header": "LAS",
+          "cell": "95.44 0.06",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CVT",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "iwslt 15 de en",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Supervised",
+        "Word Dropout*",
+        "ELMo (our implementation)*"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose_claimed_table",
+        "table_id": 0,
+        "row_label": "CVT*",
+        "header_path": "Translate",
+        "cell": "29.6",
+        "_downgrade_reason": "none of (row_label=True, header_path=False, cell=False) resolved in the paper's parsed tables",
+        "_paper_hash": "01b640c554f4",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "91.21",
+          "cell": "29.58 0.07",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CVT",
+        "canonical_id": "cvt"
+      },
+      "task": {
+        "name": "part of speech pos tagging",
+        "canonical_id": "pos"
+      },
+      "datasets": [
+        {
+          "name": "penn treebank",
+          "canonical_id": "penn treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 97.7,
+          "unit": null,
+          "canonical_id": "acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Supervised",
+        "Virtual Adversarial Training*",
+        "Word Dropout*",
+        "ELMo (our implementation)*"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CVT*",
+        "header_path": "POS",
+        "cell": "97.70",
+        "_content_hash": "4e9f77622e8e",
+        "_paper_hash": "01b640c554f4",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "UAS",
+          "cell": "97.70 0.03",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

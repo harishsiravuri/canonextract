@@ -1,0 +1,168 @@
+{
+  "paper_id": "1907.00390",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "SF-ID Network",
+          "header_path": "ATIS Dataset",
+          "cell": "95.80"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "SF-ID (no interaction)",
+          "column_header": "Slot",
+          "cell": "95.75",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "SF-ID Network",
+      "task": "intent detection and slot filling",
+      "dataset": "ATIS Dataset",
+      "metric": "Slot (F1)",
+      "value": 95.8
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "SF-ID Network",
+          "header_path": "ATIS Dataset",
+          "cell": "95.80"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "SF-ID",
+          "column_header": "Slot (F1)",
+          "cell": "97.40",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "SF-ID Network",
+      "task": "intent detection and slot filling",
+      "dataset": "ATIS Dataset",
+      "metric": "Intent (Acc)",
+      "value": 97.09
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "SF-ID Network",
+          "header_path": "ATIS Dataset",
+          "cell": "95.80"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Joint Seq hakkani2016multi",
+          "column_header": "Sen. (Acc)",
+          "cell": "87.30",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "SF-ID Network",
+      "task": "intent detection and slot filling",
+      "dataset": "ATIS Dataset",
+      "metric": "Sen. (Acc)",
+      "value": 86.9
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "SF-ID Network",
+          "header_path": "ATIS Dataset",
+          "cell": "95.80"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "SF-ID (no interaction)",
+          "column_header": "Slot",
+          "cell": "95.75",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "SF-ID Network",
+      "task": "intent detection and slot filling",
+      "dataset": "Snips Dataset",
+      "metric": "Slot (F1)",
+      "value": 95.8
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "SF-ID Network",
+          "header_path": "ATIS Dataset",
+          "cell": "95.80"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "SF-ID",
+          "column_header": "Slot (F1)",
+          "cell": "97.40",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "SF-ID Network",
+      "task": "intent detection and slot filling",
+      "dataset": "Snips Dataset",
+      "metric": "Intent (Acc)",
+      "value": 97.09
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "SF-ID Network",
+          "header_path": "ATIS Dataset",
+          "cell": "95.80"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Network",
+          "column_header": "Intent (Acc)",
+          "cell": "86.90",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "SF-ID Network",
+      "task": "intent detection and slot filling",
+      "dataset": "Snips Dataset",
+      "metric": "Sen. (Acc)",
+      "value": 86.9
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "paper_id": "2a86bcdfb1d817ddb76ba202319f8267a36c0f62",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose": 7,
+    "total": 12,
+    "partial_table_valid": 3,
+    "missing": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": "pascal voc 2007"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 48.8,
+          "unit": "%",
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Our method achieves $48.8\\%$ mAP and $66.6\\%$ CorLoc on VOC 2007 which is more than $5\\%$ absolute improvement compared with previous best performed methods.",
+        "_quote_verified": "Our method achieves $48.8\\%$ mAP and $66.6\\%$ CorLoc on VOC 2007 which is more than $5\\%$ absolute improvement compared with previous best performed methods.",
+        "_verification_mode": "substring",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC",
+          "canonical_id": "pascal voc 2007"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "CorLoc",
+          "value": 66.6,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Our method achieves $48.8\\%$ mAP and $66.6\\%$ CorLoc on VOC 2007 which is more than $5\\%$ absolute improvement compared with previous best performed methods.",
+        "_quote_verified": "Our method achieves $48.8\\%$ mAP and $66.6\\%$ CorLoc on VOC 2007 which is more than $5\\%$ absolute improvement compared with previous best performed methods.",
+        "_verification_mode": "substring",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ImageNet detection",
+          "canonical_id": "imagenet detection"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 19.6,
+          "unit": "%",
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 4,
+        "row_label": "-OB-G-Ens.+FRCNN",
+        "header_path": "Results",
+        "cell": "19.6",
+        "_content_hash": "b2d496157583",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 5,
+          "row_label": "Ge \\ Ref:Ge2018",
+          "column_header": "mAP@0.5",
+          "cell": "19.3",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MS-COCO",
+          "canonical_id": "ms coco"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP@0.5",
+          "value": 19.6,
+          "unit": "%",
+          "canonical_id": "ap 0.5"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 5,
+        "row_label": "-OB-G-Ens.+FRCNN",
+        "header_path": "mAP@0.5",
+        "cell": "19.6",
+        "_content_hash": "129d6223923e",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 5,
+          "row_label": "Ge \\ Ref:Ge2018",
+          "column_header": "mAP@0.5",
+          "cell": "19.3",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MS-COCO",
+          "canonical_id": "ms coco"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP@[.5, .95]",
+          "value": 9.2,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 5,
+        "row_label": "-OB-G-Ens.+FRCNN",
+        "header_path": "mAP@[.5, .95]",
+        "cell": "9.2",
+        "_content_hash": "cb27d293e3e6",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 5,
+          "row_label": "Ge \\ Ref:Ge2018",
+          "column_header": "mAP@[.5, .95]",
+          "cell": "8.9",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2007",
+          "canonical_id": "pascal voc 2007"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 48.8,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "quote": "Our method achieves $48.8\\%$ mAP and $66.6\\%$ CorLoc on VOC 2007 which is more than $5\\%$ absolute improvement compared with previous best performed methods.",
+        "_quote_verified": "\n%% bare_jrnl_compsoc.tex\n%% V1.4b\n%% 2015/08/26\n%% by Michael Shell\n%% See:\n%% http://www.michaelshell.org/\n%% for current contact information.\n%%\n%% This is a skeleton file demonstrating the use of IEEEtran.cls\n%% (requires IEEEtran.cls version 1.8b or later) with an IEEE\n%% Computer Society journal paper.\n%%\n%% Support sites:\n%% http://www.michaelshell.org/tex/ieeetran/\n%% http://www.ctan.org/pkg/ieeetran\n%% and\n%% http://www.ieee.org/\n\n%%*************************************************************************\n%% Legal Notice:\n%% This code is offered as-is without any warranty either expressed or\n%% implied; without even the implied warranty of MERCHANTABILITY or\n%% FITNESS FOR A PARTICULAR PURPOSE! \n%% User assumes all risk.\n%% In no event shall the IEEE or any contributor to this code be liable for\n%% any damages or losses, including, but not limited to, incidental,\n%% consequential, or any other damages, resulting from the use or misuse\n%% of any information contained here.\n%%\n%",
+        "_verification_mode": "offset",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2007",
+          "canonical_id": "pascal voc 2007"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "CorLoc",
+          "value": 66.6,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "quote": "Our method achieves $48.8\\%$ mAP and $66.6\\%$ CorLoc on VOC 2007 which is more than $5\\%$ absolute improvement compared with previous best performed methods.",
+        "_quote_verified": "\n%% bare_jrnl_compsoc.tex\n%% V1.4b\n%% 2015/08/26\n%% by Michael Shell\n%% See:\n%% http://www.michaelshell.org/\n%% for current contact information.\n%%\n%% This is a skeleton file demonstrating the use of IEEEtran.cls\n%% (requires IEEEtran.cls version 1.8b or later) with an IEEE\n%% Computer Society journal paper.\n%%\n%% Support sites:\n%% http://www.michaelshell.org/tex/ieeetran/\n%% http://www.ctan.org/pkg/ieeetran\n%% and\n%% http://www.ieee.org/\n\n%%*************************************************************************\n%% Legal Notice:\n%% This code is offered as-is without any warranty either expressed or\n%% implied; without even the implied warranty of MERCHANTABILITY or\n%% FITNESS FOR A PARTICULAR PURPOSE! \n%% User assumes all risk.\n%% In no event shall the IEEE or any contributor to this code be liable for\n%% any damages or losses, including, but not limited to, incidental,\n%% consequential, or any other damages, resulting from the use or misuse\n%% of any information contained here.\n%%\n%",
+        "_verification_mode": "offset",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ImageNet detection",
+          "canonical_id": "imagenet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "CorLoc",
+          "value": 66.6,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "quote": "Our method achieves $48.8\\%$ mAP and $66.6\\%$ CorLoc on VOC 2007 which is more than $5\\%$ absolute improvement compared with previous best performed methods.",
+        "_quote_verified": "\n%% bare_jrnl_compsoc.tex\n%% V1.4b\n%% 2015/08/26\n%% by Michael Shell\n%% See:\n%% http://www.michaelshell.org/\n%% for current contact information.\n%%\n%% This is a skeleton file demonstrating the use of IEEEtran.cls\n%% (requires IEEEtran.cls version 1.8b or later) with an IEEE\n%% Computer Society journal paper.\n%%\n%% Support sites:\n%% http://www.michaelshell.org/tex/ieeetran/\n%% http://www.ctan.org/pkg/ieeetran\n%% and\n%% http://www.ieee.org/\n\n%%*************************************************************************\n%% Legal Notice:\n%% This code is offered as-is without any warranty either expressed or\n%% implied; without even the implied warranty of MERCHANTABILITY or\n%% FITNESS FOR A PARTICULAR PURPOSE! \n%% User assumes all risk.\n%% In no event shall the IEEE or any contributor to this code be liable for\n%% any damages or losses, including, but not limited to, incidental,\n%% consequential, or any other damages, resulting from the use or misuse\n%% of any information contained here.\n%%\n%",
+        "_verification_mode": "offset",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MS-COCO",
+          "canonical_id": "ms coco"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 48.8,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "quote": "Our method achieves $48.8\\%$ mAP and $66.6\\%$ CorLoc on VOC 2007 which is more than $5\\%$ absolute improvement compared with previous best performed methods.",
+        "_quote_verified": "\n%% bare_jrnl_compsoc.tex\n%% V1.4b\n%% 2015/08/26\n%% by Michael Shell\n%% See:\n%% http://www.michaelshell.org/\n%% for current contact information.\n%%\n%% This is a skeleton file demonstrating the use of IEEEtran.cls\n%% (requires IEEEtran.cls version 1.8b or later) with an IEEE\n%% Computer Society journal paper.\n%%\n%% Support sites:\n%% http://www.michaelshell.org/tex/ieeetran/\n%% http://www.ctan.org/pkg/ieeetran\n%% and\n%% http://www.ieee.org/\n\n%%*************************************************************************\n%% Legal Notice:\n%% This code is offered as-is without any warranty either expressed or\n%% implied; without even the implied warranty of MERCHANTABILITY or\n%% FITNESS FOR A PARTICULAR PURPOSE! \n%% User assumes all risk.\n%% In no event shall the IEEE or any contributor to this code be liable for\n%% any damages or losses, including, but not limited to, incidental,\n%% consequential, or any other damages, resulting from the use or misuse\n%% of any information contained here.\n%%\n%",
+        "_verification_mode": "offset",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MS-COCO",
+          "canonical_id": "ms coco"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "CorLoc",
+          "value": 66.6,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous state of the art"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        },
+        "quote": "Our method achieves $48.8\\%$ mAP and $66.6\\%$ CorLoc on VOC 2007 which is more than $5\\%$ absolute improvement compared with previous best performed methods.",
+        "_quote_verified": "\n%% bare_jrnl_compsoc.tex\n%% V1.4b\n%% 2015/08/26\n%% by Michael Shell\n%% See:\n%% http://www.michaelshell.org/\n%% for current contact information.\n%%\n%% This is a skeleton file demonstrating the use of IEEEtran.cls\n%% (requires IEEEtran.cls version 1.8b or later) with an IEEE\n%% Computer Society journal paper.\n%%\n%% Support sites:\n%% http://www.michaelshell.org/tex/ieeetran/\n%% http://www.ctan.org/pkg/ieeetran\n%% and\n%% http://www.ieee.org/\n\n%%*************************************************************************\n%% Legal Notice:\n%% This code is offered as-is without any warranty either expressed or\n%% implied; without even the implied warranty of MERCHANTABILITY or\n%% FITNESS FOR A PARTICULAR PURPOSE! \n%% User assumes all risk.\n%% In no event shall the IEEE or any contributor to this code be liable for\n%% any damages or losses, including, but not limited to, incidental,\n%% consequential, or any other damages, resulting from the use or misuse\n%% of any information contained here.\n%%\n%",
+        "_verification_mode": "offset",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": "pascal voc 2012"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": null,
+          "unit": "%",
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "-OB-G-Ens.+FRCNN",
+        "header_path": "L 3.15cm |* 20 x |x|",
+        "cell": "car",
+        "_content_hash": "6c417b16ccdc",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "PCL",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": "pascal voc 2012"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "CorLoc",
+          "value": null,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "-OB-G-Ens.+FRCNN",
+        "header_path": "L 3.15cm |* 20 x |x|",
+        "cell": "bus",
+        "_content_hash": "e597dfbb52b9",
+        "_paper_hash": "f3408a4e6d29",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    }
+  ]
+}

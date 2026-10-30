@@ -1,0 +1,146 @@
+{
+  "paper_id": "2002.03184",
+  "contributions": [
+    {
+      "method": {
+        "name": "Time-aware Large Kernel (TaLK) Convolutions",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1088,
+          "end": 1130
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1088,
+          "end": 1130
+        },
+        "confidence": 0.75
+      },
+      "datasets": [
+        {
+          "name": "WMT English to German (En-De)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1088,
+            "end": 1130
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "WMT English to French (En-Fr)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1088,
+            "end": 1130
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "IWSLT German to English (De-En)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1088,
+            "end": 1130
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "CNN-DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1088,
+            "end": 1130
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "WikiText-103",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1088,
+            "end": 1130
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.6,
+          "unit": null,
+          "evidence_span": {
+            "start": 1088,
+            "end": 1130
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Rouge-1",
+          "value": 40.59,
+          "unit": null,
+          "evidence_span": {
+            "start": 1088,
+            "end": 1130
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Rouge-2",
+          "value": 18.97,
+          "unit": null,
+          "evidence_span": {
+            "start": 1088,
+            "end": 1130
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "Rouge-L",
+          "value": 36.81,
+          "unit": null,
+          "evidence_span": {
+            "start": 1088,
+            "end": 1130
+          },
+          "confidence": 0.5
+        },
+        {
+          "name": "perplexity",
+          "value": 23.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 1088,
+            "end": 1130
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Dynamic Convolutions",
+        "Self-Attention"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 67752,
+    "tokens_out": 7477,
+    "cost_usd": 0.03464922,
+    "wall_time_seconds": 75.77451450005174,
+    "voting_samples": 3
+  }
+}

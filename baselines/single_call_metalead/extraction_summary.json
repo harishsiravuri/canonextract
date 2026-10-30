@@ -1,0 +1,253 @@
+{
+  "papers_total": 27,
+  "ok": 7,
+  "err": 5,
+  "skip": 15,
+  "total_cost_usd": 0.20236677,
+  "wall_seconds": 1122.0818860530853,
+  "per_paper": [
+    {
+      "paper_id": "1511.08308",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1603.01354",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1703.06345",
+      "status": "ok",
+      "cost_usd": 0.02551984,
+      "tokens_in": 47361,
+      "tokens_out": 6633,
+      "wall_time_seconds": 263.82759691611864,
+      "error": null
+    },
+    {
+      "paper_id": "1709.04109",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1806.03489",
+      "status": "ok",
+      "cost_usd": 0.02584976,
+      "tokens_in": 57629,
+      "tokens_out": 3228,
+      "wall_time_seconds": 88.75781120802276,
+      "error": null
+    },
+    {
+      "paper_id": "1808.08745",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1809.08370",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1811.05021",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "CriticParseError: Failed to parse Critic JSON output: Could not parse JSON from response: '{\\n  \"contributions\": [\\n    {\\n      \"method\": {\\n        \"name\": \"ALDMN\",\\n        \"canonical_id\": null,\\n        \"evidence_s"
+    },
+    {
+      "paper_id": "1811.09242",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1812.09471",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1812.10235",
+      "status": "ok",
+      "cost_usd": 0.01973649,
+      "tokens_in": 34562,
+      "tokens_out": 6077,
+      "wall_time_seconds": 155.89036449999548,
+      "error": null
+    },
+    {
+      "paper_id": "1901.10430",
+      "status": "ok",
+      "cost_usd": 0.034154210000000004,
+      "tokens_in": 68285,
+      "tokens_out": 6910,
+      "wall_time_seconds": 255.75965616712347,
+      "error": null
+    },
+    {
+      "paper_id": "1903.07785",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1905.03197",
+      "status": "ok",
+      "cost_usd": 0.03809806,
+      "tokens_in": 67416,
+      "tokens_out": 11211,
+      "wall_time_seconds": 102.75824587489478,
+      "error": null
+    },
+    {
+      "paper_id": "1905.12598",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1906.05012",
+      "status": "ok",
+      "cost_usd": 0.02394744,
+      "tokens_in": 47163,
+      "tokens_out": 5410,
+      "wall_time_seconds": 141.1791534589138,
+      "error": null
+    },
+    {
+      "paper_id": "1907.00390",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "CriticParseError: Failed to parse Critic JSON output: Could not parse JSON from response: '{\\n  \"contributions\": [\\n    {\\n      \"method\": {\\n        \"name\": \"SF-ID Network\",\\n        \"canonical_id\": null,\\n        \"ev"
+    },
+    {
+      "paper_id": "1908.08345",
+      "status": "ok",
+      "cost_usd": 0.035060970000000004,
+      "tokens_in": 60462,
+      "tokens_out": 10694,
+      "wall_time_seconds": 369.1926575000398,
+      "error": null
+    },
+    {
+      "paper_id": "1909.02188",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1910.13461",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1911.09483",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "CriticParseError: Failed to parse Critic JSON output: Could not parse JSON from response: '\\\\textbf{Shared projection}\\nTo learn contextual sequence representations in the same hidden space, the projection in MUSE is r"
+    },
+    {
+      "paper_id": "1911.10390",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "1912.08777",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "CriticParseError: Failed to parse Critic JSON output: Could not parse JSON from response: '{\\n  \"contributions\": [\\n    {\\n      \"method\": {\\n        \"name\": \"PEGASUS\",\\n        \"canonical_id\": null,\\n        \"evidence"
+    },
+    {
+      "paper_id": "2001.04063",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "2002.03184",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    },
+    {
+      "paper_id": "2008.07772",
+      "status": "error",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": "RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)"
+    },
+    {
+      "paper_id": "2203.16804",
+      "status": "skipped",
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_time_seconds": 0.0,
+      "error": null
+    }
+  ]
+}

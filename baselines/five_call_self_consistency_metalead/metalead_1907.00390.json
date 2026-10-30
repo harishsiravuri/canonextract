@@ -1,0 +1,2257 @@
+{
+  "paper_id": "1907.00390",
+  "contributions": [
+    {
+      "method": {
+        "name": "SF-ID Network (SF-First with CRF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "slot filling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.75,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Atten.-Based",
+        "Sloted-Gated"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "SF-ID Network (SF-First with CRF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.76,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Atten.-Based",
+        "Sloted-Gated"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "SF-ID Network (SF-First with CRF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "slot filling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "Snips",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.43,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Atten.-Based",
+        "Sloted-Gated"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "SF-ID Network (SF-First with CRF)",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "Snips",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.43,
+          "unit": "%",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Atten.-Based",
+        "Sloted-Gated"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 29805,
+    "tokens_out": 11331,
+    "cost_usd": 0.01962219,
+    "wall_seconds": 273.31593894958496,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.75,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.76,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 86.79,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": "sentence-level semantic frame accuracy"
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.43,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.43,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 80.57,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": "sentence-level semantic frame accuracy"
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.8,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.09,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 86.9,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": "sentence-level semantic frame accuracy"
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.23,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.29,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "spoken language understanding",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 80.43,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": "sentence-level semantic frame accuracy"
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.75,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.76,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "joint intent detection and slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "sentence accuracy",
+              "value": 86.79,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.43,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.43,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "joint intent detection and slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "sentence accuracy",
+              "value": 80.57,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.09,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "joint intent detection and slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "sentence accuracy",
+              "value": 86.9,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.23,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.29,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "joint intent detection and slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "sentence accuracy",
+              "value": 80.43,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.75,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.76,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "joint intent detection and slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 86.79,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": "Sentence-level semantic frame accuracy"
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.43,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.43,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (SF-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "joint intent detection and slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 80.57,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": "Sentence-level semantic frame accuracy"
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.8,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.09,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "joint intent detection and slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 86.9,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": "Sentence-level semantic frame accuracy"
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.23,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.29,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network (ID-First with CRF)",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "joint intent detection and slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 80.43,
+              "unit": "%",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": "Sentence-level semantic frame accuracy"
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "SF-ID Network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1386,
+              "end": 1405
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1386,
+              "end": 1405
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1386,
+                "end": 1405
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 1386,
+                "end": 1405
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1386,
+              "end": 1405
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1386,
+              "end": 1405
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1386,
+                "end": 1405
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.76,
+              "unit": null,
+              "evidence_span": {
+                "start": 1386,
+                "end": 1405
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1386,
+              "end": 1405
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1386,
+              "end": 1405
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1386,
+                "end": 1405
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.23,
+              "unit": null,
+              "evidence_span": {
+                "start": 1386,
+                "end": 1405
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1386,
+              "end": 1405
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1386,
+              "end": 1405
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1386,
+                "end": 1405
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.43,
+              "unit": null,
+              "evidence_span": {
+                "start": 1386,
+                "end": 1405
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "SF-ID Network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1158,
+              "end": 1183
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1158,
+              "end": 1183
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1158,
+                "end": 1183
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 1158,
+                "end": 1183
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1158,
+              "end": 1183
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1158,
+              "end": 1183
+            }
+          },
+          "datasets": [
+            {
+              "name": "ATIS",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1158,
+                "end": 1183
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.76,
+              "unit": null,
+              "evidence_span": {
+                "start": 1158,
+                "end": 1183
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1158,
+              "end": 1183
+            }
+          },
+          "task": {
+            "name": "slot filling",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1158,
+              "end": 1183
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1158,
+                "end": 1183
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 92.23,
+              "unit": null,
+              "evidence_span": {
+                "start": 1158,
+                "end": 1183
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "SF-ID Network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1158,
+              "end": 1183
+            }
+          },
+          "task": {
+            "name": "intent detection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1158,
+              "end": 1183
+            }
+          },
+          "datasets": [
+            {
+              "name": "Snips",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1158,
+                "end": 1183
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.43,
+              "unit": null,
+              "evidence_span": {
+                "start": 1158,
+                "end": 1183
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Joint Seq",
+            "Atten.-Based",
+            "Sloted-Gated"
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

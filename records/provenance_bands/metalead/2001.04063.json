@@ -1,0 +1,241 @@
+{
+  "paper_id": "2001.04063",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "header_path": "ROUGE-1",
+          "cell": "43.68"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "column_header": "ROUGE-1",
+          "cell": "43.68",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ProphetNet",
+      "task": "summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-1",
+      "value": 43.68
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "header_path": "ROUGE-1",
+          "cell": "43.68"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "column_header": "ROUGE-2",
+          "cell": "20.64",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ProphetNet",
+      "task": "summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-2",
+      "value": 20.64
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "header_path": "ROUGE-1",
+          "cell": "43.68"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "column_header": "ROUGE-L",
+          "cell": "40.72",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ProphetNet",
+      "task": "summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-L",
+      "value": 40.72
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "header_path": "R-1",
+          "cell": "39.55"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "PTGEN+Coverage see2017get",
+          "column_header": "ROUGE-1",
+          "cell": "39.53",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ProphetNet",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "ROUGE-1",
+      "value": 39.55
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "header_path": "R-1",
+          "cell": "39.55"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "column_header": "ROUGE-2",
+          "cell": "20.64",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ProphetNet",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "ROUGE-2",
+      "value": 20.27
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "header_path": "R-1",
+          "cell": "39.55"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "LEAD-3 nallapati2017summarunner",
+          "column_header": "ROUGE-L",
+          "cell": "36.67",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ProphetNet",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "ROUGE-L",
+      "value": 36.57
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "header_path": "B4",
+          "cell": "23.91"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "SemQG zhang2019addressing",
+          "column_header": "MTR",
+          "cell": "24.20",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "ProphetNet",
+      "task": "question generation",
+      "dataset": "SQuAD 1.1",
+      "metric": "BLEU-4",
+      "value": 23.91
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "header_path": "B4",
+          "cell": "23.91"
+        },
+        "hit": null
+      },
+      "method": "ProphetNet",
+      "task": "question generation",
+      "dataset": "SQuAD 1.1",
+      "metric": "METEOR",
+      "value": 26.6
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ProphetNet",
+          "header_path": "B4",
+          "cell": "23.91"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "UniLM dong2019unified",
+          "column_header": "R-L",
+          "cell": "52.03",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "ProphetNet",
+      "task": "question generation",
+      "dataset": "SQuAD 1.1",
+      "metric": "ROUGE-L",
+      "value": 52.26
+    }
+  ]
+}

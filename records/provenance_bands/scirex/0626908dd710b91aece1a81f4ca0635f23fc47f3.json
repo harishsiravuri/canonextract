@@ -1,0 +1,96 @@
+{
+  "paper_id": "0626908dd710b91aece1a81f4ca0635f23fc47f3",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Inception-v2",
+      "task": "image classification",
+      "dataset": "ILSVRC 2012",
+      "metric": "top-1 error",
+      "value": 21.2
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Inception-v2",
+      "task": "image classification",
+      "dataset": "ILSVRC 2012",
+      "metric": "top-5 error",
+      "value": 5.6
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Inception-v2",
+      "task": "image classification",
+      "dataset": "ILSVRC 2012",
+      "metric": "computational cost",
+      "value": 4.8
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Inception-v2",
+      "task": "image classification",
+      "dataset": "ILSVRC 2012",
+      "metric": "cost",
+      "value": 3.8
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Inception-v3",
+      "task": "image classification",
+      "dataset": "ILSVRC 2012",
+      "metric": "top-1 accuracy",
+      "value": 76.6
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "paper_id": "178631e0f0e624b1607c7a7a2507ed30d4e83a42",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CTC-3l-500h-tanh",
+          "header_path": "PER",
+          "cell": "37.6\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CTC-3l-500h-tanh",
+          "column_header": "PER",
+          "cell": "37.6\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CTC-3l-500h-tanh",
+      "task": "speech recognition",
+      "dataset": "TIMIT",
+      "metric": "PER",
+      "value": 37.6
+    }
+  ]
+}

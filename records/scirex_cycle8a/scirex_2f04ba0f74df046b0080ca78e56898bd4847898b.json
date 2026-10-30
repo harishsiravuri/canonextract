@@ -1,0 +1,268 @@
+{
+  "paper_id": "2f04ba0f74df046b0080ca78e56898bd4847898b",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose": 3,
+    "total": 5,
+    "strict_table_valid": 1,
+    "partial_table_valid": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Aggregate Channel Features",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "face detection"
+      },
+      "datasets": [
+        {
+          "name": "AFW",
+          "canonical_id": "AFW"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 96.8,
+          "unit": "%",
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Google Picasa",
+        "Face.com",
+        "Face++",
+        "Shen et al.",
+        "Zhu et al.",
+        "DPM",
+        "multiHOG",
+        "Kalal et al.",
+        "Yan et al.",
+        "Boosted Exemplar",
+        "SURF multiview",
+        "PEP-Adapt",
+        "XZJY"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "As shown in Figure~\\ref{fig:result}, in AFW, our multi-scale detector achieves an ap value of $96.8\\%$, outperforming other academic methods by a large margin.",
+        "_quote_verified": "As shown in Figure~\\ref{fig:result}, in AFW, our multi-scale detector achieves an ap value of $96.8\\%$, outperforming other academic methods by a large margin.",
+        "_verification_mode": "substring",
+        "_paper_hash": "7bf7a34c55b0",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Aggregate Channel Features",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "face detection"
+      },
+      "datasets": [
+        {
+          "name": "FDDB",
+          "canonical_id": "FDDB"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 96.8,
+          "unit": "%",
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Google Picasa",
+        "Face.com",
+        "Face++",
+        "Shen et al.",
+        "Zhu et al.",
+        "DPM",
+        "multiHOG",
+        "Kalal et al.",
+        "Yan et al.",
+        "Boosted Exemplar",
+        "SURF multiview",
+        "PEP-Adapt",
+        "XZJY"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "As shown in Figure~\\ref{fig:result}, in AFW, our multi-scale detector achieves an ap value of $96.8\\%$, outperforming other academic methods by a large margin.",
+        "_quote_verified": "As shown in Figure~\\ref{fig:result}, in AFW, our multi-scale detector achieves an ap value of $96.8\\%$, outperforming other academic methods by a large margin.",
+        "_verification_mode": "substring",
+        "_paper_hash": "7bf7a34c55b0",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Aggregate Channel Features",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "face detection",
+        "canonical_id": "face detection"
+      },
+      "datasets": [
+        {
+          "name": "FDDB",
+          "canonical_id": "FDDB"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "true positive rate",
+          "value": 83.7,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Yan et al.",
+        "Boosted Exemplar",
+        "SURF multiview",
+        "PEP-Adapt",
+        "XZJY",
+        "Zhu et al."
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "In discrete score where evaluation metric is the same as in AFW, our detector achieves $83.7\\%$, which is a little better than Yan \\etal~\\cite{jjyan}.",
+        "_quote_verified": "In discrete score where evaluation metric is the same as in AFW, our detector achieves $83.7\\%$, which is a little better than Yan \\etal~\\cite{jjyan}.",
+        "_verification_mode": "substring",
+        "_paper_hash": "7bf7a34c55b0",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "None",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "1-2 3-4 Reranking",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "AFW",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 91.7,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "None",
+        "header_path": "AP (\\%)",
+        "cell": "91.7",
+        "_content_hash": "f2349381b4f8",
+        "_paper_hash": "7bf7a34c55b0",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "None",
+          "column_header": "AP (\\%)",
+          "cell": "91.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe claimed cell is the source of the tuple's combination because the row label \"None\" describes the tuple's Method, the header path \"AP (%)\" describes the tuple's Metric, and the cell content \"91.7\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "Greedy* NMS",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "Merging",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "AFW",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP",
+          "value": 91.7,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "None",
+        "header_path": "AP (\\%)",
+        "cell": "91.7",
+        "_content_hash": "f2349381b4f8",
+        "_paper_hash": "7bf7a34c55b0",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "None",
+          "column_header": "AP (\\%)",
+          "cell": "91.7",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

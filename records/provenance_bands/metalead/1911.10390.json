@@ -1,0 +1,546 @@
+{
+  "paper_id": "1911.10390",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Beam+SBWR (r=0.25)",
+          "header_path": "R-1",
+          "cell": "39.08"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-1",
+          "cell": "39.07",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "R-1",
+      "value": 39.19
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Beam+SBWR (r=0.25)",
+          "header_path": "R-1",
+          "cell": "39.08"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-2",
+          "cell": "20.28",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "R-2",
+      "value": 20.47
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Beam+SBWR (r=0.25)",
+          "header_path": "R-1",
+          "cell": "39.08"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-L",
+          "cell": "36.49",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "R-L",
+      "value": 36.69
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Beam+SBWR (r=0.25)",
+          "header_path": "R-1",
+          "cell": "39.08"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "Bert-S",
+          "cell": "61.27",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "Bert-S",
+      "value": 61.51
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Beam+SBWR (r=0.25)",
+          "header_path": "R-1",
+          "cell": "39.08"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-1",
+          "cell": "39.07",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Newsroom",
+      "metric": "R-1",
+      "value": 39.19
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Beam+SBWR (r=0.25)",
+          "header_path": "R-1",
+          "cell": "39.08"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-2",
+          "cell": "20.28",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Newsroom",
+      "metric": "R-2",
+      "value": 20.47
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Beam+SBWR (r=0.25)",
+          "header_path": "R-1",
+          "cell": "39.08"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "f.",
+          "column_header": "3-gram",
+          "cell": "36.93",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Newsroom",
+      "metric": "R-L",
+      "value": 36.69
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Beam+SBWR (r=0.25)",
+          "header_path": "R-1",
+          "cell": "39.08"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "Bert-S",
+          "cell": "61.27",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Newsroom",
+      "metric": "Bert-S",
+      "value": 61.51
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "a.",
+          "header_path": "1-gram",
+          "cell": "98.90"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "a.",
+          "column_header": "1-gram",
+          "cell": "99.19",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "1-gram",
+      "value": 98.9
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "f.",
+          "column_header": "2-gram",
+          "cell": "56.36",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "2-gram",
+      "value": 55.92
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "c.",
+          "column_header": "3-gram",
+          "cell": "33.84",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "3-gram",
+      "value": 33.85
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-2",
+          "cell": "20.28",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "4-gram",
+      "value": 20.32
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "f.",
+          "column_header": "Average",
+          "cell": "52.23",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "Average",
+      "value": 52.25
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "a.",
+          "column_header": "1-gram",
+          "cell": "99.19",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Newsroom",
+      "metric": "1-gram",
+      "value": 98.9
+    },
+    {
+      "tuple_idx": 14,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "f.",
+          "column_header": "2-gram",
+          "cell": "56.36",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Newsroom",
+      "metric": "2-gram",
+      "value": 55.92
+    },
+    {
+      "tuple_idx": 15,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "c.",
+          "column_header": "3-gram",
+          "cell": "33.84",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Newsroom",
+      "metric": "3-gram",
+      "value": 33.85
+    },
+    {
+      "tuple_idx": 16,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Best-first Search",
+          "column_header": "R-2",
+          "cell": "20.28",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Newsroom",
+      "metric": "4-gram",
+      "value": 20.32
+    },
+    {
+      "tuple_idx": 17,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "c.",
+          "column_header": "2-gram",
+          "cell": "52.67",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Newsroom",
+      "metric": "Average",
+      "value": 52.25
+    },
+    {
+      "tuple_idx": 18,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "a.",
+          "header_path": "Average",
+          "cell": "52.25"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "c.",
+          "column_header": "2-gram",
+          "cell": "52.67",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "copy rate",
+      "value": 52.25
+    },
+    {
+      "tuple_idx": 19,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "a.",
+          "header_path": "Average",
+          "cell": "60.22"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "a.",
+          "column_header": "Average",
+          "cell": "60.22",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CopyTrans",
+      "task": "summarization",
+      "dataset": "Newsroom",
+      "metric": "copy rate",
+      "value": 60.22
+    }
+  ]
+}

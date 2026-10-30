@@ -1,0 +1,46 @@
+{
+  "metalead": {
+    "task": {
+      "n": 289,
+      "cycle1_ece_raw": 0.320645905420992,
+      "cycle2_ece_fixkg": 0.37435799873946257
+    },
+    "dataset": {
+      "n": 289,
+      "cycle1_ece_raw": 0.30334486735870825,
+      "cycle2_ece_fixkg": 0.22556907140382243
+    },
+    "metric": {
+      "n": 289,
+      "cycle1_ece_raw": 0.2041522491349481,
+      "cycle2_ece_fixkg": 0.08501454325670135
+    },
+    "triple": {
+      "n": 289,
+      "cycle1_ece_raw": 0.26066897347174156,
+      "cycle2_ece_fixkg": 0.21304222491760103
+    }
+  },
+  "scirex": {
+    "task": {
+      "n": 444,
+      "cycle1_ece_raw": 0.16366366366366364,
+      "cycle2_ece_fixkg": 0.05226262623987492
+    },
+    "dataset": {
+      "n": 444,
+      "cycle1_ece_raw": 0.33258258258258255,
+      "cycle2_ece_fixkg": 0.24397679224800164
+    },
+    "metric": {
+      "n": 444,
+      "cycle1_ece_raw": 0.3460960960960961,
+      "cycle2_ece_fixkg": 0.2700910413620183
+    },
+    "triple": {
+      "n": 444,
+      "cycle1_ece_raw": 0.5623123123123123,
+      "cycle2_ece_fixkg": 0.47370652197773133
+    }
+  }
+}

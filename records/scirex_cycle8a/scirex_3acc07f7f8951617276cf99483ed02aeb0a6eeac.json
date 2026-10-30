@@ -1,0 +1,166 @@
+{
+  "paper_id": "3acc07f7f8951617276cf99483ed02aeb0a6eeac",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 1,
+    "total": 3,
+    "prose_claimed_table": 1,
+    "partial_table_valid": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "NoAdapt hoffman_fcns_2016",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "IoU",
+          "value": 21.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "NoAdapt hoffman_fcns_2016",
+        "header_path": "2 * [-2em] IoU",
+        "cell": "21.1",
+        "_content_hash": "983c2dca3f15",
+        "_paper_hash": "1fba9fa287e7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "NoAdapt hoffman_fcns_2016",
+          "column_header": "fence",
+          "cell": "21.1",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"NoAdapt hoffman_fcns_2016\" matches the tuple's Method, the header path \"2 * [-2em] IoU\" matches the tuple's Metric, and the cell content \"21.1\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "Uniform",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "^2 Distance",
+          "value": 1.13,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "^2 Distance",
+        "header_path": "Uniform",
+        "cell": "1.13",
+        "_content_hash": "250d005cab9f",
+        "_paper_hash": "1fba9fa287e7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "NoAdapt hoffman_fcns_2016",
+          "column_header": "mbike",
+          "cell": "1.0",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "LR",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "label distribution prediction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": "cityscapes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "^2 Distance",
+          "value": 0.27,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Uniform",
+        "NoAdapt",
+        "Src mean",
+        "NN"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "^2 Distance",
+        "header_path": "LR",
+        "cell": "0.27",
+        "_content_hash": "874aafe9d2e6",
+        "_paper_hash": "1fba9fa287e7",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours (SP)",
+          "column_header": "car",
+          "cell": "0.0",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

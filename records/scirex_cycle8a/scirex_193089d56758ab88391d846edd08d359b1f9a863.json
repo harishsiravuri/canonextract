@@ -1,0 +1,421 @@
+{
+  "paper_id": "193089d56758ab88391d846edd08d359b1f9a863",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 4,
+    "total": 8,
+    "strict_table_valid": 4
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Ours(CaffeNet)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Market1501",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank-1",
+          "value": 62.14,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CaffeNet-Basel."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "CaffeNet (I+V)",
+        "header_path": "rank-1",
+        "cell": "62.14",
+        "_content_hash": "91ecf65c5e7b",
+        "_paper_hash": "587ce6e81b6c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CaffeNet (I+V)",
+          "column_header": "rank-1",
+          "cell": "62.14",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours(CaffeNet)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Market1501",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 39.61,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CaffeNet-Basel."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "CaffeNet (I+V)",
+        "header_path": "rank-1",
+        "cell": "62.14",
+        "_content_hash": "91ecf65c5e7b",
+        "_paper_hash": "587ce6e81b6c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CaffeNet (I+V)",
+          "column_header": "mAP",
+          "cell": "39.61",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours(CaffeNet)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CUHK03",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank-1",
+          "value": 59.8,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CaffeNet-Basel."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours (CaffeNet)",
+        "header_path": "rank-1",
+        "cell": "59.8",
+        "_content_hash": "4203288cac81",
+        "_paper_hash": "587ce6e81b6c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Ours(ResNet-50)",
+          "column_header": "rank-1",
+          "cell": "59.87",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe cell content \"67.2\" does not match the tuple's Value \"59.8\", indicating that the claimed cell is not the source of the tuple's combination."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours(CaffeNet)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CUHK03",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 65.8,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CaffeNet-Basel."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours (CaffeNet)",
+        "header_path": "rank-1",
+        "cell": "59.8",
+        "_content_hash": "4203288cac81",
+        "_paper_hash": "587ce6e81b6c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours (CaffeNet)",
+          "column_header": "mAP",
+          "cell": "65.8",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"59.8\" does not match the tuple's Value \"65.8\", and also the header path \"rank-1\" does not describe the tuple's Metric \"mAP\", the actual value for \"Ours (CaffeNet)\" and metric \"mAP\" is 61.5."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours(ResNet-50)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Market1501+500K",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank-1",
+          "value": 68.26,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ResNet Basel."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 5,
+        "row_label": "Ours (ResNet)",
+        "header_path": "rank-1",
+        "cell": "68.26",
+        "_paper_hash": "587ce6e81b6c",
+        "_content_hash": "fcc32ea85ece",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Gate-SCNN varior2016gated",
+          "column_header": "rank-1",
+          "cell": "68.1",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours(ResNet-50)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Market1501+500K",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 45.24,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ResNet Basel."
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "587ce6e81b6c",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ResNet-50 (V)",
+          "column_header": "mAP",
+          "cell": "44.94",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours(CaffeNet)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CUHK03",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank-5",
+          "value": 88.3,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CaffeNet-Basel."
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours (CaffeNet)",
+        "header_path": "rank-1",
+        "cell": "59.8",
+        "_content_hash": "4203288cac81",
+        "_paper_hash": "587ce6e81b6c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours (CaffeNet)",
+          "column_header": "rank-5",
+          "cell": "88.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"59.8\" does not match the tuple's Value \"88.3\" for the metric \"rank-5\", and the header path \"rank-1\" does not describe the tuple's Metric \"rank-5\"."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours(CaffeNet)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "person re identification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CUHK03",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "rank-10",
+          "value": 94.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "CaffeNet-Basel."
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours (CaffeNet)",
+        "header_path": "rank-1",
+        "cell": "59.8",
+        "_content_hash": "4203288cac81",
+        "_paper_hash": "587ce6e81b6c",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours (CaffeNet)",
+          "column_header": "rank-10",
+          "cell": "94.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"59.8\" does not match the tuple's Value \"94.2\" and also the header path \"rank-1\" does not describe the tuple's Metric \"rank-10\"."
+      }
+    }
+  ]
+}

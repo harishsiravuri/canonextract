@@ -1,0 +1,249 @@
+{
+  "paper_id": "1809.08370",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CVT + Multi-task + Large*^",
+          "header_path": "CCG",
+          "cell": "96.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "LAS",
+          "cell": "95.86 0.03",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CVT",
+      "task": "combinatory categorial grammar ccg supertagging",
+      "dataset": "ccgbank",
+      "metric": "Acc.",
+      "value": 96.1
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CVT + Multi-task + Large*^",
+          "header_path": "Chunk",
+          "cell": "97.0"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CVT + Multi-Task + Large*^",
+          "column_header": "LAS",
+          "cell": "96.61 0.04",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CVT",
+      "task": "text chunking",
+      "dataset": "conll 2000",
+      "metric": "F1",
+      "value": 97.0
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CVT + Multi-task + Large*^",
+          "header_path": "NER",
+          "cell": "92.6"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "F1",
+          "cell": "92.34 0.06",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CVT",
+      "task": "named entity recognition ner",
+      "dataset": "conll 2003 english",
+      "metric": "F1",
+      "value": 92.6
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CVT + Multi-task + Large*^",
+          "header_path": "FGN",
+          "cell": "88.8"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "Acc.",
+          "cell": "88.68 0.14",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CVT",
+      "task": "fine grained ner",
+      "dataset": "ontonotes v5 english",
+      "metric": "F1",
+      "value": 88.8
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CVT + Multi-task + Large*^",
+          "header_path": "POS",
+          "cell": "97.74"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "UAS",
+          "cell": "97.70 0.03",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CVT",
+      "task": "part of speech pos tagging",
+      "dataset": "penn treebank ptb",
+      "metric": "Acc.",
+      "value": 97.74
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "prose_claimed_table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CVT + Multi-task + Large*^",
+          "header_path": "Dep. Parse",
+          "cell": "96.6 / 95.0"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CVT + Multi-Task*^",
+          "column_header": "LAS",
+          "cell": "96.44 0.04",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CVT",
+      "task": "dependency parsing",
+      "dataset": "penn treebank",
+      "metric": "UAS",
+      "value": 96.6
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Virtual Adversarial Training*",
+          "column_header": "LAS",
+          "cell": "95.44 0.06",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CVT",
+      "task": "dependency parsing",
+      "dataset": "penn treebank",
+      "metric": "LAS",
+      "value": 95.0
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "prose_claimed_table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "header_path": "Translate",
+          "cell": "29.6"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "91.21",
+          "cell": "29.58 0.07",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CVT",
+      "task": "machine translation",
+      "dataset": "iwslt 15 de en",
+      "metric": "BLEU",
+      "value": 29.6
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "header_path": "POS",
+          "cell": "97.70"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CVT*",
+          "column_header": "UAS",
+          "cell": "97.70 0.03",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CVT",
+      "task": "part of speech pos tagging",
+      "dataset": "penn treebank",
+      "metric": "acc",
+      "value": 97.7
+    }
+  ]
+}

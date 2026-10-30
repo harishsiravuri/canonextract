@@ -1,0 +1,291 @@
+{
+  "paper_id": "193b518bc3025804c6d587c74cbc154d91478417",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 5,
+    "total": 5
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Ours (single-level)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": "semantic segmentation"
+      },
+      "datasets": [
+        {
+          "name": "GTA5",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU",
+          "value": 35.0,
+          "unit": null,
+          "canonical_id": "mean iou"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FCNs in the Wild",
+        "CDA",
+        "CyCADA (feature)",
+        "CyCADA (pixel)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours (singel-level)",
+        "header_path": "GTA5 Cityscapes",
+        "cell": "35.0",
+        "_content_hash": "f171f2f45ff6",
+        "_paper_hash": "dd99637c9806",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours (singel-level)",
+          "column_header": "mIoU",
+          "cell": "35.0",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"Ours (singel-level)\" refers to the proposed method in the paper excerpt, the header path \"GTA5 Cityscapes\" describes the dataset, and the cell content \"35.0\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours (single-level)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": "semantic segmentation"
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": "cityscapes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU",
+          "value": 35.0,
+          "unit": null,
+          "canonical_id": "mean iou"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FCNs in the Wild",
+        "CDA",
+        "CyCADA (feature)",
+        "CyCADA (pixel)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours (singel-level)",
+        "header_path": "GTA5 Cityscapes",
+        "cell": "35.0",
+        "_content_hash": "f171f2f45ff6",
+        "_paper_hash": "dd99637c9806",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours (singel-level)",
+          "column_header": "mIoU",
+          "cell": "35.0",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"Ours (singel-level)\" refers to the proposed method in the paper excerpt, the header path \"GTA5 Cityscapes\" describes the dataset, and the cell content \"35.0\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours (single-level)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": "semantic segmentation"
+      },
+      "datasets": [
+        {
+          "name": "SYNTHIA",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU",
+          "value": 37.6,
+          "unit": null,
+          "canonical_id": "mean iou"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FCNs in the Wild",
+        "CDA",
+        "Cross-City"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours (single-level)",
+        "header_path": "SYNTHIA Cityscapes",
+        "cell": "37.6",
+        "_content_hash": "52a6297a21fe",
+        "_paper_hash": "dd99637c9806",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "Ours (single-level)",
+          "column_header": "90 sidewalk",
+          "cell": "37.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"37.6\" does not match the tuple's Value, whereas the table actually contains \"45.9\" as the mIoU value for the \"Ours (single-level)\" method."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours (multi-level)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": "semantic segmentation"
+      },
+      "datasets": [
+        {
+          "name": "GTA5",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU Gap",
+          "value": -22.7,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FCNs in the Wild",
+        "CDA",
+        "CyCADA (feature)",
+        "CyCADA (pixel)",
+        "Ours (single-level)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Ours (multi-level)",
+        "header_path": "GTA5 Cityscapes",
+        "cell": "-22.7",
+        "_content_hash": "275b7ad77fbd",
+        "_paper_hash": "dd99637c9806",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Ours (multi-level)",
+          "column_header": "mIoU Gap",
+          "cell": "-22.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"Ours (multi-level)\" refers to the proposed method in the paper excerpt, the header path \"GTA5 Cityscapes\" describes the tuple's Dataset, and the cell content \"-22.7\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours (multi-level)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": "semantic segmentation"
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": "cityscapes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mIoU Gap",
+          "value": -22.7,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FCNs in the Wild",
+        "CDA",
+        "CyCADA (feature)",
+        "CyCADA (pixel)",
+        "Ours (single-level)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Ours (multi-level)",
+        "header_path": "GTA5 Cityscapes",
+        "cell": "-22.7",
+        "_content_hash": "275b7ad77fbd",
+        "_paper_hash": "dd99637c9806",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Ours (multi-level)",
+          "column_header": "mIoU Gap",
+          "cell": "-22.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"Ours (multi-level)\" refers to the proposed method in the paper excerpt, the header path \"GTA5 Cityscapes\" describes the dataset, and the cell content \"-22.7\" matches the tuple's Value."
+      }
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "paper_id": "107010b7f2abe3c0c9df62bcef35eb77f6fc76df",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Source only",
+          "header_path": "Method",
+          "cell": ".5225"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "image classification",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": 0.5225
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Source only",
+          "header_path": "Method",
+          "cell": ".5225"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "image classification",
+      "dataset": "SVHN",
+      "metric": "accuracy",
+      "value": 0.5225
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Source only",
+          "header_path": "Method",
+          "cell": ".5225"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "MNIST",
+          "cell": ".9109 \\; (79.7\\%)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "image classification",
+      "dataset": "Syn Numbers",
+      "metric": "accuracy",
+      "value": 0.5225
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Source only",
+          "header_path": "Method",
+          "cell": ".5225"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "image classification",
+      "dataset": "Syn Signs",
+      "metric": "accuracy",
+      "value": 0.5225
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "2 l | GFK(PLS, PCA) Gong12",
+          "header_path": "Method",
+          "cell": ".197"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "2 l | GFK(PLS, PCA) Gong12",
+          "column_header": "Webcam",
+          "cell": ".497",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "image classification",
+      "dataset": "Amazon",
+      "metric": "accuracy",
+      "value": 0.197
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "2 l | GFK(PLS, PCA) Gong12",
+          "header_path": "Method",
+          "cell": ".197"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "2 l | GFK(PLS, PCA) Gong12",
+          "column_header": "DSLR",
+          "cell": ".6631",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "image classification",
+      "dataset": "DSLR",
+      "metric": "accuracy",
+      "value": 0.197
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "2 l | GFK(PLS, PCA) Gong12",
+          "header_path": "Method",
+          "cell": ".197"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "2 l | GFK(PLS, PCA) Gong12",
+          "column_header": "Webcam",
+          "cell": ".497",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "image classification",
+      "dataset": "Webcam",
+      "metric": "accuracy",
+      "value": 0.197
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "electronics",
+          "header_path": "Original data",
+          "cell": ".733"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "sentiment analysis",
+      "dataset": "books",
+      "metric": "accuracy",
+      "value": 0.733
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "electronics",
+          "header_path": "Original data",
+          "cell": ".733"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "sentiment analysis",
+      "dataset": "dvd",
+      "metric": "accuracy",
+      "value": 0.733
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "electronics",
+          "header_path": "Original data",
+          "cell": ".733"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "sentiment analysis",
+      "dataset": "electronics",
+      "metric": "accuracy",
+      "value": 0.733
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "electronics",
+          "header_path": "Original data",
+          "cell": ".733"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "DANN",
+          "column_header": "SVHN",
+          "cell": ".7666 \\; (52.9\\%)",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "sentiment analysis",
+      "dataset": "kitchen",
+      "metric": "accuracy",
+      "value": 0.733
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "dvd",
+          "header_path": "Original data",
+          "cell": ".784"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "DANN",
+          "column_header": "Webcam",
+          "cell": ".730",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "sentiment analysis",
+      "dataset": "Amazon reviews",
+      "metric": "accuracy",
+      "value": 0.784
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "2 l | GFK(PLS, PCA) Gong12",
+          "header_path": "Method",
+          "cell": ".197"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Source only",
+          "column_header": "SVHN",
+          "cell": ".5225",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "DANN",
+      "task": "image classification",
+      "dataset": "Office",
+      "metric": "accuracy",
+      "value": 0.197
+    }
+  ]
+}

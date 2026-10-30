@@ -1,0 +1,133 @@
+{
+  "paper_id": "455da02e5048dffb51fb6ab5eb8aeca5926c9d9a",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "ours (SPP O-7)",
+          "header_path": "top-1 val",
+          "cell": "29.68"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "(c)",
+          "column_header": "col_5",
+          "cell": "29.68 2.33",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "SPP-net",
+      "task": "image classification",
+      "dataset": "ImageNet 2012",
+      "metric": "top-1 error",
+      "value": 29.68
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "ours (SPP O-7)",
+          "header_path": "top-1 val",
+          "cell": "29.68"
+        },
+        "hit": null
+      },
+      "method": "SPP-net",
+      "task": "image classification",
+      "dataset": "ImageNet 2012",
+      "metric": "top-5 error",
+      "value": 10.95
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 5,
+          "row_label": "fc_7/9",
+          "header_path": "(e)",
+          "cell": "82.44"
+        },
+        "hit": {
+          "table_id": 6,
+          "row_label": "ours",
+          "column_header": "VOC 2007",
+          "cell": "82.44",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "SPP-net",
+      "task": "image classification",
+      "dataset": "Pascal VOC 2007",
+      "metric": "mAP",
+      "value": 82.44
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 6,
+          "row_label": "SPP pool_5/7",
+          "header_path": "(d)",
+          "cell": "93.42"
+        },
+        "hit": {
+          "table_id": 6,
+          "row_label": "ours",
+          "column_header": "Caltech101",
+          "cell": "93.42 0.5",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "SPP-net",
+      "task": "image classification",
+      "dataset": "Caltech101",
+      "metric": "accuracy",
+      "value": 93.42
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 8,
+          "row_label": "fc_6",
+          "header_path": "SPP (1-sc)",
+          "cell": "44.2"
+        },
+        "hit": {
+          "table_id": 7,
+          "row_label": "pool_5",
+          "column_header": "col_3",
+          "cell": "44.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "SPP-net",
+      "task": "object detection",
+      "dataset": "Pascal VOC 2007",
+      "metric": "mAP",
+      "value": 44.2
+    }
+  ]
+}

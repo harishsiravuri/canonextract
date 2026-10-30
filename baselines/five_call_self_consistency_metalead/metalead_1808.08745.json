@@ -1,0 +1,363 @@
+{
+  "paper_id": "1808.08745",
+  "contributions": [
+    {
+      "method": {
+        "name": "Topic-Aware Convolutional Neural Networks",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        }
+      },
+      "task": {
+        "name": "extreme summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 1000
+        }
+      },
+      "datasets": [
+        {
+          "name": "BBC News articles",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 1000
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": null,
+          "evidence_span": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "oracle extractive system",
+        "state-of-the-art abstractive approaches"
+      ],
+      "notes": "The paper introduces a new task (extreme summarization) and dataset, and proposes a novel method combining convolutional networks with topic modeling. However, specific metric values are not provided in the given text span.",
+      "_sc_support": 0.8
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 73615,
+    "tokens_out": 1773,
+    "cost_usd": 0.02513477,
+    "wall_seconds": 58.83626103401184,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Topic-Aware Convolutional Neural Networks",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 1000
+            }
+          },
+          "task": {
+            "name": "extreme summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 1000
+            }
+          },
+          "datasets": [
+            {
+              "name": "BBC News articles",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 1000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": null,
+              "unit": null,
+              "evidence_span": null
+            },
+            {
+              "name": "ROUGE-2",
+              "value": null,
+              "unit": null,
+              "evidence_span": null
+            },
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": null
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "oracle extractive system",
+            "state-of-the-art abstractive approaches"
+          ],
+          "notes": "The paper introduces a new task (extreme summarization) and dataset, and proposes a novel method combining convolutional networks with topic modeling. However, specific metric values are not provided in the given text span."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Topic-Aware Convolutional Neural Networks",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 1000
+            }
+          },
+          "task": {
+            "name": "extreme summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "BBC News articles",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": null
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "oracle extractive system",
+            "state-of-the-art abstractive approaches"
+          ],
+          "notes": "The paper introduces a new task of extreme summarization and proposes a novel abstractive model conditioned on article topics. However, specific metric values are not provided in the extracted text."
+        },
+        {
+          "method": {
+            "name": "ConvS2S",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 500,
+              "end": 600
+            }
+          },
+          "task": {
+            "name": "extreme summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "BBC News articles",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": null
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "RNN-based summarization models"
+          ],
+          "notes": "The paper compares convolutional sequence models with RNN-based approaches but doesn't provide specific metric values."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Topic-Aware Convolutional Neural Networks",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 5000
+            }
+          },
+          "task": {
+            "name": "extreme summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 5000
+            }
+          },
+          "datasets": [
+            {
+              "name": "BBC News Articles",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 5000
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": null
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "oracle extractive system",
+            "state-of-the-art abstractive approaches"
+          ],
+          "notes": "The paper introduces a new task called 'extreme summarization' and proposes a novel abstractive model conditioned on the article's topics. The model is evaluated on a new dataset harvested from BBC articles, but specific metric values are not provided in the extracted text."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Topic-Aware Convolutional Neural Networks",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 1000
+            }
+          },
+          "task": {
+            "name": "extreme summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 300
+            }
+          },
+          "datasets": [
+            {
+              "name": "BBC News Articles",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 700
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": null
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "oracle extractive system",
+            "state-of-the-art abstractive approaches"
+          ],
+          "notes": "The paper introduces a new task of extreme summarization and proposes a novel abstractive model conditioned on article topics. Human evaluation is mentioned but specific metric values are not provided in the excerpt."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Topic-Aware Convolutional Neural Networks",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 1000
+            }
+          },
+          "task": {
+            "name": "extreme summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 300
+            }
+          },
+          "datasets": [
+            {
+              "name": "BBC articles",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": null,
+              "unit": null,
+              "evidence_span": null
+            },
+            {
+              "name": "ROUGE-2",
+              "value": null,
+              "unit": null,
+              "evidence_span": null
+            },
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": null
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "oracle extractive system",
+            "state-of-the-art abstractive approaches"
+          ],
+          "notes": "The paper introduces a new task called 'extreme summarization' and proposes a novel abstractive model. However, specific metric values are not provided in the given text."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "paper_id": "2777cd26b2c257843273fe41ad4c5b8cdf1b1b75",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 1,
+    "total": 4,
+    "prose_claimed_table": 2,
+    "missing": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "NAN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": "multi human parsing"
+      },
+      "datasets": [
+        {
+          "name": "MHP v2.0",
+          "canonical_id": "mhp v2 0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP^ p _ 0.5 (\\%)",
+          "value": 24.28,
+          "unit": null,
+          "canonical_id": "ap p 0 5"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN he2017mask",
+        "MH-Parser li2017towards"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "NAN",
+        "header_path": "All",
+        "cell": "24.28",
+        "_content_hash": "bee22efeff20",
+        "_paper_hash": "c87f289f19d3",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "NAN",
+          "column_header": "Inter_ 10\\%",
+          "cell": "24.61",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "NAN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": "multi human parsing"
+      },
+      "datasets": [
+        {
+          "name": "MHP v2.0",
+          "canonical_id": "mhp v2 0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AP^ p _ vol (\\%)",
+          "value": 12.75,
+          "unit": null,
+          "canonical_id": "ap p vol"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN he2017mask",
+        "MH-Parser li2017towards"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "NAN",
+        "header_path": "All",
+        "cell": "24.28",
+        "_content_hash": "bee22efeff20",
+        "_paper_hash": "c87f289f19d3",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Mask R-CNN he2017mask",
+          "column_header": "Inter_ 20\\%",
+          "cell": "12.75",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "NAN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": "multi human parsing"
+      },
+      "datasets": [
+        {
+          "name": "MHP v2.0",
+          "canonical_id": "mhp v2 0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PCP_ 0.5 (\\%)",
+          "value": 20.73,
+          "unit": null,
+          "canonical_id": "pcp 0 5"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN he2017mask",
+        "MH-Parser li2017towards"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "NAN",
+        "header_path": "All",
+        "cell": "24.28",
+        "_content_hash": "bee22efeff20",
+        "_paper_hash": "c87f289f19d3",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    },
+    {
+      "method": {
+        "name": "NAN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "multi-human parsing",
+        "canonical_id": "multi human parsing"
+      },
+      "datasets": [
+        {
+          "name": "MHP v2.0",
+          "canonical_id": "mhp v2 0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Speed (img/s)",
+          "value": 8.38,
+          "unit": null,
+          "canonical_id": "speed (img/s)"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Mask R-CNN he2017mask",
+        "MH-Parser li2017towards"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "NAN",
+        "header_path": "All",
+        "cell": "24.28",
+        "_content_hash": "bee22efeff20",
+        "_paper_hash": "c87f289f19d3",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Mask R-CNN he2017mask",
+          "column_header": "Inter_ 10\\%",
+          "cell": "8.38",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "paper_id": "1811.09242",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "F-S",
+          "cell": "61.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "F-S",
+          "cell": "61.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "word sense induction",
+      "dataset": "SemEval 2010 WSI dataset",
+      "metric": "F-S",
+      "value": 61.7
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "V-M",
+          "cell": "9.8"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "V-M",
+          "cell": "9.8",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "word sense induction",
+      "dataset": "SemEval 2010 WSI dataset",
+      "metric": "V-M",
+      "value": 9.8
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "AVG",
+          "cell": "24.59"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "AVG",
+          "cell": "24.59",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "word sense induction",
+      "dataset": "SemEval 2010 WSI dataset",
+      "metric": "AVG",
+      "value": 24.59
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "F-BC",
+          "cell": "61.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "F-S",
+          "cell": "61.7",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "word sense induction",
+      "dataset": "SemEval 2013 WSI dataset",
+      "metric": "F-BC",
+      "value": 61.7
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "F-NMI",
+          "cell": "7.96"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "SemEval 2010",
+          "column_header": "Mean",
+          "cell": "7.68",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "word sense induction",
+      "dataset": "SemEval 2013 WSI dataset",
+      "metric": "F-NMI",
+      "value": 7.96
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "AVG",
+          "cell": "22.16"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "HC",
+          "column_header": "V-M",
+          "cell": "22.62",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "word sense induction",
+      "dataset": "SemEval 2013 WSI dataset",
+      "metric": "AVG",
+      "value": 22.16
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "F-S",
+          "cell": "61.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "(\\#S)",
+          "cell": "0.33",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "word sense induction",
+      "dataset": "SemEval 2010 WSI dataset",
+      "metric": "\u03b4(#S)",
+      "value": 0.33
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "F-S",
+          "cell": "61.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "F-S",
+          "cell": "61.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "word sense induction",
+      "dataset": "SemEval 2013 WSI dataset",
+      "metric": "F-S",
+      "value": 61.7
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "F-S",
+          "cell": "61.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "V-M",
+          "cell": "9.8",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "word sense induction",
+      "dataset": "SemEval 2013 WSI dataset",
+      "metric": "V-M",
+      "value": 9.8
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "F-S",
+          "cell": "61.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "column_header": "(\\#S)",
+          "cell": "0.33",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "word sense induction",
+      "dataset": "SemEval 2013 WSI dataset",
+      "metric": "\u03b4(#S)",
+      "value": 0.33
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "S=100",
+          "cell": "58.8"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "AutoSense",
+          "column_header": "S=100",
+          "cell": "58.8",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "unsupervised author name disambiguation",
+      "dataset": "Arnet Dataset",
+      "metric": "Paired F1",
+      "value": 58.8
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "AutoSense",
+          "header_path": "S=100",
+          "cell": "46.5"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "HC",
+          "column_header": "S=5",
+          "cell": "46.3",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "AutoSense",
+      "task": "unsupervised author name disambiguation",
+      "dataset": "PubMed Dataset",
+      "metric": "Paired F1",
+      "value": 46.5
+    }
+  ]
+}

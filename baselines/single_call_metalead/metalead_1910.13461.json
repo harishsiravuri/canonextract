@@ -1,0 +1,123 @@
+{
+  "paper_id": "1910.13461",
+  "contributions": [
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 853,
+          "end": 856
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "text generation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1016,
+          "end": 1060
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1016,
+            "end": 1060
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 6.0,
+          "unit": "points",
+          "evidence_span": {
+            "start": 1016,
+            "end": 1060
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "previous work"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "BART",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 853,
+          "end": 856
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1141,
+          "end": 1181
+        },
+        "confidence": 0.5
+      },
+      "datasets": [
+        {
+          "name": "WMT Romanian-English",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1141,
+            "end": 1181
+          },
+          "confidence": 0.5
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 1.1,
+          "unit": "points",
+          "evidence_span": {
+            "start": 1141,
+            "end": 1181
+          },
+          "confidence": 0.5
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "back-translation system"
+      ],
+      "self_consistency": 0.625,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 52108,
+    "tokens_out": 5458,
+    "cost_usd": 0.02613077,
+    "wall_time_seconds": 194.76148104085587,
+    "voting_samples": 3
+  }
+}

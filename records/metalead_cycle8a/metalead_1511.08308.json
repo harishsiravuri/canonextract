@@ -1,0 +1,124 @@
+{
+  "paper_id": "1511.08308",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 2,
+    "total": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "conll 2003 english",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f1",
+          "value": 91.62,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Collobert et al. collobert2011",
+        "Huang et al. huang2015",
+        "Ratinov and Roth ratinov2009",
+        "Lin and Wu lin2009",
+        "Suzuki et al. suzuki2011",
+        "Passos et al. passos2014",
+        "Durrett and Klein durrett2014",
+        "Luo et al. luo2015"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BLSTM-CNN + emb + lex",
+        "header_path": "CoNLL-2003",
+        "cell": "91.62 ( 0.33)",
+        "_content_hash": "8a878997f0c7",
+        "_paper_hash": "19a2fb97b823",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "BLSTM-CNN + emb + lex",
+          "column_header": "CoNLL-2003",
+          "cell": "91.62 ( 0.33)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label does not describe the tuple's Method, as \"Location\", \"Miscellaneous\", \"Organization\", \"Person\", and \"Total\" are category labels and do not refer to the \"BLSTM-CNN + emb + lex\" method mentioned in the claim."
+      }
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ontonotes v5 english",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f1",
+          "value": 86.28,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Finkel and Manning finkel2009",
+        "Durrett and Klein durrett2014"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "BLSTM-CNN + emb + lex",
+        "header_path": "OntoNotes 5.0",
+        "cell": "86.28 ( 0.26)",
+        "_content_hash": "b012b8a97e61",
+        "_paper_hash": "19a2fb97b823",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 4,
+          "row_label": "BLSTM-CNN + emb",
+          "column_header": "OntoNotes 5.0",
+          "cell": "86.17 ( 0.22)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe row label does not describe the tuple's Method, as \"BLSTM-CNN + emb + lex\" is not present in the table, and the paper excerpt does not provide an alias for \"BLSTM-CNN + emb + lex\" that matches a row label in the table."
+      }
+    }
+  ]
+}

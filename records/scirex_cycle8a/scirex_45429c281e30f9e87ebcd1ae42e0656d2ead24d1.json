@@ -1,0 +1,202 @@
+{
+  "paper_id": "45429c281e30f9e87ebcd1ae42e0656d2ead24d1",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose_claimed_table": 2,
+    "total": 4,
+    "prose": 1,
+    "missing": 1
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": "cordts2016cityscapes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Pixel acc",
+          "value": 83.78,
+          "unit": "%",
+          "canonical_id": "pixel acc"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "isola2016image",
+        "CRN chen2017photographic",
+        "Oracle"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Pixel acc",
+        "header_path": "Ours",
+        "cell": "83.78",
+        "_content_hash": "1dae6e9a025f",
+        "_paper_hash": "b9ff573c08b6",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Pixel acc",
+          "column_header": "Oracle",
+          "cell": "83.78",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "semantic segmentation",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": "cordts2016cityscapes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Mean IoU",
+          "value": 0.6389,
+          "unit": null,
+          "canonical_id": "mean iou"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "isola2016image",
+        "CRN chen2017photographic",
+        "Oracle"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Pixel acc",
+        "header_path": "Ours",
+        "cell": "83.78",
+        "_content_hash": "1dae6e9a025f",
+        "_paper_hash": "b9ff573c08b6",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Mean IoU",
+          "column_header": "CRN chen2017photographic",
+          "cell": "0.3948",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image synthesis",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": "cordts2016cityscapes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "preference rate",
+          "value": 93.8,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "isola2016image"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Ours & 93.8% & 86.2%  \\\\ \nOurs {\\footnotesize (w/o VGG)}  & 94.6%  &  85.2% \\\\ \\bottomrule",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "b9ff573c08b6",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "image-to-image translation",
+        "canonical_id": "image to image translation"
+      },
+      "datasets": [
+        {
+          "name": "Cityscapes",
+          "canonical_id": "cityscapes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "preference rate",
+          "value": 93.8,
+          "unit": "%",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "isola2016image"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose_claimed_table",
+        "table_id": 0,
+        "row_label": "isola2016image",
+        "header_path": "Ours",
+        "cell": "93.8%",
+        "_downgrade_reason": "none of (row_label=False, header_path=True, cell=False) resolved in the paper's parsed tables",
+        "_paper_hash": "b9ff573c08b6",
+        "cycle5_bucket": "missing",
+        "cycle8a_bucket": "missing"
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "paper_id": "1709.04109",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "15) \\our$^\\dagger$$^\\ddagger$",
+          "header_path": "F$_1$ score",
+          "cell": "91.71$\\pm$0.10"
+        },
+        "hit": {
+          "table_id": 7,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "F_1score",
+          "cell": "91.22 0.19",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "LM-LSTM-CRF",
+      "task": "named entity recognition ner",
+      "dataset": "CoNLL03 NER",
+      "metric": "F_1 score",
+      "value": 91.71
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "15) \\our$^\\dagger$$^\\ddagger$",
+          "header_path": "Accuracy",
+          "cell": "97.53$\\pm$0.03"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "LSTM-CRF",
+          "column_header": "Accuracy",
+          "cell": "97.35",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "LM-LSTM-CRF",
+      "task": "part of speech pos tagging",
+      "dataset": "WSJ",
+      "metric": "accuracy",
+      "value": 97.53
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "15) \\our$^\\dagger$$^\\ddagger$",
+          "header_path": "F$_1$ score",
+          "cell": "95.96$\\pm$0.08"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "F_1Score",
+          "cell": "95.80",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "LM-LSTM-CRF",
+      "task": "chunking",
+      "dataset": "CoNLL00 chunking",
+      "metric": "F_1 score",
+      "value": 95.96
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "15) \\our",
+          "header_path": "Time $\\cdot$ Device",
+          "cell": "6 h$\\cdot$GTX 1080"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "h",
+          "cell": "6",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "LM-LSTM-CRF",
+      "task": "named entity recognition ner",
+      "dataset": "CoNLL03 NER",
+      "metric": "training time",
+      "value": 6
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\our",
+          "header_path": "Recall$\\pm$std",
+          "cell": "92.14$\\pm$0.12"
+        },
+        "hit": {
+          "table_id": 7,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "Recall",
+          "cell": "91.70 0.16",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "LM-LSTM-CRF",
+      "task": "named entity recognition ner",
+      "dataset": "CoNLL03 NER",
+      "metric": "recall",
+      "value": 92.14
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "\\our",
+          "header_path": "Precision$\\pm$std",
+          "cell": "91.30$\\pm$0.13"
+        },
+        "hit": {
+          "table_id": 7,
+          "row_label": "2-5",
+          "column_header": "Precision",
+          "cell": "90.81 0.15",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "LM-LSTM-CRF",
+      "task": "named entity recognition ner",
+      "dataset": "CoNLL03 NER",
+      "metric": "precision",
+      "value": 91.3
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "15) \\our$^\\dagger$$^\\ddagger$",
+          "header_path": "F$_1$ score",
+          "cell": "91.71$\\pm$0.10"
+        },
+        "hit": {
+          "table_id": 7,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "F_1score",
+          "cell": "91.22 0.19",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "LM-LSTM-CRF",
+      "task": "named entity recognition ner",
+      "dataset": "CoNLL03 NER",
+      "metric": "F1 score",
+      "value": 91.71
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "15) \\our$^\\dagger$$^\\ddagger$",
+          "header_path": "F$_1$ score",
+          "cell": "95.96$\\pm$0.08"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "LSTM-CNN-CRF",
+          "column_header": "F_1Score",
+          "cell": "95.80",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "LM-LSTM-CRF",
+      "task": "chunking",
+      "dataset": "CoNLL00 chunking",
+      "metric": "F1 score",
+      "value": 95.96
+    }
+  ]
+}

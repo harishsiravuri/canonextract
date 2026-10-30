@@ -1,0 +1,169 @@
+{
+  "paper_id": "1808.08745",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 3,
+    "total": 3
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "T-ConvS2S",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CNN+DailyMail",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 41.7,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ConvS2S",
+        "Lead",
+        "oracle"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "asli-multiagent18",
+        "header_path": "R1",
+        "cell": "41.7",
+        "_content_hash": "67b981e72f66",
+        "_paper_hash": "c77c1a51b9db",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "asli-multiagent18",
+          "column_header": "R2",
+          "cell": "41.7",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "T-ConvS2S",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CNN+DailyMail",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.5,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ConvS2S",
+        "Lead",
+        "oracle"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "asli-multiagent18",
+        "header_path": "R1",
+        "cell": "41.7",
+        "_content_hash": "67b981e72f66",
+        "_paper_hash": "c77c1a51b9db",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "asli-multiagent18",
+          "column_header": "RL",
+          "cell": "19.5",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "T-ConvS2S",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "summarization",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CNN+DailyMail",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 37.9,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ConvS2S",
+        "Lead",
+        "oracle"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "asli-multiagent18",
+        "header_path": "R1",
+        "cell": "41.7",
+        "_content_hash": "67b981e72f66",
+        "_paper_hash": "c77c1a51b9db",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "tanwan-acl17 ^",
+          "column_header": "R2",
+          "cell": "38.1",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

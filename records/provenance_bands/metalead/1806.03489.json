@@ -1,0 +1,42 @@
+{
+  "paper_id": "1806.03489",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Our model",
+      "task": "named entity recognition ner",
+      "dataset": "conll 2003 english",
+      "metric": "f1",
+      "value": 91.73
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Our model",
+      "task": "named entity recognition ner",
+      "dataset": "ontonotes v5 english",
+      "metric": "f1",
+      "value": 91.73
+    }
+  ]
+}

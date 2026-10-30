@@ -1,0 +1,96 @@
+{
+  "paper_id": "1603.01354",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "prose": 2,
+    "total": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "part of speech pos tagging",
+        "canonical_id": "part of speech pos tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank WSJ",
+          "canonical_id": "penn treebank ptb"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "sogaard:2011:ACL-HLT20111"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "We obtain state-of-the-art performance on both datasets --- 97.55% accuracy for POS tagging and 91.21% F1 for NER.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "81ecdec1160f",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": "named entity recognition ner"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003",
+          "canonical_id": "conll 2003 english"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f1",
+          "value": 91.21,
+          "unit": "%",
+          "canonical_id": "f1"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "luo-EtAl:2015:EMNLP2"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "We obtain state-of-the-art performance on both datasets --- 97.55% accuracy for POS tagging and 91.21% F1 for NER.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "81ecdec1160f",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    }
+  ]
+}

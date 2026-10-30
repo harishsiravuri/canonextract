@@ -1,0 +1,1589 @@
+{
+  "paper_id": "2008.07772",
+  "contributions": [
+    {
+      "method": {
+        "name": "ADMIN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "6L-6L Default"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ADMIN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 30.1,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "6L-6L Default"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "ADMIN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 40.3,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "6L-6L Default"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "ADMIN",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 200,
+            "end": 300
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 62.4,
+          "unit": null,
+          "evidence_span": {
+            "start": 400,
+            "end": 500
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "6L-6L Default"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 65590,
+    "tokens_out": 7687,
+    "cost_usd": 0.02783023,
+    "wall_seconds": 226.70924496650696,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 43.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-German",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 30.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "TER",
+              "value": 40.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "METEOR",
+              "value": 62.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-German",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "TER",
+              "value": 51.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-German",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "METEOR",
+              "value": 48.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN + BT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 46.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BT"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN + BT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 44.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BT"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1677,
+              "end": 1683
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1677,
+              "end": 1683
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1677,
+                "end": 1683
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 43.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 1677,
+                "end": 1683
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1677,
+              "end": 1683
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1677,
+              "end": 1683
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-German",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1677,
+                "end": 1683
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 30.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 1677,
+                "end": 1683
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1677,
+              "end": 1683
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1677,
+              "end": 1683
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1677,
+                "end": 1683
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 46.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 1677,
+                "end": 1683
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BT"
+          ],
+          "notes": "With back-translation"
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 43.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-German",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 30.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "TER",
+              "value": 40.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "METEOR",
+              "value": 62.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-German",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "TER",
+              "value": 51.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-German",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "METEOR",
+              "value": 48.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN + BT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 46.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BT"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN + BT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 44.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BT"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 43.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-German",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 30.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "TER",
+              "value": 40.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "METEOR",
+              "value": 62.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 46.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BT"
+          ],
+          "notes": "With back-translation"
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 44.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BT"
+          ],
+          "notes": "With back-translation and sacreBLEU"
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 43.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-German",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 30.1,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "TER",
+              "value": 40.3,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "METEOR",
+              "value": 62.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "6L-6L Default"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 46.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BT"
+          ],
+          "notes": "With back-translation"
+        },
+        {
+          "method": {
+            "name": "ADMIN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "machine translation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "WMT'14 English-French",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "BLEU",
+              "value": 44.4,
+              "unit": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BT"
+          ],
+          "notes": "With back-translation and sacreBLEU"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "paper_id": "1808.08745",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "asli-multiagent18",
+          "header_path": "R1",
+          "cell": "41.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "asli-multiagent18",
+          "column_header": "R2",
+          "cell": "41.7",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "T-ConvS2S",
+      "task": "summarization",
+      "dataset": "CNN+DailyMail",
+      "metric": "ROUGE-1",
+      "value": 41.7
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "asli-multiagent18",
+          "header_path": "R1",
+          "cell": "41.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "asli-multiagent18",
+          "column_header": "RL",
+          "cell": "19.5",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "T-ConvS2S",
+      "task": "summarization",
+      "dataset": "CNN+DailyMail",
+      "metric": "ROUGE-2",
+      "value": 19.5
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "asli-multiagent18",
+          "header_path": "R1",
+          "cell": "41.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "tanwan-acl17 ^",
+          "column_header": "R2",
+          "cell": "38.1",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "T-ConvS2S",
+      "task": "summarization",
+      "dataset": "CNN+DailyMail",
+      "metric": "ROUGE-L",
+      "value": 37.9
+    }
+  ]
+}

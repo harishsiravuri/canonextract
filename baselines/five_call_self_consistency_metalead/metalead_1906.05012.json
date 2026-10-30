@@ -1,0 +1,861 @@
+{
+  "paper_id": "1906.05012",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiSET",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1910,
+          "end": 1960
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1910,
+          "end": 1960
+        }
+      },
+      "datasets": [
+        {
+          "name": "Annotated English Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1910,
+            "end": 1960
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.11,
+          "unit": null,
+          "evidence_span": {
+            "start": 1910,
+            "end": 1960
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ABS",
+        "ABS+",
+        "RAS-Elman",
+        "Featseq2seq",
+        "Open-NMT",
+        "SEASS",
+        "S2S+CGU",
+        "FTSum",
+        "R3Sum"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "BiSET",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1910,
+          "end": 1960
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1910,
+          "end": 1960
+        }
+      },
+      "datasets": [
+        {
+          "name": "Annotated English Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1910,
+            "end": 1960
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.78,
+          "unit": null,
+          "evidence_span": {
+            "start": 1910,
+            "end": 1960
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ABS",
+        "ABS+",
+        "RAS-Elman",
+        "Featseq2seq",
+        "Open-NMT",
+        "SEASS",
+        "S2S+CGU",
+        "FTSum",
+        "R3Sum"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "BiSET",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1910,
+          "end": 1960
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1910,
+          "end": 1960
+        }
+      },
+      "datasets": [
+        {
+          "name": "Annotated English Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1910,
+            "end": 1960
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.87,
+          "unit": null,
+          "evidence_span": {
+            "start": 1910,
+            "end": 1960
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ABS",
+        "ABS+",
+        "RAS-Elman",
+        "Featseq2seq",
+        "Open-NMT",
+        "SEASS",
+        "S2S+CGU",
+        "FTSum",
+        "R3Sum"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "Fast Rerank",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1973,
+          "end": 1984
+        }
+      },
+      "task": {
+        "name": "template retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1973,
+          "end": 1984
+        }
+      },
+      "datasets": [
+        {
+          "name": "Annotated English Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 2501,
+            "end": 2535
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "NDCG",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 7410,
+            "end": 7414
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Retrieve"
+      ],
+      "notes": "The Fast Rerank module is shown to improve template retrieval quality over the initial Retrieve module, as measured by NDCG.",
+      "_sc_support": 0.6
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 51665,
+    "tokens_out": 3603,
+    "cost_usd": 0.019739470000000002,
+    "wall_seconds": 134.2544550895691,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BiSET",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1910,
+              "end": 1960
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1910,
+              "end": 1960
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1910,
+                "end": 1960
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.11,
+              "unit": null,
+              "evidence_span": {
+                "start": 1910,
+                "end": 1960
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ABS",
+            "ABS+",
+            "RAS-Elman",
+            "Featseq2seq",
+            "Open-NMT",
+            "SEASS",
+            "S2S+CGU",
+            "FTSum",
+            "R3Sum"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BiSET",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1910,
+              "end": 1960
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1910,
+              "end": 1960
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1910,
+                "end": 1960
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 19.78,
+              "unit": null,
+              "evidence_span": {
+                "start": 1910,
+                "end": 1960
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ABS",
+            "ABS+",
+            "RAS-Elman",
+            "Featseq2seq",
+            "Open-NMT",
+            "SEASS",
+            "S2S+CGU",
+            "FTSum",
+            "R3Sum"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BiSET",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1910,
+              "end": 1960
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1910,
+              "end": 1960
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1910,
+                "end": 1960
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 36.87,
+              "unit": null,
+              "evidence_span": {
+                "start": 1910,
+                "end": 1960
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ABS",
+            "ABS+",
+            "RAS-Elman",
+            "Featseq2seq",
+            "Open-NMT",
+            "SEASS",
+            "S2S+CGU",
+            "FTSum",
+            "R3Sum"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BiSET",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1525,
+              "end": 1585
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1525,
+              "end": 1585
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2803,
+                "end": 2843
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.11,
+              "unit": null,
+              "evidence_span": {
+                "start": 10012,
+                "end": 10017
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.78,
+              "unit": null,
+              "evidence_span": {
+                "start": 10019,
+                "end": 10024
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 36.87,
+              "unit": null,
+              "evidence_span": {
+                "start": 10026,
+                "end": 10031
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ABS",
+            "ABS+",
+            "RAS-Elman",
+            "Featseq2seq",
+            "Open-NMT",
+            "SEASS",
+            "S2S+CGU",
+            "FTSum",
+            "R3Sum"
+          ],
+          "notes": "The model achieves a new state of the art on the Gigaword dataset for abstractive summarization."
+        },
+        {
+          "method": {
+            "name": "Fast Rerank",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1691,
+              "end": 1702
+            }
+          },
+          "task": {
+            "name": "template selection",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1691,
+              "end": 1702
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2803,
+                "end": 2843
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "NDCG",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 6456,
+                "end": 6460
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Retrieve"
+          ],
+          "notes": "The Fast Rerank module improves the quality of template selection over the initial Retrieve module."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BiSET",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1909,
+              "end": 1972
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1909,
+              "end": 1972
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2501,
+                "end": 2535
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.11,
+              "unit": null,
+              "evidence_span": {
+                "start": 10685,
+                "end": 10690
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.78,
+              "unit": null,
+              "evidence_span": {
+                "start": 10691,
+                "end": 10696
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 36.87,
+              "unit": null,
+              "evidence_span": {
+                "start": 10697,
+                "end": 10702
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ABS",
+            "ABS+",
+            "RAS-Elman",
+            "Featseq2seq",
+            "Open-NMT",
+            "SEASS",
+            "S2S+CGU",
+            "FTSum",
+            "R3Sum"
+          ],
+          "notes": "The paper reports significant improvements over baseline models on the Gigaword dataset using ROUGE metrics."
+        },
+        {
+          "method": {
+            "name": "Fast Rerank",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1973,
+              "end": 1984
+            }
+          },
+          "task": {
+            "name": "template retrieval",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1973,
+              "end": 1984
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2501,
+                "end": 2535
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "NDCG",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 7410,
+                "end": 7414
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Retrieve"
+          ],
+          "notes": "The Fast Rerank module is shown to improve template retrieval quality over the initial Retrieve module, as measured by NDCG."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BiSET",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1044,
+              "end": 1107
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1044,
+              "end": 1107
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2142,
+                "end": 2173
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.11,
+              "unit": null,
+              "evidence_span": {
+                "start": 10042,
+                "end": 10048
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.78,
+              "unit": null,
+              "evidence_span": {
+                "start": 10054,
+                "end": 10060
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 36.87,
+              "unit": null,
+              "evidence_span": {
+                "start": 10066,
+                "end": 10072
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ABS",
+            "ABS+",
+            "RAS-Elman",
+            "Featseq2seq",
+            "Open-NMT",
+            "SEASS",
+            "S2S+CGU",
+            "FTSum",
+            "R3Sum"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Fast Rerank",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1334,
+              "end": 1345
+            }
+          },
+          "task": {
+            "name": "template retrieval",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1334,
+              "end": 1345
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2142,
+                "end": 2173
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "NDCG",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 6433,
+                "end": 6438
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Retrieve"
+          ],
+          "notes": "Fast Rerank is evaluated for its ability to improve template retrieval quality over the Retrieve module."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BiSET",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1427,
+              "end": 1485
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1427,
+              "end": 1485
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2197,
+                "end": 2224
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 39.11,
+              "unit": null,
+              "evidence_span": {
+                "start": 5905,
+                "end": 5910
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.78,
+              "unit": null,
+              "evidence_span": {
+                "start": 5916,
+                "end": 5921
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 36.87,
+              "unit": null,
+              "evidence_span": {
+                "start": 5927,
+                "end": 5932
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "ABS",
+            "ABS+",
+            "RAS-Elman",
+            "Featseq2seq",
+            "Open-NMT",
+            "SEASS",
+            "S2S+CGU",
+            "FTSum",
+            "R3Sum"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Fast Rerank",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1541,
+              "end": 1553
+            }
+          },
+          "task": {
+            "name": "template retrieval",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1541,
+              "end": 1553
+            }
+          },
+          "datasets": [
+            {
+              "name": "Annotated English Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 2197,
+                "end": 2224
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "NDCG",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 2401,
+                "end": 2405
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Retrieve"
+          ],
+          "notes": "NDCG values are not explicitly reported in the paper."
+        }
+      ]
+    }
+  ]
+}

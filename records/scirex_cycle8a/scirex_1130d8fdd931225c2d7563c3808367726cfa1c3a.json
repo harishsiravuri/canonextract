@@ -1,0 +1,232 @@
+{
+  "paper_id": "1130d8fdd931225c2d7563c3808367726cfa1c3a",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 2,
+    "total": 4,
+    "prose_claimed_table": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "PixelGAN Autoencoders",
+        "canonical_id": "pixelgan autoencoders"
+      },
+      "task": {
+        "name": "semi-supervised learning",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "mnist"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 5.27,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VAE semi-vae",
+        "VAT vat",
+        "ADGM adgm",
+        "SDGM adgm",
+        "Adversarial Autoencoder aae",
+        "Ladder Networks ladder",
+        "Convolutional CatGAN catgan",
+        "InfoGAN infogan",
+        "Feature Matching GAN improved-gan",
+        "Temporal Ensembling temporal-ensembling"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "PixelGAN Autoencoders",
+        "header_path": "MNIST",
+        "cell": "5.27\\;(\\pm 1.81)",
+        "_paper_hash": "75be5f75730b",
+        "_content_hash": "a7eed7b67605",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "InfoGAN infogan",
+          "column_header": "MNIST",
+          "cell": "5.00 3.6em",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "PixelGAN Autoencoders",
+        "canonical_id": "pixelgan autoencoders"
+      },
+      "task": {
+        "name": "semi-supervised learning",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SVHN",
+          "canonical_id": "svhn"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 5.27,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VAE semi-vae",
+        "VAT vat",
+        "ADGM adgm",
+        "SDGM adgm",
+        "Adversarial Autoencoder aae",
+        "Ladder Networks ladder",
+        "Convolutional CatGAN catgan",
+        "InfoGAN infogan",
+        "Feature Matching GAN improved-gan",
+        "Temporal Ensembling temporal-ensembling"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "75be5f75730b",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "InfoGAN infogan",
+          "column_header": "MNIST",
+          "cell": "5.00 3.6em",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "PixelGAN Autoencoders",
+        "canonical_id": "pixelgan autoencoders"
+      },
+      "task": {
+        "name": "semi-supervised learning",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "NORB",
+          "canonical_id": "norb"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 5.27,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "VAE semi-vae",
+        "VAT vat",
+        "ADGM adgm",
+        "SDGM adgm",
+        "Adversarial Autoencoder aae",
+        "Ladder Networks ladder",
+        "Convolutional CatGAN catgan",
+        "InfoGAN infogan",
+        "Feature Matching GAN improved-gan",
+        "Temporal Ensembling temporal-ensembling"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "unknown",
+        "_paper_hash": "75be5f75730b",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "InfoGAN infogan",
+          "column_header": "MNIST",
+          "cell": "5.00 3.6em",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "PixelGAN Autoencoders",
+        "canonical_id": "pixelgan autoencoders"
+      },
+      "task": {
+        "name": "unsupervised clustering",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MNIST",
+          "canonical_id": "mnist"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "error rate",
+          "value": 5.27,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "Adversarial Autoencoder aae",
+        "Convolutional CatGAN catgan",
+        "InfoGAN infogan"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "PixelGAN Autoencoders",
+        "header_path": "MNIST",
+        "cell": "5.27\\;(\\pm 1.81)",
+        "_paper_hash": "75be5f75730b",
+        "_content_hash": "a7eed7b67605",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "InfoGAN infogan",
+          "column_header": "MNIST",
+          "cell": "5.00 3.6em",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

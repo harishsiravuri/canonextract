@@ -1,0 +1,1455 @@
+{
+  "paper_id": "1703.06345",
+  "contributions": [
+    {
+      "method": {
+        "name": "hierarchical recurrent neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1088,
+          "end": 1153
+        }
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        }
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank (PTB)",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4233,
+            "end": 4251
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10112,
+            "end": 10118
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "collobert2011natural",
+        "huang2015bidirectional",
+        "ling2015finding",
+        "ma2016end"
+      ],
+      "notes": "Transfer learning from other tasks improves performance on PTB POS tagging.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "hierarchical recurrent neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1088,
+          "end": 1153
+        }
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2000",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4233,
+            "end": 4244
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.41,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10112,
+            "end": 10118
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "collobert2011natural",
+        "huang2015bidirectional"
+      ],
+      "notes": "Transfer learning from other tasks improves performance on CoNLL 2000 chunking.",
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "hierarchical recurrent neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1088,
+          "end": 1153
+        }
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4233,
+            "end": 4244
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.26,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10112,
+            "end": 10118
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "collobert2011natural",
+        "passos2014lexicon",
+        "luo2015joint",
+        "huang2015bidirectional",
+        "lample2016neural",
+        "ma2016end"
+      ],
+      "notes": "Transfer learning from other tasks improves performance on CoNLL 2003 NER.",
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "hierarchical recurrent neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1088,
+          "end": 1153
+        }
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2002 Spanish",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4233,
+            "end": 4251
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.77,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10112,
+            "end": 10118
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "gillick2015multilingual",
+        "lample2016neural"
+      ],
+      "notes": "Transfer learning from other tasks improves performance on CoNLL 2002 Spanish NER.",
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "hierarchical recurrent neural network",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1088,
+          "end": 1153
+        }
+      },
+      "task": {
+        "name": "sequence tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 20
+        }
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2002 Dutch",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4233,
+            "end": 4251
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.19,
+          "unit": "%",
+          "evidence_span": {
+            "start": 10112,
+            "end": 10118
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "gillick2015multilingual",
+        "lample2016neural"
+      ],
+      "notes": "Transfer learning from other tasks improves performance on CoNLL 2002 Dutch NER.",
+      "_sc_support": 0.8
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 49460,
+    "tokens_out": 6976,
+    "cost_usd": 0.02203584,
+    "wall_seconds": 209.67239117622375,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1088,
+              "end": 1153
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank (PTB)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4233,
+                "end": 4251
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.55,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10112,
+                "end": 10118
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "huang2015bidirectional",
+            "ling2015finding",
+            "ma2016end"
+          ],
+          "notes": "Transfer learning from other tasks improves performance on PTB POS tagging."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1088,
+              "end": 1153
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4233,
+                "end": 4244
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.41,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10112,
+                "end": 10118
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "huang2015bidirectional"
+          ],
+          "notes": "Transfer learning from other tasks improves performance on CoNLL 2000 chunking."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1088,
+              "end": 1153
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4233,
+                "end": 4244
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.26,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10112,
+                "end": 10118
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "passos2014lexicon",
+            "luo2015joint",
+            "huang2015bidirectional",
+            "lample2016neural",
+            "ma2016end"
+          ],
+          "notes": "Transfer learning from other tasks improves performance on CoNLL 2003 NER."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1088,
+              "end": 1153
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2002 Spanish",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4233,
+                "end": 4251
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 85.77,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10112,
+                "end": 10118
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "gillick2015multilingual",
+            "lample2016neural"
+          ],
+          "notes": "Transfer learning from other tasks improves performance on CoNLL 2002 Spanish NER."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1088,
+              "end": 1153
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2002 Dutch",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4233,
+                "end": 4251
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 85.19,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10112,
+                "end": 10118
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "gillick2015multilingual",
+            "lample2016neural"
+          ],
+          "notes": "Transfer learning from other tasks improves performance on CoNLL 2002 Dutch NER."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1086,
+              "end": 1145
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank (PTB)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4413,
+                "end": 4431
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.55,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10319,
+                "end": 10325
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "huang2015bidirectional",
+            "ling2015finding",
+            "ma2016end"
+          ],
+          "notes": "Transfer learning from other tasks improves performance on PTB POS tagging."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1086,
+              "end": 1145
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4413,
+                "end": 4423
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.41,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10319,
+                "end": 10325
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "huang2015bidirectional"
+          ],
+          "notes": "Transfer learning from other tasks improves performance on CoNLL 2000 chunking."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1086,
+              "end": 1145
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4413,
+                "end": 4423
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.26,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10319,
+                "end": 10325
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "passos2014lexicon",
+            "luo2015joint",
+            "huang2015bidirectional",
+            "lample2016neural",
+            "ma2016end"
+          ],
+          "notes": "Transfer learning from other tasks improves performance on CoNLL 2003 NER."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1086,
+              "end": 1145
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2002 Spanish",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4413,
+                "end": 4429
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 85.77,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10319,
+                "end": 10325
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "gillick2015multilingual",
+            "lample2016neural"
+          ],
+          "notes": "Transfer learning from other tasks improves performance on CoNLL 2002 Spanish NER."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1086,
+              "end": 1145
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 20
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2002 Dutch",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4413,
+                "end": 4427
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 85.19,
+              "unit": "%",
+              "evidence_span": {
+                "start": 10319,
+                "end": 10325
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "gillick2015multilingual",
+            "lample2016neural"
+          ],
+          "notes": "Transfer learning from other tasks improves performance on CoNLL 2002 Dutch NER."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1209,
+              "end": 1265
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1209,
+              "end": 1265
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank (PTB)",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1209,
+                "end": 1265
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.55,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1209,
+                "end": 1265
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "state-of-the-art"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1209,
+              "end": 1265
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1209,
+              "end": 1265
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1209,
+                "end": 1265
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.41,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1209,
+                "end": 1265
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "state-of-the-art"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1209,
+              "end": 1265
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1209,
+              "end": 1265
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1209,
+                "end": 1265
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.26,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1209,
+                "end": 1265
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "state-of-the-art"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1209,
+              "end": 1265
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1209,
+              "end": 1265
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2002 Spanish",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1209,
+                "end": 1265
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 85.77,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1209,
+                "end": 1265
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "state-of-the-art"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1209,
+              "end": 1265
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1209,
+              "end": 1265
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2002 Dutch",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1209,
+                "end": 1265
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 85.19,
+              "unit": "%",
+              "evidence_span": {
+                "start": 1209,
+                "end": 1265
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "state-of-the-art"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "Hierarchical RNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 934,
+              "end": 1009
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 934,
+              "end": 1009
+            }
+          },
+          "datasets": [
+            {
+              "name": "PTB",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 934,
+                "end": 1009
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": 97.55,
+              "unit": null,
+              "evidence_span": {
+                "start": 934,
+                "end": 1009
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "huang2015bidirectional",
+            "ling2015finding",
+            "lample2016neural",
+            "ma2016end"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Hierarchical RNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 934,
+              "end": 1009
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 934,
+              "end": 1009
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 934,
+                "end": 1009
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 95.41,
+              "unit": null,
+              "evidence_span": {
+                "start": 934,
+                "end": 1009
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "huang2015bidirectional",
+            "ling2015finding",
+            "lample2016neural",
+            "ma2016end"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Hierarchical RNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 934,
+              "end": 1009
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 934,
+              "end": 1009
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 934,
+                "end": 1009
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 91.26,
+              "unit": null,
+              "evidence_span": {
+                "start": 934,
+                "end": 1009
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "huang2015bidirectional",
+            "ling2015finding",
+            "lample2016neural",
+            "ma2016end"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Hierarchical RNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 934,
+              "end": 1009
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 934,
+              "end": 1009
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2002 Spanish",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 934,
+                "end": 1009
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 85.77,
+              "unit": null,
+              "evidence_span": {
+                "start": 934,
+                "end": 1009
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "huang2015bidirectional",
+            "ling2015finding",
+            "lample2016neural",
+            "ma2016end"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "Hierarchical RNN",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 934,
+              "end": 1009
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 934,
+              "end": 1009
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2002 Dutch",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 934,
+                "end": 1009
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 85.19,
+              "unit": null,
+              "evidence_span": {
+                "start": 934,
+                "end": 1009
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "collobert2011natural",
+            "huang2015bidirectional",
+            "ling2015finding",
+            "lample2016neural",
+            "ma2016end"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "datasets": [
+            {
+              "name": "Penn Treebank",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "The paper discusses transfer learning improvements but does not provide specific accuracy values for Penn Treebank."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2000",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "The paper discusses transfer learning improvements but does not provide specific F1 values for CoNLL 2000."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2003",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "The paper discusses transfer learning improvements but does not provide specific F1 values for CoNLL 2003."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "datasets": [
+            {
+              "name": "CoNLL 2002",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "The paper discusses transfer learning improvements but does not provide specific F1 values for CoNLL 2002."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "datasets": [
+            {
+              "name": "Genia",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "The paper discusses transfer learning improvements but does not provide specific accuracy values for Genia."
+        },
+        {
+          "method": {
+            "name": "hierarchical recurrent neural network",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "task": {
+            "name": "sequence tagging",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1183,
+              "end": 1257
+            }
+          },
+          "datasets": [
+            {
+              "name": "Twitter",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "accuracy",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1183,
+                "end": 1257
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "The paper discusses transfer learning improvements but does not provide specific accuracy values for Twitter."
+        }
+      ]
+    }
+  ]
+}

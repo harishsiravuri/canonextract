@@ -1,0 +1,222 @@
+{
+  "paper_id": "25a784f7f8c94c42821ee078587fc38dffcd00a4",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "|=|=|=|=| Baseline-Single",
+          "header_path": "easy",
+          "cell": "95.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "|=|=|=|=| Baseline-Single",
+          "column_header": "easy",
+          "cell": "95.1",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Baseline-Single",
+      "task": "face detection",
+      "dataset": "WIDER FACE",
+      "metric": "easy",
+      "value": 95.1
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "|=|=|=|=| Baseline-Single",
+          "header_path": "easy",
+          "cell": "95.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "|=|=|=|=| Baseline-Single",
+          "column_header": "medium",
+          "cell": "94.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Baseline-Single",
+      "task": "face detection",
+      "dataset": "WIDER FACE",
+      "metric": "medium",
+      "value": 94.2
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "|=|=|=|=| Baseline-Single",
+          "header_path": "easy",
+          "cell": "95.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "|=|=|=|=| Baseline-Single",
+          "column_header": "hard",
+          "cell": "89.1",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Baseline-Single",
+      "task": "face detection",
+      "dataset": "WIDER FACE",
+      "metric": "hard",
+      "value": 89.1
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours",
+          "header_path": "AP-h",
+          "cell": "89.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Ours",
+          "column_header": "AP-h",
+          "cell": "89.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "face detection",
+      "dataset": "WIDER FACE",
+      "metric": "AP-h",
+      "value": 89.3
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours",
+          "header_path": "AP-h",
+          "cell": "89.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "|=|=|=|=|=|=| SSH",
+          "column_header": "Time",
+          "cell": "1.00",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "face detection",
+      "dataset": "WIDER FACE",
+      "metric": "Time",
+      "value": 0.84
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours",
+          "header_path": "AP-h",
+          "cell": "89.3"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Ours^*",
+          "column_header": "G-Mem",
+          "cell": "5.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "face detection",
+      "dataset": "WIDER FACE",
+      "metric": "G-Mem",
+      "value": 5.3
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Ours",
+      "task": "face detection",
+      "dataset": "FDDB",
+      "metric": "TPR",
+      "value": 98.7
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Ours",
+      "task": "face detection",
+      "dataset": "Pascal Faces",
+      "metric": "AP",
+      "value": 99.0
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Ours",
+      "task": "face detection",
+      "dataset": "AFW",
+      "metric": "AP",
+      "value": 99.6
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "paper_id": "3cf31ecb2724b5088783d7c96a5fc0d5604cbf41",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 2,
+    "total": 6,
+    "prose_claimed_table": 4
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "transition (greedy, dyn-oracle)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "PTB-YM",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 93.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "This work",
+        "header_path": "PTB-YM",
+        "cell": "93.1",
+        "_content_hash": "3d441d92e57e",
+        "_paper_hash": "d05ebb987a11",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ZhangNivre11",
+          "column_header": "LAS",
+          "cell": "92.9",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "transition (greedy, dyn-oracle)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 86.6,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "This work",
+        "header_path": "PTB-SD",
+        "cell": "86.6",
+        "_content_hash": "199417c681a8",
+        "_paper_hash": "d05ebb987a11",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ballesteros16",
+          "column_header": "col_8",
+          "cell": "86.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "transition (greedy, dyn-oracle)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "CTB",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 85.1,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "This work",
+        "header_path": "CTB",
+        "cell": "85.1",
+        "_content_hash": "29fec0845e45",
+        "_paper_hash": "d05ebb987a11",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Dyer15",
+          "column_header": "col_8",
+          "cell": "85.5",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "transition (greedy, dyn-oracle)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "PTB-YM",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 91.0,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ZhangNivre11",
+        "Martins13 (TurboParser)",
+        "Pei15",
+        "Dyer15",
+        "Ballesteros16",
+        "Weiss15"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "This work",
+        "header_path": "PTB-YM",
+        "cell": "91.0",
+        "_content_hash": "ab3f0e19e3a4",
+        "_paper_hash": "d05ebb987a11",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Dyer15",
+          "column_header": "col_6",
+          "cell": "90.9",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "transition (greedy, dyn-oracle)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 91.0,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ZhangNivre11",
+        "Martins13 (TurboParser)",
+        "Pei15",
+        "Dyer15",
+        "Ballesteros16",
+        "Weiss15"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "This work",
+        "header_path": "PTB-YM",
+        "cell": "91.0",
+        "_content_hash": "ab3f0e19e3a4",
+        "_paper_hash": "d05ebb987a11",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Dyer15",
+          "column_header": "col_6",
+          "cell": "90.9",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "transition (greedy, dyn-oracle)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "dependency parsing",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "CTB",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 91.0,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ZhangNivre11",
+        "Martins13 (TurboParser)",
+        "Pei15",
+        "Dyer15",
+        "Ballesteros16",
+        "Weiss15"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "This work",
+        "header_path": "PTB-YM",
+        "cell": "91.0",
+        "_content_hash": "ab3f0e19e3a4",
+        "_paper_hash": "d05ebb987a11",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Graph (no ext. emb)",
+          "column_header": "UAS",
+          "cell": "91.0",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "paper_id": "45429c281e30f9e87ebcd1ae42e0656d2ead24d1",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Pixel acc",
+          "header_path": "Ours",
+          "cell": "83.78"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Pixel acc",
+          "column_header": "Oracle",
+          "cell": "83.78",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "semantic segmentation",
+      "dataset": "Cityscapes",
+      "metric": "Pixel acc",
+      "value": 83.78
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Pixel acc",
+          "header_path": "Ours",
+          "cell": "83.78"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Mean IoU",
+          "column_header": "CRN chen2017photographic",
+          "cell": "0.3948",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "semantic segmentation",
+      "dataset": "Cityscapes",
+      "metric": "Mean IoU",
+      "value": 0.6389
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "Ours",
+      "task": "image synthesis",
+      "dataset": "Cityscapes",
+      "metric": "preference rate",
+      "value": 93.8
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "prose_claimed_table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "isola2016image",
+          "header_path": "Ours",
+          "cell": "93.8%"
+        },
+        "hit": null
+      },
+      "method": "Ours",
+      "task": "image-to-image translation",
+      "dataset": "Cityscapes",
+      "metric": "preference rate",
+      "value": 93.8
+    }
+  ]
+}

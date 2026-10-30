@@ -1,0 +1,391 @@
+{
+  "paper_id": "25f5df29342a04936ba0d308b4d1b8245a7e8f5c",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose": 9,
+    "total": 9
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "pose estimation"
+      },
+      "datasets": [
+        {
+          "name": "MPII",
+          "canonical_id": "mpii human pose"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "pckh 0.5",
+          "value": null,
+          "unit": null,
+          "canonical_id": "pckh 0.5"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Pose Machine"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_quote_verified": "\\documentclass[10pt,twocolumn,letterpaper]{article}\n\\usepackage{cvpr}\n\\usepackage{times}\n\\usepackage",
+        "_verification_mode": "offset",
+        "_paper_hash": "1cb4ad8f902c",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "pose estimation"
+      },
+      "datasets": [
+        {
+          "name": "LSP",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "pckh 0.5",
+          "value": null,
+          "unit": null,
+          "canonical_id": "pckh 0.5"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Pose Machine"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_quote_verified": "\\documentclass[10pt,twocolumn,letterpaper]{article}\n\\usepackage{cvpr}\n\\usepackage{times}\n\\usepackage",
+        "_verification_mode": "offset",
+        "_paper_hash": "1cb4ad8f902c",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "pose estimation"
+      },
+      "datasets": [
+        {
+          "name": "FLIC",
+          "canonical_id": "flic elbows"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "pckh 0.5",
+          "value": null,
+          "unit": null,
+          "canonical_id": "pckh 0.5"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Pose Machine"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_quote_verified": "\\documentclass[10pt,twocolumn,letterpaper]{article}\n\\usepackage{cvpr}\n\\usepackage{times}\n\\usepackage",
+        "_verification_mode": "offset",
+        "_paper_hash": "1cb4ad8f902c",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "pose estimation"
+      },
+      "datasets": [
+        {
+          "name": "MPII",
+          "canonical_id": "mpii human pose"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_quote_verified": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_verification_mode": "substring",
+        "_paper_hash": "1cb4ad8f902c",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "pose estimation"
+      },
+      "datasets": [
+        {
+          "name": "LSP",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_quote_verified": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_verification_mode": "substring",
+        "_paper_hash": "1cb4ad8f902c",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "pose estimation"
+      },
+      "datasets": [
+        {
+          "name": "FLIC",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": null,
+          "unit": null,
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_quote_verified": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_verification_mode": "substring",
+        "_paper_hash": "1cb4ad8f902c",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "pose estimation"
+      },
+      "datasets": [
+        {
+          "name": "MPII",
+          "canonical_id": "mpii human pose"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "pck",
+          "value": null,
+          "unit": null,
+          "canonical_id": "pck"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Pose Machine"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_quote_verified": "\\documentclass[10pt,twocolumn,letterpaper]{article}\n\\usepackage{cvpr}\n\\usepackage{times}\n\\usepackage",
+        "_verification_mode": "offset",
+        "_paper_hash": "1cb4ad8f902c",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "pose estimation"
+      },
+      "datasets": [
+        {
+          "name": "LSP",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "pck",
+          "value": null,
+          "unit": null,
+          "canonical_id": "pck"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Pose Machine"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_quote_verified": "\\documentclass[10pt,twocolumn,letterpaper]{article}\n\\usepackage{cvpr}\n\\usepackage{times}\n\\usepackage",
+        "_verification_mode": "offset",
+        "_paper_hash": "1cb4ad8f902c",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Convolutional Pose Machines (CPMs)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "pose estimation",
+        "canonical_id": "pose estimation"
+      },
+      "datasets": [
+        {
+          "name": "FLIC",
+          "canonical_id": "flic elbows"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "pck",
+          "value": null,
+          "unit": null,
+          "canonical_id": "pck"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Pose Machine"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        },
+        "quote": "We achieve state-of-the-art results on standard benchmarks including the MPII, LSP, and FLIC datasets, and analyze the effects of jointly training a multi-staged architecture with repeated intermediate supervision.",
+        "_quote_verified": "\\documentclass[10pt,twocolumn,letterpaper]{article}\n\\usepackage{cvpr}\n\\usepackage{times}\n\\usepackage",
+        "_verification_mode": "offset",
+        "_paper_hash": "1cb4ad8f902c",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    }
+  ]
+}

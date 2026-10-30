@@ -1,0 +1,482 @@
+{
+  "paper_id": "2138a7127429d67746ec78de46d6820fee0e548e",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 5,
+    "total": 9,
+    "strict_table_valid": 1,
+    "prose_claimed_table": 3
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Graph2Seq",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "bAbI T19",
+        "canonical_id": "babi t19"
+      },
+      "datasets": [
+        {
+          "name": "bAbI T19",
+          "canonical_id": "babi t19"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.9,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "GGS-NN",
+        "GCN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Graph2Seq",
+        "header_path": "bAbI T19",
+        "cell": "99.9%",
+        "_content_hash": "923d33450089",
+        "_paper_hash": "8f1284181a7d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Graph2Seq",
+          "column_header": "SP-S",
+          "cell": "99.9\\%",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Graph2Seq",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "SP-S",
+        "canonical_id": "sp s"
+      },
+      "datasets": [
+        {
+          "name": "SP-S",
+          "canonical_id": "sp s"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 100.0,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [
+        "LSTM",
+        "GGS-NN",
+        "GCN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Graph2Seq",
+        "header_path": "SP-S",
+        "cell": "100.0%",
+        "_content_hash": "acdf8bdbd658",
+        "_paper_hash": "8f1284181a7d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Graph2Seq",
+          "column_header": "SP-S",
+          "cell": "99.9\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell content \"100.0%\" does not match the tuple's Value for the task SP-S, which is actually 99.9% in the table."
+      }
+    },
+    {
+      "method": {
+        "name": "Graph2Seq",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "SP-L",
+        "canonical_id": "sp l"
+      },
+      "datasets": [
+        {
+          "name": "SP-L",
+          "canonical_id": "sp l"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.3,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSTM",
+        "GGS-NN",
+        "GCN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Graph2Seq",
+        "header_path": "SP-L",
+        "cell": "99.3%",
+        "_content_hash": "677177fce5dc",
+        "_paper_hash": "8f1284181a7d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Graph2Seq",
+          "column_header": "col_3",
+          "cell": "99.3\\%",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "G2S-MA",
+        "canonical_id": "g2s ma"
+      },
+      "task": {
+        "name": "SDP_DAG",
+        "canonical_id": "sdp dag"
+      },
+      "datasets": [
+        {
+          "name": "SDP_DAG",
+          "canonical_id": "sdp dag"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.8,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "G2S-MA",
+        "header_path": "SDP_ DAG",
+        "cell": "99.8%",
+        "_content_hash": "1f2d87eebacd",
+        "_paper_hash": "8f1284181a7d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "G2S-MA",
+          "column_header": "SDP_ DAG",
+          "cell": "99.8\\%",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "G2S-MA",
+        "canonical_id": "g2s ma"
+      },
+      "task": {
+        "name": "SDP_DCG",
+        "canonical_id": "sdp dcg"
+      },
+      "datasets": [
+        {
+          "name": "SDP_DCG",
+          "canonical_id": "sdp dcg"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 99.2,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "G2S-MA",
+        "header_path": "SDP_ DCG",
+        "cell": "99.2%",
+        "_content_hash": "5ee06790738d",
+        "_paper_hash": "8f1284181a7d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "G2S-MA",
+          "column_header": "SDP_ DCG",
+          "cell": "99.2\\%",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "G2S-MA",
+        "canonical_id": "g2s ma"
+      },
+      "task": {
+        "name": "SDP_SEQ",
+        "canonical_id": "sdp seq"
+      },
+      "datasets": [
+        {
+          "name": "SDP_SEQ",
+          "canonical_id": "sdp seq"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 100.0,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": "novel",
+      "comparison_targets": [],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "G2S-MA",
+        "header_path": "SDP_ SEQ",
+        "cell": "100%",
+        "_content_hash": "7fc5a70a7fee",
+        "_paper_hash": "8f1284181a7d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "G2S-MA",
+          "column_header": "SDP_ DAG",
+          "cell": "99.8\\%",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Graph2Seq",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "sql to text",
+        "canonical_id": "sql to text"
+      },
+      "datasets": [
+        {
+          "name": "WikiSQL",
+          "canonical_id": "wikisql"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 26.67,
+          "unit": null,
+          "canonical_id": "bleu 4"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Seq2Seq",
+        "Seq2Seq + Copy",
+        "Tree2Seq",
+        "GCN-PGE"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Graph2Seq-NGE",
+        "header_path": "BLEU-4",
+        "cell": "26.67",
+        "_content_hash": "65a745b79d54",
+        "_paper_hash": "8f1284181a7d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Tree2Seq",
+          "column_header": "col_1",
+          "cell": "26.67",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Graph2Seq-PGE",
+        "canonical_id": "graph2seq pge"
+      },
+      "task": {
+        "name": "results on wikisql",
+        "canonical_id": "results on wikisql"
+      },
+      "datasets": [
+        {
+          "name": "wikisql",
+          "canonical_id": "wikisql"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 26.67,
+          "unit": null,
+          "canonical_id": "bleu 4"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Seq2Seq",
+        "Seq2Seq + Copy",
+        "Tree2Seq",
+        "GCN-PGE"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Graph2Seq-PGE",
+        "header_path": "BLEU-4",
+        "cell": "26.67",
+        "_content_hash": "ff962f8b3ff3",
+        "_paper_hash": "8f1284181a7d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Tree2Seq",
+          "column_header": "col_1",
+          "cell": "26.67",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Graph2Seq-PGE",
+        "canonical_id": "graph2seq pge"
+      },
+      "task": {
+        "name": "natural language generation",
+        "canonical_id": "finally evaluate our model on a real world application natural language generation nlg task where we translate a structured semantic representation in this case a structured query language sql query to a natural language description expressing its meaning as indicated in dblp journals is spiliopoulouh92 the"
+      },
+      "datasets": [
+        {
+          "name": "WikiSQL",
+          "canonical_id": "wikisql"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 26.67,
+          "unit": null,
+          "canonical_id": "bleu 4"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Seq2Seq",
+        "Seq2Seq + Copy",
+        "Tree2Seq",
+        "GCN-PGE"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Graph2Seq-PGE",
+        "header_path": "BLEU-4",
+        "cell": "26.67",
+        "_content_hash": "ff962f8b3ff3",
+        "_paper_hash": "8f1284181a7d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Tree2Seq",
+          "column_header": "col_1",
+          "cell": "26.67",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    }
+  ]
+}

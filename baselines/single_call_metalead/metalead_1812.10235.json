@@ -1,0 +1,241 @@
+{
+  "paper_id": "1812.10235",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bi-model RNN with decoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1569
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 208,
+          "end": 224
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 939,
+            "end": 943
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 98.99,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3234,
+            "end": 3239
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "F1",
+          "value": 96.89,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3244,
+            "end": 3249
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-model RNN with decoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1569
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "slot filling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 246,
+          "end": 257
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 939,
+            "end": 943
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.89,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3244,
+            "end": 3249
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-model RNN without decoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1644,
+          "end": 1663
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "intent detection",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 208,
+          "end": 224
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 939,
+            "end": 943
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 98.76,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3224,
+            "end": 3229
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-model RNN without decoder",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1644,
+          "end": 1663
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "slot filling",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 246,
+          "end": 257
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 939,
+            "end": 943
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.65,
+          "unit": "%",
+          "evidence_span": {
+            "start": 3214,
+            "end": 3219
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Attention BiRNN"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 34562,
+    "tokens_out": 6077,
+    "cost_usd": 0.01973649,
+    "wall_time_seconds": 155.89036449999548,
+    "voting_samples": 3
+  }
+}

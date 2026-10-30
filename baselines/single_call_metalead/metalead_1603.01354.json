@@ -1,0 +1,140 @@
+{
+  "paper_id": "1603.01354",
+  "contributions": [
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1680
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "part-of-speech tagging",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1875,
+          "end": 1902
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank WSJ",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1944,
+            "end": 1963
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%",
+          "evidence_span": {
+            "start": 208,
+            "end": 213
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "gimenez2004svmtool",
+        "toutanova2003feature",
+        "manning2011part",
+        "collobert2011natural",
+        "santos2014learning",
+        "shen2007guided",
+        "sun2014structure",
+        "sogaard:2011:ACL-HLT20111"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1551,
+          "end": 1680
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "named entity recognition",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1915,
+          "end": 1939
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 1982,
+            "end": 1996
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.21,
+          "unit": "%",
+          "evidence_span": {
+            "start": 216,
+            "end": 221
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "chieu2002named",
+        "florian2003named",
+        "ando2005framework",
+        "collobert2011natural",
+        "huang2015bidirectional",
+        "chiu2015named",
+        "ratinov2009design",
+        "lin2009phrase",
+        "passos-kumar-mccallum:2014:W14-16",
+        "lample:2016:NAACL",
+        "luo-EtAl:2015:EMNLP2"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 48099,
+    "tokens_out": 3373,
+    "cost_usd": 0.02225032,
+    "wall_time_seconds": 84.63857816718519,
+    "voting_samples": 3
+  }
+}

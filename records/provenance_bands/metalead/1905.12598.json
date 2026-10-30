@@ -1,0 +1,168 @@
+{
+  "paper_id": "1905.12598",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "FNMI",
+          "cell": "21.4 (0.5)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "SC",
+          "cell": "21.4 (0.5)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "word sense induction",
+      "dataset": "SemEval 2013 Task 13",
+      "metric": "FNMI",
+      "value": 21.4
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "FNMI",
+          "cell": "21.4 (0.5)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "col_2",
+          "cell": "64.0 (0.5)",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "word sense induction",
+      "dataset": "SemEval 2013 Task 13",
+      "metric": "FBC",
+      "value": 64.0
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "FNMI",
+          "cell": "21.4 (0.5)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "col_3",
+          "cell": "37.0 (0.5)",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "word sense induction",
+      "dataset": "SemEval 2013 Task 13",
+      "metric": "AVG",
+      "value": 37.0
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "F-S",
+          "cell": "71.3 (0.1)"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Ours",
+          "column_header": "F-S",
+          "cell": "71.3 (0.1)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "word sense induction",
+      "dataset": "SemEval 2010 Task 14",
+      "metric": "F-S",
+      "value": 71.3
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "F-S",
+          "cell": "71.3 (0.1)"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Ours",
+          "column_header": "V-M",
+          "cell": "40.4 (1.8)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "word sense induction",
+      "dataset": "SemEval 2010 Task 14",
+      "metric": "V-M",
+      "value": 40.4
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "header_path": "F-S",
+          "cell": "71.3 (0.1)"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Ours",
+          "column_header": "AVG",
+          "cell": "53.6 (1.2)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours",
+      "task": "word sense induction",
+      "dataset": "SemEval 2010 Task 14",
+      "metric": "AVG",
+      "value": 53.6
+    }
+  ]
+}

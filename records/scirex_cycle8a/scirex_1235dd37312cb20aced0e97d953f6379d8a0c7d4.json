@@ -1,0 +1,1039 @@
+{
+  "paper_id": "1235dd37312cb20aced0e97d953f6379d8a0c7d4",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose_claimed_table": 21,
+    "total": 21
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "LSTM [H]",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "72.65",
+          "value": 72.65,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Entailment",
+        "header_path": "LSTM [H]",
+        "cell": "72.65",
+        "_content_hash": "aaa4bf09dde6",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "LSTM",
+          "cell": "72.65",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM [H]",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "90.38",
+          "value": 90.38,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Contradiction",
+        "header_path": "LSTM [H]",
+        "cell": "90.38",
+        "_content_hash": "af22966b5ec0",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "V-BiMPM",
+          "cell": "90.03",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM [H]",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "86.25",
+          "value": 86.25,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Neutral",
+        "header_path": "LSTM [H]",
+        "cell": "86.25",
+        "_content_hash": "58d71a7c31da",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "BiMPM",
+          "cell": "86.1",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM [H]",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "73.56",
+          "value": 73.56,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Overall",
+        "header_path": "LSTM [H]",
+        "cell": "73.56",
+        "_content_hash": "31774a7d791b",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "BiMPM",
+          "cell": "73.56",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "87.53",
+          "value": 87.53,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Neutral",
+        "header_path": "LSTM",
+        "cell": "87.53",
+        "_content_hash": "00317c6b7cda",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "V-LSTM",
+          "cell": "87.71",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "82.79",
+          "value": 82.79,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Overall",
+        "header_path": "LSTM",
+        "cell": "82.79",
+        "_content_hash": "e463829ebcb8",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "V-BiMPM",
+          "cell": "82.79",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "V-LSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "87.71",
+          "value": 87.71,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Entailment",
+        "header_path": "V-LSTM",
+        "cell": "87.71",
+        "_content_hash": "16cb041e280e",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "V-LSTM",
+          "cell": "87.71",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "V-LSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "66.29",
+          "value": 66.29,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Contradiction",
+        "header_path": "V-LSTM",
+        "cell": "66.29",
+        "_content_hash": "515ebefa1f66",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "column_header": "LSTM",
+          "cell": "66.29",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "V-LSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "82.91",
+          "value": 82.91,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Overall",
+        "header_path": "V-LSTM",
+        "cell": "82.91",
+        "_content_hash": "edff84e1e8dc",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "V-BiMPM",
+          "cell": "82.79",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "VQA",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "87.14",
+          "value": 87.14,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Entailment",
+        "header_path": "VQA",
+        "cell": "87.14",
+        "_content_hash": "c52285c95d72",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "VQA",
+          "cell": "87.14",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "VQA",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "79.7",
+          "value": 79.7,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Contradiction",
+        "header_path": "VQA",
+        "cell": "79.7",
+        "_content_hash": "d93be9f0cf38",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "column_header": "V-LSTM",
+          "cell": "79.7",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "VQA",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "66.36",
+          "value": 66.36,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Neutral",
+        "header_path": "VQA",
+        "cell": "66.36",
+        "_content_hash": "44519e084e1c",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "column_header": "LSTM",
+          "cell": "66.29",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BiMPM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "86.1",
+          "value": 86.1,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Entailment",
+        "header_path": "BiMPM",
+        "cell": "86.1",
+        "_content_hash": "e051682f0783",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "BiMPM",
+          "cell": "86.1",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BiMPM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "71.39",
+          "value": 71.39,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Contradiction",
+        "header_path": "BiMPM",
+        "cell": "71.39",
+        "_content_hash": "39fe073bd9b3",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "column_header": "VQA",
+          "cell": "71.39",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BiMPM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "76.79",
+          "value": 76.79,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Neutral",
+        "header_path": "BiMPM",
+        "cell": "76.79",
+        "_content_hash": "07972ac757d9",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "V-LSTM",
+          "cell": "76.79",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BiMPM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "68.49",
+          "value": 68.49,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Overall",
+        "header_path": "BiMPM",
+        "cell": "68.49",
+        "_content_hash": "fa7e2f4ccac4",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "VQA",
+          "cell": "68.06",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "V-LSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "68.06",
+          "value": 68.06,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Neutral",
+        "header_path": "V-LSTM",
+        "cell": "68.06",
+        "_content_hash": "3da6e34f76ee",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "VQA",
+          "cell": "68.06",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "VQA",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "78.99",
+          "value": 78.99,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Contradiction",
+        "header_path": "VQA",
+        "cell": "78.99",
+        "_content_hash": "f57c68274b8e",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Contradiction",
+          "column_header": "BiMPM",
+          "cell": "78.99",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "BiMPM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "90.03",
+          "value": 90.03,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Entailment",
+        "header_path": "BiMPM",
+        "cell": "90.03",
+        "_content_hash": "b3ac24db08d5",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Entailment",
+          "column_header": "V-BiMPM",
+          "cell": "90.03",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM [H]",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 68.49,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Overall",
+        "header_path": "LSTM [H]",
+        "cell": "68.49",
+        "_content_hash": "ef65bef3dde1",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Neutral",
+          "column_header": "VQA",
+          "cell": "68.06",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM [H]",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "natural language inference",
+        "canonical_id": "natural language inference nli"
+      },
+      "datasets": [
+        {
+          "name": "V-SNLI$_ hard",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 25.57,
+          "unit": "%",
+          "canonical_id": "accuracy"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "Overall",
+        "header_path": "LSTM [H]",
+        "cell": "25.57",
+        "_content_hash": "b2e446bc6c5b",
+        "_paper_hash": "878e06ac74a0",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Contradiction",
+          "column_header": "LSTM",
+          "cell": "25.29",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    }
+  ]
+}

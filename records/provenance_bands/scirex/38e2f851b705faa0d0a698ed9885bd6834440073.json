@@ -1,0 +1,60 @@
+{
+  "paper_id": "38e2f851b705faa0d0a698ed9885bd6834440073",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "PLATIPUS (ours)",
+          "header_path": "5-way, 1-shot Accuracy",
+          "cell": "50.13 1.86\\%"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "PLATIPUS (ours)",
+          "column_header": "5-way, 1-shot Accuracy",
+          "cell": "50.13 1.86\\%",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PLATIPUS (ours)",
+      "task": "5 way 1 shot",
+      "dataset": "miniimagenet",
+      "metric": "5 way 1 shot accuracy",
+      "value": 50.13
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "PLATIPUS (ours) (KL weight = 0.05)",
+          "header_path": "Ambiguous celebA (5-shot)",
+          "cell": "89.00 1.78\\%"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "MAML",
+          "column_header": "Coverage (max=3)",
+          "cell": "89.00 1.78\\%",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "PLATIPUS (ours) (KL weight = 0.05)",
+      "task": "ambiguous celeba 5 shot",
+      "dataset": "ambiguous celeba 5 shot",
+      "metric": "accuracy",
+      "value": 89.0
+    }
+  ]
+}

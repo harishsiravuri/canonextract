@@ -1,0 +1,812 @@
+{
+  "paper_id": "2203.16804",
+  "contributions": [
+    {
+      "method": {
+        "name": "BRIO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 47.78,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART",
+        "PEGASUS",
+        "GSum",
+        "ConSum",
+        "SeqCo",
+        "GOLD",
+        "SimCLS"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "BRIO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 49.07,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART",
+        "PEGASUS",
+        "GSum",
+        "ConSum",
+        "SeqCo",
+        "GOLD",
+        "SimCLS"
+      ],
+      "notes": null,
+      "_sc_support": 1.0
+    },
+    {
+      "method": {
+        "name": "BRIO",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 57.75,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "BART"
+      ],
+      "notes": null,
+      "_sc_support": 0.6
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 64770,
+    "tokens_out": 3538,
+    "cost_usd": 0.023875220000000003,
+    "wall_seconds": 122.79182696342468,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 47.78,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART",
+            "PEGASUS",
+            "GSum",
+            "ConSum",
+            "SeqCo",
+            "GOLD",
+            "SimCLS"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 49.07,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART",
+            "PEGASUS",
+            "GSum",
+            "ConSum",
+            "SeqCo",
+            "GOLD",
+            "SimCLS"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 57.75,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 47.78,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART",
+            "PEGASUS",
+            "GSum",
+            "ConSum",
+            "SeqCo",
+            "GOLD",
+            "SimCLS"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 49.07,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART",
+            "PEGASUS",
+            "GSum",
+            "ConSum",
+            "SeqCo",
+            "GOLD",
+            "SimCLS"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 57.75,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1299,
+              "end": 1303
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1046,
+              "end": 1067
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1454,
+                "end": 1467
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 47.78,
+              "unit": null,
+              "evidence_span": {
+                "start": 1454,
+                "end": 1467
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1299,
+              "end": 1303
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1046,
+              "end": 1067
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1473,
+                "end": 1477
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 49.07,
+              "unit": null,
+              "evidence_span": {
+                "start": 1473,
+                "end": 1477
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1078,
+              "end": 1082
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1078,
+              "end": 1100
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1078,
+                "end": 1092
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 47.78,
+              "unit": null,
+              "evidence_span": {
+                "start": 1078,
+                "end": 1086
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART",
+            "PEGASUS",
+            "GSum",
+            "ConSum",
+            "SeqCo",
+            "GOLD",
+            "SimCLS"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1078,
+              "end": 1082
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1078,
+              "end": 1100
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1078,
+                "end": 1082
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 49.07,
+              "unit": null,
+              "evidence_span": {
+                "start": 1078,
+                "end": 1086
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART",
+            "PEGASUS",
+            "GSum",
+            "ConSum",
+            "SeqCo",
+            "GOLD",
+            "SimCLS"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1078,
+              "end": 1082
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1078,
+              "end": 1100
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1078,
+                "end": 1081
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 57.75,
+              "unit": null,
+              "evidence_span": {
+                "start": 1078,
+                "end": 1086
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1080,
+              "end": 1084
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1080,
+              "end": 1100
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1080,
+                "end": 1095
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 47.78,
+              "unit": null,
+              "evidence_span": {
+                "start": 1080,
+                "end": 1095
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART",
+            "PEGASUS",
+            "GSum",
+            "ConSum",
+            "SeqCo",
+            "GOLD",
+            "SimCLS"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BRIO",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1080,
+              "end": 1084
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1080,
+              "end": 1100
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1080,
+                "end": 1095
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 49.07,
+              "unit": null,
+              "evidence_span": {
+                "start": 1080,
+                "end": 1095
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "BART",
+            "PEGASUS",
+            "GSum",
+            "ConSum",
+            "SeqCo",
+            "GOLD",
+            "SimCLS"
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

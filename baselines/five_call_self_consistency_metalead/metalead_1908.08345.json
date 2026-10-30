@@ -1,0 +1,2768 @@
+{
+  "paper_id": "1908.08345",
+  "contributions": [
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "extractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.25,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SummaRuNNer",
+        "Refresh",
+        "Latent",
+        "NeuSum",
+        "Sumo",
+        "TransformerExt"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "extractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.24,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SummaRuNNer",
+        "Refresh",
+        "Latent",
+        "NeuSum",
+        "Sumo",
+        "TransformerExt"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "extractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 39.63,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "SummaRuNNer",
+        "Refresh",
+        "Latent",
+        "NeuSum",
+        "Sumo",
+        "TransformerExt"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "extractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 46.66,
+          "unit": "Recall",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Compress",
+        "Sumo",
+        "TransformerExt"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "extractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 26.35,
+          "unit": "Recall",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Compress",
+        "Sumo",
+        "TransformerExt"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumExt",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "extractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 42.62,
+          "unit": "Recall",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Compress",
+        "Sumo",
+        "TransformerExt"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumAbs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 41.72,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "BottomUp",
+        "DCA",
+        "TransformerAbs"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumAbs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.39,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "BottomUp",
+        "DCA",
+        "TransformerAbs"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumAbs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 38.76,
+          "unit": "F1",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "BottomUp",
+        "DCA",
+        "TransformerAbs"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumAbs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 48.92,
+          "unit": "Recall",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "TransformerAbs"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumAbs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 30.84,
+          "unit": "Recall",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "TransformerAbs"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    },
+    {
+      "method": {
+        "name": "BertSumAbs",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        }
+      },
+      "datasets": [
+        {
+          "name": "NYT",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 45.41,
+          "unit": "Recall",
+          "evidence_span": {
+            "start": 0,
+            "end": 0
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "PTGen",
+        "PTGen+Cov",
+        "DRM",
+        "TransformerAbs"
+      ],
+      "notes": null,
+      "_sc_support": 0.8
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 59985,
+    "tokens_out": 12629,
+    "cost_usd": 0.030435010000000002,
+    "wall_seconds": 296.2519578933716,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BertSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 43.25,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "SummaRuNNer",
+            "Refresh",
+            "Latent",
+            "NeuSum",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 20.24,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "SummaRuNNer",
+            "Refresh",
+            "Latent",
+            "NeuSum",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 39.63,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "SummaRuNNer",
+            "Refresh",
+            "Latent",
+            "NeuSum",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 46.66,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Compress",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 26.35,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Compress",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 42.62,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Compress",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 41.72,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 19.39,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 38.76,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 48.92,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 30.84,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-L",
+              "value": 45.41,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumExtAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 42.13,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumExtAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 19.6,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BERTSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 43.25,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 20.24,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 39.63,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "SummaRuNNer",
+            "Refresh",
+            "Latent",
+            "NeuSum",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERTSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 46.66,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 26.35,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 42.62,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Compress",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERTSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 41.72,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.39,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 38.76,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERTSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 48.92,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 30.84,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 45.41,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERTSumExtAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 42.13,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.6,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 39.18,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERTSumExtAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1100,
+              "end": 1112
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 49.02,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 31.02,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 45.55,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 1100,
+                "end": 1112
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BertSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2428,
+              "end": 2439
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2428,
+              "end": 2447
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10103,
+                "end": 10116
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 43.25,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 10758,
+                "end": 10764
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 20.24,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 10766,
+                "end": 10772
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 39.63,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 10774,
+                "end": 10780
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "SummaRuNNer",
+            "Refresh",
+            "Latent",
+            "NeuSum",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2428,
+              "end": 2439
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2428,
+              "end": 2447
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10118,
+                "end": 10121
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 46.66,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11084,
+                "end": 11090
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 26.35,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11092,
+                "end": 11098
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 42.62,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11100,
+                "end": 11106
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Compress",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 10789,
+              "end": 10800
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 10789,
+              "end": 10810
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10103,
+                "end": 10116
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 41.72,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 10789,
+                "end": 10795
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.39,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 10797,
+                "end": 10803
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 38.76,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 10805,
+                "end": 10811
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 10789,
+              "end": 10800
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 10789,
+              "end": 10810
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10118,
+                "end": 10121
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 48.92,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11108,
+                "end": 11114
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 30.84,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11116,
+                "end": 11122
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 45.41,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11124,
+                "end": 11130
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumExtAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 10812,
+              "end": 10825
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 10812,
+              "end": 10835
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10103,
+                "end": 10116
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 42.13,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 10812,
+                "end": 10818
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.6,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 10820,
+                "end": 10826
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 39.18,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 10828,
+                "end": 10834
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BertSumExtAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 10812,
+              "end": 10825
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 10812,
+              "end": 10835
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10118,
+                "end": 10121
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 49.02,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11132,
+                "end": 11138
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 31.02,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11140,
+                "end": 11146
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 45.55,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11148,
+                "end": 11154
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BERTSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2380,
+              "end": 2392
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2380,
+              "end": 2392
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10554,
+                "end": 10568
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 43.25,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 11419,
+                "end": 11425
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 20.24,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 11427,
+                "end": 11433
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 39.63,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 11435,
+                "end": 11441
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "SummaRuNNer",
+            "Refresh",
+            "Latent",
+            "NeuSum",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERTSumExt",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2380,
+              "end": 2392
+            }
+          },
+          "task": {
+            "name": "extractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 2380,
+              "end": 2392
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10634,
+                "end": 10637
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 46.66,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11987,
+                "end": 11993
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 26.35,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 11995,
+                "end": 12001
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 42.62,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 12003,
+                "end": 12009
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Compress",
+            "Sumo",
+            "TransformerExt"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERTSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 11450,
+              "end": 11461
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 11450,
+              "end": 11461
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10554,
+                "end": 10568
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 41.72,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 11463,
+                "end": 11469
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.39,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 11471,
+                "end": 11477
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 38.76,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 11479,
+                "end": 11485
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERTSumAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 11450,
+              "end": 11461
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 11450,
+              "end": 11461
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10634,
+                "end": 10637
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 48.92,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 12011,
+                "end": 12017
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 30.84,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 12019,
+                "end": 12025
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 45.41,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 12027,
+                "end": 12033
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERTSumExtAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 11487,
+              "end": 11500
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 11487,
+              "end": 11500
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10554,
+                "end": 10568
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 42.13,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 11502,
+                "end": 11508
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.6,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 11510,
+                "end": 11516
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 39.18,
+              "unit": "F1",
+              "evidence_span": {
+                "start": 11518,
+                "end": 11524
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERTSumExtAbs",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 11487,
+              "end": 11500
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 11487,
+              "end": 11500
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 10634,
+                "end": 10637
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 49.02,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 12035,
+                "end": 12041
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 31.02,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 12043,
+                "end": 12049
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 45.55,
+              "unit": "Recall",
+              "evidence_span": {
+                "start": 12051,
+                "end": 12057
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "text summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 43.25,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 20.24,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 39.63,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "SummaRuNNer",
+            "Refresh",
+            "Latent",
+            "NeuSum",
+            "Sumo",
+            "TransformerExt",
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "text summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 46.66,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 26.35,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 42.62,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Compress",
+            "Sumo",
+            "TransformerExt",
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "text summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 41.72,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 19.39,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 38.76,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "SummaRuNNer",
+            "Refresh",
+            "Latent",
+            "NeuSum",
+            "Sumo",
+            "TransformerExt",
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "BottomUp",
+            "DCA",
+            "TransformerAbs"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "BERT",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "task": {
+            "name": "text summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 0
+            }
+          },
+          "datasets": [
+            {
+              "name": "NYT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": 48.92,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": 30.84,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": 45.41,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 0
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "Compress",
+            "Sumo",
+            "TransformerExt",
+            "PTGen",
+            "PTGen+Cov",
+            "DRM",
+            "TransformerAbs"
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

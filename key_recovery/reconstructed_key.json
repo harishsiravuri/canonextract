@@ -1,0 +1,1613 @@
+[
+  {
+    "row_id": "W001",
+    "paper_id": "1812.09471",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W002",
+    "paper_id": "1811.09242",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": true,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems__via_lenient"
+  },
+  {
+    "row_id": "W003",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W004",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W005",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W006",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W007",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W008",
+    "paper_id": "1812.09471",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W009",
+    "paper_id": "1703.06345",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W010",
+    "paper_id": "1906.05012",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W011",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W012",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W013",
+    "paper_id": "1811.09242",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": true,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems__via_lenient"
+  },
+  {
+    "row_id": "W014",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems"
+  },
+  {
+    "row_id": "W015",
+    "paper_id": "1709.04109",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W016",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems"
+  },
+  {
+    "row_id": "W017",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W018",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W019",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W020",
+    "paper_id": "1910.13461",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W021",
+    "paper_id": "1911.10390",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W022",
+    "paper_id": "1906.05012",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W023",
+    "paper_id": "1812.09471",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W024",
+    "paper_id": "1603.01354",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W025",
+    "paper_id": "1911.10390",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W026",
+    "paper_id": "1709.04109",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W027",
+    "paper_id": "1910.13461",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W028",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W029",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W030",
+    "paper_id": "2001.04063",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W031",
+    "paper_id": "1808.08745",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W032",
+    "paper_id": "1603.01354",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W033",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W034",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W035",
+    "paper_id": "1812.09471",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W036",
+    "paper_id": "1603.01354",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W037",
+    "paper_id": "1812.09471",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W038",
+    "paper_id": "1901.10430",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W039",
+    "paper_id": "1901.10430",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W040",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W041",
+    "paper_id": "1911.10390",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W042",
+    "paper_id": "1806.03489",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W043",
+    "paper_id": "1911.10390",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W044",
+    "paper_id": "2001.04063",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W045",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems"
+  },
+  {
+    "row_id": "W046",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems"
+  },
+  {
+    "row_id": "W047",
+    "paper_id": "1911.10390",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W048",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W049",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W050",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W051",
+    "paper_id": "1911.10390",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W052",
+    "paper_id": "1905.12598",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W053",
+    "paper_id": "1901.10430",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W054",
+    "paper_id": "1812.10235",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W055",
+    "paper_id": "1910.13461",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W056",
+    "paper_id": "1812.09471",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W057",
+    "paper_id": "1908.08345",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W058",
+    "paper_id": "1808.08745",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W059",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W060",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W061",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems"
+  },
+  {
+    "row_id": "W062",
+    "paper_id": "2203.16804",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W063",
+    "paper_id": "2203.16804",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W064",
+    "paper_id": "1709.04109",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W065",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W066",
+    "paper_id": "1812.10235",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W067",
+    "paper_id": "1909.02188",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W068",
+    "paper_id": "1811.09242",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": true,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems__via_lenient"
+  },
+  {
+    "row_id": "W069",
+    "paper_id": "1911.10390",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W070",
+    "paper_id": "1812.10235",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W071",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W072",
+    "paper_id": "1908.08345",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W073",
+    "paper_id": "1806.03489",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W074",
+    "paper_id": "1709.04109",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W075",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W076",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W077",
+    "paper_id": "1905.12598",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W078",
+    "paper_id": "1911.10390",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W079",
+    "paper_id": "1511.08308",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W080",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W081",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems"
+  },
+  {
+    "row_id": "W082",
+    "paper_id": "1812.10235",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W083",
+    "paper_id": "1911.10390",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W084",
+    "paper_id": "1910.13461",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W085",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W086",
+    "paper_id": "1811.09242",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": true,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems__via_lenient"
+  },
+  {
+    "row_id": "W087",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W088",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W089",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W090",
+    "paper_id": "1911.10390",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W091",
+    "paper_id": "1603.01354",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W092",
+    "paper_id": "1903.07785",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W093",
+    "paper_id": "1809.08370",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W094",
+    "paper_id": "2002.03184",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W095",
+    "paper_id": "2002.03184",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W096",
+    "paper_id": "1806.03489",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W097",
+    "paper_id": "1908.08345",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W098",
+    "paper_id": "1905.03197",
+    "matched_systems": [
+      "CE",
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "shared_record_both_systems"
+  },
+  {
+    "row_id": "W099",
+    "paper_id": "1812.09471",
+    "matched_systems": [
+      "CE"
+    ],
+    "exact_match_v1": {
+      "CE": true,
+      "baseline": false
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  },
+  {
+    "row_id": "W100",
+    "paper_id": "2002.03184",
+    "matched_systems": [
+      "baseline"
+    ],
+    "exact_match_v1": {
+      "CE": false,
+      "baseline": true
+    },
+    "lenient_match_v2": {
+      "CE": false,
+      "baseline": false
+    },
+    "ambiguity_class": "clean_single_system_match"
+  }
+]

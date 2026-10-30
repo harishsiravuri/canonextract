@@ -1,0 +1,168 @@
+{
+  "paper_id": "3cf31ecb2724b5088783d7c96a5fc0d5604cbf41",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "This work",
+          "header_path": "PTB-YM",
+          "cell": "93.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ZhangNivre11",
+          "column_header": "LAS",
+          "cell": "92.9",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "transition (greedy, dyn-oracle)",
+      "task": "dependency parsing",
+      "dataset": "PTB-YM",
+      "metric": "UAS",
+      "value": 93.1
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "This work",
+          "header_path": "PTB-SD",
+          "cell": "86.6"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ballesteros16",
+          "column_header": "col_8",
+          "cell": "86.2",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "transition (greedy, dyn-oracle)",
+      "task": "dependency parsing",
+      "dataset": "PTB-SD",
+      "metric": "UAS",
+      "value": 86.6
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "This work",
+          "header_path": "CTB",
+          "cell": "85.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Dyer15",
+          "column_header": "col_8",
+          "cell": "85.5",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "transition (greedy, dyn-oracle)",
+      "task": "dependency parsing",
+      "dataset": "CTB",
+      "metric": "UAS",
+      "value": 85.1
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "This work",
+          "header_path": "PTB-YM",
+          "cell": "91.0"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Dyer15",
+          "column_header": "col_6",
+          "cell": "90.9",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "transition (greedy, dyn-oracle)",
+      "task": "dependency parsing",
+      "dataset": "PTB-YM",
+      "metric": "LAS",
+      "value": 91.0
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "This work",
+          "header_path": "PTB-YM",
+          "cell": "91.0"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Dyer15",
+          "column_header": "col_6",
+          "cell": "90.9",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "transition (greedy, dyn-oracle)",
+      "task": "dependency parsing",
+      "dataset": "PTB-SD",
+      "metric": "LAS",
+      "value": 91.0
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "This work",
+          "header_path": "PTB-YM",
+          "cell": "91.0"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Graph (no ext. emb)",
+          "column_header": "UAS",
+          "cell": "91.0",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "transition (greedy, dyn-oracle)",
+      "task": "dependency parsing",
+      "dataset": "CTB",
+      "metric": "LAS",
+      "value": 91.0
+    }
+  ]
+}

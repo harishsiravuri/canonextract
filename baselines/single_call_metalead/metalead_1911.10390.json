@@ -1,0 +1,111 @@
+{
+  "paper_id": "1911.10390",
+  "contributions": [
+    {
+      "method": {
+        "name": "CopyTrans",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 555,
+          "end": 562
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 173,
+          "end": 193
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4224,
+            "end": 4232
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "Newsroom",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 4274,
+            "end": 4282
+          },
+          "confidence": 0.75
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.19,
+          "unit": null,
+          "evidence_span": {
+            "start": 4445,
+            "end": 4453
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "ROUGE-2",
+          "value": 20.38,
+          "unit": null,
+          "evidence_span": {
+            "start": 4445,
+            "end": 4453
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "ROUGE-L",
+          "value": 36.69,
+          "unit": null,
+          "evidence_span": {
+            "start": 4445,
+            "end": 4453
+          },
+          "confidence": 0.75
+        },
+        {
+          "name": "BERTScore",
+          "value": 61.46,
+          "unit": null,
+          "evidence_span": {
+            "start": 4455,
+            "end": 4464
+          },
+          "confidence": 0.75
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "pointer-generator networks",
+        "Struct+2Way+Relation",
+        "R3Sum",
+        "BiSET"
+      ],
+      "self_consistency": 0.875,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 55283,
+    "tokens_out": 4087,
+    "cost_usd": 0.02589389,
+    "wall_time_seconds": 164.04672174993902,
+    "voting_samples": 3
+  }
+}

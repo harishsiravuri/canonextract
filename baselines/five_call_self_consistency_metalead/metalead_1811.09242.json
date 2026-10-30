@@ -1,0 +1,990 @@
+{
+  "paper_id": "1811.09242",
+  "contributions": [
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1010
+        }
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7000,
+          "end": 7020
+        }
+      },
+      "datasets": [
+        {
+          "name": "Arnet",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8000,
+            "end": 8020
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "paired F1",
+          "value": 58.8,
+          "unit": null,
+          "evidence_span": {
+            "start": 9000,
+            "end": 9020
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "HC",
+        "STM"
+      ],
+      "notes": null,
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "AutoSense",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1000,
+          "end": 1010
+        }
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 7000,
+          "end": 7020
+        }
+      },
+      "datasets": [
+        {
+          "name": "PubMed",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 8100,
+            "end": 8120
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "paired F1",
+          "value": 46.5,
+          "unit": null,
+          "evidence_span": {
+            "start": 9100,
+            "end": 9120
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LDA",
+        "HC",
+        "STM"
+      ],
+      "notes": null,
+      "_sc_support": 0.6
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 62915,
+    "tokens_out": 5025,
+    "cost_usd": 0.024605050000000003,
+    "wall_seconds": 157.07133507728577,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1000,
+              "end": 1010
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 200,
+              "end": 220
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4000,
+                "end": 4020
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "V-measure",
+              "value": 9.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 5000,
+                "end": 5020
+              }
+            },
+            {
+              "name": "paired F-score",
+              "value": 61.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 5020,
+                "end": 5040
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "Spectral",
+            "HC",
+            "HC+Zipf",
+            "BNP-HC",
+            "CRP-PPMI",
+            "SE-WSI-fix"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1000,
+              "end": 1010
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 200,
+              "end": 220
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 4100,
+                "end": 4120
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "fuzzy B-cubed",
+              "value": 61.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 5100,
+                "end": 5120
+              }
+            },
+            {
+              "name": "fuzzy normalized mutual information",
+              "value": 7.96,
+              "unit": null,
+              "evidence_span": {
+                "start": 5120,
+                "end": 5140
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "AI-KU",
+            "Unimelb",
+            "STM",
+            "STM+w2v",
+            "WG",
+            "DIVE",
+            "MCC"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1000,
+              "end": 1010
+            }
+          },
+          "task": {
+            "name": "unsupervised author name disambiguation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 7000,
+              "end": 7020
+            }
+          },
+          "datasets": [
+            {
+              "name": "Arnet",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 8000,
+                "end": 8020
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "paired F1",
+              "value": 58.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 9000,
+                "end": 9020
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "HC",
+            "STM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1000,
+              "end": 1010
+            }
+          },
+          "task": {
+            "name": "unsupervised author name disambiguation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 7000,
+              "end": 7020
+            }
+          },
+          "datasets": [
+            {
+              "name": "PubMed",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 8100,
+                "end": 8120
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "paired F1",
+              "value": 46.5,
+              "unit": null,
+              "evidence_span": {
+                "start": 9100,
+                "end": 9120
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "HC",
+            "STM"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1046,
+              "end": 1054
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1046,
+              "end": 1064
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1046,
+                "end": 1064
+              }
+            },
+            {
+              "name": "SemEval 2013",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1046,
+                "end": 1064
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1046,
+                "end": 1064
+              }
+            },
+            {
+              "name": "V-measure",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1046,
+                "end": 1064
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "HC",
+            "STM",
+            "BNP-HC",
+            "CRP-PPMI",
+            "SE-WSI-fix",
+            "WG",
+            "DIVE",
+            "MCC"
+          ],
+          "notes": "AutoSense outperforms competing models on word sense induction tasks, particularly in handling sense granularity problems."
+        },
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1046,
+              "end": 1054
+            }
+          },
+          "task": {
+            "name": "unsupervised author name disambiguation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1046,
+              "end": 1064
+            }
+          },
+          "datasets": [
+            {
+              "name": "Arnet",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1046,
+                "end": 1064
+              }
+            },
+            {
+              "name": "PubMed",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1046,
+                "end": 1064
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1046,
+                "end": 1064
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "HC",
+            "STM"
+          ],
+          "notes": "AutoSense performs best on unsupervised author name disambiguation tasks, showing robustness to varying sense granularities."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1029,
+              "end": 1038
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1029,
+              "end": 1048
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1029,
+                "end": 1048
+              }
+            },
+            {
+              "name": "SemEval 2013",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1029,
+                "end": 1048
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "V-measure",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1029,
+                "end": 1048
+              }
+            },
+            {
+              "name": "paired F-score",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1029,
+                "end": 1048
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "Spectral",
+            "HC",
+            "HC+Zipf",
+            "BNP-HC",
+            "CRP-PPMI",
+            "SE-WSI-fix"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1029,
+              "end": 1038
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1029,
+              "end": 1048
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1029,
+                "end": 1048
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "fuzzy B-cubed",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1029,
+                "end": 1048
+              }
+            },
+            {
+              "name": "fuzzy normalized mutual information",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1029,
+                "end": 1048
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "AI-KU",
+            "Unimelb",
+            "STM",
+            "STM+w2v",
+            "WG",
+            "DIVE",
+            "MCC"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1029,
+              "end": 1038
+            }
+          },
+          "task": {
+            "name": "unsupervised author name disambiguation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1029,
+              "end": 1048
+            }
+          },
+          "datasets": [
+            {
+              "name": "Arnet",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1029,
+                "end": 1048
+              }
+            },
+            {
+              "name": "PubMed",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1029,
+                "end": 1048
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "paired F1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1029,
+                "end": 1048
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "HC",
+            "STM"
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1246,
+              "end": 1254
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1070,
+              "end": 1087
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010 Task 14",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 3882,
+                "end": 3904
+              }
+            },
+            {
+              "name": "SemEval 2013 Task 13",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 3905,
+                "end": 3927
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "V-measure",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 4198,
+                "end": 4207
+              }
+            },
+            {
+              "name": "paired F-score",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 4210,
+                "end": 4223
+              }
+            },
+            {
+              "name": "fuzzy B-cubed",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 4784,
+                "end": 4795
+              }
+            },
+            {
+              "name": "fuzzy normalized mutual information",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 4798,
+                "end": 4828
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "Spectral",
+            "HC",
+            "HC+Zipf",
+            "BNP-HC",
+            "CRP-PPMI",
+            "SE-WSI-fix",
+            "AI-KU",
+            "Unimelb",
+            "STM",
+            "STM+w2v",
+            "WG",
+            "DIVE",
+            "MCC"
+          ],
+          "notes": "AutoSense outperforms competing models on SemEval 2010 and 2013 datasets, showing improvements in handling the sense granularity problem."
+        },
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1246,
+              "end": 1254
+            }
+          },
+          "task": {
+            "name": "unsupervised author name disambiguation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 8233,
+              "end": 8267
+            }
+          },
+          "datasets": [
+            {
+              "name": "Arnet",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 8268,
+                "end": 8273
+              }
+            },
+            {
+              "name": "PubMed",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 8274,
+                "end": 8280
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "paired F1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 8803,
+                "end": 8812
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "HC",
+            "STM"
+          ],
+          "notes": "AutoSense performs the best on the UAND task, proving its robustness to different sense granularities."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1047,
+              "end": 1056
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1047,
+              "end": 1064
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2010",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1047,
+                "end": 1064
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 61.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 1047,
+                "end": 1064
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "Spectral",
+            "HC",
+            "HC+Zipf",
+            "BNP-HC",
+            "CRP-PPMI",
+            "SE-WSI-fix"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1047,
+              "end": 1056
+            }
+          },
+          "task": {
+            "name": "word sense induction",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1047,
+              "end": 1064
+            }
+          },
+          "datasets": [
+            {
+              "name": "SemEval 2013",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1047,
+                "end": 1064
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 61.7,
+              "unit": null,
+              "evidence_span": {
+                "start": 1047,
+                "end": 1064
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "AI-KU",
+            "Unimelb",
+            "STM",
+            "STM+w2v",
+            "WG",
+            "DIVE",
+            "MCC"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1047,
+              "end": 1056
+            }
+          },
+          "task": {
+            "name": "unsupervised author name disambiguation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1047,
+              "end": 1064
+            }
+          },
+          "datasets": [
+            {
+              "name": "Arnet",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1047,
+                "end": 1064
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 58.8,
+              "unit": null,
+              "evidence_span": {
+                "start": 1047,
+                "end": 1064
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "HC",
+            "STM"
+          ],
+          "notes": null
+        },
+        {
+          "method": {
+            "name": "AutoSense",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1047,
+              "end": 1056
+            }
+          },
+          "task": {
+            "name": "unsupervised author name disambiguation",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 1047,
+              "end": 1064
+            }
+          },
+          "datasets": [
+            {
+              "name": "PubMed",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1047,
+                "end": 1064
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "F1",
+              "value": 46.5,
+              "unit": null,
+              "evidence_span": {
+                "start": 1047,
+                "end": 1064
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "LDA",
+            "HC",
+            "STM"
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

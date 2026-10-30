@@ -1,0 +1,346 @@
+{
+  "paper_id": "1905.12598",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 4,
+    "total": 6,
+    "partial_table_valid": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13",
+          "canonical_id": "semeval 2013 task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMI",
+          "value": 21.4,
+          "unit": null,
+          "canonical_id": "FNMI"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSDP",
+        "AutoSense",
+        "MCC-S",
+        "ST(SW)",
+        "AI-KU"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "FNMI",
+        "cell": "21.4 (0.5)",
+        "_content_hash": "d39f4d1ea947",
+        "_paper_hash": "acea76fb5894",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "SC",
+          "cell": "21.4 (0.5)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"Ours\" refers to the proposed method per the paper excerpt, and its cell content under the header path \"FNMI\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13",
+          "canonical_id": "semeval 2013 task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FBC",
+          "value": 64.0,
+          "unit": null,
+          "canonical_id": "FBC"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSDP",
+        "AutoSense",
+        "MCC-S",
+        "ST(SW)",
+        "AI-KU"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "FNMI",
+        "cell": "21.4 (0.5)",
+        "_content_hash": "d39f4d1ea947",
+        "_paper_hash": "acea76fb5894",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "col_2",
+          "cell": "64.0 (0.5)",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13",
+          "canonical_id": "semeval 2013 task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 37.0,
+          "unit": null,
+          "canonical_id": "AVG"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "LSDP",
+        "AutoSense",
+        "MCC-S",
+        "ST(SW)",
+        "AI-KU"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "FNMI",
+        "cell": "21.4 (0.5)",
+        "_content_hash": "d39f4d1ea947",
+        "_paper_hash": "acea76fb5894",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "col_3",
+          "cell": "37.0 (0.5)",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14",
+          "canonical_id": "semeval 2010 task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 71.3,
+          "unit": null,
+          "canonical_id": "F-S"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "AutoSense",
+        "SE-WSI-fix",
+        "BNP-HC",
+        "LDA"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "F-S",
+        "cell": "71.3 (0.1)",
+        "_content_hash": "e8c43c856135",
+        "_paper_hash": "acea76fb5894",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Ours",
+          "column_header": "F-S",
+          "cell": "71.3 (0.1)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source because the row label \"Ours\" refers to the proposed method in the paper, but the dataset in the table is SemEval 2013 Task 13, not SemEval 2010 Task 14 as stated in the tuple."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14",
+          "canonical_id": "semeval 2010 task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 40.4,
+          "unit": null,
+          "canonical_id": "V-M"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "AutoSense",
+        "SE-WSI-fix",
+        "BNP-HC",
+        "LDA"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "F-S",
+        "cell": "71.3 (0.1)",
+        "_content_hash": "e8c43c856135",
+        "_paper_hash": "acea76fb5894",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Ours",
+          "column_header": "V-M",
+          "cell": "40.4 (1.8)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell is not the source of the tuple because the dataset in the table is SemEval 2013 Task 13, whereas the tuple's dataset is SemEval 2010 Task 14."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "word sense induction",
+        "canonical_id": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14",
+          "canonical_id": "semeval 2010 task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 53.6,
+          "unit": null,
+          "canonical_id": "AVG"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "AutoSense",
+        "SE-WSI-fix",
+        "BNP-HC",
+        "LDA"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "F-S",
+        "cell": "71.3 (0.1)",
+        "_content_hash": "e8c43c856135",
+        "_paper_hash": "acea76fb5894",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 1,
+          "row_label": "Ours",
+          "column_header": "AVG",
+          "cell": "53.6 (1.2)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell is not the source of the tuple's combination because the dataset in the table is SemEval 2013 Task 13, whereas the tuple's dataset is SemEval 2010 Task 14."
+      }
+    }
+  ]
+}

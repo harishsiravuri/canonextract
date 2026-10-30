@@ -1,0 +1,52 @@
+{
+  "paper_id": "0a6c36de8726b6feaab586046ddc1d1a008f44f9",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Caltech",
+          "header_path": "L 2",
+          "cell": "50.2"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "ACF-Ours",
+          "column_header": "Caltech",
+          "cell": "50.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ACF-Ours",
+      "task": "pedestrian detection",
+      "dataset": "Caltech",
+      "metric": "MR",
+      "value": 50.2
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Caltech",
+          "header_path": "L 2",
+          "cell": "52.6"
+        },
+        "hit": null
+      },
+      "method": "ACF-Ours",
+      "task": "pedestrian detection",
+      "dataset": "Caltech10x",
+      "metric": "MR",
+      "value": 52.6
+    }
+  ]
+}

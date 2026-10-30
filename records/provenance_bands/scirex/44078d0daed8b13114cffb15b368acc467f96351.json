@@ -1,0 +1,519 @@
+{
+  "paper_id": "44078d0daed8b13114cffb15b368acc467f96351",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN_ media (Ours)",
+          "header_path": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.234 (0.02)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "0.001",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "FPIR=0.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_media (Ours)",
+      "task": "face verification",
+      "dataset": "IJB-A",
+      "metric": "FNMR@FMR",
+      "value": 0.234
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN_ media (Ours)",
+          "header_path": "IJB-A Identification",
+          "cell": "0.925 (0.01)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "GOTS ijba15",
+          "column_header": "IJB-A Identification",
+          "cell": "0.443 (0.02)",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_media (Ours)",
+      "task": "face identification",
+      "dataset": "IJB-A",
+      "metric": "Rank=1",
+      "value": 0.925
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "header_path": "F_1-score",
+          "cell": "0.955"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "column_header": "F_1-score",
+          "cell": "0.955",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN (Ours)",
+      "task": "face clustering",
+      "dataset": "LFW",
+      "metric": "F_1-score",
+      "value": 0.955
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "CNN_ media +TPE",
+          "header_path": "F_1-score",
+          "cell": "0.843 (0.03)"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "column_header": "F_1-score",
+          "cell": "0.955",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_media+TPE (Ours)",
+      "task": "face clustering",
+      "dataset": "IJB-A",
+      "metric": "F_1-score",
+      "value": 0.843
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "header_path": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.287 (0.05)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.051 (0.006)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_ ave (Ours)",
+      "task": "IJB-A Verification (FNMR@FMR)",
+      "dataset": "IJB-A",
+      "metric": "FNMR@FMR=0.001",
+      "value": 0.287
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "header_path": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.146 (0.01)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.051 (0.006)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_ ave (Ours)",
+      "task": "IJB-A Verification (FNMR@FMR)",
+      "dataset": "IJB-A",
+      "metric": "FNMR@FMR=0.01",
+      "value": 0.146
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "header_path": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.051 (0.006)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.051 (0.006)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_ ave (Ours)",
+      "task": "IJB-A Verification (FNMR@FMR)",
+      "dataset": "IJB-A",
+      "metric": "FNMR@FMR=0.1",
+      "value": 0.051
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "header_path": "IJB-A Identification",
+          "cell": "0.913 (0.01)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "column_header": "IJB-A Identification",
+          "cell": "0.974 (0.004)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_ ave (Ours)",
+      "task": "IJB-A Identification",
+      "dataset": "IJB-A",
+      "metric": "Rank=1",
+      "value": 0.913
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "header_path": "F_1-score",
+          "cell": "0.955"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "column_header": "F_1-score",
+          "cell": "0.955",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN (Ours)",
+      "task": "Clustering",
+      "dataset": "LFW",
+      "metric": "F_1-score",
+      "value": 0.955
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "header_path": "Clusters",
+          "cell": "5351"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "column_header": "Clusters",
+          "cell": "5351",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN (Ours)",
+      "task": "Clustering",
+      "dataset": "LFW",
+      "metric": "Clusters",
+      "value": 5351
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "CNN_ media",
+          "header_path": "F_1-score",
+          "cell": "0.79 (0.02)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN_ media (Ours)",
+          "column_header": "IJB-A Identification",
+          "cell": "0.978 (0.005)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_ media",
+      "task": "Clustering",
+      "dataset": "IJB-A",
+      "metric": "F_1-score",
+      "value": 0.79
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "CNN_ media",
+          "header_path": "Clusters",
+          "cell": "293 (22)"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "CNN_ media",
+          "column_header": "Clusters",
+          "cell": "293 (22)",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_ media",
+      "task": "Clustering",
+      "dataset": "IJB-A",
+      "metric": "Clusters",
+      "value": 293
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "CNN_ media",
+          "header_path": "After Pruning",
+          "cell": "173"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "CNN_ media",
+          "column_header": "After Pruning",
+          "cell": "173",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_ media",
+      "task": "Clustering",
+      "dataset": "IJB-A",
+      "metric": "After Pruning",
+      "value": 173
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "header_path": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.67 (0.03)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "0.001",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "FPIR=0.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_ave (Ours)",
+      "task": "face verification",
+      "dataset": "IJB-A",
+      "metric": "FNMR@FMR=0.001",
+      "value": 0.287
+    },
+    {
+      "tuple_idx": 14,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "header_path": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.67 (0.03)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "0.001",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "FPIR=0.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_ave (Ours)",
+      "task": "face verification",
+      "dataset": "IJB-A",
+      "metric": "FNMR@FMR=0.01",
+      "value": 0.146
+    },
+    {
+      "tuple_idx": 15,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN_ ave (Ours)",
+          "header_path": "IJB-A Verification (FNMR@FMR)",
+          "cell": "0.67 (0.03)"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "0.001",
+          "column_header": "IJB-A Verification (FNMR@FMR)",
+          "cell": "FPIR=0.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_ave (Ours)",
+      "task": "face verification",
+      "dataset": "IJB-A",
+      "metric": "FNMR@FMR=0.1",
+      "value": 0.051
+    },
+    {
+      "tuple_idx": 16,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "header_path": "F_1-score",
+          "cell": "0.955"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "CNN (Ours)",
+          "column_header": "Clusters",
+          "cell": "5351",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN (Ours)",
+      "task": "face clustering",
+      "dataset": "LFW",
+      "metric": "Clusters",
+      "value": 5351
+    },
+    {
+      "tuple_idx": 17,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "CNN_ media +TPE",
+          "header_path": "F_1-score",
+          "cell": "0.843 (0.03)"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "CNN_ media +TPE",
+          "column_header": "Clusters",
+          "cell": "258 (17)",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_media+TPE (Ours)",
+      "task": "face clustering",
+      "dataset": "IJB-A",
+      "metric": "Clusters",
+      "value": 258
+    },
+    {
+      "tuple_idx": 18,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "CNN_ media +TPE",
+          "header_path": "F_1-score",
+          "cell": "0.843 (0.03)"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "CNN_ media +TPE",
+          "column_header": "After Pruning",
+          "cell": "167",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN_media+TPE (Ours)",
+      "task": "face clustering",
+      "dataset": "IJB-A",
+      "metric": "After Pruning",
+      "value": 167
+    }
+  ]
+}

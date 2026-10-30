@@ -1,0 +1,97 @@
+{
+  "paper_id": "35734e8724559fb0d494e5cba6a28ad7a3d5dd4d",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "fast gradient sign method",
+      "task": "image classification",
+      "dataset": "MNIST",
+      "metric": "error rate",
+      "value": 99.9
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "fast gradient sign method",
+      "task": "image classification",
+      "dataset": "CIFAR-10",
+      "metric": "error rate",
+      "value": 87.15
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "fast gradient sign method",
+      "task": "image classification",
+      "dataset": "MNIST",
+      "metric": "average confidence",
+      "value": 79.3
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose",
+      "detail": {
+        "orig_source": "prose",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        }
+      },
+      "method": "fast gradient sign method",
+      "task": "image classification",
+      "dataset": "CIFAR-10",
+      "metric": "average probability",
+      "value": 96.6
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "``panda''",
+          "header_path": "m .2 m .5in > m .2 m .1in > m .2 panda_577.png",
+          "cell": "57.7\\% confidence"
+        },
+        "hit": null
+      },
+      "method": "fast gradient sign method",
+      "task": "image classification",
+      "dataset": "ImageNet",
+      "metric": "confidence",
+      "value": 57.7
+    }
+  ]
+}

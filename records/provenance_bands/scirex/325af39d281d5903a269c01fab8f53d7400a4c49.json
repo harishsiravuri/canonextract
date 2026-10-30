@@ -1,0 +1,114 @@
+{
+  "paper_id": "325af39d281d5903a269c01fab8f53d7400a4c49",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 19,
+          "row_label": "bufull",
+          "header_path": "AP",
+          "cell": "72.9"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "+",
+          "column_header": "AP",
+          "cell": "72.7",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BU",
+      "task": "pose estimation",
+      "dataset": "MPII Multi-Person Test",
+      "metric": "AP",
+      "value": 72.9
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 19,
+          "row_label": "bufull",
+          "header_path": "AP",
+          "cell": "71.9"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "84.0",
+          "column_header": "Ank",
+          "cell": "72.1",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BU",
+      "task": "pose estimation",
+      "dataset": "MPII Multi-Person Val",
+      "metric": "AP",
+      "value": 71.9
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "bufull",
+          "header_path": "AP",
+          "cell": "72.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "84.0",
+          "column_header": "Ank",
+          "cell": "72.1",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BU",
+      "task": "pose estimation",
+      "dataset": "videodata",
+      "metric": "AP",
+      "value": 72.1
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "prose_claimed_table",
+        "orig_prov": {
+          "table_id": 17,
+          "row_label": "bufull",
+          "header_path": "timeinfer",
+          "cell": "0.38"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "+",
+          "column_header": "time, [s/f]",
+          "cell": "0.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Bottom-Up Model (BU)",
+      "task": "pose estimation",
+      "dataset": "MPII Multi-Person Val",
+      "metric": "time",
+      "value": 0.38
+    }
+  ]
+}

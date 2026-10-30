@@ -1,0 +1,364 @@
+{
+  "paper_id": "1909.02188",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 3,
+    "total": 6,
+    "prose_claimed_table": 1,
+    "strict_table_valid": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Our model",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SNIPS",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Slot (F1)",
+          "value": 94.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Our model",
+        "header_path": "SNIPS",
+        "cell": "94.2",
+        "_content_hash": "9849d0d6a2fa",
+        "_paper_hash": "46ebc9203460",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Joint Seq hakkani2016multi",
+          "column_header": "Slot (F1)",
+          "cell": "94.3",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Our model",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SNIPS",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent (Acc)",
+          "value": 98.0,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Our model",
+        "header_path": "SNIPS",
+        "cell": "94.2",
+        "_content_hash": "9849d0d6a2fa",
+        "_paper_hash": "46ebc9203460",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "prose_claimed_table",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Intent detection (BERT)",
+          "column_header": "Slot (F1)",
+          "cell": "97.8",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "prose_claimed_table"
+      }
+    },
+    {
+      "method": {
+        "name": "Our model",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SNIPS",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 86.9,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Our model",
+        "header_path": "SNIPS",
+        "cell": "94.2",
+        "_content_hash": "9849d0d6a2fa",
+        "_paper_hash": "46ebc9203460",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Our model",
+          "column_header": "Overall (Acc)",
+          "cell": "86.5*",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"94.2\" does not match the tuple's Value \"86.9\", and also the header path \"SNIPS\" and then \"Overall (Acc)\" actually corresponds to cell content \"86.5\", not \"94.2\", for the row label \"Our model\" which refers to the proposed method in the paper."
+      }
+    },
+    {
+      "method": {
+        "name": "Our model",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Slot (F1)",
+          "value": 94.2,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Our model",
+        "header_path": "SNIPS",
+        "cell": "94.2",
+        "_content_hash": "9849d0d6a2fa",
+        "_paper_hash": "46ebc9203460",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Joint Seq hakkani2016multi",
+          "column_header": "Slot (F1)",
+          "cell": "94.3",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Our model",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent (Acc)",
+          "value": 98.0,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Our model",
+        "header_path": "SNIPS",
+        "cell": "94.2",
+        "_content_hash": "9849d0d6a2fa",
+        "_paper_hash": "46ebc9203460",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Intent detection (BERT)",
+          "column_header": "Slot (F1)",
+          "cell": "97.8",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Our model",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "intent detection and slot filling",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ATIS",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 86.9,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Joint Seq",
+        "Attention BiRNN",
+        "Slot-Gated Full Atten",
+        "Slot-Gated Intent Atten",
+        "Self-Attentive Model",
+        "Bi-Model",
+        "CAPSULE-NLU",
+        "SF-ID Network"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Our model",
+        "header_path": "SNIPS",
+        "cell": "94.2",
+        "_content_hash": "9849d0d6a2fa",
+        "_paper_hash": "46ebc9203460",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Our model",
+          "column_header": "Overall (Acc)",
+          "cell": "86.5*",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"94.2\" does not match the tuple's Value \"86.9\", and the header path \"SNIPS\" does not describe the tuple's Dataset \"ATIS\"."
+      }
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "paper_id": "0a3381f0432c5cfe491c718349d7a44e5814592c",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 7,
+    "total": 7
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "CRF",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "error detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "FCE",
+          "canonical_id": "fce"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F_0.5",
+          "value": 36.3,
+          "unit": null,
+          "canonical_id": "f 0 5"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CRF",
+        "header_path": "Development",
+        "cell": "F_ 0.5",
+        "_content_hash": "2a5b5b285ad4",
+        "_paper_hash": "8b1197b420bf",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CRF",
+          "column_header": "predicted",
+          "cell": "36.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "error detection",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-14",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F_0.5",
+          "value": 34.3,
+          "unit": null,
+          "canonical_id": "f 0 5"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Bi-LSTM (full)",
+        "header_path": "Annotation 1",
+        "cell": "60.2",
+        "_content_hash": "34d32a38bd9a",
+        "_paper_hash": "8b1197b420bf",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Bi-LSTM (full)",
+          "column_header": "correct",
+          "cell": "34.3",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "automated essay scoring",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "FCE",
+          "canonical_id": "fce"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Pearson's r",
+          "value": 78.0,
+          "unit": null,
+          "canonical_id": "pearson s correlation r and spearman s correlation on the public fce test set on the task of automated essay scoring"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "SAT + Bi-LSTM (full)",
+        "header_path": "r",
+        "cell": "79.6",
+        "_content_hash": "d0858eac530b",
+        "_paper_hash": "8b1197b420bf",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "SAT + Bi-LSTM (full)",
+          "column_header": "col_1",
+          "cell": "78.0",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "automated essay scoring",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "FCE",
+          "canonical_id": "fce"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman's correlation",
+          "value": 79.9,
+          "unit": null,
+          "canonical_id": "pearson s correlation r and spearman s correlation on the public fce test set on the task of automated essay scoring"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "SAT + Bi-LSTM (full)",
+        "header_path": "r",
+        "cell": "79.2",
+        "_content_hash": "620f820d3020",
+        "_paper_hash": "8b1197b420bf",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "SAT + Bi-LSTM (full)",
+          "column_header": "col_2",
+          "cell": "79.9",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "CRF",
+        "canonical_id": "crf"
+      },
+      "task": {
+        "name": "error detection results on the two official annotations for the conll 14 shared task test dataset",
+        "canonical_id": "error detection results on the two official annotations for the conll 14 shared task test dataset"
+      },
+      "datasets": [
+        {
+          "name": "fce",
+          "canonical_id": "fce"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f 0 5",
+          "value": 36.3,
+          "unit": null,
+          "canonical_id": "f 0 5"
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "CRF",
+        "header_path": "Development",
+        "cell": "36.3",
+        "_content_hash": "32b4fb00d361",
+        "_paper_hash": "8b1197b420bf",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "CRF",
+          "column_header": "predicted",
+          "cell": "36.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM",
+        "canonical_id": "bi lstm"
+      },
+      "task": {
+        "name": "results on the public fce test set when incrementally providing more training data to the error detection model",
+        "canonical_id": "results on the public fce test set when incrementally providing more training data to the error detection model"
+      },
+      "datasets": [
+        {
+          "name": "fce",
+          "canonical_id": "fce"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f 0 5",
+          "value": 41.1,
+          "unit": null,
+          "canonical_id": "f 0 5"
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "FCE-public",
+        "header_path": "Test F_ 0.5",
+        "cell": "41.1",
+        "_content_hash": "616883deea09",
+        "_paper_hash": "8b1197b420bf",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Bi-LSTM",
+          "column_header": "col_8",
+          "cell": "41.1",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Annotator 1",
+        "canonical_id": "annotator 1"
+      },
+      "task": {
+        "name": "error detection results on the two official annotations for the conll 14 shared task test dataset",
+        "canonical_id": "error detection results on the two official annotations for the conll 14 shared task test dataset"
+      },
+      "datasets": [
+        {
+          "name": "conll 14 shared task test dataset",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f 0 5",
+          "value": 55.7,
+          "unit": null,
+          "canonical_id": "f 0 5"
+        }
+      ],
+      "claim_strength": "comparable",
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Annotator 1",
+        "header_path": "Annotation 2",
+        "cell": "55.7",
+        "_content_hash": "132f1422c7cd",
+        "_paper_hash": "8b1197b420bf",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Annotator 1",
+          "column_header": "correct",
+          "cell": "55.7",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

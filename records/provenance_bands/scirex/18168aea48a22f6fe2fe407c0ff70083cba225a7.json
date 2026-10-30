@@ -1,0 +1,244 @@
+{
+  "paper_id": "18168aea48a22f6fe2fe407c0ff70083cba225a7",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "RED30",
+          "header_path": "PSNR",
+          "cell": "34.81"
+        },
+        "hit": null
+      },
+      "method": "RED30",
+      "task": "image denoising",
+      "dataset": "14 images",
+      "metric": "PSNR",
+      "value": 34.81
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "RED30",
+          "header_path": "PSNR",
+          "cell": "34.81"
+        },
+        "hit": {
+          "table_id": 5,
+          "row_label": "SSIM",
+          "column_header": "14 images",
+          "cell": "0.7716",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RED30",
+      "task": "image denoising",
+      "dataset": "14 images",
+      "metric": "SSIM",
+      "value": 0.9402
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "RED30",
+          "header_path": "PSNR",
+          "cell": "33.63"
+        },
+        "hit": null
+      },
+      "method": "RED30",
+      "task": "image denoising",
+      "dataset": "BSD200",
+      "metric": "PSNR",
+      "value": 33.63
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "RED30",
+          "header_path": "PSNR",
+          "cell": "33.63"
+        },
+        "hit": {
+          "table_id": 5,
+          "row_label": "SSIM",
+          "column_header": "BSD200",
+          "cell": "0.7119",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RED30",
+      "task": "image denoising",
+      "dataset": "BSD200",
+      "metric": "SSIM",
+      "value": 0.9319
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "RED30",
+          "header_path": "PSNR",
+          "cell": "37.66"
+        },
+        "hit": null
+      },
+      "method": "RED30",
+      "task": "image super-resolution",
+      "dataset": "Set5",
+      "metric": "PSNR",
+      "value": 37.66
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "=10",
+          "column_header": "EPLL",
+          "cell": "0.9339",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "RED30",
+      "task": "image super-resolution",
+      "dataset": "Set5",
+      "metric": "SSIM",
+      "value": 0.9599
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "missing",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "RED30",
+          "header_path": "PSNR",
+          "cell": "32.94"
+        },
+        "hit": null
+      },
+      "method": "RED30",
+      "task": "image super-resolution",
+      "dataset": "Set14",
+      "metric": "PSNR",
+      "value": 32.94
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "=10",
+          "column_header": "EPLL",
+          "cell": "0.9339",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "RED30",
+      "task": "image super-resolution",
+      "dataset": "Set14",
+      "metric": "SSIM",
+      "value": 0.9144
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 4,
+          "row_label": "RED30",
+          "header_path": "PSNR",
+          "cell": "31.99"
+        },
+        "hit": {
+          "table_id": 6,
+          "row_label": "PSNR",
+          "column_header": "s = 3",
+          "cell": "31.96",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RED30",
+      "task": "image super-resolution",
+      "dataset": "BSD100",
+      "metric": "PSNR",
+      "value": 31.99
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 6,
+          "row_label": "SSIM",
+          "column_header": "s = 3",
+          "cell": "0.8972",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "RED30",
+      "task": "image super-resolution",
+      "dataset": "BSD100",
+      "metric": "SSIM",
+      "value": 0.8974
+    }
+  ]
+}

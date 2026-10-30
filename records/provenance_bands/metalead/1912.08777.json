@@ -1,0 +1,1086 @@
+{
+  "paper_id": "1912.08777",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "XSum",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "XSum",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "XSum",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "Gigaword",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "NEWSROOM",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "NEWSROOM",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "NEWSROOM",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "Multi-News",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "Multi-News",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 14,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "Multi-News",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 15,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "arXiv",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 16,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "arXiv",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 17,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "arXiv",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 18,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "PubMed",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 19,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "PubMed",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 20,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "PubMed",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 21,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "BIGPATENT",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 22,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "BIGPATENT",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 23,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "BIGPATENT",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 24,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "WikiHow",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 25,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "WikiHow",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 26,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "WikiHow",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 27,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "Reddit TIFU",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 28,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "Reddit TIFU",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 29,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "Reddit TIFU",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 30,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "AESLC",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 31,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "AESLC",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 32,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "AESLC",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 33,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "BillSum",
+      "metric": "ROUGE-1",
+      "value": null
+    },
+    {
+      "tuple_idx": 34,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "BillSum",
+      "metric": "ROUGE-2",
+      "value": null
+    },
+    {
+      "tuple_idx": 35,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "R1/R2/RL",
+          "cell": "BART lewis2019bart"
+        },
+        "hit": {
+          "table_id": 13,
+          "row_label": "Gold",
+          "column_header": "col_1",
+          "cell": "Medicare Common Access Card Act of 2017 This bill requires the Centers for Medicare \\",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "PEGASUS",
+      "task": "summarization",
+      "dataset": "BillSum",
+      "metric": "ROUGE-L",
+      "value": null
+    },
+    {
+      "tuple_idx": 36,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "XSum",
+          "cell": "39.75/17.24/31.95"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "MASS song2019mass",
+          "column_header": "XSum",
+          "cell": "39.75/17.24/31.95",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BERTShare",
+      "task": "text summarization",
+      "dataset": "XSum",
+      "metric": "ROUGE-1",
+      "value": 39.75
+    },
+    {
+      "tuple_idx": 37,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "CNN/DailyMail",
+          "cell": "42.12/19.50/39.01"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "MASS song2019mass",
+          "column_header": "CNN/DailyMail",
+          "cell": "42.12/19.50/39.01",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BERTShare",
+      "task": "text summarization",
+      "dataset": "CNN/DailyMail",
+      "metric": "ROUGE-1",
+      "value": 42.12
+    },
+    {
+      "tuple_idx": 38,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "Gigaword",
+          "cell": "38.13/19.81/35.62"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "column_header": "Gigaword",
+          "cell": "38.13/19.81/35.62",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "BERTShare",
+      "task": "text summarization",
+      "dataset": "Gigaword",
+      "metric": "ROUGE-1",
+      "value": 38.13
+    },
+    {
+      "tuple_idx": 39,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "header_path": "NEWSROOM",
+          "cell": "38.73/19.71/35.96"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "BERTShare rothe2019leveraging",
+          "column_header": "XSum",
+          "cell": "38.52/16.12/31.13",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BERTShare",
+      "task": "text summarization",
+      "dataset": "NEWSROOM",
+      "metric": "ROUGE-1",
+      "value": 38.73
+    }
+  ]
+}

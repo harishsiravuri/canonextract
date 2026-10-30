@@ -1,0 +1,531 @@
+{
+  "paper_id": "3aa21de1a7c97e0458e10ed5730ce160bb436caa",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 8,
+    "total": 10,
+    "partial_table_valid": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "3d object reconstruction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet-cars",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score( )",
+          "value": 72.128,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Tartarchenko et al"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "F-score( )",
+        "cell": "72.128",
+        "_content_hash": "63656cc9ecc9",
+        "_paper_hash": "8c3634ffbe8d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "F-score( )",
+          "cell": "72.128",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe claimed cell is the source of the tuple because Row \"Ours\" refers to the proposed method per the paper excerpt, the header path \"F-score( )\" matches the tuple's Metric, and the cell content \"72.128\" matches the tuple's Value."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "3d object reconstruction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet-cars",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score(2 )",
+          "value": 87.247,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Tartarchenko et al"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "F-score( )",
+        "cell": "72.128",
+        "_content_hash": "63656cc9ecc9",
+        "_paper_hash": "8c3634ffbe8d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "F-score(2 )",
+          "cell": "87.247",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO.\nThe claimed cell content \"72.128\" does not match the tuple's Value \"87.247\", and the header path \"F-score( )\" does not exactly describe the tuple's Metric \"F-score(2 )\"."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "3d object reconstruction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet-cars",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "CD",
+          "value": 0.236,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Tartarchenko et al"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "F-score( )",
+        "cell": "72.128",
+        "_content_hash": "63656cc9ecc9",
+        "_paper_hash": "8c3634ffbe8d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "CD",
+          "cell": "0.236",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"72.128\" does not match the tuple's Value \"0.236\", and the header path \"F-score( )\" does not describe the tuple's Metric \"CD\"."
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "3d object reconstruction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet-cars",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EMD",
+          "value": 1.22,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Tartarchenko et al"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Ours",
+        "header_path": "F-score( )",
+        "cell": "72.128",
+        "_content_hash": "63656cc9ecc9",
+        "_paper_hash": "8c3634ffbe8d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "EMD",
+          "cell": "1.220",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"72.128\" does not match the tuple's Value \"1.22\" for the Metric \"EMD\", indicating the claimed cell is not the source of the tuple."
+      }
+    },
+    {
+      "method": {
+        "name": "Full model",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "3d object reconstruction",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "HD",
+          "value": 0.603,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "-ResNet",
+        "-Laplacian",
+        "-Unpooling",
+        "-Normal",
+        "-Edge length"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "HD",
+        "header_path": "Full model",
+        "cell": "0.603",
+        "_content_hash": "18997951f43c",
+        "_paper_hash": "8c3634ffbe8d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "CD",
+          "cell": "0.236",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Tartarchenko et al",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "_novel_",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet-cars",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score( )",
+          "value": 65.335,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Tartarchenko et al",
+        "header_path": "F-score( )",
+        "cell": "65.335",
+        "_content_hash": "448ddedd2fe2",
+        "_paper_hash": "8c3634ffbe8d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "column_header": "F-score( )",
+          "cell": "65.335",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"Tartarchenko et al\" matches the tuple's Method, the header path \"F-score( )\" matches the tuple's Metric, and the cell content \"65.335\" matches the tuple's Value, with the paper excerpt and table caption providing sufficient context to confirm the Dataset as ShapeNet-cars."
+      }
+    },
+    {
+      "method": {
+        "name": "Tartarchenko et al",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "_novel_",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet-cars",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-score(2 )",
+          "value": 79.733,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Tartarchenko et al",
+        "header_path": "F-score( )",
+        "cell": "65.335",
+        "_content_hash": "448ddedd2fe2",
+        "_paper_hash": "8c3634ffbe8d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "column_header": "F-score(2 )",
+          "cell": "79.733",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"65.335\" does not match the tuple's Value \"79.733\", and the header path \"F-score( )\" does not describe the tuple's Metric \"F-score(2 )\"."
+      }
+    },
+    {
+      "method": {
+        "name": "Tartarchenko et al",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "_novel_",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet-cars",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "CD",
+          "value": 0.361,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Tartarchenko et al",
+        "header_path": "F-score( )",
+        "cell": "65.335",
+        "_content_hash": "448ddedd2fe2",
+        "_paper_hash": "8c3634ffbe8d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "column_header": "CD",
+          "cell": "0.361",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"65.335\" does not match the tuple's Value \"0.361\", and the header path \"F-score( )\" does not describe the tuple's Metric \"CD\"."
+      }
+    },
+    {
+      "method": {
+        "name": "Tartarchenko et al",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "_novel_",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "ShapeNet-cars",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EMD",
+          "value": 1.273,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "Tartarchenko et al",
+        "header_path": "F-score( )",
+        "cell": "65.335",
+        "_content_hash": "448ddedd2fe2",
+        "_paper_hash": "8c3634ffbe8d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Tartarchenko et al",
+          "column_header": "EMD",
+          "cell": "1.273",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"65.335\" does not match the tuple's Value \"1.273\", which is actually found in the \"EMD\" column for the \"Tartarchenko et al\" row."
+      }
+    },
+    {
+      "method": {
+        "name": "Full model",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "_novel_",
+        "canonical_id": "_novel_"
+      },
+      "datasets": [
+        {
+          "name": "_novel_",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "HD",
+          "value": 0.643,
+          "unit": null,
+          "canonical_id": "_novel_"
+        }
+      ],
+      "claim_strength": null,
+      "comparison_targets": [],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 1,
+        "row_label": "HD",
+        "header_path": "Full model",
+        "cell": "0.643",
+        "_content_hash": "7527f63cd4dd",
+        "_paper_hash": "8c3634ffbe8d",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "Ours",
+          "column_header": "CD",
+          "cell": "0.236",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "paper_id": "193b518bc3025804c6d587c74cbc154d91478417",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours (singel-level)",
+          "header_path": "GTA5 Cityscapes",
+          "cell": "35.0"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours (singel-level)",
+          "column_header": "mIoU",
+          "cell": "35.0",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours (single-level)",
+      "task": "semantic segmentation",
+      "dataset": "GTA5",
+      "metric": "mIoU",
+      "value": 35.0
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Ours (singel-level)",
+          "header_path": "GTA5 Cityscapes",
+          "cell": "35.0"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Ours (singel-level)",
+          "column_header": "mIoU",
+          "cell": "35.0",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours (single-level)",
+      "task": "semantic segmentation",
+      "dataset": "Cityscapes",
+      "metric": "mIoU",
+      "value": 35.0
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 3,
+          "row_label": "Ours (single-level)",
+          "header_path": "SYNTHIA Cityscapes",
+          "cell": "37.6"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Ours (single-level)",
+          "column_header": "90 sidewalk",
+          "cell": "37.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours (single-level)",
+      "task": "semantic segmentation",
+      "dataset": "SYNTHIA",
+      "metric": "mIoU",
+      "value": 37.6
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Ours (multi-level)",
+          "header_path": "GTA5 Cityscapes",
+          "cell": "-22.7"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Ours (multi-level)",
+          "column_header": "mIoU Gap",
+          "cell": "-22.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours (multi-level)",
+      "task": "semantic segmentation",
+      "dataset": "GTA5",
+      "metric": "mIoU Gap",
+      "value": -22.7
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "Ours (multi-level)",
+          "header_path": "GTA5 Cityscapes",
+          "cell": "-22.7"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Ours (multi-level)",
+          "column_header": "mIoU Gap",
+          "cell": "-22.7",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Ours (multi-level)",
+      "task": "semantic segmentation",
+      "dataset": "Cityscapes",
+      "metric": "mIoU Gap",
+      "value": -22.7
+    }
+  ]
+}

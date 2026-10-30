@@ -1,0 +1,249 @@
+{
+  "paper_id": "27aa0f3ec934925265f93fac7ff1cd1d70ceb618",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "MT-Tri",
+          "header_path": "Avg",
+          "cell": "79.15"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Tri",
+          "column_header": "D",
+          "cell": "78.72",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "MT-Tri",
+      "task": "sentiment analysis",
+      "dataset": "Book",
+      "metric": "accuracy",
+      "value": 79.15
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "MT-Tri",
+          "header_path": "Avg",
+          "cell": "79.15"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Tri",
+          "column_header": "D",
+          "cell": "78.72",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "MT-Tri",
+      "task": "sentiment analysis",
+      "dataset": "DVD",
+      "metric": "accuracy",
+      "value": 79.15
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "MT-Tri",
+          "header_path": "Avg",
+          "cell": "79.15"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Tri",
+          "column_header": "D",
+          "cell": "78.72",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "MT-Tri",
+      "task": "sentiment analysis",
+      "dataset": "Electronics",
+      "metric": "accuracy",
+      "value": 79.15
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "MT-Tri",
+          "header_path": "Avg",
+          "cell": "79.15"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "Tri",
+          "column_header": "D",
+          "cell": "78.72",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "MT-Tri",
+      "task": "sentiment analysis",
+      "dataset": "Kitchen",
+      "metric": "accuracy",
+      "value": 79.15
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "Tri",
+          "header_path": "Avg",
+          "cell": "89.56"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Tri-D",
+          "column_header": "Answers",
+          "cell": "89.80 .19",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Tri",
+      "task": "part of speech pos tagging",
+      "dataset": "Answers",
+      "metric": "accuracy",
+      "value": 89.56
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Tri",
+          "column_header": "Avg",
+          "cell": "89.56 .16",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "Tri",
+      "task": "part of speech pos tagging",
+      "dataset": "Emails",
+      "metric": "accuracy",
+      "value": 89.56
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "Tri-D",
+          "column_header": "Newsgroups",
+          "cell": "90.03 .22",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Tri",
+      "task": "part of speech pos tagging",
+      "dataset": "Newsgroups",
+      "metric": "accuracy",
+      "value": 89.56
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "MT-Tri",
+          "column_header": "Reviews",
+          "cell": "89.77 .26",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Tri",
+      "task": "part of speech pos tagging",
+      "dataset": "Reviews",
+      "metric": "accuracy",
+      "value": 89.56
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "unknown",
+        "orig_prov": {
+          "table_id": null,
+          "row_label": null,
+          "header_path": null,
+          "cell": null
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "Src (+glove)",
+          "column_header": "Weblogs",
+          "cell": "89.14 .28",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "Tri",
+      "task": "part of speech pos tagging",
+      "dataset": "Weblogs",
+      "metric": "accuracy",
+      "value": 89.56
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "paper_id": "1811.05021",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 2,
+    "total": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "ALDMN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "dialogue act classification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "SwDA",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 81.5,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "UCI",
+        "PDI"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "ALDMN (Our Model)",
+        "header_path": "Accuracy(%)",
+        "cell": "81.5",
+        "_content_hash": "271470e5334e",
+        "_paper_hash": "d9dcba539e99",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ALDMN (Our Model)",
+          "column_header": "col_1",
+          "cell": "81.5",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "ALDMN",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "dialogue act classification",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "MapTask",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 81.5,
+          "unit": "%",
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "UCI",
+        "PDI"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 0,
+        "row_label": "ALDMN (Our Model)",
+        "header_path": "Accuracy(%)",
+        "cell": "81.5",
+        "_content_hash": "271470e5334e",
+        "_paper_hash": "d9dcba539e99",
+        "_match_mode": "2of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 0,
+          "row_label": "ALDMN (Our Model)",
+          "column_header": "col_1",
+          "cell": "81.5",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

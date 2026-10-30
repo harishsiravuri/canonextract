@@ -1,0 +1,294 @@
+{
+  "seed": 42,
+  "run": "metalead_cost_matched_sc",
+  "extractor_model": "deepseek/deepseek-chat",
+  "temperatures": [
+    0.0,
+    0.3,
+    0.5,
+    0.7,
+    0.7
+  ],
+  "papers_total": 27,
+  "n_ok": 23,
+  "n_err": 0,
+  "n_skipped": 4,
+  "cost_usd_total": 0.5130902900000001,
+  "cost_cap": 0.5,
+  "cap_tripped": true,
+  "tokens_in": 1265260,
+  "tokens_out": 121581,
+  "wall_seconds": 1162.1853177547455,
+  "per_paper": [
+    {
+      "paper_id": "1511.08308",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.024422320000000004,
+      "tokens_in": 68065,
+      "tokens_out": 2968,
+      "wall_seconds": 86.20375561714172,
+      "error": null
+    },
+    {
+      "paper_id": "1603.01354",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.01991011,
+      "tokens_in": 55380,
+      "tokens_out": 2459,
+      "wall_seconds": 157.2161090373993,
+      "error": null
+    },
+    {
+      "paper_id": "1703.06345",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.02203584,
+      "tokens_in": 49460,
+      "tokens_out": 6976,
+      "wall_seconds": 209.67494225502014,
+      "error": null
+    },
+    {
+      "paper_id": "1709.04109",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.025971760000000003,
+      "tokens_in": 69525,
+      "tokens_out": 4184,
+      "wall_seconds": 111.33163022994995,
+      "error": null
+    },
+    {
+      "paper_id": "1806.03489",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.024031250000000004,
+      "tokens_in": 67185,
+      "tokens_out": 2845,
+      "wall_seconds": 103.96614503860474,
+      "error": null
+    },
+    {
+      "paper_id": "1808.08745",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.02513477,
+      "tokens_in": 73615,
+      "tokens_out": 1773,
+      "wall_seconds": 58.83748507499695,
+      "error": null
+    },
+    {
+      "paper_id": "1809.08370",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.0300486,
+      "tokens_in": 60360,
+      "tokens_out": 12060,
+      "wall_seconds": 353.8304467201233,
+      "error": null
+    },
+    {
+      "paper_id": "1811.05021",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.021517980000000003,
+      "tokens_in": 59395,
+      "tokens_out": 2822,
+      "wall_seconds": 75.02798104286194,
+      "error": null
+    },
+    {
+      "paper_id": "1811.09242",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.024605050000000003,
+      "tokens_in": 62915,
+      "tokens_out": 5025,
+      "wall_seconds": 157.07351398468018,
+      "error": null
+    },
+    {
+      "paper_id": "1812.09471",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.022144630000000002,
+      "tokens_in": 53385,
+      "tokens_out": 5687,
+      "wall_seconds": 150.87509489059448,
+      "error": null
+    },
+    {
+      "paper_id": "1812.10235",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.016661489999999998,
+      "tokens_in": 35210,
+      "tokens_out": 6061,
+      "wall_seconds": 152.28560185432434,
+      "error": null
+    },
+    {
+      "paper_id": "1901.10430",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.029343300000000003,
+      "tokens_in": 73870,
+      "tokens_out": 6410,
+      "wall_seconds": 172.96427178382874,
+      "error": null
+    },
+    {
+      "paper_id": "1903.07785",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.027333330000000003,
+      "tokens_in": 72965,
+      "tokens_out": 4477,
+      "wall_seconds": 117.83185482025146,
+      "error": null
+    },
+    {
+      "paper_id": "1905.03197",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.0292683,
+      "tokens_in": 68685,
+      "tokens_out": 8190,
+      "wall_seconds": 229.6779510974884,
+      "error": null
+    },
+    {
+      "paper_id": "1905.12598",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.02122158,
+      "tokens_in": 50570,
+      "tokens_out": 5662,
+      "wall_seconds": 159.29011297225952,
+      "error": null
+    },
+    {
+      "paper_id": "1906.05012",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.019739470000000002,
+      "tokens_in": 51665,
+      "tokens_out": 3603,
+      "wall_seconds": 134.25664496421814,
+      "error": null
+    },
+    {
+      "paper_id": "1907.00390",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.01962219,
+      "tokens_in": 29805,
+      "tokens_out": 11331,
+      "wall_seconds": 273.321115732193,
+      "error": null
+    },
+    {
+      "paper_id": "1908.08345",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.030435010000000002,
+      "tokens_in": 59985,
+      "tokens_out": 12629,
+      "wall_seconds": 296.25628900527954,
+      "error": null
+    },
+    {
+      "paper_id": "1909.02188",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.022024480000000003,
+      "tokens_in": 57390,
+      "tokens_out": 4112,
+      "wall_seconds": 143.25375533103943,
+      "error": null
+    },
+    {
+      "paper_id": "1910.13461",
+      "status": "ok",
+      "n_samples_ok": 5,
+      "cost_usd": 0.0223239,
+      "tokens_in": 56885,
+      "tokens_out": 4630,
+      "wall_seconds": 139.66752004623413,
+      "error": null
+    },
+    {
+      "paper_id": "1911.09483",
+      "status": "ok",
+      "n_samples_ok": 4,
+      "cost_usd": 0.019758039999999998,
+      "tokens_in": 51876,
+      "tokens_out": 3548,
+      "wall_seconds": 87.02103400230408,
+      "error": null
+    },
+    {
+      "paper_id": "1911.10390",
+      "status": "ok",
+      "n_samples_ok": 2,
+      "cost_usd": 0.00987494,
+      "tokens_in": 25102,
+      "tokens_out": 2070,
+      "wall_seconds": 54.85726618766785,
+      "error": null
+    },
+    {
+      "paper_id": "1912.08777",
+      "status": "ok",
+      "n_samples_ok": 1,
+      "cost_usd": 0.005661950000000001,
+      "tokens_in": 11967,
+      "tokens_out": 2059,
+      "wall_seconds": 51.38288426399231,
+      "error": null
+    },
+    {
+      "paper_id": "2001.04063",
+      "status": "skipped",
+      "n_samples_ok": 0,
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_seconds": 0.0,
+      "error": "cost cap tripped"
+    },
+    {
+      "paper_id": "2002.03184",
+      "status": "skipped",
+      "n_samples_ok": 0,
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_seconds": 0.0,
+      "error": "cost cap tripped"
+    },
+    {
+      "paper_id": "2008.07772",
+      "status": "skipped",
+      "n_samples_ok": 0,
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_seconds": 0.0,
+      "error": "cost cap tripped"
+    },
+    {
+      "paper_id": "2203.16804",
+      "status": "skipped",
+      "n_samples_ok": 0,
+      "cost_usd": 0.0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "wall_seconds": 0.0,
+      "error": "cost cap tripped"
+    }
+  ]
+}

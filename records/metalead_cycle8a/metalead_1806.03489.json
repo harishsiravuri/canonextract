@@ -1,0 +1,102 @@
+{
+  "paper_id": "1806.03489",
+  "corpus": "metalead",
+  "provenance_stats_cycle5": {
+    "prose": 2,
+    "total": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Our model",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "conll 2003 english",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f1",
+          "value": 91.73,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "chiu2015named",
+        "strubell2017fast",
+        "tran2017named",
+        "liu2017empower"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "We establish a new state-of-the-art F1 score of 87.95 on \\onto{ 5.0}, while matching state-of-the-art performance with a F1 score of 91.73 on the over-studied \\conll{-2003} dataset.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "b6093e9c3838",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Our model",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "named entity recognition ner",
+        "canonical_id": null
+      },
+      "datasets": [
+        {
+          "name": "ontonotes v5 english",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "f1",
+          "value": 91.73,
+          "unit": null,
+          "canonical_id": null
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "chiu2015named",
+        "strubell2017fast",
+        "tran2017named",
+        "liu2017empower"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "We establish a new state-of-the-art F1 score of 87.95 on \\onto{ 5.0}, while matching state-of-the-art performance with a F1 score of 91.73 on the over-studied \\conll{-2003} dataset.",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "b6093e9c3838",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    }
+  ]
+}

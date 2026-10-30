@@ -1,0 +1,60 @@
+{
+  "paper_id": "1811.05021",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ALDMN (Our Model)",
+          "header_path": "Accuracy(%)",
+          "cell": "81.5"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ALDMN (Our Model)",
+          "column_header": "col_1",
+          "cell": "81.5",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "ALDMN",
+      "task": "dialogue act classification",
+      "dataset": "SwDA",
+      "metric": "accuracy",
+      "value": 81.5
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "ALDMN (Our Model)",
+          "header_path": "Accuracy(%)",
+          "cell": "81.5"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ALDMN (Our Model)",
+          "column_header": "col_1",
+          "cell": "81.5",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "ALDMN",
+      "task": "dialogue act classification",
+      "dataset": "MapTask",
+      "metric": "accuracy",
+      "value": 81.5
+    }
+  ]
+}

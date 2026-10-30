@@ -1,0 +1,276 @@
+{
+  "paper_id": "1910.13461",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERT Base bert",
+          "header_path": "Test PPL",
+          "cell": "6.56"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "BART",
+          "column_header": "RL",
+          "cell": "6.2",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BART",
+      "task": "language modeling",
+      "dataset": "books and Wikipedia data",
+      "metric": "PPL",
+      "value": 6.56
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERT Base bert",
+          "header_path": "Acc",
+          "cell": "6.80"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Masked Language Model",
+          "column_header": "col_6",
+          "cell": "7.06",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BART",
+      "task": "language modeling",
+      "dataset": "books and Wikipedia data",
+      "metric": "Acc",
+      "value": 6.8
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERT Base bert",
+          "header_path": "Test PPL",
+          "cell": "6.56"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "BART",
+          "column_header": "RL",
+          "cell": "6.2",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BART",
+      "task": "language modeling",
+      "dataset": "books and Wikipedia data",
+      "metric": "Test PPL",
+      "value": 6.56
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERT Base bert",
+          "header_path": "EM/F1",
+          "cell": "7.87"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "w/ Sentence Shuffling",
+          "column_header": "col_6",
+          "cell": "7.89",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BART",
+      "task": "language modeling",
+      "dataset": "books and Wikipedia data",
+      "metric": "EM/F1",
+      "value": 7.87
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERT Base bert",
+          "header_path": "m/mm",
+          "cell": "12.59"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Masked Language Model",
+          "column_header": "PPL",
+          "cell": "12.59",
+          "row_hit": false,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "BART",
+      "task": "language modeling",
+      "dataset": "books and Wikipedia data",
+      "metric": "m/mm",
+      "value": 12.59
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERT Base bert",
+          "header_path": "Mcc",
+          "cell": "11.43"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "BART",
+          "column_header": "col_2",
+          "cell": "11.85",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BART",
+      "task": "language modeling",
+      "dataset": "books and Wikipedia data",
+      "metric": "Mcc",
+      "value": 11.43
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERT Base bert",
+          "header_path": "R1",
+          "cell": "89.1"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "BART",
+          "column_header": "EM/F1",
+          "cell": "88.8/94.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BART",
+      "task": "language modeling",
+      "dataset": "books and Wikipedia data",
+      "metric": "R1",
+      "value": 89.1
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERT Base bert",
+          "header_path": "RL",
+          "cell": "83.7"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "BERT",
+          "column_header": "EM/F1",
+          "cell": "84.1/90.9",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BART",
+      "task": "language modeling",
+      "dataset": "books and Wikipedia data",
+      "metric": "R2",
+      "value": 83.7
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "prose_claimed_table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERT Base bert",
+          "header_path": "%",
+          "cell": "11.51"
+        },
+        "hit": {
+          "table_id": 3,
+          "row_label": "BART",
+          "column_header": "col_2",
+          "cell": "11.85",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BART",
+      "task": "language modeling",
+      "dataset": "books and Wikipedia data",
+      "metric": "%",
+      "value": 11.51
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "BERT Base bert",
+          "header_path": "RO-EN",
+          "cell": "24.03"
+        },
+        "hit": {
+          "table_id": 4,
+          "row_label": "BART",
+          "column_header": "col_3",
+          "cell": "24.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "BART",
+      "task": "language modeling",
+      "dataset": "books and Wikipedia data",
+      "metric": "RO-EN",
+      "value": 24.03
+    }
+  ]
+}

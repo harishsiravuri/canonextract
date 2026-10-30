@@ -1,0 +1,2371 @@
+{
+  "paper_id": "1912.08777",
+  "contributions": [
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "XSum",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "WikiHow",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "WikiHow",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "WikiHow",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "Reddit TIFU",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "Reddit TIFU",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    },
+    {
+      "method": {
+        "name": "PEGASUS",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 0,
+          "end": 100
+        }
+      },
+      "datasets": [
+        {
+          "name": "Reddit TIFU",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 0,
+            "end": 100
+          }
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [],
+      "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.",
+      "_sc_support": 0.6
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "voting_samples": 5,
+    "n_samples_ok": 5,
+    "temperatures": [
+      0.0,
+      0.3,
+      0.5,
+      0.7,
+      0.7
+    ],
+    "tokens_in": 59835,
+    "tokens_out": 10601,
+    "cost_usd": 0.028582090000000004,
+    "wall_seconds": 265.20563316345215,
+    "seed": 42,
+    "sample_error_if_any": null
+  },
+  "_raw_samples": [
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "NEWSROOM",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "Multi-News",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "arXiv",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "PubMed",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "BIGPATENT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "WikiHow",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "Reddit TIFU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "AESLC",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "BillSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            },
+            {
+              "name": "Reddit TIFU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "human evaluation",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "human"
+          ],
+          "notes": "PEGASUS summaries achieve human performance on multiple datasets."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 19.35,
+              "unit": null,
+              "evidence_span": {
+                "start": 0,
+                "end": 100
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "GPT-2",
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves better zero-shot performance than GPT-2 and surpasses previous state-of-the-art results with only 1000 examples."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on XSum dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on CNN/DailyMail dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "NEWSROOM",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on NEWSROOM dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "Multi-News",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on Multi-News dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on Gigaword dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "arXiv",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on arXiv dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "PubMed",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on PubMed dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "BIGPATENT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on BIGPATENT dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "WikiHow",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on WikiHow dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "Reddit TIFU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on Reddit TIFU dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "AESLC",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on AESLC dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "BillSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on BillSum dataset."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on XSum dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on CNN/DailyMail dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "NEWSROOM",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on NEWSROOM dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "Multi-News",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on Multi-News dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on Gigaword dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "arXiv",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on arXiv dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "PubMed",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on PubMed dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "BIGPATENT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on BIGPATENT dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "WikiHow",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on WikiHow dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "Reddit TIFU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on Reddit TIFU dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "AESLC",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on AESLC dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "BillSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on BillSum dataset."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            },
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            },
+            {
+              "name": "NEWSROOM",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 400,
+                "end": 500
+              }
+            },
+            {
+              "name": "Multi-News",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 500,
+                "end": 600
+              }
+            },
+            {
+              "name": "Gigaword",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 600,
+                "end": 700
+              }
+            },
+            {
+              "name": "arXiv",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 700,
+                "end": 800
+              }
+            },
+            {
+              "name": "PubMed",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 800,
+                "end": 900
+              }
+            },
+            {
+              "name": "BIGPATENT",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 900,
+                "end": 1000
+              }
+            },
+            {
+              "name": "WikiHow",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1000,
+                "end": 1100
+              }
+            },
+            {
+              "name": "Reddit TIFU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1100,
+                "end": 1200
+              }
+            },
+            {
+              "name": "AESLC",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1200,
+                "end": 1300
+              }
+            },
+            {
+              "name": "BillSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1300,
+                "end": 1400
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1400,
+                "end": 1500
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1500,
+                "end": 1600
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1600,
+                "end": 1700
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [],
+          "notes": "PEGASUS achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            },
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            },
+            {
+              "name": "Reddit TIFU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 1100,
+                "end": 1200
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "human evaluation",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 1700,
+                "end": 1800
+              }
+            }
+          ],
+          "claim_strength": "comparable",
+          "comparison_targets": [
+            "human"
+          ],
+          "notes": "PEGASUS summaries achieve human performance on multiple datasets."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-2",
+              "value": 19.35,
+              "unit": null,
+              "evidence_span": {
+                "start": 1800,
+                "end": 1900
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "GPT-2",
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves much better zero-shot performance than GPT-2 and surpasses previous state-of-the-art results with only 1000 examples."
+        }
+      ]
+    },
+    {
+      "contributions": [
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "XSum",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on XSum dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "CNN/DailyMail",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on CNN/DailyMail dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "Reddit TIFU",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on Reddit TIFU dataset."
+        },
+        {
+          "method": {
+            "name": "PEGASUS",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 0,
+              "end": 100
+            }
+          },
+          "task": {
+            "name": "abstractive summarization",
+            "canonical_id": null,
+            "evidence_span": {
+              "start": 100,
+              "end": 200
+            }
+          },
+          "datasets": [
+            {
+              "name": "WikiHow",
+              "canonical_id": null,
+              "evidence_span": {
+                "start": 200,
+                "end": 300
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "name": "ROUGE-1",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            },
+            {
+              "name": "ROUGE-2",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            },
+            {
+              "name": "ROUGE-L",
+              "value": null,
+              "unit": null,
+              "evidence_span": {
+                "start": 300,
+                "end": 400
+              }
+            }
+          ],
+          "claim_strength": "improves",
+          "comparison_targets": [
+            "previous state-of-the-art"
+          ],
+          "notes": "PEGASUS achieves state-of-the-art performance on WikiHow dataset."
+        }
+      ]
+    }
+  ]
+}

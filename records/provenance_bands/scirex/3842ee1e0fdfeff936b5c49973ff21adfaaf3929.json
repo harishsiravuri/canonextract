@@ -1,0 +1,222 @@
+{
+  "paper_id": "3842ee1e0fdfeff936b5c49973ff21adfaaf3929",
+  "corpus": "scirex",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "ADDA (Ours)",
+          "header_path": "MNIST USPS 0.8em",
+          "cell": "0.894 0.002"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.8em USPS MNIST",
+          "cell": "0.894 0.002",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ADDA (Ours)",
+      "task": "unsupervised domain adaptation",
+      "dataset": "MNIST",
+      "metric": "accuracy",
+      "value": 0.894
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "ADDA (Ours)",
+          "header_path": "0.8em USPS MNIST",
+          "cell": "0.901 0.008"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.8em USPS MNIST",
+          "cell": "0.894 0.002",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ADDA (Ours)",
+      "task": "unsupervised domain adaptation",
+      "dataset": "USPS",
+      "metric": "accuracy",
+      "value": 0.901
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "ADDA (Ours)",
+          "header_path": "0.4em SVHN MNIST",
+          "cell": "0.760 0.018"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.4em SVHN MNIST",
+          "cell": "0.901 0.008",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ADDA (Ours)",
+      "task": "unsupervised domain adaptation",
+      "dataset": "SVHN",
+      "metric": "accuracy",
+      "value": 0.76
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "ADDA (Ours)",
+          "header_path": "overall",
+          "cell": "0.211"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "ADDA (Ours)",
+          "column_header": "bed",
+          "cell": "0.000",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "ADDA (Ours)",
+      "task": "unsupervised domain adaptation",
+      "dataset": "NYUD",
+      "metric": "accuracy",
+      "value": 0.211
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "ADDA (Ours)",
+          "header_path": "MNIST USPS 0.8em",
+          "cell": "0.894 0.002"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.8em USPS MNIST",
+          "cell": "0.894 0.002",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ADDA (Ours)",
+      "task": "image classification",
+      "dataset": "MNIST USPS 0.8em",
+      "metric": "accuracy",
+      "value": 0.894
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "ADDA (Ours)",
+          "header_path": "0.8em USPS MNIST",
+          "cell": "0.901 0.008"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.8em USPS MNIST",
+          "cell": "0.894 0.002",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ADDA (Ours)",
+      "task": "image classification",
+      "dataset": "0.8em USPS MNIST",
+      "metric": "accuracy",
+      "value": 0.901
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 1,
+          "row_label": "ADDA (Ours)",
+          "header_path": "0.4em SVHN MNIST",
+          "cell": "0.760 0.018"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "ADDA (Ours)",
+          "column_header": "0.8em USPS MNIST",
+          "cell": "0.894 0.002",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "ADDA (Ours)",
+      "task": "image classification",
+      "dataset": "0.4em SVHN MNIST",
+      "metric": "accuracy",
+      "value": 0.76
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 2,
+          "row_label": "ADDA (Ours)",
+          "header_path": "overall",
+          "cell": "0.211"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "ADDA (Ours)",
+          "column_header": "bed",
+          "cell": "0.000",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "ADDA (Ours)",
+      "task": "image classification",
+      "dataset": "NYUD nyud2",
+      "metric": "accuracy",
+      "value": 0.211
+    }
+  ]
+}

@@ -1,0 +1,618 @@
+{
+  "paper_id": "436b07bebaa1d1f05ef85415e10374048d25334d",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "prose": 14,
+    "total": 14
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "language modeling"
+      },
+      "datasets": [
+        {
+          "name": "1 Billion Word Language Modeling Benchmark",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test Perplexity",
+          "value": 28.0,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Best Published Results"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "High-Budget MoE Model 28.0",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "language modeling"
+      },
+      "datasets": [
+        {
+          "name": "100 Billion Word Google News Corpus",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test Perplexity",
+          "value": null,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baseline LSTM model"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "test perplexity improves significantly up to 65536 experts (68 billion parameters), dropping 39% lower than the computationally matched baseline",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr",
+          "canonical_id": "wmt 14 en fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test Perplexity",
+          "value": 2.63,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT",
+        "GNMT+RL"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "MoE with 2048 Experts (longer training) 2.63 40.56",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr",
+          "canonical_id": "wmt 14 en fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 40.56,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT",
+        "GNMT+RL"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "MoE with 2048 Experts (longer training) 2.63 40.56",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De",
+          "canonical_id": "wmt 14 en de"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test Perplexity",
+          "value": 4.64,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT",
+        "GNMT+RL"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "MoE with 2048 Experts 4.64 26.03",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De",
+          "canonical_id": "wmt 14 en de"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 26.03,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT",
+        "GNMT+RL"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "MoE with 2048 Experts 4.64 26.03",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "Google Production En\u2192Fr",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test Perplexity",
+          "value": 2.69,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "MoE with 2048 Experts 2.69 36.57",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "Google Production En\u2192Fr",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 36.57,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "MoE with 2048 Experts 2.69 36.57",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "multilingual machine translation",
+        "canonical_id": "multilingual machine translation"
+      },
+      "datasets": [
+        {
+          "name": "combined dataset of twelve language pairs",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity (dev)",
+          "value": 3.35,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT-Multi"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 0,
+          "end": 0
+        },
+        "quote": "Perplexity (dev) 3.35",
+        "_quote_verified": null,
+        "_verification_mode": "unverified",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "language modeling"
+      },
+      "datasets": [
+        {
+          "name": "1 Billion Word Language Modeling Benchmark",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 28.0,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Best Published Results"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 10200,
+          "end": 10250
+        },
+        "quote": "High-Budget MoE Model & \\textbf{28.0} & & 4371 million & 142.7 million & 47 hours, 32 k40s & \\textbf{1.56}",
+        "_quote_verified": "each with their own parameters.  Although in princ",
+        "_verification_mode": "offset",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr newstest2014",
+          "canonical_id": "wmt 14 en fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.56,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT",
+        "GNMT+RL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 15000,
+          "end": 15050
+        },
+        "quote": "MoE with 2048 Experts (longer training)  & \\textbf{ 2.63} & \\textbf{40.56}  & 85M & 8.7B & 6 days/64 k40s",
+        "_quote_verified": " parameters are synchronized through a set of para",
+        "_verification_mode": "offset",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De newstest2014",
+          "canonical_id": "wmt 14 en de"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.03,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT",
+        "GNMT+RL"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 15500,
+          "end": 15550
+        },
+        "quote": "MoE with 2048 Experts  & \\textbf{4.64}  & \\textbf{26.03} & 85M & 8.7B & 1 day/64 k40s",
+        "_quote_verified": "es function as data-parallel replicas (for the sta",
+        "_verification_mode": "offset",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "machine translation",
+        "canonical_id": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "Google Production En\u2192Fr dataset",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.57,
+          "unit": null,
+          "canonical_id": "bleu"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "GNMT"
+      ],
+      "self_consistency": 0.6666666666666666,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 16000,
+          "end": 16050
+        },
+        "quote": "MoE with 2048 Experts & \\textbf{2.60}  & \\textbf{37.27}  & \\textbf{2.69} & \\textbf{36.57} &85M & 8.7B & 1 day/64 k40s",
+        "_quote_verified": "parallelism, and the secondary MoEs employ model p",
+        "_verification_mode": "offset",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    },
+    {
+      "method": {
+        "name": "Sparsely-Gated Mixture-of-Experts Layer (MoE)",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "language modeling",
+        "canonical_id": "language modeling"
+      },
+      "datasets": [
+        {
+          "name": "100 Billion Word Google News Corpus",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": null,
+          "unit": null,
+          "canonical_id": "perplexity"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "baseline LSTM model"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "prose",
+        "evidence_span": {
+          "start": 12000,
+          "end": 12050
+        },
+        "quote": "test perplexity improves significantly up to 65536 experts (68 billion parameters), dropping 39% lower than the computationally matched baseline",
+        "_quote_verified": " by a trainable weight matrix $W_g$ and then apply",
+        "_verification_mode": "offset",
+        "_paper_hash": "9d42f5bc55c7",
+        "cycle5_bucket": "prose",
+        "cycle8a_bucket": "prose"
+      }
+    }
+  ]
+}

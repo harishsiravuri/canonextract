@@ -1,0 +1,116 @@
+{
+  "paper_id": "364c1a3df58d87cb40ab33fdf3831cf2862f3570",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "strict_table_valid": 2,
+    "total": 2
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "aNMM-1",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": "question answering"
+      },
+      "datasets": [
+        {
+          "name": "TREC QA",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MAP",
+          "value": 0.7385,
+          "unit": null,
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Yih et al. (2013)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 4,
+        "row_label": "aNMM-1",
+        "header_path": "MAP",
+        "cell": "0.7385",
+        "_content_hash": "f4f03231cdb9",
+        "_paper_hash": "bef22e7ef7f1",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "aNMM-IDF",
+          "column_header": "MAP",
+          "cell": "0.7225",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "strict_table_valid",
+        "cycle8a_verdict": "YES",
+        "cycle8a_reason": "YES\nThe row label \"aNMM-1\" describes the tuple's Method, the header path \"MAP\" describes the tuple's Metric, and the cell content \"0.7385\" matches the tuple's Value, all of which are consistent with the information provided in the table and the paper excerpt."
+      }
+    },
+    {
+      "method": {
+        "name": "aNMM-1",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "question answering",
+        "canonical_id": "question answering"
+      },
+      "datasets": [
+        {
+          "name": "TREC QA",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MRR",
+          "value": 0.7995,
+          "unit": null,
+          "canonical_id": "mrr"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Yih et al. (2013)"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 4,
+        "row_label": "aNMM-1",
+        "header_path": "MAP",
+        "cell": "0.7385",
+        "_content_hash": "f4f03231cdb9",
+        "_paper_hash": "bef22e7ef7f1",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "strict_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "aNMM-IDF",
+          "column_header": "MRR",
+          "cell": "0.7873",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "verifier_downgrade_partial",
+        "cycle8a_verdict": "NO",
+        "cycle8a_reason": "NO\nThe claimed cell content \"0.7385\" does not match the tuple's Value \"0.7995\", which is actually found in the cell below it with the header path \"MRR\"."
+      }
+    }
+  ]
+}

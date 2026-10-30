@@ -1,0 +1,151 @@
+{
+  "paper_id": "1906.05012",
+  "contributions": [
+    {
+      "method": {
+        "name": "BiSET",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 1554,
+          "end": 1561
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "abstractive summarization",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 104,
+          "end": 131
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Annotated English Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5053,
+            "end": 5079
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.11,
+          "unit": null,
+          "evidence_span": {
+            "start": 10217,
+            "end": 10224
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-2",
+          "value": 19.78,
+          "unit": null,
+          "evidence_span": {
+            "start": 10226,
+            "end": 10233
+          },
+          "confidence": 1.0
+        },
+        {
+          "name": "ROUGE-L",
+          "value": 36.87,
+          "unit": null,
+          "evidence_span": {
+            "start": 10235,
+            "end": 10242
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "ABS",
+        "ABS+",
+        "RAS-Elman",
+        "Featseq2seq",
+        "Open-NMT",
+        "SEASS",
+        "S2S+CGU",
+        "FTSum",
+        "R3Sum"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    },
+    {
+      "method": {
+        "name": "Fast Rerank",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3441,
+          "end": 3452
+        },
+        "confidence": 1.0
+      },
+      "task": {
+        "name": "template retrieval",
+        "canonical_id": null,
+        "evidence_span": {
+          "start": 3441,
+          "end": 3452
+        },
+        "confidence": 1.0
+      },
+      "datasets": [
+        {
+          "name": "Annotated English Gigaword",
+          "canonical_id": null,
+          "evidence_span": {
+            "start": 5053,
+            "end": 5079
+          },
+          "confidence": 1.0
+        }
+      ],
+      "metrics": [
+        {
+          "name": "NDCG",
+          "value": null,
+          "unit": null,
+          "evidence_span": {
+            "start": 8134,
+            "end": 8138
+          },
+          "confidence": 1.0
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Retrieve"
+      ],
+      "self_consistency": 1.0,
+      "critic_verdict": {
+        "method": "SUPPORTED",
+        "task": "SUPPORTED",
+        "datasets": "SUPPORTED",
+        "metrics": "SUPPORTED"
+      }
+    }
+  ],
+  "_meta": {
+    "extractor_model": "deepseek/deepseek-chat",
+    "critic_model": "meta-llama/llama-3.3-70b-instruct",
+    "consolidator_model": "meta-llama/llama-3.3-70b-instruct",
+    "tokens_in": 47163,
+    "tokens_out": 5410,
+    "cost_usd": 0.02394744,
+    "wall_time_seconds": 141.1791534589138,
+    "voting_samples": 3
+  }
+}

@@ -1,0 +1,1140 @@
+{
+  "paper_id": "1903.07785",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "CoLA",
+      "metric": "mcc",
+      "value": 53.1
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "CoLA",
+      "metric": "acc",
+      "value": 93.6
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "CoLA",
+      "metric": "F1",
+      "value": 81.3
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "CoLA",
+      "metric": "scc",
+      "value": 82.2
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "SST-2",
+      "metric": "mcc",
+      "value": 53.1
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "SST-2",
+      "metric": "acc",
+      "value": 93.6
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "SST-2",
+      "metric": "F1",
+      "value": 81.3
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "SST-2",
+      "metric": "scc",
+      "value": 82.2
+    },
+    {
+      "tuple_idx": 8,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "MRPC",
+      "metric": "mcc",
+      "value": 53.1
+    },
+    {
+      "tuple_idx": 9,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "MRPC",
+      "metric": "acc",
+      "value": 93.6
+    },
+    {
+      "tuple_idx": 10,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "MRPC",
+      "metric": "F1",
+      "value": 81.3
+    },
+    {
+      "tuple_idx": 11,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "MRPC",
+      "metric": "scc",
+      "value": 82.2
+    },
+    {
+      "tuple_idx": 12,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "STS-B",
+      "metric": "mcc",
+      "value": 53.1
+    },
+    {
+      "tuple_idx": 13,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "STS-B",
+      "metric": "acc",
+      "value": 93.6
+    },
+    {
+      "tuple_idx": 14,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "STS-B",
+      "metric": "F1",
+      "value": 81.3
+    },
+    {
+      "tuple_idx": 15,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "STS-B",
+      "metric": "scc",
+      "value": 82.2
+    },
+    {
+      "tuple_idx": 16,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "QQP",
+      "metric": "mcc",
+      "value": 53.1
+    },
+    {
+      "tuple_idx": 17,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "QQP",
+      "metric": "acc",
+      "value": 93.6
+    },
+    {
+      "tuple_idx": 18,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "QQP",
+      "metric": "F1",
+      "value": 81.3
+    },
+    {
+      "tuple_idx": 19,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "QQP",
+      "metric": "scc",
+      "value": 82.2
+    },
+    {
+      "tuple_idx": 20,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "MNLI-m",
+      "metric": "mcc",
+      "value": 53.1
+    },
+    {
+      "tuple_idx": 21,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "MNLI-m",
+      "metric": "acc",
+      "value": 93.6
+    },
+    {
+      "tuple_idx": 22,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "MNLI-m",
+      "metric": "F1",
+      "value": 81.3
+    },
+    {
+      "tuple_idx": 23,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "MNLI-m",
+      "metric": "scc",
+      "value": 82.2
+    },
+    {
+      "tuple_idx": 24,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "QNLI",
+      "metric": "mcc",
+      "value": 53.1
+    },
+    {
+      "tuple_idx": 25,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "QNLI",
+      "metric": "acc",
+      "value": 93.6
+    },
+    {
+      "tuple_idx": 26,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "QNLI",
+      "metric": "F1",
+      "value": 81.3
+    },
+    {
+      "tuple_idx": 27,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "QNLI",
+      "metric": "scc",
+      "value": 82.2
+    },
+    {
+      "tuple_idx": 28,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "Avg",
+          "cell": "53.1",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "RTE",
+      "metric": "mcc",
+      "value": 53.1
+    },
+    {
+      "tuple_idx": 29,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "RTE",
+      "metric": "acc",
+      "value": 93.6
+    },
+    {
+      "tuple_idx": 30,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "RTE",
+      "metric": "F1",
+      "value": 81.3
+    },
+    {
+      "tuple_idx": 31,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "CoLA",
+          "cell": "53.1"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "RTE",
+      "metric": "scc",
+      "value": 82.2
+    },
+    {
+      "tuple_idx": 32,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Large + ELMo",
+          "header_path": "test F1",
+          "cell": "93.2"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "CNN Large + ELMo",
+          "column_header": "test F1",
+          "cell": "93.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Large + ELMo",
+      "task": "named entity recognition",
+      "dataset": "CoNLL-2003",
+      "metric": "F1",
+      "value": 93.2
+    },
+    {
+      "tuple_idx": 33,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Large + ELMo",
+          "header_path": "test F1",
+          "cell": "95.2"
+        },
+        "hit": {
+          "table_id": 2,
+          "row_label": "ELMo_ BASE",
+          "column_header": "dev F1",
+          "cell": "95.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Large + ELMo",
+      "task": "constituency parsing",
+      "dataset": "Penn Treebank",
+      "metric": "F1",
+      "value": 95.2
+    },
+    {
+      "tuple_idx": 34,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "SST-2",
+          "cell": "93.6"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_2",
+          "cell": "93.6",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "sentiment analysis",
+      "dataset": "SST-2",
+      "metric": "acc",
+      "value": 93.6
+    },
+    {
+      "tuple_idx": 35,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "MRPC",
+          "cell": "81.3"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_3",
+          "cell": "81.3",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "paraphrase detection",
+      "dataset": "MRPC",
+      "metric": "F1",
+      "value": 81.3
+    },
+    {
+      "tuple_idx": 36,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "STS-B",
+          "cell": "82.2"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "text similarity",
+      "dataset": "STS-B",
+      "metric": "scc",
+      "value": 82.2
+    },
+    {
+      "tuple_idx": 37,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "QQP",
+          "cell": "70.5"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_5",
+          "cell": "70.5",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "paraphrase detection",
+      "dataset": "QQP",
+      "metric": "F1",
+      "value": 70.5
+    },
+    {
+      "tuple_idx": 38,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "MNLI-(m/mm)",
+          "cell": "82.5"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_4",
+          "cell": "82.2",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "MNLI-(m/mm)",
+      "metric": "acc",
+      "value": 82.5
+    },
+    {
+      "tuple_idx": 39,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "QNLI",
+          "cell": "89.5"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_7",
+          "cell": "89.5",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "question answering",
+      "dataset": "QNLI",
+      "metric": "acc",
+      "value": 89.5
+    },
+    {
+      "tuple_idx": 40,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "Avg",
+          "cell": "77.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_9",
+          "cell": "77.7",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "GLUE",
+      "dataset": "GLUE",
+      "metric": "Avg",
+      "value": 77.7
+    },
+    {
+      "tuple_idx": 41,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "header_path": "Avg",
+          "cell": "77.7"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "CNN Base",
+          "column_header": "col_9",
+          "cell": "77.7",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "CNN Base",
+      "task": "natural language inference",
+      "dataset": "GLUE",
+      "metric": "Avg",
+      "value": 77.7
+    }
+  ]
+}

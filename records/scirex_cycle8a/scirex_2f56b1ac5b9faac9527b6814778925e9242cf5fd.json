@@ -1,0 +1,422 @@
+{
+  "paper_id": "2f56b1ac5b9faac9527b6814778925e9242cf5fd",
+  "corpus": "scirex",
+  "provenance_stats_cycle5": {
+    "partial_table_valid": 8,
+    "total": 8
+  },
+  "tuples": [
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "object detection"
+      },
+      "datasets": [
+        {
+          "name": "07",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 69.9,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FRCN",
+        "MR-CNN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Ours",
+        "header_path": "mAP",
+        "cell": "69.9",
+        "_content_hash": "276cbcfe1174",
+        "_paper_hash": "005019ed9844",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "object detection"
+      },
+      "datasets": [
+        {
+          "name": "07+12",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 74.6,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FRCN",
+        "MR-CNN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Ours",
+        "header_path": "mAP",
+        "cell": "74.6",
+        "_content_hash": "7e18f3938df4",
+        "_paper_hash": "005019ed9844",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "1pt FRCN frcn",
+          "column_header": "mAP",
+          "cell": "74.7",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "object detection"
+      },
+      "datasets": [
+        {
+          "name": "12",
+          "canonical_id": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 69.8,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FRCN",
+        "MR-CNN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours$^1$",
+        "header_path": "mAP",
+        "cell": "69.8",
+        "_content_hash": "153106ac97dd",
+        "_paper_hash": "005019ed9844",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "object detection"
+      },
+      "datasets": [
+        {
+          "name": "VOC07",
+          "canonical_id": "pascal voc 2007"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 69.9,
+          "unit": "%",
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FRCN",
+        "MR-CNN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Ours",
+        "header_path": "mAP",
+        "cell": "69.9",
+        "_content_hash": "276cbcfe1174",
+        "_paper_hash": "005019ed9844",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "object detection"
+      },
+      "datasets": [
+        {
+          "name": "VOC07+12",
+          "canonical_id": "_novel_"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 74.6,
+          "unit": "%",
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FRCN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Ours",
+        "header_path": "mAP",
+        "cell": "74.6",
+        "_content_hash": "7e18f3938df4",
+        "_paper_hash": "005019ed9844",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 3,
+          "row_label": "1pt FRCN frcn",
+          "column_header": "mAP",
+          "cell": "74.7",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "Ours",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "object detection"
+      },
+      "datasets": [
+        {
+          "name": "VOC12",
+          "canonical_id": "pascal voc 2012"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 69.8,
+          "unit": "%",
+          "canonical_id": "ap"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "FRCN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours^1",
+        "header_path": "mAP",
+        "cell": "69.8",
+        "_content_hash": "e18c22cbcc48",
+        "_paper_hash": "005019ed9844",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "OHEM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "object detection"
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2007",
+          "canonical_id": "pascal voc 2007"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 69.9,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fast R-CNN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 2,
+        "row_label": "Ours",
+        "header_path": "mAP",
+        "cell": "69.9",
+        "_content_hash": "276cbcfe1174",
+        "_paper_hash": "005019ed9844",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    },
+    {
+      "method": {
+        "name": "OHEM",
+        "canonical_id": null
+      },
+      "task": {
+        "name": "object detection",
+        "canonical_id": "object detection"
+      },
+      "datasets": [
+        {
+          "name": "PASCAL VOC 2012",
+          "canonical_id": "pascal voc 2012"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mAP",
+          "value": 69.8,
+          "unit": "%",
+          "canonical_id": "map"
+        }
+      ],
+      "claim_strength": "improves",
+      "comparison_targets": [
+        "Fast R-CNN"
+      ],
+      "self_consistency": 0.3333333333333333,
+      "critic_verdict": {},
+      "provenance": {
+        "source": "table",
+        "table_id": 3,
+        "row_label": "Ours^1",
+        "header_path": "mAP",
+        "cell": "69.8",
+        "_content_hash": "e18c22cbcc48",
+        "_paper_hash": "005019ed9844",
+        "_match_mode": "3of3",
+        "cycle5_bucket": "partial_table_valid",
+        "cycle5_hit": {
+          "table_id": 2,
+          "row_label": "Ours",
+          "column_header": "bike",
+          "cell": "69.9",
+          "row_hit": true,
+          "col_hit": "none",
+          "value_hit": true
+        },
+        "cycle8a_bucket": "partial_table_valid"
+      }
+    }
+  ]
+}

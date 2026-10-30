@@ -1,0 +1,222 @@
+{
+  "paper_id": "1911.09483",
+  "corpus": "metalead",
+  "per_tuple": [
+    {
+      "tuple_idx": 0,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "En-De",
+          "cell": "28.9"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "MUSE-simple",
+          "column_header": "En-De",
+          "cell": "29.8",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "MUSE",
+      "task": "machine translation",
+      "dataset": "WMT14 En-De",
+      "metric": "BLEU",
+      "value": 29.9
+    },
+    {
+      "tuple_idx": 1,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "En-Fr",
+          "cell": "41.4"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "MUSE-simple",
+          "column_header": "En-Fr",
+          "cell": "43.2",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "MUSE",
+      "task": "machine translation",
+      "dataset": "WMT14 En-Fr",
+      "metric": "BLEU",
+      "value": 43.5
+    },
+    {
+      "tuple_idx": 2,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "De-En",
+          "cell": "35.9"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "MUSE",
+          "column_header": "De-En",
+          "cell": "36.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "MUSE",
+      "task": "machine translation",
+      "dataset": "IWSLT De-En",
+      "metric": "BLEU",
+      "value": 36.3
+    },
+    {
+      "tuple_idx": 3,
+      "bucket": "strict_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "En-Vi",
+          "cell": "29.1"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "MUSE",
+          "column_header": "En-Vi",
+          "cell": "31.3",
+          "row_hit": true,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "MUSE",
+      "task": "machine translation",
+      "dataset": "IWSLT En-Vi",
+      "metric": "BLEU",
+      "value": 31.3
+    },
+    {
+      "tuple_idx": 4,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Transformer",
+          "header_path": "Inference Speed (tokens/s)",
+          "cell": "31\\%"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "MUSE-simple",
+          "column_header": "En-Vi",
+          "cell": "30.7",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "MUSE",
+      "task": "machine translation",
+      "dataset": "IWSLT De-En",
+      "metric": "Inference Speed (tokens/s)",
+      "value": 31.0
+    },
+    {
+      "tuple_idx": 5,
+      "bucket": "prose_claimed_table",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "De-En",
+          "cell": "41.5"
+        },
+        "hit": {
+          "table_id": 0,
+          "row_label": "Weighted Transformer ahmed2017weighted",
+          "column_header": "En-Fr",
+          "cell": "41.4",
+          "row_hit": false,
+          "col_hit": "none",
+          "value_hit": true
+        }
+      },
+      "method": "MUSE",
+      "task": "machine translation",
+      "dataset": "De-En",
+      "metric": "BLEU",
+      "value": 41.5
+    },
+    {
+      "tuple_idx": 6,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "Model",
+          "header_path": "En-Vi",
+          "cell": "29.1"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "SACT SACT",
+          "column_header": "En-Vi",
+          "cell": "29.1",
+          "row_hit": false,
+          "col_hit": "strict",
+          "value_hit": true
+        }
+      },
+      "method": "MUSE",
+      "task": "machine translation",
+      "dataset": "En-Vi",
+      "metric": "BLEU",
+      "value": 29.1
+    },
+    {
+      "tuple_idx": 7,
+      "bucket": "partial_table_valid",
+      "detail": {
+        "orig_source": "table",
+        "orig_prov": {
+          "table_id": 0,
+          "row_label": "DynamicConv wu2019pay",
+          "header_path": "En-De",
+          "cell": "31\\%"
+        },
+        "hit": {
+          "table_id": 1,
+          "row_label": "MUSE-simple",
+          "column_header": "En-Vi",
+          "cell": "30.7",
+          "row_hit": true,
+          "col_hit": "context",
+          "value_hit": true
+        }
+      },
+      "method": "MUSE",
+      "task": "machine translation",
+      "dataset": "De-En",
+      "metric": "Inference Speed (tokens/s)",
+      "value": 31.0
+    }
+  ]
+}
